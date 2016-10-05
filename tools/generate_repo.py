@@ -31,7 +31,7 @@ class Generator:
         self.config.read('config.ini')
         
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
-        self.output_path="_" + self.config.get('locations', 'output_path')
+        self.output_path=self.config.get('locations', 'output_path')
         
         # travel path one up
         os.chdir(os.path.abspath(os.path.join(self.tools_path, os.pardir)))
@@ -60,7 +60,7 @@ class Generator:
         summary=self.config.get('addon', 'summary') 
         description=self.config.get('addon', 'description')
         news=self.config.get('addon', 'news')
-        assets=self.config.get('addon', 'assets')
+        #assets=self.config.get('addon', 'assets')
         url=self.config.get('locations', 'url')      
 
         if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
