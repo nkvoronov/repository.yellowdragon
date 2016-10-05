@@ -1,7 +1,7 @@
 [submodule "skin.confluence-plood"]
 	path = skin.confluence-plood
 	url = https://github.com/nkvoronov/skin.confluence-plood.git
-	branch = jarvis
+	branch = master
 [submodule "skin.confluence-extented"]
 	path = skin.confluence-extented
 	url = https://github.com/nkvoronov/skin.confluence-extented.git
@@ -38,3 +38,7 @@
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
 	branch = master
+[submodule "skin.estuary-extented"]
+	path = skin.estuary-extented
+	url = https://github.com/nkvoronov/skin.estuary-extented.git
+	branch = jarvis

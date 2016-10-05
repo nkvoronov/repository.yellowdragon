@@ -92,7 +92,11 @@ class Generator:
         # loop thru and add each addons addon.xml file
         for addon in addons:
             # create path
-            _path = os.path.join( addon, "addon.xml" )         
+            _path = os.path.join( addon, "addon.xml" )
+            
+            _icon = os.path.join( addon, "icon.png" )
+            _fanart = os.path.join( addon, "fanart.jpg" )
+            
             #skip path if it has no addon.xml
             if not os.path.isfile( _path ): continue       
             try:
@@ -106,6 +110,12 @@ class Generator:
                     version = parent.getAttribute("version")
                     addonid = parent.getAttribute("id")
                 self._generate_zip_file(addon, version, addonid)
+                
+                if os.path.isfile( _icon ):
+                    shutil.copyfile(_icon, self.output_path + addonid + os.path.sep + "icon.png")
+                if os.path.isfile( _fanart ):
+                    shutil.copyfile(_fanart, self.output_path + addonid + os.path.sep + "fanart.jpg")
+                    
             except Exception, e:
                 print e
 
@@ -116,6 +126,7 @@ class Generator:
             zip = zipfile.ZipFile(filename, 'w')
             for root, dirs, files in os.walk(path + os.path.sep):
                 for file in files:
+                    if file == ".git" or file == ".gitignore" or file == "README.md": continue
                     zip.write(os.path.join(root, file))
                     
             zip.close()
