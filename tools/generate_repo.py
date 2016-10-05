@@ -60,7 +60,7 @@ class Generator:
         summary=self.config.get('addon', 'summary') 
         description=self.config.get('addon', 'description')
         news=self.config.get('addon', 'news')
-        #assets=self.config.get('addon', 'assets')
+        assets=self.config.get('addon', 'assets')
         url=self.config.get('locations', 'url')      
 
         if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
