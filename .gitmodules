@@ -34,3 +34,7 @@
 	path = script.randomandlastitems
 	url = https://github.com/XBMC-Addons/script.randomandlastitems.git
 	branch = master
+[submodule "script.epg.vsetv"]
+	path = script.epg.vsetv
+	url = https://github.com/nkvoronov/script.epg.vsetv.git
+	branch = master

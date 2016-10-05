@@ -4,22 +4,15 @@
             <import addon="xbmc.addon" version="12.0.0"/>
         </requires>
         <extension point="xbmc.addon.repository" name="YLLOW_DRAGON Repository">
-                <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/master/_repo/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/master/_repo/addons.xml.md5</checksum>
-                <datadir zip="true">https://github.com/nkvoronov/repository.yllowdragon/raw/master/_repo</datadir>
+                <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/jarvis/repo/addons.xml</info>
+                <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/jarvis/repo/addons.xml.md5</checksum>
+                <datadir zip="true">https://github.com/nkvoronov/repository.yllowdragon/raw/jarvis/repo</datadir>
                 <hashes>false</hashes> 
         </extension>
         <extension point="xbmc.addon.metadata">
             <summary lang="en">YLLOW_DRAGON addons repository</summary>
             <description lang="en">Download and install YLLOW_DRAGON addons repository.</description>
             <platform>all</platform>
-            <assets>
- 			   <icon>resources/icon.png</icon>
- 			   <fanart>resources/fanart.jpg</fanart>
- 			   <screenshot>resources/screenshot-01.jpg</screenshot>
- 			   <screenshot>resources/screenshot-02.jpg</screenshot>
- 			   <screenshot>resources/screenshot-03.jpg</screenshot>
- 		    </assets>
             <news></news>
     </extension>
 </addon>
