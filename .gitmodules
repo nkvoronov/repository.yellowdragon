@@ -42,3 +42,19 @@
 	path = skin.estuary-extented
 	url = https://github.com/nkvoronov/skin.estuary-extented.git
 	branch = jarvis
+[submodule "script.module.simplecache"]
+	path = script.module.simplecache
+	url = https://github.com/nkvoronov/script.module.simplecache.git
+	branch = master
+[submodule "script.module.thetvdb"]
+	path = script.module.thetvdb
+	url = https://github.com/nkvoronov/script.module.thetvdb.git
+	branch = master
+[submodule "script.module.musicbrainz"]
+	path = script.module.musicbrainz
+	url = https://github.com/nkvoronov/script.module.musicbrainz.git
+	branch = master
+[submodule "script.skin.helper.colorpicker"]
+	path = script.skin.helper.colorpicker
+	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
+	branch = vmaster
