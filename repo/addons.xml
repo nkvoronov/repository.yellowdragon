@@ -252,7 +252,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
     </extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.0" provider-name="marcelveldt">
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.001" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -260,18 +260,21 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 	</requires>
     <extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
-        <description>Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
+		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+        <summary lang="ru_RU">Выбор цвета для обложки KODI. Часть Сервис Помощника</summary>
+        <description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
+        <description lang="ru_RU">Выбор цвета для обложки KODI. Часть Сервис Помощника</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<website></website>
-		<source>https://github.com/marcelveldt/script.skin.helper.colorpicker</source>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.skin.helper.colorpicker.git</source>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.004" provider-name="marcelveldt,YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.005" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -314,9 +317,9 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins</summary>
-        <summary lang="ru_RU">Сервис помощник  для KODI обложек</summary>
+        <summary lang="ru_RU">Сервис помощник для KODI обложек</summary>
         <description lang="en_GB">Helper service for Kodi skins</description>
-        <description lang="ru_RU">Сервис помощник  для KODI обложек</description>
+        <description lang="ru_RU">Сервис помощник для KODI обложек</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
@@ -327,7 +330,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.10.004" provider-name="BigNoid,marcelveldt,YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.10.005" provider-name="BigNoid,marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
