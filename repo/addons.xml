@@ -200,34 +200,56 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
     </extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.11.003" provider-name="marcelveldt,YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.004" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
 		<import addon="script.module.requests" version="2.3.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.thetvdb" version="0.0.1" />
+        <import addon="script.module.musicbrainz" version="0.0.1" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
 	</requires>
 
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources\lib\ContextMenu_animatedart.py">
+              <label>32175</label>
+              <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_animatedart)) + [Container.Content(movies) + Skin.HasSetting(SkinHelper.EnableAnimatedPosters)]</visible>
+            </item>
+            <item library="resources\lib\ContextMenu_pvr.py">
+                <label>32120</label>
+                <description>PVR artwork Configuration</description>
+                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_pvr)) + [Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)] + Skin.HasSetting(SkinHelper.EnablePVRThumbs)</visible>
+            </item>
+            <item library="resources\lib\ContextMenu_music.py">
+                <label>32122</label>
+                <description>Music artwork Configuration</description>
+                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_music)) + [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]</visible>
+            </item>
+            <item library="resources\lib\ContextMenu_serieslevel.py">
+                <label>32072</label>
+                <description>Display Series level button in next/recent/in progress episodes listings</description>
+                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_series)) + Container.Content(episodes) + !StringCompare(Container.ListItem(0).TvShowTitle,Container.ListItem(1).TvShowTitle)</visible>
+            </item>
+        </menu>
+	</extension>
+
     <extension point="xbmc.python.library" library="default.py" />
-	<extension point="xbmc.python.pluginsource" library="plugin.py">
-		<provides>video</provides>
-	</extension>
+	<extension point="xbmc.python.pluginsource" library="plugin.py" />
 	<extension library="service.py" point="xbmc.service" start="login" />
-	<extension point="kodi.context.item" library="contextmenu_serieslevel.py">
-		<item>
-			<label>32072</label>
-            <description>Display Series level button in next/recent/in progress episodes listings</description>
-			<visible>Container.Content(episodes) + [!Substring(Container.FolderPath,videodb://tvshows/titles,left) | Substring(Container.FolderPath,xsp=)] + [[!IsEmpty(ListItem.DBID) + !StringCompare(ListItem.DBID,-1)] | !IsEmpty(ListItem.Property(DBID))]</visible>
-		</item>
-	</extension>
+
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Helper service for Kodi skins</summary>
-        <summary lang="ru">Сервис помощник  для KODI обложек</summary>
+		<summary lang="en_GB">Helper service for Kodi skins</summary>
+        <summary lang="ru_RU">Сервис помощник  для KODI обложек</summary>
+        <description lang="en_GB">Helper service for Kodi skins</description>
+        <description lang="ru_RU">Сервис помощник  для KODI обложек</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
-		<forum></forum>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.service.git</source>
