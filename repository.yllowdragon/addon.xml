@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-    <addon id="repository.yllowdragon" name="YLLOW_DRAGON Repository" version="1.0.0" provider-name="YLLOW_DRAGON">
-        <requires>
-            <import addon="xbmc.addon" version="12.0.0"/>
-        </requires>
-        <extension point="xbmc.addon.repository" name="YLLOW_DRAGON Repository">
-                <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/jarvis/repo/addons.xml</info>
-                <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/jarvis/repo/addons.xml.md5</checksum>
-                <datadir zip="true">https://github.com/nkvoronov/repository.yllowdragon/raw/jarvis/repo</datadir>
-                <hashes>false</hashes> 
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary lang="en">YLLOW_DRAGON addons repository</summary>
-            <description lang="en">Download and install YLLOW_DRAGON addons repository.</description>
-            <platform>all</platform>
-            <news></news>
+<addon id="repository.yllowdragon" name="YLLOW_DRAGON Repository" version="1.0.1" provider-name="YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="YLLOW_DRAGON Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/jarvis/repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yllowdragon/jarvis/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/nkvoronov/repository.yllowdragon/raw/jarvis/repo</datadir>
+        <hashes>false</hashes> 
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YLLOW_DRAGON addons repository</summary>
+        <description lang="en">Download and install YLLOW_DRAGON addons repository.</description>
+        <platform>all</platform>
+        <news></news>
     </extension>
 </addon>
