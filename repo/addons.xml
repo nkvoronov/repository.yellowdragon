@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.022" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.023" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -492,34 +492,33 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 </addon>
 
 <addon id="script.transmission"
-       name="Transmission"
-       version="0.7.6"
-       provider-name="Correl Roush">
-  <requires>
-    <import addon="xbmc.python" version="2.14.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.module.beautifulsoup" version="3.0.8" />
-    <import addon="script.module.six" version="1.5.2" />
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py" />
-  <extension point="xbmc.service"
-             library="resources/lib/player.py"
-             start="startup"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A client for the popular Transmission BitTorrent application</summary>
-    <summary lang="hu">A népszerű Transmission Bittorrent alkalmazás vezérlése</summary>
-    <summary lang="ca">Un client de Transmission, la popular aplicació de Bittorrent</summary>
-    <description lang="en">Currently, Transmission-XBMC supports viewing, adding, removing, starting and stopping torrents. More advanced features may be added in future releases.</description>
-    <description lang="hu">Jelenleg a Transmission-XBMC képes megnézni, hozzáadni, elkezdeni, és megállítani a torrenteket. További fejlesztések várhatók a jövőben.</description>
-    <description lang="ca">Actualment, Transmission-XBMC permet veure, afegir, eliminar, iniciar i parar torrents. En futures versions de l'aplicació s'haniran afegint opcions més avançades.</description>
-    <platform>all</platform>
-    <license>MIT</license>
-    <forum></forum>
-    <website></website>
-    <source>https://github.com/correl/Transmission-XBMC</source>
-    <email>correl@gmail.com</email>
-  </extension>
+    name="Transmission"
+    version="0.7.6.001"
+    provider-name="Correl Roush, YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.six" version="1.5.2" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.service" library="resources/lib/player.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">A client for the popular Transmission BitTorrent application</summary>
+        <summary lang="hu">A népszerű Transmission Bittorrent alkalmazás vezérlése</summary>
+        <summary lang="ca">Un client de Transmission, la popular aplicació de Bittorrent</summary>
+        <summary lang="ru">Клиент для популярного приложения BitTorrent</summary>
+        <description lang="en">Currently, Transmission-XBMC supports viewing, adding, removing, starting and stopping torrents. More advanced features may be added in future releases.</description>
+        <description lang="hu">Jelenleg a Transmission-XBMC képes megnézni, hozzáadni, elkezdeni, és megállítani a torrenteket. További fejlesztések várhatók a jövőben.</description>
+        <description lang="ca">Actualment, Transmission-XBMC permet veure, afegir, eliminar, iniciar i parar torrents. En futures versions de l'aplicació s'haniran afegint opcions més avançades.</description>
+        <description lang="ru">В настоящее время, Transmission-XBMC поддерживает просмотр, добавление, удаление, запуск и остановка торрентов. Более продвинутые функции могут быть добавлены в будущих версиях.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website></website>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/Transmission-XBMC.git</source>
+    </extension>
 </addon>
 
 <addon id="script.xbmc.audio.mixer"
