@@ -333,8 +333,8 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 <addon id="script.rss.editor"
        name="RSS Editor"
-       version="2.0.4"
-       provider-name="rwparris2">
+       version="2.0.4.002"
+       provider-name="rwparris2, YLLOW_DRAGON">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -343,11 +343,9 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">A Script for editing XBMC's built in RSS Ticker</summary>
-    <summary lang="hu">RSS forrás szerkesztő</summary>
-    <summary lang="de">Skript zum Bearbeiten des XBMC internen RSS Tickers</summary>
+    <summary lang="ru">Скрипт для редактирования бегущей строки RSS KODI</summary>
     <description lang="en">A Script for editing XBMC's built in RSS Ticker</description>
-    <description lang="hu">A szkript képes szerkeszteni az XBMC beépített RSS forrás készletét</description>
-    <description lang="de">Skript zum Bearbeiten des XBMC internen RSS Tickers</description>
+    <description lang="ru">Скрипт для редактирования бегущей строки RSS KODI</description>
   </extension>
 </addon>
 
