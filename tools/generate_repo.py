@@ -33,6 +33,7 @@ class Generator:
         
         self.resources_path = "resources"        
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
+        self.rev_path = self.tools_path + os.path.sep + "revision.txt"
         self.output_path=self.config.get('locations', 'output_path')
         
         # travel path one up
@@ -43,11 +44,10 @@ class Generator:
         #self._generate_repo_files()
         #self._generate_addons_file()
         #self._generate_md5_file()
-        #self._generate_zip_files()
-        #self._post_run()
+        #self._generate_zip_files()        
         # notify user
         print "Finished updating addons xml, md5 files and zipping addons"
-        self._push_to_git()
+        self._post_run()
         
     def _update_submodules ( self ):
             
@@ -61,21 +61,48 @@ class Generator:
                         
     def _push_to_git ( self ):
     
+        print "GIT commit"
+        # git commit
+        git_comment = "Update to version " + self.config.get('addon', 'version') + "." + self.revision_str
+        os.system('git add --all')
+        os.system('git commit -m "' + git_comment + '"')
+    
         print "GIT Push"
         # push data to git
         #os.system('git push')
         
+        # save current revision + 1
+        if os.path.isfile( self.rev_path ):
+            os.remove(self.rev_path)
+            
+        rev_file = open(self.rev_path, "w")
+        rev_file.write(str(self.revision))
+        rev_file.close()
+                
     def _pre_run ( self ):
     
         # update git
         print "GIT Pull"
         os.system('git pull')
         
-        # current git revision
-        os.system('git log -n1 --format=%h')
+        # current revision + 1        
+        if os.path.isfile( self.rev_path ): 
+            self.revision = int(open(self.rev_path, "r").read()) + 1
+        else:
+            self.revision = 1
+
+        if self.revision < 100 and self.revision > 10:        
+            self.revision_str = "0" + str(self.revision)
+        else:
+            self.revision_str = "00" + str(self.revision)
+            
+        print "REVISION - " + self.revision_str
         
         # update submodules
-        self._update_submodules()
+        #self._update_submodules()
+        
+        # clear repos dir
+        #os.system("rm -rf " + self.output_path)
         
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
@@ -85,12 +112,14 @@ class Generator:
     
         addonid=self.config.get('addon', 'id')
         os.system("rm -rf " + addonid)
+        
+        self._push_to_git()
 
     def _generate_repo_files ( self ):
         
         addonid=self.config.get('addon', 'id')
         name=self.config.get('addon', 'name')
-        version=self.config.get('addon', 'version')
+        version=self.config.get('addon', 'version') + "." + self.revision_str      
         author=self.config.get('addon', 'author')
         summary_en=self.config.get('addon', 'summary_en') 
         summary_ru=self.config.get('addon', 'summary_ru')
