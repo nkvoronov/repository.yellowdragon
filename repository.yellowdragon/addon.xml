@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.5" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.021" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -10,8 +10,10 @@
         <hashes>false</hashes> 
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">YLLOW_DRAGON addons repository</summary>
+        <summary lang="en">YLLOW_DRAGON addons repository for KODI Jarvis</summary>
+        <summary lang="ru">Репозиторий плагинов YLLOW_DRAGON для KODI Jarvis</summary>
         <description lang="en">Download and install YLLOW_DRAGON addons repository.</description>
+        <description lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON.</description>
         <platform>all</platform>
         <news></news>
     </extension>

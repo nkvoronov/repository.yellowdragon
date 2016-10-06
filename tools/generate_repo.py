@@ -57,10 +57,11 @@ class Generator:
         name=self.config.get('addon', 'name')
         version=self.config.get('addon', 'version')
         author=self.config.get('addon', 'author')
-        summary=self.config.get('addon', 'summary') 
-        description=self.config.get('addon', 'description')
+        summary_en=self.config.get('addon', 'summary_en') 
+        summary_ru=self.config.get('addon', 'summary_ru')
+        description_en=self.config.get('addon', 'description_en')
+        description_ru=self.config.get('addon', 'description_ru')
         news=self.config.get('addon', 'news')
-        assets=self.config.get('addon', 'assets')
         url=self.config.get('locations', 'url')      
 
         if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
@@ -75,8 +76,11 @@ class Generator:
             name=name,
             version=version,
             author=author,
-            summary=summary,
-            description=description,
+            summary_en=summary_en,
+            summary_ru=summary_ru,
+            description_en=description_en,
+            description_ru=description_ru,
+            news=news,
             url=url,
             output_path=self.output_path)
         

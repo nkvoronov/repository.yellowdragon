@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.5" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.021" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -11,8 +11,10 @@
         <hashes>false</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">YLLOW_DRAGON addons repository</summary>
+        <summary lang="en">YLLOW_DRAGON addons repository for KODI Jarvis</summary>
+        <summary lang="ru">Репозиторий плагинов YLLOW_DRAGON для KODI Jarvis</summary>
         <description lang="en">Download and install YLLOW_DRAGON addons repository.</description>
+        <description lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON.</description>
         <platform>all</platform>
         <news></news>
     </extension>
@@ -332,21 +334,20 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 </addon>
 
 <addon id="script.rss.editor"
-       name="RSS Editor"
-       version="2.0.4.002"
-       provider-name="rwparris2, YLLOW_DRAGON">
-  <requires>
+    name="RSS Editor"
+    version="2.0.4.003"
+    provider-name="rwparris2, YLLOW_DRAGON">
+    <requires>
     <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">A Script for editing XBMC's built in RSS Ticker</summary>
-    <summary lang="ru">Скрипт для редактирования бегущей строки RSS KODI</summary>
-    <description lang="en">A Script for editing XBMC's built in RSS Ticker</description>
-    <description lang="ru">Скрипт для редактирования бегущей строки RSS KODI</description>
-  </extension>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">A Script for editing XBMC's built in RSS Ticker</summary>
+        <summary lang="ru">Скрипт для редактирования бегущей строки RSS KODI</summary>
+        <description lang="en">A Script for editing XBMC's built in RSS Ticker</description>
+        <description lang="ru">Скрипт для редактирования бегущей строки RSS KODI</description>
+    </extension>
 </addon>
 
 <addon id="script.simpleplaylists"
@@ -370,7 +371,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
   </extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.001" provider-name="marcelveldt,YLLOW_DRAGON">
+<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.002" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -392,7 +393,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.006" provider-name="marcelveldt,YLLOW_DRAGON">
+<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.007" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -404,7 +405,6 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
         <import addon="script.module.musicbrainz" version="0.0.1" />
         <import addon="script.module.simplecache" version="1.0.0"/>
 	</requires>
-
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="resources\lib\ContextMenu_animatedart.py">
@@ -428,11 +428,9 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
             </item>
         </menu>
 	</extension>
-
     <extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.python.pluginsource" library="plugin.py" />
 	<extension library="service.py" point="xbmc.service" start="login" />
-
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins</summary>
         <summary lang="ru_RU">Сервис помощник для KODI обложек</summary>
@@ -545,22 +543,22 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
   </extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="2.6.0.002" provider-name="Team XBMC: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
-  <requires>
-    <import addon="xbmc.python" version="2.19.0"/>
-    <import addon="xbmc.addon" version="12.0.0"/>
-  </requires>
-  <extension point="xbmc.service" library="lcdmain.py" start="login"></extension>
-  <extension point="xbmc.addon.metadata">
-    <language></language>
-    <summary>XBMC LCDproc</summary>
-    <description lang="en">Displays configurable information e.g. about playing media or XBMC status on any LC/VF-display driven by LCDproc, and acts as direct drop-in replacement to the LCD/VFD-feature previously available in XBMC's core. Supports additional display elements (icons, bars) on SoundGraph iMON LCD and Targa/Futaba mdm166a VFD hardware. Requires a properly configured and running LCDd either locally or somewhere on the network.</description>
-    <description lang="ru">Отображает настраиваемую информацию, например, о воспроизводимом медиа или статус XBMC на любой LC/VF-дисплей который управляется LCDProc и действует как прямая замена к LCD/VFD--функции, ранее доступные в ядре XBMC. Поддерживает дополнительные элементы отображения (иконки, бары) на SoundGraph iMON LCD и Targa/Futaba mdm166a VFD аппаратного обеспечения. Требуется правильно сконфигурированый и запущенный LCDd либо локально, либо где-то в сети.</description>
-    <disclaimer lang="en">Works with LCDproc only. Other LCD services like LCD4Linux or iMON Manager on Win32 are not supported. No liability taken for damaged hardware and/or software caused by this addon.</disclaimer>
-    <disclaimer lang="ru">Работает только с LCDProc. Другие LCD сервисы, такие как LCD4Linux или IMON менеджер для Win32 не поддерживаются. Никакая ответственность не принимается за поврежденного оборудования и/или программного обеспечения, вызванного этим аддоном.</disclaimer>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <platform>all</platform>
-  </extension>
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="2.6.0.003" provider-name="Team XBMC: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="lcdmain.py" start="login"></extension>
+    <extension point="xbmc.addon.metadata">
+        <language></language>
+        <summary>XBMC LCDproc</summary>
+        <description lang="en">Displays configurable information e.g. about playing media or XBMC status on any LC/VF-display driven by LCDproc, and acts as direct drop-in replacement to the LCD/VFD-feature previously available in XBMC's core. Supports additional display elements (icons, bars) on SoundGraph iMON LCD and Targa/Futaba mdm166a VFD hardware. Requires a properly configured and running LCDd either locally or somewhere on the network.</description>
+        <description lang="ru">Отображает настраиваемую информацию, например, о воспроизводимом медиа или статус XBMC на любой LC/VF-дисплей который управляется LCDProc и действует как прямая замена к LCD/VFD--функции, ранее доступные в ядре XBMC. Поддерживает дополнительные элементы отображения (иконки, бары) на SoundGraph iMON LCD и Targa/Futaba mdm166a VFD аппаратного обеспечения. Требуется правильно сконфигурированый и запущенный LCDd либо локально, либо где-то в сети.</description>
+        <disclaimer lang="en">Works with LCDproc only. Other LCD services like LCD4Linux or iMON Manager on Win32 are not supported. No liability taken for damaged hardware and/or software caused by this addon.</disclaimer>
+        <disclaimer lang="ru">Работает только с LCDProc. Другие LCD сервисы, такие как LCD4Linux или IMON менеджер для Win32 не поддерживаются. Никакая ответственность не принимается за поврежденного оборудования и/или программного обеспечения, вызванного этим аддоном.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <platform>all</platform>
+    </extension>
 </addon>
 
 <addon id="service.skin.widgets" name="Skin Widgets" version="0.0.32" provider-name="Martijn, phil65">
