@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.023" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.024" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -523,7 +523,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 <addon id="script.xbmc.audio.mixer"
     name="Kodi Audio Mixer"
-    version="3.0.1.002"
+    version="3.0.0.003"
     provider-name="Team XBMC, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
