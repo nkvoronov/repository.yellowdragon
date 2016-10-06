@@ -6,6 +6,7 @@
 """ This file is "as is", without any warranty whatsoever. Use as own risk """
 
 import os
+import re
 import md5
 import zipfile
 import shutil
@@ -36,30 +37,46 @@ class Generator:
         
         # travel path one up
         os.chdir(os.path.abspath(os.path.join(self.tools_path, os.pardir)))
-        
-        self._update_submodules()
+                
         # generate files
         self._pre_run()
-        self._generate_repo_files()
-        self._generate_addons_file()
-        self._generate_md5_file()
-        self._generate_zip_files()
-        self._post_run()
+        #self._generate_repo_files()
+        #self._generate_addons_file()
+        #self._generate_md5_file()
+        #self._generate_zip_files()
+        #self._post_run()
         # notify user
         print "Finished updating addons xml, md5 files and zipping addons"
         self._push_to_git()
         
-    def _update_submodules ( self ): pass
-    
+    def _update_submodules ( self ):
+            
         # update submodules
-        
-    def _push_to_git ( self ): pass
+        if os.path.isfile(".gitmodules"): 
+            fsubmodules = open(".gitmodules", "r").read()
+            lsubmodules = re.compile('\[submodule "(.+?)"\]').findall(fsubmodules)
+            for submodule in lsubmodules:
+                print "Update module - " + str(submodule)
+                os.system('git submodule update --init --recursive --force --remote -- "' + submodule + '"')
+                        
+    def _push_to_git ( self ):
     
+        print "GIT Push"
         # push data to git
-        #os.system("git push")
+        #os.system('git push')
         
     def _pre_run ( self ):
-
+    
+        # update git
+        print "GIT Pull"
+        os.system('git pull')
+        
+        # current git revision
+        os.system('git log -n1 --format=%h')
+        
+        # update submodules
+        self._update_submodules()
+        
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
             os.makedirs(self.output_path)
