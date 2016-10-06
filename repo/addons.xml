@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.024" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.025" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -335,7 +335,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 <addon id="script.rss.editor"
     name="RSS Editor"
-    version="2.0.4.003"
+    version="2.0.4.004"
     provider-name="rwparris2, YLLOW_DRAGON">
     <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -347,28 +347,31 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
         <summary lang="ru">Скрипт для редактирования бегущей строки RSS KODI</summary>
         <description lang="en">A Script for editing XBMC's built in RSS Ticker</description>
         <description lang="ru">Скрипт для редактирования бегущей строки RSS KODI</description>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.rss.editor.git</source>
     </extension>
 </addon>
 
 <addon id="script.simpleplaylists"
-       name="SimplePlaylists"
-       version="1.1.1"
-       provider-name="AddonScriptorDE">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource"
-            library="default.py">
-    <provides>video audio image</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-      <summary lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
-      <summary lang="de">Lokale Medien (Videos/Musik/Bilder) und Add-on Inhalte beim Durchsuchen/Abspielen zu Playlisten hinzufügen. Um das Addon nutzen zu können muss folgender Befehl einer Taste zugewiesen werden: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Mehr Infos: xbmcnerds.com, forum.xbmc.org</summary>
-      <language></language>
-      <description lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
-      <description lang="de">Lokale Medien (Videos/Musik/Bilder) und Add-on Inhalte beim Durchsuchen/Abspielen zu Playlisten hinzufügen. Um das Addon nutzen zu können muss folgender Befehl einer Taste zugewiesen werden: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Mehr Infos: xbmcnerds.com, forum.xbmc.org</description>
-    <platform>all</platform>
-  </extension>
+    name="SimplePlaylists"
+    version="1.1.1.001"
+    provider-name="AddonScriptorDE">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
+        <summary lang="ru">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</summary>
+        <description lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
+        <description lang="ru">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</description>
+        <language></language>
+        <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.simpleplaylists.git</source>
+    </extension>
 </addon>
 
 <addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.002" provider-name="marcelveldt,YLLOW_DRAGON">
@@ -523,7 +526,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 <addon id="script.xbmc.audio.mixer"
     name="Kodi Audio Mixer"
-    version="3.0.0.003"
+    version="3.0.1.005"
     provider-name="Team XBMC, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -539,7 +542,7 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
         <forum></forum>
         <website></website>
         <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.skinshortcuts.git</source>
+        <source>https://github.com/nkvoronov/script.xbmc.audio.mixer.git</source>
     </extension>
 </addon>
 
