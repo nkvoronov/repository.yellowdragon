@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addon id="{addonid}" name="{name}" version="{version}" provider-name="{author}">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
@@ -15,10 +15,6 @@
         <description  lang="en">{description_en}</description>
         <description  lang="ru">{description_ru}</description>
         <platform>all</platform>
-        <assets>
-           <icon>resources/icon.png</icon>
-           <fanart>resources/fanart.jpg</fanart>
-        </assets>
         <news>{news}</news>
     </extension>
 </addon>

@@ -30,26 +30,44 @@ class Generator:
         self.config = SafeConfigParser()
         self.config.read('config.ini')
         
+        self.resources_path = "resources"        
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
         self.output_path=self.config.get('locations', 'output_path')
         
         # travel path one up
         os.chdir(os.path.abspath(os.path.join(self.tools_path, os.pardir)))
         
+        self._update_submodules()
         # generate files
         self._pre_run()
         self._generate_repo_files()
         self._generate_addons_file()
         self._generate_md5_file()
         self._generate_zip_files()
+        self._post_run()
         # notify user
         print "Finished updating addons xml, md5 files and zipping addons"
+        self._push_to_git()
+        
+    def _update_submodules ( self ): pass
+    
+        # update submodules
+        
+    def _push_to_git ( self ): pass
+    
+        # push data to git
+        #os.system("git push")
         
     def _pre_run ( self ):
 
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
             os.makedirs(self.output_path)
+            
+    def _post_run ( self ):
+    
+        addonid=self.config.get('addon', 'id')
+        os.system("rm -rf " + addonid)
 
     def _generate_repo_files ( self ):
         
@@ -88,9 +106,13 @@ class Generator:
         if not os.path.exists(addonid):
             os.makedirs(addonid)
             
-        self._save_file( repo_xml.encode( "utf-8" ), file=addonid + os.path.sep + "addon.xml" )
+        self._save_file( repo_xml, file=addonid + os.path.sep + "addon.xml" )
         
-
+        if os.path.exists(self.resources_path):
+            files = os.listdir( "." + os.path.sep + self.resources_path)
+            for file in files:
+                shutil.copyfile(self.resources_path + os.path.sep + file, addonid + os.path.sep + file)
+        
     def _generate_zip_files ( self ):
         addons = os.listdir( "." )
         # loop thru and add each addons addon.xml file

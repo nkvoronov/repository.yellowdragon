@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.025" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.028" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-    <extension point="xbmc.addon.repository" name="YLLOW_DRAGON Repository">
-        <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/nkvoronov/repository.yellowdragon/raw/jarvis/repo</datadir>
+    <extension point="xbmc.addon.repository" name="Yellow Dragon Repository">
+        <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/repo/</datadir>
         <hashes>false</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en">YLLOW_DRAGON addons repository for KODI Jarvis</summary>
         <summary lang="ru">Репозиторий плагинов YLLOW_DRAGON для KODI Jarvis</summary>
-        <description lang="en">Download and install YLLOW_DRAGON addons repository.</description>
-        <description lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON.</description>
+        <description  lang="en">Download and install YLLOW_DRAGON addons repository.</description>
+        <description  lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON.</description>
         <platform>all</platform>
-        <news></news>
+        <news>Initial</news>
     </extension>
 </addon>
 
@@ -306,7 +306,7 @@
     </extension>
 </addon>
 
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2" provider-name="MikeBZH44, Martijn, `Black">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2.002" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="xbmc.json" version="6.0.0"/>
@@ -315,21 +315,17 @@
     <extension point="xbmc.python.library" library="randomandlastitems.py" />
     <extension point="xbmc.addon.metadata">
         <summary lang="en">Random And Last Items script</summary>
-        <description lang="en">
-Script to get Random or Last added movies, episodes, albums or music videos from the database.
-Can optionnaly handle playlist to filter results.
-        </description>
         <summary lang="fr">Random And Last Items script</summary>
-        <description lang="fr">
-Script qui retourne, soit de manière aléatoire, soit les derniers ajouts, les films, épisodes, albums ou clips de la base de données.
-Il peut optionnellement gerer les playlistes pour filtrer les resultats.
-        </description>
+        <summary lang="ru">Скрипт - случайные и последние элементы </summary>
+        <description lang="en">Script to get Random or Last added movies, episodes, albums or music videos from the database.Can optionnaly handle playlist to filter results.</description>
+        <description lang="fr">Script qui retourne, soit de manière aléatoire, soit les derniers ajouts, les films, épisodes, albums ou clips de la base de données.Il peut optionnellement gerer les playlistes pour filtrer les resultats.</description>
+        <description lang="ru">Скрипт получает случайное или последние добавленные фильмы, эпизоды, альбомы или музыкальные клипы из медиатеки. Может обрабатывать плейлист для фильтрации результатов.</description>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
-        <source>https://github.com/XBMC-Addons/script.randomandlastitems</source>
         <forum>http://forum.xbmc.org/showthread.php?tid=122448</forum>
-        <email></email>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.randomandlastitems.git</source>
     </extension>
 </addon>
 
@@ -354,8 +350,8 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 
 <addon id="script.simpleplaylists"
     name="SimplePlaylists"
-    version="1.1.1.001"
-    provider-name="AddonScriptorDE">
+    version="1.1.1.002"
+    provider-name="AddonScriptorDE, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
