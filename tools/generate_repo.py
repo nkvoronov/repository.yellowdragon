@@ -31,6 +31,7 @@ class Generator:
         self.config = SafeConfigParser()
         self.config.read('config.ini')
         
+        self.gitcomment = "Update to version " + self.config.get('addon', 'version')
         self.resources_path = "resources"        
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
         self.rev_path = self.tools_path + os.path.sep + "revision.txt"
@@ -41,10 +42,10 @@ class Generator:
                 
         # generate files
         self._pre_run()
-        #self._generate_repo_files()
-        #self._generate_addons_file()
-        #self._generate_md5_file()
-        #self._generate_zip_files()        
+        self._generate_repo_files()
+        self._generate_addons_file()
+        self._generate_md5_file()
+        self._generate_zip_files()        
         # notify user
         print "Finished updating addons xml, md5 files and zipping addons"
         self._post_run()
@@ -63,13 +64,12 @@ class Generator:
     
         print "GIT commit"
         # git commit
-        git_comment = "Update to version " + self.config.get('addon', 'version') + "." + self.revision_str
         os.system('git add --all')
-        os.system('git commit -m "' + git_comment + '"')
+        os.system('git commit -m "' + self.gitcomment + '"')
     
         print "GIT Push"
         # push data to git
-        #os.system('git push')
+        os.system('git push')
         
         # save current revision + 1
         if os.path.isfile( self.rev_path ):
@@ -96,13 +96,15 @@ class Generator:
         else:
             self.revision_str = "00" + str(self.revision)
             
-        print "REVISION - " + self.revision_str
+        self.gitcomment = self.gitcomment + "." + self.revision_str
+            
+        print self.gitcomment
         
         # update submodules
-        #self._update_submodules()
+        self._update_submodules()
         
         # clear repos dir
-        #os.system("rm -rf " + self.output_path)
+        os.system("rm -rf " + self.output_path)
         
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
