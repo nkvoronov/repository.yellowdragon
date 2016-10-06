@@ -54,3 +54,31 @@
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
 	branch = vmaster
+[submodule "service.skin.widgets"]
+	path = service.skin.widgets
+	url = https://github.com/nkvoronov/service.skin.widgets.git
+	branch = vmaster
+[submodule "script.rss.editor"]
+	path = script.rss.editor
+	url = https://github.com/nkvoronov/script.rss.editor.git
+	branch = vmaster
+[submodule "script.globalsearch"]
+	path = script.globalsearch
+	url = https://github.com/nkvoronov/script.globalsearch.git
+	branch = jarvis
+[submodule "script.simpleplaylists"]
+	path = script.simpleplaylists
+	url = https://github.com/nkvoronov/script.simpleplaylists.git
+	branch = vmaster
+[submodule "script.transmission"]
+	path = script.transmission
+	url = https://github.com/nkvoronov/Transmission-XBMC.git
+	branch = vmaster
+[submodule "script.xbmc.audio.mixer"]
+	path = script.xbmc.audio.mixer
+	url = https://github.com/nkvoronov/script.xbmc.audio.mixer.git
+	branch = vmaster
+[submodule "script.xbmc.lcdproc"]
+	path = script.xbmc.lcdproc
+	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
+	branch = vmaster
