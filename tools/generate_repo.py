@@ -70,14 +70,6 @@ class Generator:
         print "GIT Push"
         # push data to git
         os.system('git push')
-        
-        # save current revision + 1
-        if os.path.isfile( self.rev_path ):
-            os.remove(self.rev_path)
-            
-        rev_file = open(self.rev_path, "w")
-        rev_file.write(str(self.revision))
-        rev_file.close()
                 
     def _pre_run ( self ):
     
@@ -98,7 +90,7 @@ class Generator:
             
         self.gitcomment = self.gitcomment + "." + self.revision_str
             
-        print self.gitcomment
+        print "########## " + self.gitcomment + " ##########"
         
         # update submodules
         self._update_submodules()
@@ -114,6 +106,14 @@ class Generator:
     
         addonid=self.config.get('addon', 'id')
         os.system("rm -rf " + addonid)
+        
+        # save current revision + 1
+        if os.path.isfile( self.rev_path ):
+            os.remove(self.rev_path)
+            
+        rev_file = open(self.rev_path, "w")
+        rev_file.write(str(self.revision))
+        rev_file.close()
         
         self._push_to_git()
 
