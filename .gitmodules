@@ -61,7 +61,7 @@
 [submodule "script.rss.editor"]
 	path = script.rss.editor
 	url = https://github.com/nkvoronov/script.rss.editor.git
-	branch = vmaster
+	branch = jarvis
 [submodule "script.globalsearch"]
 	path = script.globalsearch
 	url = https://github.com/nkvoronov/script.globalsearch.git
