@@ -32,7 +32,7 @@ class Generator:
         self.config.read('config.ini')
         
         self.gitcomment = "Update to version " + self.config.get('addon', 'version')
-        self.resources_path = "resources"        
+        self.resources_path = "src"        
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
         self.rev_path = self.tools_path + os.path.sep + "revision.txt"
         self.output_path=self.config.get('locations', 'output_path')
@@ -123,12 +123,15 @@ class Generator:
         name=self.config.get('addon', 'name')
         version=self.config.get('addon', 'version') + "." + self.revision_str      
         author=self.config.get('addon', 'author')
+        kodi=self.config.get('addon', 'kodi')
         summary_en=self.config.get('addon', 'summary_en') 
         summary_ru=self.config.get('addon', 'summary_ru')
         description_en=self.config.get('addon', 'description_en')
         description_ru=self.config.get('addon', 'description_ru')
         news=self.config.get('addon', 'news')
-        url=self.config.get('locations', 'url')      
+        branch=self.config.get('locations', 'branch')
+        url=self.config.get('locations', 'url')
+        datadir=self.config.get('locations', 'datadir')        
 
         if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
         
@@ -138,16 +141,19 @@ class Generator:
             template_xml=template.read()
         
         repo_xml = template_xml.format(
-            addonid= addonid,
+            addonid=addonid,
             name=name,
             version=version,
             author=author,
+            kodi=kodi,
             summary_en=summary_en,
             summary_ru=summary_ru,
             description_en=description_en,
             description_ru=description_ru,
             news=news,
+            branch=branch,
             url=url,
+            datadir=datadir,
             output_path=self.output_path)
         
         # save file
