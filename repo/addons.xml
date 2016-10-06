@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.021" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="1.0.022" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -523,24 +523,25 @@ Il peut optionnellement gerer les playlistes pour filtrer les resultats.
 </addon>
 
 <addon id="script.xbmc.audio.mixer"
-       name="Kodi Audio Mixer"
-       version="4.0.0"
-       provider-name="Team Kodi">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py" />
-  <extension point="xbmc.addon.metadata">
-    <platform>osx linux</platform>
-    <summary lang="en">Kodi Audio Mixer</summary>
-    <description lang="en">Kodi Audio Mixer</description>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source>https://github.com/XBMC-Addons/script.xbmc.audio.mixer</source>
-  </extension>
+    name="Kodi Audio Mixer"
+    version="3.0.1.002"
+    provider-name="Team XBMC, YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py" />
+    <extension point="xbmc.addon.metadata">
+        <platform>osx linux</platform>
+        <summary lang="en">Kodi Audio Mixer</summary>
+        <summary lang="ru">Kodi Аудио Микшер</summary>
+        <description lang="en">Kodi Audio Mixer</description>
+        <description lang="ru">Kodi Аудио Микшер</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum></forum>
+        <website></website>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.skinshortcuts.git</source>
+    </extension>
 </addon>
 
 <addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="2.6.0.003" provider-name="Team XBMC: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">

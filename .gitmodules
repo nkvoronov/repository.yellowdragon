@@ -77,7 +77,7 @@
 [submodule "script.xbmc.audio.mixer"]
 	path = script.xbmc.audio.mixer
 	url = https://github.com/nkvoronov/script.xbmc.audio.mixer.git
-	branch = vmaster
+	branch = jarvis
 [submodule "script.xbmc.lcdproc"]
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
