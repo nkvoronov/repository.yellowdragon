@@ -111,10 +111,8 @@ class Generator:
         if os.path.isfile( self.rev_path ):
             os.remove(self.rev_path)
             
-        rev_file = open(self.rev_path, "w")
-        rev_file.write(str(self.revision))
-        rev_file.close()
-        
+        self._save_file(str(self.revision), self.rev_path)
+                    
         self._push_to_git()
 
     def _generate_repo_files ( self ):
@@ -155,28 +153,23 @@ class Generator:
             url=url,
             datadir=datadir,
             output_path=self.output_path)
-        
+            
+        if os.path.exists(self.resources_path):
+            shutil.copytree(os.path.abspath(self.resources_path), os.path.abspath(addonid))
+            
         # save file
         if not os.path.exists(addonid):
             os.makedirs(addonid)
             
         self._save_file( repo_xml, file=addonid + os.path.sep + "addon.xml" )
-        
-        if os.path.exists(self.resources_path):
-            files = os.listdir( "." + os.path.sep + self.resources_path)
-            for file in files:
-                shutil.copyfile(self.resources_path + os.path.sep + file, addonid + os.path.sep + file)
-        
+                        
     def _generate_zip_files ( self ):
         addons = os.listdir( "." )
         # loop thru and add each addons addon.xml file
         for addon in addons:
             # create path
             _path = os.path.join( addon, "addon.xml" )
-            
-            _icon = os.path.join( addon, "icon.png" )
-            _fanart = os.path.join( addon, "fanart.jpg" )
-            
+                       
             #skip path if it has no addon.xml
             if not os.path.isfile( _path ): continue       
             try:
@@ -189,12 +182,10 @@ class Generator:
                 for parent in document.getElementsByTagName("addon"):
                     version = parent.getAttribute("version")
                     addonid = parent.getAttribute("id")
+                    
                 self._generate_zip_file(addon, version, addonid)
                 
-                if os.path.isfile( _icon ):
-                    shutil.copyfile(_icon, self.output_path + addonid + os.path.sep + "icon.png")
-                if os.path.isfile( _fanart ):
-                    shutil.copyfile(_fanart, self.output_path + addonid + os.path.sep + "fanart.jpg")
+                self._copy_resources(addonid, False)
                     
             except Exception, e:
                 print e
@@ -269,8 +260,34 @@ class Generator:
         except Exception, e:
             # oops
             print "An error occurred saving %s file!\n%s" % ( file, e, )
-
-
+            
+    def _copy_resources( self, addonid, is_resdir):
+        
+        icon = os.path.join( addonid, "icon.png" )
+        fanart = os.path.join( addonid, "fanart.jpg" )                
+        res_path = self.output_path + addonid
+        
+        if is_resdir:
+        
+            resources = os.path.join( addonid, "resources" )            
+            icon_r = os.path.join( resources, "icon.png" )
+            fanart_r = os.path.join( resources, "fanart.jpg" )
+            res_path = res_path + os.path.sep + "resources"
+            
+            if not os.path.exists(res_path):
+                os.makedirs(res_path)
+        
+            if os.path.isdir( resources ):
+                if os.path.isfile( icon_r ):
+                    shutil.copyfile(icon_r, res_path + os.path.sep +"icon.png")
+                if os.path.isfile( fanart_r ):
+                    shutil.copyfile(fanart_r, res_path + os.path.sep +"fanart.jpg")
+                
+        if os.path.isfile( icon ):
+            shutil.copyfile(icon, res_path + os.path.sep +"icon.png")
+        if os.path.isfile( fanart ):
+            shutil.copyfile(fanart, res_path + os.path.sep +"fanart.jpg")
+            
 if ( __name__ == "__main__" ):
     # start
     Generator()
