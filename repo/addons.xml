@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.037" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.038" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -18,6 +18,39 @@
         <platform>all</platform>
         <news>Initial</news>
     </extension>
+</addon>
+
+<addon id="script.elec.devupdate"
+       name="ELEC Dev Update"
+       version="14.38.4"
+       provider-name="Leopold, YLLOW_DRAGON">
+  <requires>
+    <import addon="xbmc.python" version="2.13.0"/>
+    <import addon="os.openelec.tv" version="4.0" optional="false"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.2" optional="false"/>
+    <import addon="script.module.requests" version="2.3.0" optional="false"/>
+    <import addon="script.module.html2text" version="2015.6.21" optional="false"/>
+    <import addon="script.xbmcbackup" version="0.5.2" optional="false"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.service" library="service.py" start="startup"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Unofficial Open(Libre)ELEC updater</summary>
+    <description>This add-on downloads Open(Libre)ELEC update files ready to be installed on the next reboot. Select a predefined source or a custom source defined in the add-on settings, then choose from a list of available builds. Some sources provide full build details which can be viewed by pressing 'Info'.</description>
+    <disclaimer>Development builds often have major bugs and crashes can happen quite often. Always backup your userdata folder when installing development builds.</disclaimer>
+    <summary lang="en">Unofficial Open(Libre)ELEC updater</summary>
+    <summary lang="ru">Неоффициальная программа обновления Open(Libre)ELEC </summary>
+    <description lang="en">This add-on downloads Open(Libre)ELEC update files ready to be installed on the next reboot. Use the add-on settings to choose the source URL or provide your own. Run the add-on to select from a list of builds available at the URL.</description>
+    <description lang="ru">Это дополнение скачивает файлы обновлений Open(Libre)ELEC, которые будут готовы к установке при следующей перезагрузке. Используйте дополнение, в настройках выбрать ресурс или установить свой собственный. Запустите адон, чтобы выбрать нужную сборку из списка сборок доступных в данном ресурсе.</description>
+    <disclaimer lang="en">Development builds often have major bugs and crashes can happen quite often. Always backup your userdata folder when installing development builds.</disclaimer>
+    <disclaimer lang="ru">Сборки в разработке часто имеют некоторые ошибки и сбои могут происходить довольно часто. Всегда делайте резервную копию ваших пользовательских данных при установке сборок в разработке.</disclaimer>
+    <forum>http://openelec.tv/forum/128-addons/49855</forum>
+    <website>http://ls80.github.io/script.openelec.devupdate</website>
+    <email>nkvoronov@gmail.com</email>
+    <source>https://github.com/nkvoronov/script.openelec.devupdate.git</source>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+  </extension>
 </addon>
 
 <addon
@@ -560,7 +593,7 @@
     </extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.32" provider-name="Martijn, phil65">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.32.001" provider-name="Martijn, phil65, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.json" version="6.0.0"/>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -587,6 +620,7 @@
         <summary lang="sk">Widgety Vzhľadov</summary>
         <summary lang="sv">Skal widgetar</summary>
         <summary lang="zh">皮肤微件</summary>
+        <summary lang="ru">Виджеты обложки</summary>
         <description lang="be">Skin widgets</description>
         <description lang="da">Widgets til Skins</description>
         <description lang="de">Skin Widgets</description>
@@ -606,6 +640,7 @@
         <description lang="sk">Widgety Vzhľadov</description>
         <description lang="sv">Skal widgetar</description>
         <description lang="zh">皮肤微件</description>
+        <description lang="ru">Виджеты обложки</description>
         <disclaimer lang="be">For information visit the wiki page or XBMC forum.</disclaimer>
         <disclaimer lang="de">Besuche für mehr Informationen die Wiki-Seite oder das XBMC-Forum</disclaimer>
         <disclaimer lang="el">Για πληροφορίες επισκεφθείτε τη σελίδα wiki ή το forum του XBMC.</disclaimer>
@@ -622,11 +657,13 @@
         <disclaimer lang="pt_BR">Para informações visite o página do wiki ou fórum XBMC.org.</disclaimer>
         <disclaimer lang="sv">För information, besök wiki-sidan eller XBMC forumet.</disclaimer>
         <disclaimer lang="zh">访问wiki页或XBMC论坛了解更多信息</disclaimer>
+        <disclaimer lang="ru">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
         <forum>http://forum.xbmc.org/showthread.php?tid=142389</forum>
-        <source>https://github.com/XBMC-Addons/service.skin.widgets</source>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/service.skin.widgets.git</source>
         <email></email>
     </extension>
 </addon>

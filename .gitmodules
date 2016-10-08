@@ -82,3 +82,7 @@
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git
 	branch = vmaster
+[submodule "script.elec.devupdate"]
+	path = script.elec.devupdate
+	url = https://github.com/nkvoronov/script.openelec.devupdate.git
+	branch = 14.38.jarvis

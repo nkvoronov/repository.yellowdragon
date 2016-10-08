@@ -179,13 +179,14 @@ class Generator:
                 _path = os.path.join( addon, "addon.xml" )
                 # split lines for stripping
                 document = minidom.parse(_path)
-                for parent in document.getElementsByTagName("addon"):
+                addon_elements = document.getElementsByTagName("addon")
+                for parent in addon_elements:
                     version = parent.getAttribute("version")
                     addonid = parent.getAttribute("id")
-                    
+                                                                        
                 self._generate_zip_file(addon, version, addonid)
-                
-                self._copy_resources(addonid, False)
+                                
+                self._copy_resources(addonid, document)
                     
             except Exception, e:
                 print e
@@ -261,32 +262,33 @@ class Generator:
             # oops
             print "An error occurred saving %s file!\n%s" % ( file, e, )
             
-    def _copy_resources( self, addonid, is_resdir):
+    def _copy_resources( self, addonid, document):
+    
+        assets_elements = document.getElementsByTagName("assets")
+    
+        if len(assets_elements)>0:
         
-        icon = os.path.join( addonid, "icon.png" )
-        fanart = os.path.join( addonid, "fanart.jpg" )                
-        res_path = self.output_path + addonid
+            for parent in assets_elements:
+                for node in parent.childNodes:
+                    res_patch = node.toxml().replace('<icon>','').replace('</icon>','').replace('<fanart>','').replace('</fanart>','').replace('<screenshot>','').replace('</screenshot>','').strip()
+                    if res_patch != "":
+                        src_patch = os.path.join( addonid, res_patch )
+                        dst_patch = os.path.join( os.path.join( self.output_path, addonid ), res_patch )
+                        if os.path.isfile( src_patch ):
+                            if not os.path.exists(os.path.dirname(dst_patch)):
+                                os.makedirs(os.path.dirname(dst_patch))
+                            shutil.copyfile(src_patch, dst_patch)
+                     
+        else:
         
-        if is_resdir:
-        
-            resources = os.path.join( addonid, "resources" )            
-            icon_r = os.path.join( resources, "icon.png" )
-            fanart_r = os.path.join( resources, "fanart.jpg" )
-            res_path = res_path + os.path.sep + "resources"
+            icon = os.path.join( addonid, "icon.png" )
+            fanart = os.path.join( addonid, "fanart.jpg" )                
+            res_path = os.path.join( self.output_path, addonid )
             
-            if not os.path.exists(res_path):
-                os.makedirs(res_path)
-        
-            if os.path.isdir( resources ):
-                if os.path.isfile( icon_r ):
-                    shutil.copyfile(icon_r, res_path + os.path.sep +"icon.png")
-                if os.path.isfile( fanart_r ):
-                    shutil.copyfile(fanart_r, res_path + os.path.sep +"fanart.jpg")
-                
-        if os.path.isfile( icon ):
-            shutil.copyfile(icon, res_path + os.path.sep +"icon.png")
-        if os.path.isfile( fanart ):
-            shutil.copyfile(fanart, res_path + os.path.sep +"fanart.jpg")
+            if os.path.isfile( icon ):
+                shutil.copyfile(icon, os.path.join(res_path, "icon.png"))
+            if os.path.isfile( fanart ):
+                shutil.copyfile(fanart, os.path.join(res_path,"fanart.jpg"))
             
 if ( __name__ == "__main__" ):
     # start
