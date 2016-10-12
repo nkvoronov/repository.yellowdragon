@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.041" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.042" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -596,13 +596,13 @@
 <addon
     id="service.3denabler.samsungtv"
     name="3D Enabler Samsung TV"
-    version="0.1.1"
-    provider-name="Pavel Kuzub">
+    version="0.1.1.001"
+    provider-name="Pavel Kuzub, YLLOW_DRAGON">
   <requires>
-    <import addon="xbmc.python"              version="2.14.0"/>
+    <import addon="xbmc.python" version="2.14.0"/>
     <import addon="script.module.simplejson" version="2.0.10"/>
   </requires>
-  <extension point="xbmc.service"       library="service.py" start="login"/>
+  <extension point="xbmc.service" library="service.py" start="login"/>
   <extension point="xbmc.python.script" library="script.py"/>
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
@@ -613,7 +613,8 @@
     <description lang="ru">Как только вы начнете просмотр вашего 3D кино - ваш Samsung 3DTV, который подключен к вашей локальной сети, должен автоматически переключиться в соответсвующий 3D режим</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=185212</forum>
-    <source>https://github.com/PavelKuzub/service.3denabler.samsungtv</source>
+    <email>nkvoronov@gmail.com</email>
+    <source>https://github.com/nkvoronov/service.3denabler.samsungtv.git</source>
   </extension>
 </addon>
 
