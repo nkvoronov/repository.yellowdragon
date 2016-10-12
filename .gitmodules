@@ -86,3 +86,7 @@
 	path = script.elec.devupdate
 	url = https://github.com/nkvoronov/script.openelec.devupdate.git
 	branch = 14.38.jarvis
+[submodule "service.3denabler.samsungtv"]
+	path = service.3denabler.samsungtv
+	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
+	branch = vmaster
