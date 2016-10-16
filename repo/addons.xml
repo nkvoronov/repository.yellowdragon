@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.043" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.044" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -285,7 +285,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.0" provider-name="marcelveldt">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.1" provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
     </requires>
@@ -301,7 +301,7 @@
 
 <addon id="script.module.thetvdb"
        name="The TVDB API v2"
-       version="1.0.1"
+       version="1.0.2"
        provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
@@ -551,6 +551,28 @@
         <email>nkvoronov@gmail.com</email>
         <source>https://github.com/nkvoronov/Transmission-XBMC.git</source>
     </extension>
+</addon>
+
+<addon
+   id="script.vdr.front"
+   name="Run VDR Fronend"
+   version="1.0.6"
+   provider-name="YLLOW_DRAGON">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"  library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Start VDR frontend</summary>
+    <description lang="en">Start VDR frontend</description>
+    <summary lang="ru">Старт VDR frontend</summary>
+    <description lang="ru">Старт VDR frontend</description>
+    <platform>linux</platform>
+    <email>nkvoronov@gmail.com</email>
+    <source>https://github.com/nkvoronov/script.vdr.front.git</source>
+  </extension>
 </addon>
 
 <addon id="script.xbmc.audio.mixer"

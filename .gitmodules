@@ -90,3 +90,7 @@
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
 	branch = vmaster
+[submodule "script.vdr.front"]
+	path = script.vdr.front
+	url = https://github.com/nkvoronov/script.vdr.front.git
+	branch = master
