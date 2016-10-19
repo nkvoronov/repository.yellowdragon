@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.052" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.053" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -450,7 +450,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.116.009" provider-name="marcelveldt,YLLOW_DRAGON">
+<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.116.010" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
