@@ -13,11 +13,11 @@
 [submodule "script.skinshortcuts"]
 	path = script.skinshortcuts
 	url = https://github.com/nkvoronov/script.skinshortcuts.git
-	branch = v1.0.10
+	branch = vmaster
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.0.110
+	branch = vmaster
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
@@ -93,4 +93,8 @@
 [submodule "script.vdr.front"]
 	path = script.vdr.front
 	url = https://github.com/nkvoronov/script.vdr.front.git
+	branch = master
+[submodule "script.module.skin.helper.artutils.git"]
+	path = script.module.skin.helper.artutils.git
+	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
 	branch = master

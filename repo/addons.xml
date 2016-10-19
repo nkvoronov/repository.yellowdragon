@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.051" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.052" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -299,6 +299,31 @@
     </extension>
 </addon>
 
+<addon id="script.module.skin.helper.artutils"
+       name="Skin Helper Artwork and metadata Module"
+       version="1.0.0"
+       provider-name="marcelveldt">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.thetvdb" version="0.0.1" />
+        <import addon="script.module.musicbrainz" version="0.0.1" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary>Metadata and artwork from common sources TMDB, IMDB and fanart.tv </summary>
+        <description>
+            The Skin Helper artwork and metadata module provides rich metadata, including artwork for
+            various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.
+        </description>
+        <license>Apache 2.0</license>
+        <source>https://github.com/marcelveldt/script.module.skin.helper.artutils</source>
+        <platform>all</platform>
+    </extension>
+</addon>
+
 <addon id="script.module.thetvdb"
        name="The TVDB API v2"
        version="1.0.2"
@@ -425,17 +450,14 @@
 	</extension>
 </addon>
 
-<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.008" provider-name="marcelveldt,YLLOW_DRAGON">
+<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.116.009" provider-name="marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
-		<import addon="script.module.requests" version="2.3.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8" />
-        <import addon="script.module.thetvdb" version="0.0.1" />
-        <import addon="script.module.musicbrainz" version="0.0.1" />
         <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.skin.helper.artutils" version="1.0.0"/>
 	</requires>
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
@@ -453,15 +475,12 @@
                 <description>Music artwork Configuration</description>
                 <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_music)) + [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]</visible>
             </item>
-            <item library="resources\lib\ContextMenu_serieslevel.py">
-                <label>32072</label>
-                <description>Display Series level button in next/recent/in progress episodes listings</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_series)) + Container.Content(episodes) + !StringCompare(Container.ListItem(0).TvShowTitle,Container.ListItem(1).TvShowTitle)</visible>
-            </item>
         </menu>
 	</extension>
     <extension point="xbmc.python.library" library="default.py" />
-	<extension point="xbmc.python.pluginsource" library="plugin.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video audio</provides>
+    </extension>
 	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins</summary>
@@ -478,7 +497,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.10.005" provider-name="BigNoid,marcelveldt,YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.11.006" provider-name="BigNoid,marcelveldt,YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -486,7 +505,7 @@
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
-		<news>New features for skinners including context menu in management dialog, icon override and build improvements. New features for users including ability to disable a menu item and Krypton fixes.</news>
+		<news>Minor behaviour changes for skinners and bug fixes.</news>
 		<description lang="bg">Добавка за облици, която осигурява просто управление и списък с потребителски преки пътища (изисква поддръжка от облика)</description>
 		<description lang="de">Add-on für Skins für einfache Bearbeitung und Auflistung von benutzerdefinierten Verknüpfungen (erfordert Skin-Unterstützung)</description>
 		<description lang="el">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
