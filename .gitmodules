@@ -98,3 +98,7 @@
 	path = script.module.skin.helper.artutils.git
 	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
 	branch = master
+[submodule "script.image.resource.select"]
+	path = script.image.resource.select
+	url = https://github.com/nkvoronov/script.image.resource.select.git
+	branch = master

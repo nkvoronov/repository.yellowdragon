@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.059" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.060" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -264,6 +264,24 @@
 		<website></website>
 		<email></email>
 		<source>https://github.com/ronie/script.globalsearch/</source>
+	</extension>
+</addon>
+
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="1.1.0" provider-name="ronie">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Image resource selection addon</summary>
+		<description lang="en">Script for skinners to let users select an image resource addon.</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=239558</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/ronie/script.image.resource.select</source>
 	</extension>
 </addon>
 
@@ -742,7 +760,7 @@
 
 <addon
   id="skin.confluence-extented"
-  version="2.8.8.087"
+  version="2.8.8.088"
   name="Confluence Extented"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -943,7 +961,7 @@
 
 <addon
   id="skin.confluence-extented-s"
-  version="2.8.8.101"
+  version="2.8.8.102"
   name="Confluence Extented Shortcuts"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -1340,7 +1358,7 @@
 
 <addon
     id="skin.estuary-extented"
-    version="0.7.9.047"
+    version="0.7.9.048"
     name="Estuary Extented"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
