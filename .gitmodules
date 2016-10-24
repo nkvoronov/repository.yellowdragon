@@ -101,4 +101,4 @@
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
-	branch = master
+	branch = jarvis

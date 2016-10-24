@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.060" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.061" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -267,21 +267,24 @@
 	</extension>
 </addon>
 
-<addon id="script.image.resource.select" name="Image Resource Select Addon" version="1.1.0" provider-name="ronie">
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="0.1.1.001" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.simplejson" version="3.3.0" />
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Image resource selection addon</summary>
+        <summary lang="ru">Выбор дополнения ресурса изображения</summary>
 		<description lang="en">Script for skinners to let users select an image resource addon.</description>
+        <description lang="ru">Скрипт позволяет пользователям выбрать дополнение ресурса изображения.</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=239558</forum>
 		<website></website>
-		<email></email>
-		<source>https://github.com/ronie/script.image.resource.select</source>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.image.resource.select.git</source>
 	</extension>
 </addon>
 
