@@ -44,7 +44,7 @@ class Generator:
         self._pre_run()
         self._generate_repo_files()
         self._generate_addons_file()
-        self._generate_md5_file()
+        self._generate_md5_file(self.output_path + "addons.xml")
         self._generate_zip_files()        
         # notify user
         print "Finished updating addons xml, md5 files and zipping addons"
@@ -129,7 +129,8 @@ class Generator:
         news=self.config.get('addon', 'news')
         branch=self.config.get('locations', 'branch')
         url=self.config.get('locations', 'url')
-        datadir=self.config.get('locations', 'datadir')        
+        datadir=self.config.get('locations', 'datadir')
+        zip_md5=self.config.get('options', 'zip_md5')        
 
         if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
         
@@ -152,6 +153,7 @@ class Generator:
             branch=branch,
             url=url,
             datadir=datadir,
+            zip_md5=zip_md5,
             output_path=self.output_path)
             
         if os.path.exists(self.resources_path):
@@ -206,9 +208,13 @@ class Generator:
             if not os.path.exists(self.output_path + addonid):
                 os.makedirs(self.output_path + addonid)
          
-            if os.path.isfile(self.output_path + addonid + os.path.sep + filename):
-                os.rename(self.output_path + addonid + os.path.sep + filename, self.output_path + addonid + os.path.sep + filename + "." + datetime.datetime.now().strftime("%Y%m%d%H%M%S") )
             shutil.move(filename, self.output_path + addonid + os.path.sep + filename)
+            
+            zip_md5=self.config.get('options', 'zip_md5')
+            
+            if zip_md5 == "true":
+                self._generate_md5_file(self.output_path + addonid + os.path.sep + filename)
+            
         except Exception, e:
             print e
 
@@ -244,12 +250,12 @@ class Generator:
         # save file
         self._save_file( addons_xml.encode( "utf-8" ), file=self.output_path + "addons.xml" )
 
-    def _generate_md5_file( self ):
+    def _generate_md5_file( self, pfile ):
         try:
             # create a new md5 hash
-            m = md5.new( open(self.output_path +  "addons.xml" ).read() ).hexdigest()
+            m = md5.new( open(pfile).read() ).hexdigest()
             # save file
-            self._save_file( m, file=self.output_path + "addons.xml.md5" )
+            self._save_file( m, file=pfile + ".md5" )
         except Exception, e:
             # oops
             print "An error occurred creating addons.xml.md5 file!\n%s" % ( e, )

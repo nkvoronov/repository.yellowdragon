@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.061" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.062" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
     <extension point="xbmc.addon.repository" name="Yellow Dragon Repository">
         <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://github.com/nkvoronov/repository.yellowdragon/raw/jarvis/repo/</datadir>
+        <datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/jarvis/repo/</datadir>
         <hashes>false</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -16,7 +16,7 @@
         <description  lang="en">Download and install YLLOW_DRAGON addons repository.</description>
         <description  lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON.</description>
         <platform>all</platform>
-        <news>Initial</news>
+        <news></news>
     </extension>
 </addon>
 
