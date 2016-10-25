@@ -130,7 +130,9 @@ class Generator:
         branch=self.config.get('locations', 'branch')
         url=self.config.get('locations', 'url')
         datadir=self.config.get('locations', 'datadir')
-        zip_md5=self.config.get('options', 'zip_md5')        
+        compressed=self.config.get('options', 'compressed')
+        zip=self.config.get('options', 'zip')
+        hashes=self.config.get('options', 'hashes') 
 
         if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
         
@@ -153,7 +155,9 @@ class Generator:
             branch=branch,
             url=url,
             datadir=datadir,
-            zip_md5=zip_md5,
+            compressed=compressed,
+            zip=zip,            
+            hashes=hashes,
             output_path=self.output_path)
             
         if os.path.exists(self.resources_path):
@@ -279,7 +283,8 @@ class Generator:
                     res_patch = node.toxml().replace('<icon>','').replace('</icon>','').replace('<fanart>','').replace('</fanart>','').replace('<screenshot>','').replace('</screenshot>','').strip()
                     if res_patch != "":
                         src_patch = os.path.join( addonid, res_patch )
-                        dst_patch = os.path.join( os.path.join( self.output_path, addonid ), res_patch )
+                        dst_patch = os.path.join(os.path.join( self.output_path, addonid ), res_patch)
+                        #dst_patch = os.path.join(os.path.join( self.output_path, addonid ), os.path.basename(res_patch))
                         if os.path.isfile( src_patch ):
                             if not os.path.exists(os.path.dirname(dst_patch)):
                                 os.makedirs(os.path.dirname(dst_patch))
