@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.063" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.064" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -763,7 +763,7 @@
 
 <addon
   id="skin.confluence-extented"
-  version="2.8.8.088"
+  version="2.8.8.089"
   name="Confluence Extented"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -819,7 +819,7 @@
     <summary lang="mk_MK">Confluence Extented skin by Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="ms_MY">Penyatuan, kulit daripada Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="mt_MT">Dehra Confluence Extented magħmula minn Jezz_X. (Id-dehra normali ta' Kodi)</summary>
-    <summary lang="nb_NO">Confluence-skall av Jezz_X. (Kodis standardskall)</summary>
+    <summary lang="nb_NO">Confluence Extented-skall av Jezz_X. (Kodis standardskall)</summary>
     <summary lang="nl_NL">Confluence Extented skin door Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="pl_PL">Confluence Extented autorstwa Jezz_X, Team XBMC, YLLOW_DRAGON, plood (domyślna skóra Kodi)</summary>
     <summary lang="pt_BR">Skin Confluence Extented por Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
@@ -829,10 +829,10 @@
     <summary lang="sk_SK">Confluence Extented skin od Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="sl_SI">Preobleka Confluence Extented avtorja Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="sq_AL">Maska Confluence Extented nga Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-    <summary lang="sr_RS">Confluence маска аутора Jezz_X. (подразумевана Kodi маска)</summary>
+    <summary lang="sr_RS">Confluence Extented маска аутора Jezz_X. (подразумевана Kodi маска)</summary>
     <summary lang="sr_RS@latin">Confluence Extented maska autora Jezz_X, Team XBMC, YLLOW_DRAGON, plood. (podrazumevana Kodi maska)</summary>
     <summary lang="sv_SE">Confluence Extented, ett skal av Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-    <summary lang="szl">Skōra Confluence zrychtowanŏ ôd Jeez_X. (wychodnŏ skōra we Kodi)</summary>
+    <summary lang="szl">Skōra Confluence Extented zrychtowanŏ ôd Jeez_X. (wychodnŏ skōra we Kodi)</summary>
     <summary lang="tg_TJ">Пӯсти ҳамҷараёнӣ аз ҷониби Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="th_TH">ชุดตกแต่ง Confluence Extented โดย  Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
     <summary lang="tr_TR">Jezz_X, Team XBMC, YLLOW_DRAGON, plood tarafından Confluence Extented dış görünümü.</summary>
@@ -929,7 +929,7 @@
     <disclaimer lang="is_IS">Confluence Extented er sjálfgefið útlit Kodi, það getur orsakað vandamál að fjarlægja það.</disclaimer>
     <disclaimer lang="it_IT">Confluence Extented è la skin predefinita di Kodi, rimuoverla potrebbe comportare dei problemi</disclaimer>
     <disclaimer lang="ja_JP">Confluence Extented は Kodi のデフォルトスキンですので、これを削除するとうまく動かなくなる可能性があります</disclaimer>
-    <disclaimer lang="ko_KR">Confluence는 Kodi의 기본스킨으로 제거시 문제가 생길 수 있습니다.</disclaimer>
+    <disclaimer lang="ko_KR">Confluence Extented는 Kodi의 기본스킨으로 제거시 문제가 생길 수 있습니다.</disclaimer>
     <disclaimer lang="lt_LT">Confluence Extented yra numatytoji Kodi teminė išvaizda, jos pašalinimas gali sukelti problemų</disclaimer>
     <disclaimer lang="lv_LV">Confluence Extented ir Kodi noklusētais apvalks, dzēšot to, var rasties problēmas</disclaimer>
     <disclaimer lang="mk_MK">Confluence Extented е основната маска, бришењето може да предизвика проблеми</disclaimer>
