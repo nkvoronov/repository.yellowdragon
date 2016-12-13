@@ -102,3 +102,7 @@
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
 	branch = jarvis
+[submodule "skin.estuary-extented-s"]
+	path = skin.estuary-extented-s
+	url = https://github.com/nkvoronov/skin.estuary-extented.git
+	branch = jarvis-s
