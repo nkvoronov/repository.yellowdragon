@@ -90,3 +90,19 @@
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
 	branch = jarvis
+[submodule "skin.confluence-extended"]
+	path = skin.confluence-extended
+	url = https://github.com/nkvoronov/skin.confluence-extended.git
+	branch = jarvis
+[submodule "skin.confluence-extended-s"]
+	path = skin.confluence-extended-s
+	url = https://github.com/nkvoronov/skin.confluence-extended.git
+	branch = jarvis-s
+[submodule "skin.estuary-extended"]
+	path = skin.estuary-extended
+	url = https://github.com/nkvoronov/skin.estuary-extended.git
+	branch = jarvis
+[submodule "skin.estuary-extended-s"]
+	path = skin.estuary-extended-s
+	url = https://github.com/nkvoronov/skin.estuary-extended.git
+	branch = jarvis-s
