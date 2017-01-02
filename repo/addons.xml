@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.081" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.082" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -767,7 +767,7 @@
 
 <addon
   id="skin.confluence-extended"
-  version="2.8.8.092"
+  version="2.8.8.093"
   name="Confluence Extended"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
