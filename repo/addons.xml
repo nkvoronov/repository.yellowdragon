@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.085" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.086" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -306,7 +306,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.11" provider-name="marcelveldt">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.1" provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
     </requires>
@@ -348,7 +348,7 @@
 
 <addon id="script.module.thetvdb"
        name="The TVDB API v2"
-       version="1.0.11"
+       version="1.0.2"
        provider-name="marcelveldt">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>

@@ -21,15 +21,15 @@
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = master
+	branch = v1.0.1
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
-	branch = master
+	branch = v1.0.2
 [submodule "script.module.musicbrainz"]
 	path = script.module.musicbrainz
 	url = https://github.com/nkvoronov/script.module.musicbrainz.git
-	branch = master
+	branch = v0.6.0
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
