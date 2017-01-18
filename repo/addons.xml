@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.090" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.091" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -323,6 +323,32 @@
         <platform>all</platform>
         <email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.simplecache.git</source>
+    </extension>
+</addon>
+
+<addon id="script.module.skin.helper.artutils"
+       name="Skin Helper Artwork and metadata Module"
+       version="1.0.30.004"
+       provider-name="marcelveldt, YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.python" version="2.24.0"/>
+        <import addon="script.module.requests" version="2.3.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8" />
+        <import addon="script.module.thetvdb" version="0.0.1" />
+        <import addon="script.module.musicbrainz" version="0.0.1" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.arrow" version="0.6.0"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Metadata and artwork from common sources TMDB, IMDB and fanart.tv </summary>
+        <summary lang="ru_RU">Метаданные и иллюстраций из общих источников TMDb, IMDB и fanart.tv </summary>
+        <description lang="en_GB">The Skin Helper artwork and metadata module provides rich metadata, including artwork for various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.</description>
+        <description lang="ru_RU">Модуль Skin Helper artwork and metadata получает метаданные и иллюстраций для различные метатипов с сайтов TMDb, MusicBrainz и fanart.tv.</description>
+        <license>Apache 2.0</license>
+        <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.module.skin.helper.artutils.git</source>
     </extension>
 </addon>
 
