@@ -9,7 +9,7 @@
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.0.110
+	branch = v1.0.145
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
@@ -21,11 +21,11 @@
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = v1.0.1
+	branch = v1.0.11
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
-	branch = v1.0.2
+	branch = v1.0.12
 [submodule "script.module.musicbrainz"]
 	path = script.module.musicbrainz
 	url = https://github.com/nkvoronov/script.module.musicbrainz.git
@@ -33,7 +33,7 @@
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
-	branch = vmaster
+	branch = v1.0.9
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
@@ -85,7 +85,7 @@
 [submodule "script.module.skin.helper.artutils.git"]
 	path = script.module.skin.helper.artutils.git
 	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
-	branch = master
+	branch = v1.0.30
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
@@ -106,3 +106,15 @@
 	path = skin.estuary-extended-s
 	url = https://github.com/nkvoronov/skin.estuary-extended.git
 	branch = jarvis-s
+[submodule "script.skin.helper.backgrounds"]
+	path = script.skin.helper.backgrounds
+	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
+	branch = v1.0.14
+[submodule "script.skin.helper.skinbackup"]
+	path = script.skin.helper.skinbackup
+	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
+	branch = v1.0.11
+[submodule "script.skin.helper.widgets"]
+	path = script.skin.helper.widgets
+	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
+	branch = v1.0.15

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.088" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.089" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -290,40 +290,46 @@
 
 <addon id="script.module.musicbrainz"
        name="Musicbrainz NGS webservice python bindings"
-       version="0.6.0"
-       provider-name="marcelveldt">
+       version="0.6.0.002"
+       provider-name="marcelveldt, YLLOW_DRAGON">
   <requires>
   <import addon="xbmc.python" version="2.24.0"/>
   </requires>
   <extension point="xbmc.python.module"
              library="lib" />
   <extension point="xbmc.addon.metadata">
-    <summary>Python bindings for Musicbrainz' NGS webservice</summary>
-    <description>Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
+    <summary lang="en_GB">Python bindings for Musicbrainz' NGS webservice</summary>
+    <summary lang="ru_RU">Python модуль для вебсервиса Musicbrainzngs</summary>
+    <description lang="en_GB">Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
+    <description lang="ru_RU">Kodi Python модуль для вебсервиса Musicbrainzngs, разработанного alastair.</description>
     <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-    <source>https://github.com/marcelveldt/script.module.musicbrainz</source>
     <platform>all</platform>
+    <email>nkvoronov@gmail.com</email>
+    <source>https://github.com/nkvoronov/script.module.simplecache.git</source>
   </extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.1" provider-name="marcelveldt">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.11.002" provider-name="marcelveldt, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary>Provides a simple file- and memory based cache for Kodi addons</summary>
-        <description>Provides a simple file- and memory based cache for Kodi addons</description>
+        <summary lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</summary>
+        <summary lang="ru_RU">Предоставляет простой файл на основе кэш-памяти для KODI дополнений</summary>
+        <description lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</description>
+        <description lang="ru_RU">Предоставляет простой файл на основе кэш-памяти для KODI дополнений</description>
         <license>Apache 2.0</license>
-        <source>https://github.com/marcelveldt/script.module.simplecache</source>
         <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.module.simplecache.git</source>
     </extension>
 </addon>
 
 <addon id="script.module.skin.helper.artutils"
        name="Skin Helper Artwork and metadata Module"
-       version="1.0.27"
-       provider-name="marcelveldt">
+       version="1.0.30.004"
+       provider-name="marcelveldt, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.module.requests" version="2.3.0"/>
@@ -335,21 +341,21 @@
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary>Metadata and artwork from common sources TMDB, IMDB and fanart.tv </summary>
-        <description>
-            The Skin Helper artwork and metadata module provides rich metadata, including artwork for
-            various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.
-        </description>
+        <summary lang="en_GB">Metadata and artwork from common sources TMDB, IMDB and fanart.tv </summary>
+        <summary lang="ru_RU">Метаданные и иллюстраций из общих источников TMDb, IMDB и fanart.tv </summary>
+        <description lang="en_GB">The Skin Helper artwork and metadata module provides rich metadata, including artwork for various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.</description>
+        <description lang="ru_RU">Модуль Skin Helper artwork and metadata получает метаданные и иллюстраций для различные метатипов с сайтов TMDb, MusicBrainz и fanart.tv.</description>
         <license>Apache 2.0</license>
-        <source>https://github.com/marcelveldt/script.module.skin.helper.artutils</source>
         <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.module.skin.helper.artutils.git</source>
     </extension>
 </addon>
 
 <addon id="script.module.thetvdb"
        name="The TVDB API v2"
-       version="1.0.2"
-       provider-name="marcelveldt">
+       version="1.0.12.002"
+       provider-name="marcelveldt, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
         <import addon="script.module.requests" version="2.3.0"/>
@@ -359,11 +365,14 @@
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary>TheTVDB API v2 python module for Kodi</summary>
-        <description>TheTVDB API v2 python module for Kodi</description>
+        <summary lang="en_GB">TheTVDB API v2 python module for Kodi</summary>
+        <summary lang="ru_RU">TheTVDB API v2 модуль python для Kodi</summary>
+        <description lang="en_GB">TheTVDB API v2 python module for Kodi</description>
+        <description lang="ru_RU">TheTVDB API v2 модуль python для Kodi</description>
         <license>Apache 2.0</license>
-        <source>https://github.com/marcelveldt/script.module.thetvdb</source>
         <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.module.thetvdb.git</source>
     </extension>
 </addon>
 
@@ -453,7 +462,34 @@
     </extension>
 </addon>
 
-<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.9.003" provider-name="marcelveldt,YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.14.002" provider-name="marcelveldt, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.skin.helper.artutils" version="1.0.0"/>
+	</requires>
+
+    <extension point="xbmc.python.library" library="default.py" />
+    <extension point="xbmc.service" library="service.py" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Helper service for Kodi skins (Backgrounds)</summary>
+        <summary lang="ru_RU">Сервис помощник для KODI обложек (Фоны)</summary>
+        <description lang="en_GB">>Helper service for Kodi skins (Backgrounds)</description>
+        <description lang="ru_RU">Сервис помощник для KODI обложек (Фоны)</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+        <email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.skin.helper.backgrounds.git</source>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.9.005" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -461,58 +497,61 @@
 	</requires>
     <extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
-        <summary lang="ru_RU">Выбор цвета для обложки KODI. Часть Сервис Помощника</summary>
+        <summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+        <summary lang="ru_RU">Выбор цвета для обложки KODI. Часть Skin Helper</summary>
         <description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
-        <description lang="ru_RU">Выбор цвета для обложки KODI. Часть Сервис Помощника</description>
+        <description lang="ru_RU">Выбор цвета для обложки KODI. Часть Skin Helper</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<website></website>
-		<email>nkvoronov@gmail.com</email>
+        <email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.colorpicker.git</source>
 	</extension>
 </addon>
 
-<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.110.008" provider-name="marcelveldt,YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.145.011" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-		<import addon="script.module.requests" version="2.3.0"/>
         <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8" />
-        <import addon="script.module.thetvdb" version="0.0.1" />
-        <import addon="script.module.musicbrainz" version="0.0.1" />
         <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.skin.helper.artutils" version="1.0.0"/>
 	</requires>
+
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
-            <item library="resources\lib\ContextMenu_animatedart.py">
-              <label>32175</label>
-              <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_animatedart)) + [Container.Content(movies) + Skin.HasSetting(SkinHelper.EnableAnimatedPosters)]</visible>
+            <item library="resources\lib\context_animatedart.py">
+              <label>32024</label>
+              <visible>!IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
             </item>
-            <item library="resources\lib\ContextMenu_pvr.py">
-                <label>32120</label>
+            <item library="resources\lib\context_pvr.py">
+                <label>32023</label>
                 <description>PVR artwork Configuration</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_pvr)) + [Window.IsActive(MyPVRChannels.xml) | Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) | Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)] + Skin.HasSetting(SkinHelper.EnablePVRThumbs)</visible>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
+                    [Window.IsActive(MyPVRChannels.xml) |
+                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) |
+                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
+                </visible>
             </item>
-            <item library="resources\lib\ContextMenu_music.py">
-                <label>32122</label>
+            <item library="resources\lib\context_music.py">
+                <label>32023</label>
                 <description>Music artwork Configuration</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_music)) + [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]</visible>
-            </item>
-            <item library="resources\lib\ContextMenu_serieslevel.py">
-                <label>32072</label>
-                <description>Display Series level button in next/recent/in progress episodes listings</description>
-                <visible>!IsEmpty(Window(Home).Property(SkinHelper.enablecontextmenu_series)) + Container.Content(episodes) + !StringCompare(Container.ListItem(0).TvShowTitle,Container.ListItem(1).TvShowTitle)</visible>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
+                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
+                </visible>
             </item>
         </menu>
 	</extension>
+
     <extension point="xbmc.python.library" library="default.py" />
-	<extension point="xbmc.python.pluginsource" library="plugin.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+    </extension>
 	<extension library="service.py" point="xbmc.service" start="login" />
+
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins</summary>
         <summary lang="ru_RU">Сервис помощник для KODI обложек</summary>
@@ -523,12 +562,63 @@
 		<license>GPL v2.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
 		<website></website>
-		<email>nkvoronov@gmail.com</email>
+        <email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.service.git</source>
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.13.010" provider-name="BigNoid,marcelveldt,YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.11.004" provider-name="marcelveldt, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+    <extension point="xbmc.python.script" library="default.py" />
+	<extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Helper service for Kodi skins (Backup)</summary>
+        <summary lang="ru_RU">Сервис помощник для KODI обложек (Резерное копирование)</summary>
+        <description lang="en_GB">Helper service for Kodi skins (Backup)</description>
+        <description lang="ru_RU">Сервис помощник для KODI обложек (Резерное копирование)</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+        <email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.skin.helper.skinbackup.git</source>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.15.005" provider-name="marcelveldt, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.skin.helper.artutils" version="1.0.0" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video audio</provides>
+    </extension>
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Helper service for Kodi skins (Widgets)</summary>
+        <summary lang="ru_RU">Сервис помощник для KODI обложек (Виджеты)</summary>
+        <description lang="en_GB">>Helper service for Kodi skins (Widgets)</description>
+        <description lang="ru_RU">Сервис помощник для KODI обложек (Виджеты)</description>
+        <description></description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+        <email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.skin.helper.widgets.git</source>
+	</extension>
+</addon>
+
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.13.013" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -556,7 +646,7 @@
 		<description lang="pl">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
 		<description lang="pt">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
 		<description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
-		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления и список пользовательских ярлыков (требуется поддержка обложкой)</description>
+		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления списками пользовательских ярлыков (требуется поддержка обложкой)</description>
 		<description lang="sv">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
 		<description lang="zh">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
 		<language></language>
@@ -767,7 +857,7 @@
 
 <addon
   id="skin.confluence-extended"
-  version="2.8.8.095"
+  version="2.8.8.096"
   name="Confluence Extended"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -776,6 +866,7 @@
     <import addon="script.pvr.favourites" version="1.6.0"/>
     <import addon="service.skin.widgets" version="0.0.32"/>
     <import addon="script.randomandlastitems" version="2.2.2"/>
+    <import addon="script.image.resource.select" version="1.1.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
@@ -968,13 +1059,18 @@
 
 <addon
   id="skin.confluence-extended-s"
-  version="2.8.8.110"
+  version="2.8.8.112"
   name="Confluence Extended Shortcuts"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
     <import addon="xbmc.gui" version="5.10.0"/>
+    <import addon="script.image.resource.select" version="1.1.0"/>
     <import addon="script.skinshortcuts" version="1.0.10"/>
     <import addon="script.skin.helper.service" version="1.0.10"/>
+    <import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+    <import addon="script.skin.helper.widgets" version="1.0.10"/>
+    <import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+    <import addon="script.skin.helper.colorpicker" version="1.0.0"/>
   </requires>
   <extension
     point="xbmc.gui.skin"
@@ -1363,12 +1459,19 @@
   </extension>
 </addon>
 
-<addon id="skin.estuary-extended" version="0.8.5.063" name="Estuary Extended" provider-name="phil65, Piers, YLLOW_DRAGON">
+<addon
+    id="skin.estuary-extended"
+    version="0.8.5.067"
+    name="Estuary Extended"
+    provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
 		<import addon="script.pvr.favourites" version="1.6.0"/>
+        <import addon="script.image.resource.select" version="1.1.0"/>
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
+	<extension
+        point="xbmc.gui.skin"
+        debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
 	</extension>
@@ -1478,14 +1581,25 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary-extended-s" version="0.8.5.072" name="Estuary Extended Shortcuts" provider-name="phil65, Piers, YLLOW_DRAGON">
+<addon
+    id="skin.estuary-extended-s"
+    version="0.8.5.073"
+    name="Estuary Extended Shortcuts"
+    provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.10.0"/>
 		<import addon="script.pvr.favourites" version="1.6.0"/>
+        <import addon="script.image.resource.select" version="1.1.0"/>
         <import addon="script.skinshortcuts" version="1.0.10"/>
         <import addon="script.skin.helper.service" version="1.0.10"/>
+        <import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+        <import addon="script.skin.helper.widgets" version="1.0.10"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.0"/>
 	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
+	<extension
+        point="xbmc.gui.skin"
+        debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i" />
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="1080i" />
 	</extension>
