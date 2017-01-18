@@ -82,10 +82,6 @@
 	path = script.vdr.front
 	url = https://github.com/nkvoronov/script.vdr.front.git
 	branch = master
-[submodule "script.module.skin.helper.artutils.git"]
-	path = script.module.skin.helper.artutils.git
-	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
-	branch = v1.0.30
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
