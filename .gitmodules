@@ -9,7 +9,7 @@
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.0.145
+	branch = v1.0.146
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
@@ -21,7 +21,7 @@
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = v1.0.11
+	branch = v1.0.12
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
@@ -33,7 +33,7 @@
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
-	branch = v1.0.9
+	branch = v1.0.11
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
@@ -105,16 +105,16 @@
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
-	branch = v1.0.14
+	branch = v1.0.16
 [submodule "script.skin.helper.skinbackup"]
 	path = script.skin.helper.skinbackup
 	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
-	branch = v1.0.11
+	branch = v1.0.12
 [submodule "script.skin.helper.widgets"]
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
-	branch = v1.0.15
+	branch = v1.0.17
 [submodule "script.module.skin.helper.artutils"]
 	path = script.module.skin.helper.artutils
 	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
-	branch = v1.0.30
+	branch = v1.0.32

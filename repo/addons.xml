@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.093" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.094" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -54,24 +54,24 @@
 </addon>
 
 <addon
-  id="script.epg.vsetv"
-  name="Vse TV"
-  version="2.1.4"
-  provider-name="YLLOW_DRAGON">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py"/>
-  <extension point="xbmc.service" library="service.py" start="login"/>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
-    <summary lang="ru">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
-    <description lang="en">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
-    <description lang="ru">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
-    <platform>all</platform>
-    <email>nkvoronov@gmail.com</email>
-    <source></source>
-  </extension>
+    id="script.epg.vsetv"
+    name="Vse TV"
+    version="2.1.6"
+    provider-name="YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py"/>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
+        <summary lang="ru">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
+        <description lang="en">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
+        <description lang="ru">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
+        <platform>all</platform>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
+    </extension>
 </addon>
 
 <addon id="script.favourites" name="Favourites script" version="6.0.3" provider-name="ronie, `Black">
@@ -309,7 +309,7 @@
   </extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.11.002" provider-name="marcelveldt, YLLOW_DRAGON">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.12.003" provider-name="marcelveldt, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
     </requires>
@@ -328,7 +328,7 @@
 
 <addon id="script.module.skin.helper.artutils"
        name="Skin Helper Artwork and metadata Module"
-       version="1.0.30.004"
+       version="1.0.32.005"
        provider-name="marcelveldt, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
@@ -379,7 +379,7 @@
 <addon
     id="script.pvr.favourites"
     name="PVR favourites"
-    version="1.6.8"
+    version="1.6.9"
     provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.20.0"/>
@@ -462,7 +462,7 @@
     </extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.14.002" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.16.003" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -489,7 +489,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.9.005" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.11.006" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -511,7 +511,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.145.011" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.0.146.012" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -567,7 +567,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.11.004" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.12.005" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -590,7 +590,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.15.005" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.17.006" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -1059,7 +1059,7 @@
 
 <addon
   id="skin.confluence-extended-s"
-  version="2.8.8.114"
+  version="2.8.8.115"
   name="Confluence Extended Shortcuts"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -1461,7 +1461,7 @@
 
 <addon
     id="skin.estuary-extended"
-    version="0.8.5.068"
+    version="0.8.5.075"
     name="Estuary Extended"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
@@ -1583,7 +1583,7 @@
 
 <addon
     id="skin.estuary-extended-s"
-    version="0.8.5.074"
+    version="0.8.5.075"
     name="Estuary Extended Shortcuts"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
