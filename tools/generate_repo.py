@@ -85,7 +85,7 @@ class Generator:
 
         if self.revision > 99:
             self.revision_str = str(self.revision)        
-        elif self.revision < 99 and self.revision > 9:        
+        elif self.revision <= 99 and self.revision > 9:        
             self.revision_str = "0" + str(self.revision)
         else:
             self.revision_str = "00" + str(self.revision)
