@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.111" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="16.1.112" provider-name="YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
@@ -1462,7 +1462,7 @@
 
 <addon
     id="skin.estuary-extended"
-    version="0.8.5.083"
+    version="0.8.5.085"
     name="Estuary Extended"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
@@ -1584,7 +1584,7 @@
 
 <addon
     id="skin.estuary-extended-s"
-    version="0.8.5.094"
+    version="0.8.5.095"
     name="Estuary Extended Shortcuts"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
