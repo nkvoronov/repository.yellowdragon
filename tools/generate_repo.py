@@ -77,7 +77,7 @@ class Generator:
         # update git
         print "GIT Pull"
         os.system('git pull')
-                
+        
         # current revision + 1        
         if os.path.isfile( self.rev_path ): 
             self.revision = int(open(self.rev_path, "r").read()) + 1
