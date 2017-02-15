@@ -32,6 +32,7 @@ class Generator:
         self.config.read('config.ini')
         
         self.gitcomment = "Update to version " + self.config.get('addon', 'version')
+        self.isrevision = self.config.get('options', 'is_revision')
         self.resources_path = "src"        
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
         self.rev_path = self.tools_path + os.path.sep + "revision.txt"
@@ -76,7 +77,7 @@ class Generator:
         # update git
         print "GIT Pull"
         os.system('git pull')
-        
+                
         # current revision + 1        
         if os.path.isfile( self.rev_path ): 
             self.revision = int(open(self.rev_path, "r").read()) + 1
@@ -89,8 +90,11 @@ class Generator:
             self.revision_str = "0" + str(self.revision)
         else:
             self.revision_str = "00" + str(self.revision)
-            
-        self.gitcomment = self.gitcomment + "." + self.revision_str
+
+        if self.isrevision == "true":                
+            self.gitcomment = self.gitcomment + "." + self.revision_str
+        else:
+            self.gitcomment = self.gitcomment + " (" + self.revision_str + ")"
             
         print "########## " + self.gitcomment + " ##########"
         
@@ -121,7 +125,10 @@ class Generator:
         
         addonid=self.config.get('addon', 'id')
         name=self.config.get('addon', 'name')
-        version=self.config.get('addon', 'version') + "." + self.revision_str      
+        if self.isrevision == "true":
+            version=self.config.get('addon', 'version') + "." + self.revision_str
+        else:
+            version=self.config.get('addon', 'version')        
         author=self.config.get('addon', 'author')
         kodi=self.config.get('addon', 'kodi')
         summary_en=self.config.get('addon', 'summary_en') 
