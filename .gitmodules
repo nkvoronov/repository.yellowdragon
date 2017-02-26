@@ -9,7 +9,7 @@
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.1.0
+	branch = v1.1.5
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
@@ -33,7 +33,7 @@
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
-	branch = v1.0.11
+	branch = v1.0.12
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
@@ -105,16 +105,20 @@
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
-	branch = v1.0.20
+	branch = v1.0.24
 [submodule "script.skin.helper.skinbackup"]
 	path = script.skin.helper.skinbackup
 	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
-	branch = v1.0.12
+	branch = v1.0.13
 [submodule "script.skin.helper.widgets"]
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
-	branch = v1.0.20
+	branch = v1.0.23
 [submodule "script.module.skin.helper.artutils"]
 	path = script.module.skin.helper.artutils
 	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
 	branch = v1.0.32
+[submodule "script.module.metadatautils"]
+	path = script.module.metadatautils
+	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
+	branch = v1.0.3
