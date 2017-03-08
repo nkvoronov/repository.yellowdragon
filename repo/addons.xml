@@ -884,7 +884,7 @@
 
 <addon
   id="skin.confluence-extended"
-  version="2.8.8.099"
+  version="2.8.8.107"
   name="Confluence Extended"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -1091,7 +1091,7 @@
 
 <addon
   id="skin.confluence-extended-s"
-  version="2.8.8.120"
+  version="2.8.8.129"
   name="Confluence Extended Shortcuts"
   provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
   <requires>
@@ -1498,7 +1498,7 @@
 
 <addon
     id="skin.estuary-extended"
-    version="0.8.5.088"
+    version="0.8.5.092"
     name="Estuary Extended"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
@@ -1620,7 +1620,7 @@
 
 <addon
     id="skin.estuary-extended-s"
-    version="0.8.5.099"
+    version="0.8.5.102"
     name="Estuary Extended Shortcuts"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
