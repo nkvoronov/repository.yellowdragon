@@ -290,7 +290,7 @@
 
 <addon id="script.module.metadatautils"
        name="Metadata and Artwork module"
-       version="1.0.3.001"
+       version="1.0.4.002"
        provider-name="marcelveldt, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.24.0"/>
@@ -488,7 +488,7 @@
     </extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.24.005" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.25.006" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -537,7 +537,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.5.014" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.10.015" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -616,7 +616,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.23.008" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.25.009" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
