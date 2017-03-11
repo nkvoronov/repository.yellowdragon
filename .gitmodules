@@ -114,10 +114,6 @@
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
 	branch = v1.0.25
-[submodule "script.module.skin.helper.artutils"]
-	path = script.module.skin.helper.artutils
-	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
-	branch = v1.0.32
 [submodule "script.module.metadatautils"]
 	path = script.module.metadatautils
 	url = https://github.com/nkvoronov/script.module.skin.helper.artutils.git
