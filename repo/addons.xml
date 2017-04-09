@@ -1472,7 +1472,7 @@
 
 <addon
     id="skin.estuary-extended"
-    version="0.8.5.095"
+    version="0.8.5.096"
     name="Estuary Extended"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
@@ -1594,7 +1594,7 @@
 
 <addon
     id="skin.estuary-extended-s"
-    version="0.8.5.105"
+    version="0.8.5.106"
     name="Estuary Extended Shortcuts"
     provider-name="phil65, Piers, YLLOW_DRAGON">
 	<requires>
