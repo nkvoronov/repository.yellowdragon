@@ -303,9 +303,9 @@
     </requires>
     <extension point="xbmc.python.module" library="lib" />
     <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Metadata and artwork from common sources TMDB, IMDB and fanart.tv </summary>
+        <summary lang="en_GB">Metadata and artwork from common sources like TMDB, IMDB, TADB and fanart.tv </summary>
         <summary lang="ru_RU">Метаданные и иллюстраций из общих источников TMDb, IMDB и fanart.tv </summary>
-        <description lang="en_GB">The artwork and metadata module provides rich metadata, including artwork for various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.</description>
+        <description lang="en_GB">The metadata and artwork module for Kodi provides rich metadata, including artwork for various metatypes by scraping (and caching) this information from sites like TMDB, musicbrainz and fanart.tv.</description>
         <description lang="ru_RU">Модуль artwork and metadata получает метаданные и иллюстраций для различные метатипов с сайтов TMDb, MusicBrainz и fanart.tv.</description>
         <license>Apache 2.0</license>
         <platform>all</platform>
@@ -462,7 +462,7 @@
     </extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.28.007" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.28.008" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -475,9 +475,9 @@
     <extension point="xbmc.service" library="service.py" start="login" />
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Helper service for Kodi skins (Backgrounds)</summary>
+		<summary lang="en_GB">Helper service for Kodi skins providing rotating backgrounds</summary>
         <summary lang="ru_RU">Сервис помощник для KODI обложек (Фоны)</summary>
-        <description lang="en_GB">>Helper service for Kodi skins (Backgrounds)</description>
+        <description lang="en_GB">>Helper service for Kodi skins providing rotating backgrounds</description>
         <description lang="ru_RU">Сервис помощник для KODI обложек (Фоны)</description>
 		<language></language>
 		<platform>all</platform>
@@ -567,7 +567,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.14.007" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.14.008" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -576,9 +576,9 @@
 	<extension library="service.py" point="xbmc.service" start="login" />
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Helper service for Kodi skins (Backup)</summary>
+		<summary lang="en_GB">Helper service for Kodi skins</summary>
         <summary lang="ru_RU">Сервис помощник для KODI обложек (Резерное копирование)</summary>
-        <description lang="en_GB">Helper service for Kodi skins (Backup)</description>
+        <description lang="en_GB">Helper service for Kodi skins</description>
         <description lang="ru_RU">Сервис помощник для KODI обложек (Резерное копирование)</description>
 		<language></language>
 		<platform>all</platform>
@@ -604,10 +604,10 @@
     <extension library="service.py" point="xbmc.service" start="login" />
 
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Helper service for Kodi skins (Widgets)</summary>
-        <summary lang="ru_RU">Сервис помощник для KODI обложек (Виджеты)</summary>
-        <description lang="en_GB">>Helper service for Kodi skins (Widgets)</description>
-        <description lang="ru_RU">Сервис помощник для KODI обложек (Виджеты)</description>
+		<summary lang="en_GB">Ready to use widgets for all kind of media types</summary>
+        <summary lang="ru_RU">Готовые к использованию виджеты для всех типов медиа-типов</summary>
+        <description lang="en_GB">Ready to use widgets for all kind of media types</description>
+        <description lang="ru_RU">Готовые к использованию виджеты для всех типов медиа-типов</description>
         <description></description>
 		<language></language>
 		<platform>all</platform>
@@ -619,7 +619,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.13.013" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17.016" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -657,11 +657,11 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skinshortcuts.git</source>
-	</extension>
 	<assets>
 		<icon>icon.png</icon>
 		<fanart>fanart.jpg</fanart>
 	</assets>
+	</extension>
 </addon>
 
 <addon id="script.transmission"
