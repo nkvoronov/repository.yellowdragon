@@ -22,7 +22,7 @@
 
 <addon id="script.elec.devupdate"
        name="ELEC Dev Update"
-       version="14.39.5"
+       version="14.39.6"
        provider-name="Leopold, YLLOW_DRAGON">
   <requires>
     <import addon="xbmc.python" version="2.13.0"/>
