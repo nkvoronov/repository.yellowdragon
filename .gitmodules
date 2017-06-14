@@ -9,7 +9,7 @@
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.1.13
+	branch = v1.1.17
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git

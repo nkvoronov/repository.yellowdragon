@@ -511,7 +511,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.13.017" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.17.019" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -619,7 +619,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17.016" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17.017" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
