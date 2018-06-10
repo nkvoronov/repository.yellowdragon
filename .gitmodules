@@ -1,15 +1,3 @@
-[submodule "skin.confluence-plood"]
-	path = skin.confluence-plood
-	url = https://github.com/nkvoronov/skin.confluence-plood.git
-	branch = master
-[submodule "skin.confluence-extented"]
-	path = skin.confluence-extented
-	url = https://github.com/nkvoronov/skin.confluence-extented.git
-	branch = jarvis
-[submodule "skin.confluence-extented-s"]
-	path = skin.confluence-extented-s
-	url = https://github.com/nkvoronov/skin.confluence-extented.git
-	branch = jarvis-s
 [submodule "script.skinshortcuts"]
 	path = script.skinshortcuts
 	url = https://github.com/nkvoronov/script.skinshortcuts.git
@@ -26,10 +14,6 @@
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
 	branch = master
-[submodule "skin.estuary-extented"]
-	path = skin.estuary-extented
-	url = https://github.com/nkvoronov/skin.estuary-extented.git
-	branch = jarvis
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
