@@ -66,3 +66,67 @@
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git
 	branch = vmaster
+[submodule "service.3denabler.samsungtv"]
+	path = service.3denabler.samsungtv
+	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
+	branch = vmaster
+[submodule "script.vdr.front"]
+	path = script.vdr.front
+	url = https://github.com/nkvoronov/script.vdr.front.git
+	branch = master
+[submodule "script.image.resource.select"]
+	path = script.image.resource.select
+	url = https://github.com/nkvoronov/script.image.resource.select.git
+	branch = krypton
+[submodule "skin.confluence-extended"]
+	path = skin.confluence-extended
+	url = https://github.com/nkvoronov/skin.confluence-extended.git
+	branch = krypton
+[submodule "skin.confluence-extended-s"]
+	path = skin.confluence-extended-s
+	url = https://github.com/nkvoronov/skin.confluence-extended.git
+	branch = krypton-s
+[submodule "script.skin.helper.backgrounds"]
+	path = script.skin.helper.backgrounds
+	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
+	branch = v1.0.33
+[submodule "script.skin.helper.skinbackup"]
+	path = script.skin.helper.skinbackup
+	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
+	branch = v1.0.19
+[submodule "script.skin.helper.widgets"]
+	path = script.skin.helper.widgets
+	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
+	branch = v1.0.38
+[submodule "script.module.metadatautils"]
+	path = script.module.metadatautils
+	url = https://github.com/nkvoronov/script.module.metadatautils.git
+	branch = v1.0.19
+[submodule "skin.estuary2-extended"]
+	path = skin.estuary2-extended
+	url = https://github.com/nkvoronov/skin.estuary2-extended.git
+	branch = krypton
+[submodule "skin.estuary2-extended-s"]
+	path = skin.estuary2-extended-s
+	url = https://github.com/nkvoronov/skin.estuary2-extended.git
+	branch = krypton-s
+[submodule "script.cu.lrclyrics"]
+	path = script.cu.lrclyrics
+	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
+	branch = vkrypton
+[submodule "resource.images.busyspinners.estuary"]
+	path = resource.images.busyspinners.estuary
+	url = https://github.com/nkvoronov/resource.images.busyspinners.estuary.git
+	branch = master
+[submodule "resource.images.skinicons.estuary"]
+	path = resource.images.skinicons.estuary
+	url = https://github.com/nkvoronov/resource.images.skinicons.estuary.git
+	branch = master
+[submodule "script.module.cherrypy"]
+	path = script.module.cherrypy
+	url = https://github.com/nkvoronov/script.module.cherrypy.git
+	branch = v11.0.1
+[submodule "script.module.torrent.ts"]
+	path = script.module.torrent.ts
+	url = https://github.com/nkvoronov/script.module.torrent.ts.git
+	branch = krypton
