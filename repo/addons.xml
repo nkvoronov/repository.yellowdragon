@@ -24,6 +24,30 @@
     </extension>
 </addon>
 
+<addon id="repository.yellowdragon.ext" name="Yellow Dragon Repository Ext" version="17.7" provider-name="YLLOW_DRAGON">
+    <requires>
+        <import addon="xbmc.addon" version="12.0.0"/>
+    </requires>
+    <extension point="xbmc.addon.repository" name="Yellow Dragon Repository Ext">
+        <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/krypton/repo/addons.xml</info>
+        <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/krypton/repo/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/krypton/repo/</datadir>
+        <hashes>false</hashes>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">YLLOW_DRAGON EXT addons repository for KODI Krypton</summary>
+        <summary lang="ru">Репозиторий плагинов YLLOW_DRAGON EXT для KODI Krypton</summary>
+        <description  lang="en">Download and install YLLOW_DRAGON EXT addons repository.</description>
+        <description  lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON EXT.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+        <news></news>
+    </extension>
+</addon>
+
 <addon id="resource.images.busyspinners.estuary" name="Animated Busy Spinners Pack Estuary" version="1.0.1.001" provider-name="marcelveldt, YLLOW_DRAGON">
 	<extension point="kodi.resource.images" compile="false" type="busyspinners" />
 	<requires>
@@ -1313,7 +1337,7 @@
 
 <addon
 	id="skin.estuary2-extended"
-	version="1.9.16.093"
+	version="1.9.16.094"
 	name="Estuary v2 Extended"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
@@ -1484,7 +1508,7 @@
 
 <addon
 	id="skin.estuary2-extended-s"
-	version="1.9.16.122"
+	version="1.9.16.123"
 	name="Estuary v2 Extended Shortcuts"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
