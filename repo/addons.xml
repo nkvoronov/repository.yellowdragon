@@ -76,7 +76,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.5.0.008" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.5.2.009" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.chardet" version="2.2.1"/>
@@ -158,24 +158,24 @@
 </addon>
 
 <addon
-    id="script.epg.vsetv"
-    name="Vse TV"
-    version="2.1.7.5"
-    provider-name="YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py"/>
-    <extension point="xbmc.service" library="service.py" start="login"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
-        <summary lang="ru">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
-        <description lang="en">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
-        <description lang="ru">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
-        <platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
-    </extension>
+	id="script.epg.vsetv"
+	name="Vse TV"
+	version="3.0.0"
+	provider-name="YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py"/>
+	<extension point="xbmc.service" library="service.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
+		<summary lang="ru">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
+		<description lang="en">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
+		<description lang="ru">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
+	</extension>
 </addon>
 
 <addon id="script.favourites" name="Favourites script" version="7.1.1" provider-name="ronie, `Black">
