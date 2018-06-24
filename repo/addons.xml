@@ -160,7 +160,7 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.0.1"
+	version="3.0.2"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -1337,7 +1337,7 @@
 
 <addon
 	id="skin.estuary2-extended"
-	version="1.9.16.094"
+	version="1.9.16.095"
 	name="Estuary v2 Extended"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
@@ -1508,7 +1508,7 @@
 
 <addon
 	id="skin.estuary2-extended-s"
-	version="1.9.16.123"
+	version="1.9.16.124"
 	name="Estuary v2 Extended Shortcuts"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
