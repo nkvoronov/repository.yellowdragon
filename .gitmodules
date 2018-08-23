@@ -9,7 +9,7 @@
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
-	branch = krypton
+	branch = vkrypton
 [submodule "script.epg.vsetv"]
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
@@ -33,11 +33,11 @@
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
-	branch = vmaster
+	branch = vkrypton
 [submodule "script.rss.editor"]
 	path = script.rss.editor
 	url = https://github.com/nkvoronov/script.rss.editor.git
-	branch = krypton
+	branch = vkrypton
 [submodule "script.globalsearch"]
 	path = script.globalsearch
 	url = https://github.com/nkvoronov/script.globalsearch.git
@@ -45,19 +45,19 @@
 [submodule "script.simpleplaylists"]
 	path = script.simpleplaylists
 	url = https://github.com/nkvoronov/script.simpleplaylists.git
-	branch = vmaster
+	branch = vkrypton
 [submodule "script.transmission"]
 	path = script.transmission
 	url = https://github.com/nkvoronov/Transmission-XBMC.git
-	branch = vmaster
+	branch = vkrypton
 [submodule "script.xbmc.audio.mixer"]
 	path = script.xbmc.audio.mixer
 	url = https://github.com/nkvoronov/script.xbmc.audio.mixer.git
-	branch = krypton
+	branch = vkrypton
 [submodule "script.xbmc.lcdproc"]
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
-	branch = vmaster
+	branch = vkrypton
 [submodule "script.favourites"]
 	path = script.favourites
 	url = https://github.com/nkvoronov/script.favourites.git
@@ -65,27 +65,27 @@
 [submodule "script.randomandlastitems"]
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git
-	branch = vmaster
+	branch = vkrypton
 [submodule "service.3denabler.samsungtv"]
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
-	branch = vmaster
+	branch = vkrypton
 [submodule "script.vdr.front"]
 	path = script.vdr.front
 	url = https://github.com/nkvoronov/script.vdr.front.git
-	branch = master
+	branch = vkrypton
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
-	branch = krypton
+	branch = vkrypton
 [submodule "skin.confluence-extended"]
 	path = skin.confluence-extended
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = krypton
+	branch = vkrypton
 [submodule "skin.confluence-extended-s"]
 	path = skin.confluence-extended-s
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = krypton-s
+	branch = vkrypton-s
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
@@ -105,11 +105,11 @@
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = krypton
+	branch = vkrypton
 [submodule "skin.estuary2-extended-s"]
 	path = skin.estuary2-extended-s
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = krypton-s
+	branch = vkrypton-s
 [submodule "script.cu.lrclyrics"]
 	path = script.cu.lrclyrics
 	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
@@ -117,11 +117,11 @@
 [submodule "resource.images.busyspinners.estuary"]
 	path = resource.images.busyspinners.estuary
 	url = https://github.com/nkvoronov/resource.images.busyspinners.estuary.git
-	branch = master
+	branch = vkrypton
 [submodule "resource.images.skinicons.estuary"]
 	path = resource.images.skinicons.estuary
 	url = https://github.com/nkvoronov/resource.images.skinicons.estuary.git
-	branch = master
+	branch = vkrypton
 [submodule "script.module.cherrypy"]
 	path = script.module.cherrypy
 	url = https://github.com/nkvoronov/script.module.cherrypy.git
@@ -129,4 +129,4 @@
 [submodule "script.module.torrent.ts"]
 	path = script.module.torrent.ts
 	url = https://github.com/nkvoronov/script.module.torrent.ts.git
-	branch = krypton
+	branch = vkrypton
