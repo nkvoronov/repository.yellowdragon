@@ -9,7 +9,7 @@
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
-	branch = krypton
+	branch = leia
 [submodule "script.epg.vsetv"]
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
@@ -41,7 +41,7 @@
 [submodule "script.globalsearch"]
 	path = script.globalsearch
 	url = https://github.com/nkvoronov/script.globalsearch.git
-	branch = vkrypton
+	branch = vleia
 [submodule "script.simpleplaylists"]
 	path = script.simpleplaylists
 	url = https://github.com/nkvoronov/script.simpleplaylists.git
@@ -61,7 +61,7 @@
 [submodule "script.favourites"]
 	path = script.favourites
 	url = https://github.com/nkvoronov/script.favourites.git
-	branch = vkrypton
+	branch = vleia
 [submodule "script.randomandlastitems"]
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git
@@ -77,15 +77,15 @@
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
-	branch = krypton
+	branch = leia
 [submodule "skin.confluence-extended"]
 	path = skin.confluence-extended
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = krypton
+	branch = leia
 [submodule "skin.confluence-extended-s"]
 	path = skin.confluence-extended-s
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = krypton-s
+	branch = leia-s
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
@@ -105,11 +105,11 @@
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = krypton
+	branch = leia
 [submodule "skin.estuary2-extended-s"]
 	path = skin.estuary2-extended-s
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = krypton-s
+	branch = leia-s
 [submodule "script.cu.lrclyrics"]
 	path = script.cu.lrclyrics
 	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
