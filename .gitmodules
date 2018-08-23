@@ -13,7 +13,7 @@
 [submodule "script.epg.vsetv"]
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
-	branch = master
+	branch = leia
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
@@ -113,7 +113,7 @@
 [submodule "script.cu.lrclyrics"]
 	path = script.cu.lrclyrics
 	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
-	branch = vkrypton
+	branch = vleia
 [submodule "resource.images.busyspinners.estuary"]
 	path = resource.images.busyspinners.estuary
 	url = https://github.com/nkvoronov/resource.images.busyspinners.estuary.git
