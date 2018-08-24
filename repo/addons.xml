@@ -1023,11 +1023,11 @@
 
 <addon
 	id="skin.confluence-extended"
-	version="3.1.6.159"
+	version="4.4.7.160"
 	name="Confluence Extended"
 	provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 		<import addon="script.favourites" version="6.0.3"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1186,11 +1186,11 @@
 
 <addon
 	id="skin.confluence-extended-s"
-	version="3.1.6.153"
+	version="4.4.7.154"
 	name="Confluence Extended Shortcuts"
 	provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 		<import addon="script.skinshortcuts" version="1.0.10"/>
 		<import addon="script.skin.helper.service" version="1.0.10"/>
@@ -1351,11 +1351,11 @@
 
 <addon
 	id="skin.estuary2-extended"
-	version="1.9.16.096"
+	version="2.0.11.098"
 	name="Estuary v2 Extended"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 	</requires>
@@ -1365,8 +1365,11 @@
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
 		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
 		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="af_ZA">Estuary v2 Extended oortreksel deur phil65. (Kodi se bestek oortreksel)</summary>
@@ -1522,11 +1525,11 @@
 
 <addon
 	id="skin.estuary2-extended-s"
-	version="1.9.16.125"
+	version="2.0.11.127"
 	name="Estuary v2 Extended Shortcuts"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.gui" version="5.12.0"/>
+		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 		<import addon="script.skinshortcuts" version="1.0.10"/>
@@ -1544,8 +1547,11 @@
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
 		<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
 		<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+		<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="af_ZA">Estuary v2 Extended Shortcuts oortreksel deur phil65. (Kodi se bestek oortreksel)</summary>
