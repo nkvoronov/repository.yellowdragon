@@ -769,7 +769,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.18.020" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.18.021" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -1336,7 +1336,7 @@
 
 <addon
 	id="skin.estuary2-extended"
-	version="1.9.16.097"
+	version="1.9.16.098"
 	name="Estuary v2 Extended"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
@@ -1507,7 +1507,7 @@
 
 <addon
 	id="skin.estuary2-extended-s"
-	version="1.9.16.126"
+	version="1.9.16.127"
 	name="Estuary v2 Extended Shortcuts"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
