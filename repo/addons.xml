@@ -1336,7 +1336,7 @@
 
 <addon
 	id="skin.estuary2-extended"
-	version="1.9.16.098"
+	version="1.9.16.100"
 	name="Estuary v2 Extended"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
@@ -1507,7 +1507,7 @@
 
 <addon
 	id="skin.estuary2-extended-s"
-	version="1.9.16.127"
+	version="1.9.16.129"
 	name="Estuary v2 Extended Shortcuts"
 	provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
