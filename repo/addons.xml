@@ -292,7 +292,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.7" provider-name="ronie">
+<addon id="script.globalsearch" name="Global Search" version="8.0.7.006" provider-name="ronie">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
@@ -365,8 +365,8 @@
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=109301</forum>
 		<website></website>
-		<email></email>
-		<source>https://gitlab.com/ronie/script.globalsearch/</source>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.globalsearch.git</source>
 	</extension>
 </addon>
 
@@ -1349,7 +1349,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.12.110" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended" version="2.0.12.111" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1526,7 +1526,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.12.144" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended-s" version="2.0.12.146" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
