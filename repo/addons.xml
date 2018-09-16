@@ -292,7 +292,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.7.006" provider-name="ronie">
+<addon id="script.globalsearch" name="Global Search" version="8.0.7.007" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
@@ -1349,7 +1349,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.12.111" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended" version="2.0.12.112" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1526,7 +1526,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.12.146" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended-s" version="2.0.12.147" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
