@@ -130,3 +130,7 @@
 	path = script.module.torrent.ts
 	url = https://github.com/nkvoronov/script.module.torrent.ts.git
 	branch = vleia
+[submodule "script.artwork.downloader.ex"]
+	path = script.artwork.downloader.ex
+	url = https://github.com/nkvoronov/script.artwork.downloader.ex.git
+	branch = vleia
