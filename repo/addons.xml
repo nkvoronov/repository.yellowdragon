@@ -1269,7 +1269,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-s" version="4.4.9.156" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-s" version="4.5.0.157" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.13.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
@@ -1422,7 +1422,7 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>Redesigned layout for updated Global Search addon</news>
+		<news>Added 'Game' shortcuts to home menu</news>
 	</extension>
 </addon>
 
