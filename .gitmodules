@@ -1,7 +1,7 @@
 [submodule "script.skinshortcuts"]
 	path = script.skinshortcuts
 	url = https://github.com/nkvoronov/script.skinshortcuts.git
-	branch = V1.0.18
+	branch = V1.0.19
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
