@@ -1110,7 +1110,7 @@
     </extension>
 </addon>
 
-<addon id="skin.confluence-extended" version="4.5.7.170" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended" version="4.5.10.171" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
@@ -1261,11 +1261,11 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>Added 'Game' shortcuts to home menu</news>
+		<news>Added support for new episode spoilers feature.</news>
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-s" version="4.5.7.169" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-s" version="4.5.10.170" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
@@ -1418,7 +1418,7 @@
 			<screenshot>resources/screenshot-08.jpg</screenshot>
 			<screenshot>resources/screenshot-09.jpg</screenshot>
 		</assets>
-		<news>Added 'Game' shortcuts to home menu</news>
+		<news>Added support for new episode spoilers feature.</news>
 	</extension>
 </addon>
 
