@@ -1110,7 +1110,7 @@
     </extension>
 </addon>
 
-<addon id="skin.confluence-extended" version="4.5.10.171" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended" version="4.5.10.172" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
@@ -1265,7 +1265,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-s" version="4.5.10.170" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-s" version="4.5.10.171" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
@@ -1422,7 +1422,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.17.134" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended" version="2.0.17.135" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1599,7 +1599,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.17.174" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended-s" version="2.0.17.175" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
