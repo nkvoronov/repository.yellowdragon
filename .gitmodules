@@ -134,3 +134,7 @@
 	path = script.artwork.downloader.ex
 	url = https://github.com/nkvoronov/script.artwork.downloader.ex.git
 	branch = vleia
+[submodule "script.xbmcbackup"]
+	path = script.xbmcbackup
+	url = https://github.com/nkvoronov/script.xbmcbackup.git
+	branch = vleia
