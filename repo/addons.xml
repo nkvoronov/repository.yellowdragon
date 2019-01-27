@@ -655,7 +655,7 @@
 
 <addon id="script.rss.editor"
        name="RSS Editor"
-       version="3.0.2.003"
+       version="3.0.3.004"
        provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
   <requires>
     <import addon="xbmc.python" version="2.25.0"/>
@@ -955,7 +955,7 @@
 
 <addon id="script.xbmc.audio.mixer"
     name="Kodi Audio Mixer"
-    version="4.0.1.003"
+    version="4.0.2.004"
     provider-name="Team Kodi, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
