@@ -126,10 +126,6 @@
 	path = script.module.cherrypy
 	url = https://github.com/nkvoronov/script.module.cherrypy.git
 	branch = v11.0.1
-[submodule "script.module.torrent.ts"]
-	path = script.module.torrent.ts
-	url = https://github.com/nkvoronov/script.module.torrent.ts.git
-	branch = vleia
 [submodule "script.artwork.downloader.ex"]
 	path = script.artwork.downloader.ex
 	url = https://github.com/nkvoronov/script.artwork.downloader.ex.git

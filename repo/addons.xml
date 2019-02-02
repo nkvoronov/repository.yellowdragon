@@ -596,22 +596,6 @@
     </extension>
 </addon>
 
-<addon id='script.module.torrent.ts' version='0.7.3.5.001' name='AceStream client' provider-name='1orgar, YLLOW_DRAGON'>
-	<requires>
-		<import addon='xbmc.python' version='2.7.8'/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.python.module" library="lib"/>
-	<extension point='xbmc.addon.metadata'>
-		<summary>AceStream client</summary>
-		<platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.module.torrent.ts.git</source>
-	</extension>
-</addon>
-
 <addon
     id="script.pvr.favourites"
     name="PVR favourites"
@@ -1517,7 +1501,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.21.139" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended" version="2.0.21.140" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1694,7 +1678,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.21.179" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
+<addon id="skin.estuary2-extended-s" version="2.0.21.180" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
