@@ -134,3 +134,7 @@
 	path = script.xbmcbackup
 	url = https://github.com/nkvoronov/script.xbmcbackup.git
 	branch = vleia
+[submodule "script.tvtunes.ex"]
+	path = script.tvtunes.ex
+	url = https://github.com/nkvoronov/script.tvtunes.ex.git
+	branch = vleia
