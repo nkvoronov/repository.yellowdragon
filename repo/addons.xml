@@ -919,7 +919,7 @@
     </extension>
 </addon>
 
-<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.8.003" provider-name="robwebset, YLLOW_DRAGON">
+<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.8.005" provider-name="robwebset, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
