@@ -919,7 +919,7 @@
     </extension>
 </addon>
 
-<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.8.005" provider-name="robwebset, YLLOW_DRAGON">
+<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.8.006" provider-name="robwebset, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -934,8 +934,8 @@
 	<extension point="xbmc.python.module" library="resources/lib" />
 	<extension point="kodi.context.item" library="contextmenu.py">
 		<item>
-			<label>32105</label>
-			<visible>!IsEmpty(Window(home).Property("TvTunes_ShowContextMenu")) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
+			<label>32995</label>
+			<visible>!String.IsEmpty(Window(home).Property(TvTunes_ShowContextMenu)) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
 		</item>
 	</extension>
 	<extension point="xbmc.addon.metadata">
