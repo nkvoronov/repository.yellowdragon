@@ -1051,7 +1051,7 @@
     </extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.5.007" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.5.008" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
