@@ -17,7 +17,7 @@
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = v1.0.16
+	branch = v1.0.17
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
