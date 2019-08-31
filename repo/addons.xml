@@ -724,7 +724,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.13.010" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.13.011" provider-name="marcelveldt,sualfred, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
