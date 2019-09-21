@@ -1287,7 +1287,7 @@
     </extension>
 </addon>
 
-<addon id="skin.confluence-extended" version="4.6.4.185" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended" version="4.6.8.187" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
@@ -1442,7 +1442,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-s" version="4.6.4.183" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-s" version="4.6.8.184" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
