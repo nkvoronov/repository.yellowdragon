@@ -210,7 +210,7 @@ class Generator:
         print "Generate zip file for " + addonid + " " + version
         filename = path + "-" + version + ".zip"
         try:
-            zip = zipfile.ZipFile(filename, 'w')
+            zip = zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED)
             for root, dirs, files in os.walk(path + os.path.sep):
                 for file in files:
                     if file == ".git" or file == ".gitignore" or file == "README.md": continue
