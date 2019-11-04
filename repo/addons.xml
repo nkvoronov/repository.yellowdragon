@@ -807,30 +807,9 @@
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<news>Template improvements and bug fixes</news>
-		<description lang="bg">Добавка за облици, която осигурява просто управление и списък с потребителски преки пътища (изисква поддръжка от облика)</description>
-		<description lang="de">Add-on für Skins für einfache Bearbeitung und Auflistung von benutzerdefinierten Verknüpfungen (erfordert Skin-Unterstützung)</description>
-		<description lang="el">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
-		<description lang="en">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="en_NZ">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="en_US">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="es">Complemento para las pieles para proporcionar una gestión sencilla y lista de atajos de usuario (requiere que la piel lo soporte)</description>
-		<description lang="fr_CA">Addiciel pour habillages qui fournit une gestion simple et un listage des raccourcis utilisateurs (exige la prise en charge de l'habillage)</description>
-		<description lang="gl">Complemento que fornece aos temas dunha xestión sinxela dos atallos dos usuarios (require soporte do tema)</description>
-		<description lang="hr">Dodatak za presvlake koja omogućava jednostavno upravljanje i prikaz korisnikovih prečaca (zahtijeva podršku presvlake) </description>
-		<description lang="hu">Felszín kiegészítő amely könnyen kezelhetővé és listázhatóvá teszi a felhasználói parancsikonokat (Felszín támogatás szükséges)</description>
-		<description lang="is">Viðbót fyrir viðmót til að halda utan um flýtivísa og fá yfirlit yfir þá (þarfnast stuðnings frá viðmóti)</description>
-		<description lang="it">Add-on per gli skin per consentire un facile gestione ed elenco delle scorciatoie utente (richiede che lo skin lo supporti)</description>
-		<description lang="lt">Priedas teminėms išvaizdoms, kad jos turėtų galimybę paprastai tvarkyti ir atvaizduoti vartotojo  sukurtas nuorodas (reikalingas teminės išvaizdos palaikymas)</description>
-		<description lang="nl">Add-on voor skins om te voorzien in het eenvoudig beheren en sorteren van gebruikers snelkoppelingen (vereist skin ondersteuning)</description>
-		<description lang="no">Tillegg for enkel administrering og opplisting av bruker-snarveier i tema (krever støtte i tema)</description>
-		<description lang="pl">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
-		<description lang="pt">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
-		<description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
-		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления списками пользовательских ярлыков (требуется поддержка обложкой)</description>
-        <description lang="uk">Доповнення для обкладинок, надає простий спосіб управління списками ярликів користовуча (потрібна підтримка обкладинкою)</description>
-		<description lang="sk">Doplnok poskytujúci jednoduchý manažment zoznamu užívateľských odkazov (vyžaduje podporu v doplnku pre vzhľad)</description>
-		<description lang="sv">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
-		<description lang="zh">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
+		<description lang="en_GB">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="ru_RU">Дополнение для обложек, предоставляющее простой способ управления списками пользовательских ярлыков (требуется поддержка обложкой)</description>
+        <description lang="uk_UA">Доповнення для обкладинок, надає простий спосіб управління списками ярликів користовуча (потрібна підтримка обкладинкою)</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU General Public License, v2</license>
@@ -858,14 +837,12 @@
     <extension point="xbmc.python.script" library="default.py" />
     <extension point="xbmc.service" library="resources/lib/player.py" start="startup"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="en">A client for the popular Transmission BitTorrent application</summary>
-        <summary lang="hu">A népszerű Transmission Bittorrent alkalmazás vezérlése</summary>
-        <summary lang="ca">Un client de Transmission, la popular aplicació de Bittorrent</summary>
-        <summary lang="ru">Клиент для популярного приложения BitTorrent</summary>
-        <description lang="en">Currently, Transmission-XBMC supports viewing, adding, removing, starting and stopping torrents. More advanced features may be added in future releases.</description>
-        <description lang="hu">Jelenleg a Transmission-XBMC képes megnézni, hozzáadni, elkezdeni, és megállítani a torrenteket. További fejlesztések várhatók a jövőben.</description>
-        <description lang="ca">Actualment, Transmission-XBMC permet veure, afegir, eliminar, iniciar i parar torrents. En futures versions de l'aplicació s'haniran afegint opcions més avançades.</description>
-        <description lang="ru">В настоящее время, Transmission-XBMC поддерживает просмотр, добавление, удаление, запуск и остановка торрентов. Более продвинутые функции могут быть добавлены в будущих версиях.</description>
+        <summary lang="en_GB">A client for the popular Transmission BitTorrent application</summary>
+        <summary lang="ru_RU">Клиент для популярного приложения BitTorrent</summary>
+        <summary lang="uk_UA">Клієнт для популярного додатка BitTorrent</summary>
+        <description lang="en_GB">Currently, Transmission-XBMC supports viewing, adding, removing, starting and stopping torrents. More advanced features may be added in future releases.</description>
+        <description lang="ru_RU">В настоящее время, Transmission-XBMC поддерживает просмотр, добавление, удаление, запуск и остановка торрентов. Более продвинутые функции могут быть добавлены в будущих версиях.</description>
+		<description lang="uk_UA">В даний час, Transmission-XBMC підтримує перегляд, додавання, видалення, запуск і зупинка торрентів. Більш просунуті функції можуть бути додані в майбутніх версіях.</description>
         <platform>all</platform>
         <license>MIT</license>
         <forum></forum>
@@ -1145,10 +1122,12 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <language/>
-    <summary lang="en">Switch Samsung TV into 3D mode when playing 3D movie</summary>
-    <summary lang="ru">Переключение Samsung TV в режим 3D при проигрывании 3D фильма</summary>
-    <description lang="en">Once you start your 3D movie - your Samsung 3DTV that is connected to your LAN should switch to respective 3D mode automatically</description>
-    <description lang="ru">Как только вы начнете просмотр вашего 3D кино - ваш Samsung 3DTV, который подключен к вашей локальной сети, должен автоматически переключиться в соответсвующий 3D режим</description>
+    <summary lang="en_GB">Switch Samsung TV into 3D mode when playing 3D movie</summary>
+    <summary lang="ru_RU">Переключение Samsung TV в режим 3D при проигрывании 3D фильма</summary>
+	<summary lang="uk_UA">Переключення Samsung TV в режим 3D при програванні 3D фільму</summary>
+    <description lang="en_GB">Once you start your 3D movie - your Samsung 3DTV that is connected to your LAN should switch to respective 3D mode automatically</description>
+    <description lang="ru_UA">Как только вы начнете просмотр вашего 3D кино - ваш Samsung 3DTV, который подключен к вашей локальной сети, должен автоматически переключиться в соответсвующий 3D режим</description>
+	<description lang="uk_UA">Як тільки ви почнете перегляд вашого 3D кіно - ваш Samsung 3DTV, який підключений до вашої локальної мережі, повинен автоматично переключитися в відповідний 3D режим</description>
     <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
     <forum>http://forum.xbmc.org/showthread.php?tid=185212</forum>
     <email>nkvoronov@gmail.com</email>
@@ -1164,63 +1143,15 @@
     </requires>
     <extension point="xbmc.service" library="default.py" start="login"/>
     <extension point="xbmc.addon.metadata">
-        <summary lang="be">Skin widgets</summary>
-        <summary lang="da">Widgets til Skins</summary>
-        <summary lang="de">Skin Widgets</summary>
-        <summary lang="el">Widgets κελύφους</summary>
-        <summary lang="en">Skin widgets</summary>
-        <summary lang="es">Skin widgets</summary>
-        <summary lang="fr">Skin widgets</summary>
-        <summary lang="gl">Widgets do Tema</summary>
-        <summary lang="hr">Dodaci za presvlaku</summary>
-        <summary lang="hu">Kinézet miniprogram</summary>
-        <summary lang="it">Skin widgets</summary>
-        <summary lang="ko">스킨 위젯</summary>
-        <summary lang="nl">Skin widgets</summary>
-        <summary lang="pl">Dodatki Skóry</summary>
-        <summary lang="pt">Widgets para Temas</summary>
-        <summary lang="pt_BR">Skin widgets</summary>
-        <summary lang="sk">Widgety Vzhľadov</summary>
-        <summary lang="sv">Skal widgetar</summary>
-        <summary lang="zh">皮肤微件</summary>
-        <summary lang="ru">Виджеты обложки</summary>
-        <description lang="be">Skin widgets</description>
-        <description lang="da">Widgets til Skins</description>
-        <description lang="de">Skin Widgets</description>
-        <description lang="el">Widgets κελύφους</description>
-        <description lang="en">Skin widgets</description>
-        <description lang="es">Skin widgets</description>
-        <description lang="fr">Skin widgets</description>
-        <description lang="gl">Widgets do Tema</description>
-        <description lang="hr">Dodaci za presvlaku</description>
-        <description lang="hu">Kinézet miniprogram</description>
-        <description lang="it">Skin widgets</description>
-        <description lang="ko">스킨 위젯</description>
-        <description lang="nl">Skin widgets</description>
-        <description lang="pl">Dodatki Skóry</description>
-        <description lang="pt">Widgets para Temas</description>
-        <description lang="pt_BR">Skin widgets</description>
-        <description lang="sk">Widgety Vzhľadov</description>
-        <description lang="sv">Skal widgetar</description>
-        <description lang="zh">皮肤微件</description>
-        <description lang="ru">Виджеты обложки</description>
-        <disclaimer lang="be">For information visit the wiki page or XBMC forum.</disclaimer>
-        <disclaimer lang="de">Besuche für mehr Informationen die Wiki-Seite oder das XBMC-Forum</disclaimer>
-        <disclaimer lang="el">Για πληροφορίες επισκεφθείτε τη σελίδα wiki ή το forum του XBMC.</disclaimer>
-        <disclaimer lang="en">For information visit the wiki page or XBMC forum.</disclaimer>
-        <disclaimer lang="es">Para más información, visite el wiki o los foros de XBMC.</disclaimer>
-        <disclaimer lang="fr">Pour plus d'information, visitez la page du Wiki ou dur forum XBMC.</disclaimer>
-        <disclaimer lang="gl">Para máis información visite a páxina wiki ou o foro do XBMC.</disclaimer>
-        <disclaimer lang="hr">Za više informacija posjetite wiki stranicu ili XBMC forum.</disclaimer>
-        <disclaimer lang="it">Per le informazioni visita la pagina wiki o il forum</disclaimer>
-        <disclaimer lang="ko">위키 페이지나 XBMC 포럼에서 추가 정보를 확인하세요.</disclaimer>
-        <disclaimer lang="nl">Bezoek voor informatie de wiki pagina of het XBMC forum.</disclaimer>
-        <disclaimer lang="pl">Odwiedź stronę wiki lub forum XBMC by znaleźć więcej informacji.</disclaimer>
-        <disclaimer lang="pt">Para mais informação, visite a página wiki ou o fórum do XBMC.</disclaimer>
-        <disclaimer lang="pt_BR">Para informações visite o página do wiki ou fórum XBMC.org.</disclaimer>
-        <disclaimer lang="sv">För information, besök wiki-sidan eller XBMC forumet.</disclaimer>
-        <disclaimer lang="zh">访问wiki页或XBMC论坛了解更多信息</disclaimer>
-        <disclaimer lang="ru">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
+        <summary lang="en_GB">Skin widgets</summary>
+        <summary lang="ru_RU">Виджеты обложки</summary>
+        <summary lang="uk_UA">Віджети обкладинки</summary>
+        <description lang="en_GB">Skin widgets</description>
+        <description lang="ru_RU">Виджеты обложки</description>
+        <description lang="uk_UA">Віджети обкладинки</description>
+        <disclaimer lang="en_GB">For information visit the wiki page or XBMC forum.</disclaimer>
+        <disclaimer lang="ru_RU">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
+        <disclaimer lang="uk_UA">Для отримання додаткової інформації відвідайте вікі-сторінку або XBMC форум.</disclaimer>
         <platform>all</platform>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <website></website>
