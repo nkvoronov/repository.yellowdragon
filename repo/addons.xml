@@ -383,7 +383,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.12.014" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="8.0.12.015" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -798,7 +798,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.19.024" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.19.026" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -826,7 +826,7 @@
 
 <addon id="script.transmission"
     name="Transmission"
-    version="0.7.6.001"
+    version="0.7.6.002"
     provider-name="Correl Roush, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
@@ -964,7 +964,7 @@
 
 <addon id="script.xbmc.audio.mixer"
     name="Kodi Audio Mixer"
-    version="4.0.2.004"
+    version="4.0.2.005"
     provider-name="Team Kodi, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -972,10 +972,12 @@
     <extension point="xbmc.python.script" library="default.py" />
     <extension point="xbmc.addon.metadata">
         <platform>osx linux</platform>
-        <summary lang="en">Kodi Audio Mixer</summary>
-        <summary lang="ru">Kodi Аудио Микшер</summary>
-        <description lang="en">Kodi Audio Mixer</description>
-        <description lang="ru">Kodi Аудио Микшер</description>
+        <summary lang="en_GB">Kodi Audio Mixer</summary>
+        <summary lang="ru_RU">Kodi Аудио Микшер</summary>
+		<summary lang="uk_UA">Kodi Аудіо Мікшер</summary>
+        <description lang="en_GB">Kodi Audio Mixer</description>
+        <description lang="ru_RU">Kodi Аудио Микшер</description>
+		<description lang="uk_UA">Kodi Аудіо Мікшер</description>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum></forum>
         <website></website>
@@ -1111,7 +1113,7 @@
 <addon
     id="service.3denabler.samsungtv"
     name="3D Enabler Samsung TV"
-    version="0.1.1.001"
+    version="0.1.1.002"
     provider-name="Pavel Kuzub, YLLOW_DRAGON">
   <requires>
     <import addon="xbmc.python" version="2.14.0"/>
@@ -1135,7 +1137,7 @@
   </extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33.003" provider-name="Martijn, phil65, YLLOW_DRAGON">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33.004" provider-name="Martijn, phil65, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.json" version="6.0.0"/>
         <import addon="xbmc.python" version="2.14.0"/>
