@@ -222,14 +222,18 @@
 	</extension>
 </addon>
 
-<addon id="script.image.resource.select" name="Image Resource Select Addon" version="2.0.4.029" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="2.0.4.030" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Image resource selection addon</summary>
+		<summary lang="ru_RU">Дополнение выбора ресурса изображения</summary>
+		<summary lang="uk_UA">Доповнення вибору ресурсу зображення</summary>
 		<description lang="en_GB">Script for skinners to let users select an image resource addon.</description>
+		<description lang="ru_RU">Скрипт для обложки, позволяющий пользователям выбирать дополнение ресурса изображения.</description>
+		<description lang="uk_UA">Скрипт для обкладинки, що дозволяє користувачам вибирати доповнення ресурсу зображення.</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
