@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
 <addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="18.4" provider-name="YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.addon" version="12.0.0"/>
-    </requires>
-    <extension point="xbmc.addon.repository" name="Yellow Dragon Repository">
-        <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/leia/repo/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/leia/repo/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/leia/repo/</datadir>
-        <hashes>false</hashes>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">YLLOW_DRAGON addons repository for KODI Leia</summary>
-        <summary lang="ru">Репозиторий плагинов YLLOW_DRAGON для KODI Leia</summary>
-        <description  lang="en">Download and install YLLOW_DRAGON addons repository.</description>
-        <description  lang="ru">Загружайте и устанавливайте плагины из репозитория YLLOW_DRAGON.</description>
-        <platform>all</platform>
-        <assets>
-            <icon>resources/icon.png</icon>
-            <fanart>resources/fanart.jpg</fanart>
-        </assets>
-        <news></news>
-    </extension>
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Yellow Dragon Repository">
+		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/leia/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/leia/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon/leia/repo/</datadir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">YLLOW_DRAGON addons repository for KODI Leia</summary>
+		<summary lang="ru_RU">Репозиторий дополнений YLLOW_DRAGON для KODI Leia</summary>
+		<summary lang="uk_UA">Репозиторій доповнень YLLOW_DRAGON для KODI Leia</summary>
+		<description  lang="en_GB">Download and install YLLOW_DRAGON addons repository.</description>
+		<description  lang="ru_RU">Загружайте и устанавливайте дополнений из репозитория YLLOW_DRAGON.</description>
+		<description  lang="uk_UA">Завантажуйте та встановлюйте доповненя з репозиторію YLLOW_DRAGON.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
 </addon>
 
 <addon id="repository.yellowdragon.ext" name="Yellow Dragon Repository Ext" version="18.4" provider-name="YLLOW_DRAGON">
@@ -48,120 +50,77 @@
     </extension>
 </addon>
 
-<addon id="resource.images.busyspinners.estuary" name="Animated Busy Spinners Pack Estuary" version="1.0.1.001" provider-name="marcelveldt, YLLOW_DRAGON">
+<addon id="resource.images.busyspinners.estuary" name="Animated Busy Spinners Pack Estuary" version="1.0.1.002" provider-name="marcelveldt, YLLOW_DRAGON">
 	<extension point="kodi.resource.images" compile="false" type="busyspinners" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Animated Busy Spinners Pack - Estuary</summary>
-		<description lang="en">Animated Busy Spinners Pack - Estuary</description>
+		<summary lang="en_GB">Animated Busy Spinners Pack - Estuary</summary>
+		<summary lang="ru_RU">Анимированный пакет индикатора занятости - Estuary</summary>
+		<summary lang="uk_UA">Анімований пакет індикатора зайнятості - Estuary</summary>
+		<description lang="en_GB">Animated Busy Spinners Pack - Estuary</description>
+		<description lang="ru_RU">Анимированный пакет индикатора занятости - Estuary</description>
+		<description lang="uk_UA">Анімований пакет індикатора зайнятості - Estuary</description>
 		<platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
+		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/resource.images.busyspinners.estuary</source>
 	</extension>
 </addon>
 
-<addon id="resource.images.skinicons.estuary" name="Skin Icons - Estuary" version="1.0.0.001" provider-name="YLLOW_DRAGON">
+<addon id="resource.images.skinicons.estuary" name="Skin Icons - Estuary" version="1.0.0.002" provider-name="YLLOW_DRAGON">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
 		<import addon="kodi.resource" version="1.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Skin Icons Pack - Estuary</summary>
-		<description lang="en">Skin Icons Pack - Estuary</description>
+		<summary lang="en_GB">Skin Icons Pack - Estuary</summary>
+		<summary lang="ru_RU">Набор иконок для скина - Estuary</summary>
+		<summary lang="uk_UA">Набір іконок для обкладинки - Estuary</summary>
+		<description lang="en_GB">Skin Icons Pack - Estuary</description>
+		<description lang="ru_RU">Набор иконок для скина - Estuary</description>
+		<description lang="uk_UA">Набір іконок для обкладинки - Estuary</description>
 		<platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
+		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/resource.images.skinicons.estuary</source>
 	</extension>
 </addon>
 
 <addon
-    id="script.artwork.downloader.ex"
-    name="Artwork Downloader Ex"
-    version="18.1.0"
-    provider-name="Martijn, YLLOW_DRAGON"
-    >
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="xbmc.json" version="6.0.0"/>
-    <import addon="xbmc.addon" version="12.0.0"/>
-    <import addon="script.module.simplejson" version="3.3.0"/>
-    <import addon="script.common.plugin.cache" version="1.3.0"/>
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="be">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
-    <summary lang="da">Downloader grafik til TV-serier, Film og Musikvideoer i dit bibliotek</summary>
-    <summary lang="de">Lade Artworks fÃ¼r Filme, Serien und Musikvideos deiner Bibliothek herunter</summary>
-    <summary lang="el">Κατεβάζει Εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας</summary>
-    <summary lang="en">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
-    <summary lang="es">Descargue Artwork de Series, Pelí­culas y Videoclips a su biblioteca</summary>
-    <summary lang="fr">Téléchargez les Artworks pour les séries TV, les films et les clip vidéo de votre médiathèque</summary>
-    <summary lang="gl">Descargue na súa biblioteca Ilustracións para as Series de TV, Filmes e Vídeos Musicais</summary>
-    <summary lang="he">מורי עטיפות לתוכניות טלויזיה,סרטים,וסרטי מוסיקה בספריה שלך</summary>
-    <summary lang="hr">Preuzimte slike omota TV serija, filmova i glazbenih spotova u vašoj kolekciji</summary>
-    <summary lang="hu">Művészképek letöltése TV műsorok, filmek és videóklipek számára</summary>
-    <summary lang="it">Scarica artwork per Serie TV, Film e Video musicali della tua libreria</summary>
-    <summary lang="ko">라이브러리의 TV 쇼, 영화, 뮤직비디오의 아트워크 다운로드</summary>
-    <summary lang="nl">Download Artwork voor TV series, Films en Muziekvideos in jouw bibliotheek</summary>
-    <summary lang="pl">Pobiera grafiki dla Seriali TV, FilmÃ³w i TeledyskÃ³w z twojej biblioteki</summary>
-    <summary lang="pt">Transfira Artwork de Séries TV, Filmes e Concertos para sua biblioteca</summary>
-    <summary lang="pt_BR">Transferências Artes de Seriados, Filmes e Concertos para suas Coleções.</summary>
-    <summary lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici</summary>
-    <summary lang="sv">Laddar ner bilder och extramaterial för TV-serierna, filmerna och musikvideorna i ditt bibliotek</summary>
-    <summary lang="zh">下载剧集、电影和音乐电视艺术图片到资料库</summary>
-    <description lang="be">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
-    <description lang="da">Henter alle tilgængelige illustrationer til TV-serier, Film og Musikvideoer i dit bibliotek. Tjek indstillingerne for at se understøttede illustrationer.[CR]Kilder til illustrationer[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Bemærk:[CR]Tjek dit skin for at se, hvilke typer illustrationer, der understøttes![CR]Hver TV-serie/Film skal have sin egen mappe![CR]Skin-integration:[CR]Se 'readme' fil</description>
-    <description lang="de">Downloadet alle verfügbaren Artworks für TV Sendungen, Filme und Musikvideos in deine Datenbank. Überprüfe die Optionen für nicht unterstützte Artwork[CR]Artworkquellen: [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Überprüfe dein Skin ob Artwork unterstützt wird![CR]Jede TV Sendung/Film braucht seinen eigenen Ordner![CR]Skin Integration:[CR]Siehe Readme Datei</description>
-    <description lang="el">Κατεβάζει όλες τις διαθέσιμες εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας. Ελέγξτε τις επιλογές για υποστηριζόμενες εικόνες[CR]&#10;Πηγές Εικόνων:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;Σημείωση:[CR]Ελέγξτε το κέλυφός σας για να δείτε τι είδους εικόνες υποστηρίζονται![CR]Κάθε Σειρά/Ταινία πρέπει να έχει το δικό της φάκελο![CR]&#10;Για ενσωμάτωση στο κέλυφος:[CR]Δείτε το αρχείο readme</description>
-    <description lang="en">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
-    <description lang="es">Descarga artwork de programas de televisión, películas y videos musicales en su biblioteca. Marque las opciones correspondientes compatible d artwork[CR]Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check su piel para ver qué tipo de obra de arte es compatible![CR]Cada Show de TV\/película debe tener su propia carpeta![CR]Integración de la piel: [CR] consulte el archivo Léame</description>
-    <description lang="fr">Téléchargez tous les artworks disponibles pour les séries TV, les films et les vidéos musicales de votre médiathèque. Regardez les options pour les artsworks supportés[CR]Sources des Artworks : [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remarques : [CR]Véifiez votre thême pour savoir quel type d'artwork est supporté ![CR]Chaque Série TV/Film doit avoir son propre dossier ![CR]Intégration dans un thême :[CR]Regardez le fichier readme.txt</description>
-    <description lang="gl">Descarga todas as ilustracións dispoñíbeis para as series de TV, filmes e vídeos musicais da súa biblioteca. Verifique as opcións de soporte de ilustracións[CR]Fontes das ilustracións:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre:[CR]Verifique o seu tema para ver que tipo de ilustración é soportada.[CR]Cada Serie de TV/Filme debe ter o seu propio cartafol.[CR]Integración no tema:[CR]Ver o ficheiro readme</description>
-    <description lang="hr">Preuzmi sve dostupne slike omota za TV serije, filmove i glazbene spotove u vašoj zbirci. Provjerite mogućnosti za podržane slike omota[CR]Izvori slika omota:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Napomena:[CR]Provjerite vašu presvlaku da bi vidjeli koja vrsta presvlake je podržana![CR]Svaka TV serija/Film mora imati svoju vlastitu mapu![CR]Integracija presvlake:[CR]Pogledajte datoteku uputa</description>
-    <description lang="hu">Letölti az összes rendelkezésre álló művészképet az adatbázisában található TV-műsorokhoz, filmekhez és videóklipekhez. Ellenőrizze a beállításokat a támogatott művészképekhez[CR]Művészkép források:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Megjegyzés:[CR]Ellenőrizze, hogy az alkalmazott skin miyen művészképeket támogat![CR]Minden filmnek/TV-műsornak saját mappában kell lennie![CR]Skin integráció:[CR]Olvassa fel a readme fájlt</description>
-    <description lang="it">Scarica tutti gli artwork disponibili per le serie TV, i film ed i video musicali presenti nella libreria. Controlla le opzioni per gli artwork supportati[CR]Fonti artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Nota:[CR]Controlla la tua skin per vedere che tipi artwork sono supportati![CR]Ogni Serie TV/Film deve avere una cartella propria![CR]Integrazione skin:[CR]Vedi file readme</description>
-    <description lang="ko">라이브러리에 있는 TV 쇼, 영화, 뮤직비디오의 사용 가능한 모든 아트워크를 다운로드합니다. 지원하는 아트워크는 옵션을 확인하세요[CR]아트워크 소스:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] 참고:[CR]사용하는 스킨이 어떤 형식의 아트워크를 지원하는지 확인하세요![CR]각 TV 쇼/영화는 자신의 폴더에 있어야 합니다![CR]스킨 통합:[CR]readme 파일 참고</description>
-    <description lang="nl">Download alle beschikbare artwork voor TV series, Films en Muziekvideos in jouw bibliotheek. Bekijk de opties voor ondersteunde artwork[CR]Artwork bronnen:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Opmerking:[CR]Controleer jouw skin om te bepalen welke artwork deze ondersteund![CR]Elke TV serie/Film moet zich in zijn eigen folder bevinden![CR]Skin integratie:[CR]Kijk in de readme bestand</description>
-    <description lang="pl">Pobierz wszystkie dostępne grafiki dla seriali TV, filmów i teledysków ze swojej biblioteki. Sprawdź ustawienia aby zobaczyć wszystkie dostępne grafiki[CR]&#10;    Źródła grafik:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;    Uwaga:[CR]Sprawdź jakie rodzaje grafik wspiera twoja skóra![CR]Każdy Serial TV/Film musi być w osobnym folderze![CR]&#10;    Integracja ze skórą:[CR]Przeczytaj plik readme&#10;    </description>
-    <description lang="pt">Transfere toda a artwork disponível para Séries TV, Filmes e Vídeoclipes na sua biblioteca. Verifique a artwork suportada nas opções.[CR]Fontes de Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre-se:[CR]Verifique o seu tema para ver que tipo de artwork é suportada![CR]Cada Série TV/Filme deve ter a sua própria pasta![CR]Integração no tema:[CR]veja o ficheiro readme</description>
-    <description lang="pt_BR">Download todas as artworks disponíveis para Seriados, Filmes e Concertos em sua coleção. Verifique as opções de artes suportadas. &#10;Artwork fontes:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembrete:[CR]Verifique se sua skin tem suporte para os tipos de artes disponíveis![CR]Cada Seriado/Filme ou Concerto deve estar em pastas próprias![CR]Skin integração:[CR]Veja o arquivo leia-me.</description>
-    <description lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici. Na overenie podporovanej umeleckej grafiky pozrite nastavenia.&#10;Zdroje umeleckej grafiky:&#10;www.fanart.tv&#10;www.thetvdb.com&#10;www.themoviedb.org&#10;Poznámka:&#10;Aby ste si overili aká umelecká grafika je podporovaná, skontrolujte Váš Vzhľad!&#10;Každý TV seriál / film musí byť v samostatnom priečinku!&#10;Integrácia so vzhľadom:&#10;Pozri readme súbor</description>
-    <description lang="sv">Laddar ner alla tillgängliga omslag, bakgrunder etc för TV-serier, Filmer och Musikvideos till ditt bibliotek. Kontrollera inställningar för vad som stöds[CR] Omslag, bakgrunder etc hämtas från följande resurser:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] Remark:[CR]Kontrollera skalinställningar för att ta reda på vad som stöds![CR]Varje TV-serie/Film måste ha sin egen mapp![CR] Skalintegration:[CR]See readme file</description>
-    <description lang="zh">下载剧集、电影和音乐电视的所有可用艺术图片到资料库。查看支持的艺术图片选项[CR]&#10;艺术图片来源：[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10; 备注：[CR]查看你的皮肤了解支持什么类型的艺术图片！[CR]每一个剧集/电影必须保存在单独的文件夹中！[CR]&#10; 皮肤集成：[CR]参见readme文件</description>
-    <disclaimer lang="be">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
-    <disclaimer lang="da">Ved fejl, forespørgsler eller generelle spørgsmål besøg Artwork Downloader-tråden i XBMCs forum.</disclaimer>
-    <disclaimer lang="de">FÃ¼r Fehler, VorschlÃ¤ge oder alggemeine Fragen, besuche das Artwork Downloader-Thema im XBMC-Forum (englisch).</disclaimer>
-    <disclaimer lang="el">Για προβλήματα, αιτήματα ή γενικές ερωτήσεις επισκεφθείτε το θέμα του Artwork Downloader στο forum του XBMC.</disclaimer>
-    <disclaimer lang="en">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
-    <disclaimer lang="es">Para informar de errores, hacer peticiones o preguntas visiten el hilo Artwork Downloader en el foro de XBMC.</disclaimer>
-    <disclaimer lang="fr">Pour bugs, demandes ou questions générales visiter le thread Artwork Downloader sur le forum XBMC.</disclaimer>
-    <disclaimer lang="gl">Para erros, solicitudes ou preguntas en xeral visite o fio do Artwork Downloader no foro do XBMC.</disclaimer>
-    <disclaimer lang="he">לדווח תקלות,בקשות או שאלות כלליות בקר ברשימת artwork downloader בפורום של XBMC.</disclaimer>
-    <disclaimer lang="hr">Za greške, zahtjeve ili uobičajena pitanja posjetite Artwork Downloader na XBMC forumu.</disclaimer>
-    <disclaimer lang="hu">Hibabejelentéshez, kérésekhez vagy általános kérdésekkel kapcsolatban keresse az Artwork Downloader témát az XBMC fórumon.</disclaimer>
-    <disclaimer lang="it">Per la segnalazione di bug, richieste o domande generali visita il thread Artwork Downloader sul forum di XBMC.</disclaimer>
-    <disclaimer lang="ko">버그, 요청사항 및 일반적인 질문은  XBMC 포럼의 Artwork Downloader 글타래를 찾아 주세요.</disclaimer>
-    <disclaimer lang="nl">Voor fouten, verzoeken of algemene vragen kan je terecht op Artwork Downloader thread op het XBMC forum.</disclaimer>
-    <disclaimer lang="pl">By zgÅ‚osiÄ‡ bÅ‚Ä…d, proÅ›bÄ™ lub zadaÄ‡ pytanie odwiedÅº wÄ…tek poÅ›wiÄ™cony Artwork Downladerowi na forum XBMC.</disclaimer>
-    <disclaimer lang="pt">Para reportar erros, requisitar algo ou perguntar algo sobre o add-on, visite o tópico do Artwork Downloader no fórum do XBMC.</disclaimer>
-    <disclaimer lang="pt_BR">Para erros, requisições ou questões gerais visite o tópico do Artwork Downloader no Fórum XBMC.org</disclaimer>
-    <disclaimer lang="sk">Pre chyby, požiadavky alebo všeobecné otázky navštívte "Artwork Downloader" vlákno na XBMC fóre.</disclaimer>
-    <disclaimer lang="sv">För buggar, önskemål och frågor, besök Artwork Downloader tråden på XBMCs forum.</disclaimer>
-    <disclaimer lang="zh">错误报告、功能需求及常见问题，请访问XBMC论坛的Artwork Downloader专贴。</disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <website></website>
-    <source>https://github.com/XBMC-Addons/script.artwork.downloader</source>
-    <forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
-    <email></email>
-  </extension>
+	id="script.artwork.downloader.ex"
+	name="Artwork Downloader Ex"
+	version="18.1.1"
+	provider-name="Martijn, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.json" version="6.0.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.common.plugin.cache" version="1.3.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
+		<summary lang="ru_RU">Загрузите иллюстации для ТВ-шоу, фильмов и музыки в вашей библиотеке</summary>
+		<summary lang="uk_UA">Завантажте іллюстаціі для ТБ-шоу, фільмів і музики у вашій бібліотеці</summary>
+		<description lang="en_GB">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
+		<description lang="ru_RU">Загружает все доступные изображения для телешоу, фильмов и музыкальных видео в вашей библиотеке. Проверьте параметры поддерживаемых иллюстраций[CR]Источники иллюстраций:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Примечание:[CR]Проверьте свой скин, чтобы увидеть, какие иллюстрации поддерживаются![CR]У каждого телешоу/фильма должна быть своя папка![CR]Интеграция скинов:[CR]См. файл readme</description>
+		<description lang="uk_UA">Завантажує всі доступні зображення для телешоу, фільмів і музичних відео в вашій бібліотеці. Перевірте параметри підтримуваних ілюстрацій[CR]Джерела ілюстрацій:[CR] www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Примітка:[CR]Перевірте свій скін, щоб побачити, які ілюстрації підтримуються![CR]У кожного телешоу/фільму повинна бути своя папка![CR]Інтеграція скінів:[CR]Див. файл readme</description>
+		<disclaimer lang="en_GB">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
+		<disclaimer lang="ru_RU">Ошибки, запросы и общие вопросы можно найти в ветке Artwork Downloader на форуме XBMC.</disclaimer>
+		<disclaimer lang="uk_UA">Помилки, запити та загальні питання можна знайти в гілці Artwork Downloader на форумі XBMC.</disclaimer>
+		<language></language>
+		<platform>all</platform>
+		<website></website>
+		<source>https://github.com/nkvoronov/script.artwork.downloader.ex.git</source>
+		<forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
+		<email>nkvoronov.gmail.com</email>
+	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.5.14.016" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.6.2.017" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.chardet" version="2.2.1"/>
@@ -171,71 +130,12 @@
 	<extension point="xbmc.python.lyrics" library="default.py"/>
 	<extension point="xbmc.service" library="default.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="be_BY">CU LRC Lyrics</summary>
-		<summary lang="bg_BG">CU LRC Лирики</summary>
-		<summary lang="ca_ES">CU LRC Lyrics</summary>
-		<summary lang="da_DK">CU LRC Lyrics</summary>
-		<summary lang="de_DE">CU LRC-Songtext</summary>
-		<summary lang="el_GR">Στίχοι CU LRC</summary>
 		<summary lang="en_GB">CU LRC Lyrics</summary>
-		<summary lang="en_NZ">CU LRC Lyrics</summary>
-		<summary lang="en_US">CU LRC Lyrics</summary>
-		<summary lang="es_ES">CU LRC Lyrics</summary>
-		<summary lang="fr_FR">CU LRC Lyrics</summary>
-		<summary lang="fr_CA">Paroles CU LRC</summary>
-		<summary lang="gl_ES">Letras de CU LRC</summary>
-		<summary lang="he_IL">CU LRC Lyrics</summary>
-		<summary lang="hr_HR">CU LRC tekstovi pjesama</summary>
-		<summary lang="hu_HU">CU LRC Dalszöveg</summary>
-		<summary lang="id_ID">Lirik CU LRC</summary>
-		<summary lang="it_IT">CU LRC Lyrics</summary>
-		<summary lang="ko_KR">CU LRC Lyrics</summary>
-		<summary lang="lt_LT">CU LRC dainų žodžiai</summary>
-		<summary lang="nl_NL">CU LRC songteksten</summary>
-		<summary lang="nb_NO">CU LRC sangtekster</summary>
-		<summary lang="pl_PL">CU LRC Lyrics</summary>
-		<summary lang="pt_PT">CU LRC Lyrics</summary>
-		<summary lang="pt_BR">CU LRC Letras</summary>
-		<summary lang="ro_RO">Versuri CU LRC</summary>
-		<summary lang="sk_SK">CU LRC Lyrics</summary>
-		<summary lang="sl_SI">CU LRC Lyrics</summary>
-		<summary lang="sv_SE">CU LRC Lyrics</summary>
-		<summary lang="zh_CN">CU LRC Lyrics 歌词插件</summary>
-		<summary lang="zh_TW">CU LRC Lyrics 歌詞腳本</summary>
-		<description lang="be_BY">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="bg_BG">CU LRC Лирики е добавка за лирики. Поддържа обикновени текстови файлове и .lrc файлове. Може да търси за синхронизирани/несинхронизирани лирики вградени в аудиофайловете или да ги извлича от различни източници. Може да прочита .lrc и .txt файлове съхраняващи лирики, които се намират в папката на дадения аудио файл (с разширение .mp3 например) и носят неговото име.</description>
-		<description lang="ca_ES">CU LRC Lyrics es un script de lletres de cançons per a Kodi. Suporta lletres normal tan com LRC Lyrics. El script busca lletres sincronitzades o no, incrustades al fitxer d'àudio, des de un altre fitxer o per scrapers. Pot llegir fitxers .lrc/.txt guardats al mateix directori i nom de fitxer amb .mp3(o un altre tipus de música).</description>
-		<description lang="da_DK">CU LRC Lyrics er et script til sangtekster til Kodi. Det understøtter almindelige såvel som LRC sangtekster. Script'et kan søge i synkroniserede/usynkroniserede sangtekster som er inkodede i filer eller ved hjælp af scrapere. Det kan læse .lrc/.txt sangtekstfiler som er gemt i den samme mappe og med samme filnavn som mp3'en (eller andre typer af musikfiler).</description>
-		<description lang="de_DE">CU LRC-Songtext ist ein Songtextskript für Kodi, das sowohl normale als auch LRC-Songtexte unterstützt. Das Skript kann nach synchronisierten/unsynchronisierten eingebetteten Songtexten von Datei oder Scraper suchen. Es kann .lrc/.txt-Songtextdateien lesen, die im gleichen Pfad und mit dem gleichen Dateinamen mit .mp3 (oder eine anderen Musikart) gespeichert wurden.</description>
-		<description lang="el_GR">Οι Στίχοι CU LRC είναι ένα script στίχων για το Kodi. Υποστηρίζει συνηθισμένους στίχους καθώς και Στίχους LRC. Το script μπορεί να αναζητήσει συγχρονισμένους και μη στίχους, ενσωματωμένους, από αρχεία ή από scraper. Μπορεί να διαβάσει αρχεία στίχων τύπου .lrc/.txt που βρίσκονται στον ίδιο φάκελο και έχουν το ίδιο όνομα με το .mp3 (ή άλλης κατάληξης μουσική).</description>
 		<description lang="en_GB">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="en_NZ">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronised/unsynchronised lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="en_US">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="es_ES">CU LRC Lyrics es un script de letras para Kodi. Es compatible tanto con letra regular como LRC Lyrics. El script puede buscar desde archivo o a través de scrapers letras incrustadas sincronizadas o no sincronizadas. Puede leer archivos .lrc/.txt guardados en la misma carpeta con el mismo nombre del archivo *.mp3 (u otro tipo de archivo de audio).</description>
-		<description lang="fr_FR">CU LRC Lyrics est un script pour gérer les paroles dans Kodi. Il supporte les formats de paroles habituels aussi bien que LRC. Le script peut chercher des paroles synchronisées/désynchronisées intégrées dans les fichier ou par collecteurs. Il peut lire les fichiers paroles .lrc/.txt stockés dans le même dossier et avec le même nom que le fichier .mp3 (ou autre type de format musical).</description>
-		<description lang="fr_CA">Paroles CU LRC est un script de paroles pour Kodi. Il prend en charge les paroles régulières et LRC. Le script peut rechercher des paroles synchronisées/désynchronisées intégrées, d'un fichier ou de récupérateurs. Il peut lire les fichiers de paroles .lrc/.txt enregistrés dans le même chemin et avec le me nom que le .mp3 (ou autres types de musique).</description>
-		<description lang="gl_ES">Letras CU LRC é un script de letras para Kodi. Soporta letras normais como as LRC. O script pode buscar letras sincronizadas/non sincronizadas incrustadas, ou buscar a partir dun ficheiro ou de scrapers. Pode ler letras de ficheiros .lrc/.txt gardados na mesma ruta do ficheiro .mp3 (ou outro tipo de música).</description>
-		<description lang="he_IL">CU LRC Lyrics הינו סקריפט מילות שירים עבור Kodi התומך בפורמט LRC והן בטקסט רגיל. הסקריפט מסוגל לחפש מילות שיר מסונכרות/לא מסונכרות המוטמעות בשיר, מקובץ מקומי או בעזרת סקרייפר. הסקריפט מסוגל לקרוא קובץ מילות שיר txt/lrc השמור באותו נתיב עם שם זהה לקובץ ה-mp3 (או סוג אחר של קובץ מוזיקה).</description>
-		<description lang="hr_HR">CU LRC tekstovi pjesama je skripta za Kodi. Podržavna redovne i LRC tekstove pjesama. Skripta može pretraživati usklađivati/uklanjati ugrađene tekstove pjesama, iz datoteke ili sakupljača. Može čitati .lrc/.txt datoteke tekstova pjesama spremljene u istu putanju s istim nazivom datoteke sa .mp3 (ili drugim vrstama glazbe).</description>
-		<description lang="hu_HU">A CU LRC Dalszöveg egy kiegészítő az Kodi-hez, ami támogatja  a hagyományos és az LRC dalszövegek keresését, megjelenítését. A dalszöveg lehet szinkronizált, vagy szinkronizálatlan, a zenefájlba beágyazott, vagy leolvasókkal letöltött, vagy akár származhat a zene könyvtárában található .lrc vagy .txt fájlokból is.</description>
-		<description lang="id_ID">Lirik CU LRC adalah script lirik untuk Kodi. Mendukung lirik regular maupun LRC. Script ini mampu mencari lirik dengan singkronisasi maupun tidak yang tercantum pada berkas atau melalui alat penyalin. Script dapat membaca berkas lirik .lrc/.txt yang disimpan di lokasi dan nama berkas yang sama dengan .mp3 (atau format musik lainnya).</description>
-		<description lang="it_IT">CU LRC Lyrics è uno script per i testi per Kodi. Supporta testi come LRC. Lo script può cercare testi incorporati sincronizzati e non, da file o tramite scapers. Legge file .lrc/.txt salvati nello stesso percorso e con lo stesso nome dell'.mp3 (o altri tipi di musica)</description>
-		<description lang="ko_KR">CU LRC Lyrics는 Kodi를 위한 가사 수집기입니다. 일반 가사와 LRC 가사를 지원하며, 내장 가동기/비동기 가사를 검색하거나 파일 내장 가사를 찾습니다. mp3(또는 다른 형식의 음악 파일)와 같은 경로에 저장되어 있는 .lrc/.txt 형식의 가사를 읽어옵니다.</description>
-		<description lang="lt_LT">CU LRC Lyrics yra dainų žodžių atsiuntimo skriptas, skirtas Kodi. Palaikomi tiek įprasti, tiek LRC dainų žodžiai. Skriptas gali ieškoti sinchronizuotų / nesinchronizuotų dainų žodžių, integruotų failuose arba naudojant skreperius. Jis gali nuskaityti .lrc/.txt dainų žodžių failus, išsaugotus toje pačioje vietoje ir tokiu pačiu pavadinimu kaip ir .mp3 failas (ar kitokio muzikinio failo tipo).</description>
-		<description lang="nl_NL">CU LRC Lyrics is een script voor songteksten in Kodi. Het ondersteunt zowel reguliere als LRC songteksten. Het script ondersteunt gesynchroniseerde of ongesynchroniseerde songteksten die ingebed zijn in een bestand, in een los bestand staan of van een scraper. Het kan .lrc/.txt songtekst-bestanden lezen die opgeslagen zijn op hetzelfde pad en dezelfde bestandsnaam hebben als de .mp3 (of ander type bestand).</description>
-		<description lang="nb_NO">CU LRC Lyrics er et skript for å vise sangtekster i Kodi. Den støtter vanlige samt LRC sangtekster. Skriptet kan søke synkroniserte / usynkroniserte sangtekster innebygd, fra en fil eller via skrapere. Den kan lese .lrc / .txt filer som er lagret på den samme banen og med samme filnavn (.mp3 eller annen type musikk).</description>
-		<description lang="pl_PL">CU LRC Lyrics jest dodatkiem obsługującym teksty utworów dla Kodi. Obsługuje teksty utworów zarówno zwykłe jak i zsynchronizowane. Dodatek potrafi wyszukać teksty zapisane lokalnie, wbudowane w pliki utworów, a także pobierać je z Internetu. Potrafi wczytać teksty w formatach .lrc/.txt zapisane w tym samym folderze co pliku utworu .mp3 (lub innym wspierany formacie).</description>
-		<description lang="pt_PT">CU LRC Lyrics é um script de letras para o Kodi. Suporta letras normais e LRC. O script pode encontrar letras sincronizadas/dessincronizadas embutidas, ou procurar a partir de ficheiro ou de colectores. Pode ler letras de ficheiros .lrc/.txt guardados na mesma localização do ficheiro .mp3 (ou outro tipo de música).</description>
-		<description lang="pt_BR">CU LRC Lyrics é script de letras de músicas para Kodi. Ele suporta regular bem como Letras LRC. O script pode procurar por letras embutidas sincronizadas/dessincronizadas, de arquivos ou usando scrapers. Ele pode ler arquivos de letras .lrc/txt salvos no mesmo caminho com o mesmo nome do arquivo .mp3 (ou outro formato de música).</description>
-		<description lang="sk_SK">CU LRC Lyrics je doplnok poskytujúci texty skladieb pre Kodi. Podporuje bežné ako aj LRC formáty. Doplnok môže vyhľadávať synchronizované/nesynchronizované Texty skladieb vložené, v samostatnom súbore alebo cez sťahovače. Dokáže čítať .lrc/.txt súbory v rovnakom priečinku a s rovnakým názvom ako .mp3 súbor (alebo iný hudobný súbor).</description>
-		<description lang="sl_SI">CU LRC Lyrics je skripta za besedila pesmi za Kodi. Podpira redne kot tudi LRC besedila pesmi. Skripta lahko išče sinhronizirana/nesinhronizirana besedila pesmi, vgrajena, iz datoteke ali od ponudnikov. Bere lahko .lrc/.txt formate zapisa datotek iz iste mape kot je istoimenska datoteka .mp3 (ali drigi format zapisa glasbe).</description>
-		<description lang="sv_SE">CU LRC Lyrics är ett skript för Kodi. Det stödjer såväl vanliga som LRC texter. Skriptet kan söka synkroniserade/osynkroniserade texter inbäddade från fil eller från skraport. Det kan läsa .lrc/.txt filer sparade med samma sökväg och filnamn som .mp3 (eller annan typ av musik).</description>
-		<description lang="zh_CN">CU LRC Lyrics 是 Kodi 的歌词插件。它支持原 LRC Lyrics 歌词插件的功能。这个插件会搜索内嵌的、本地文件或通过刮削器获取同步/非同步歌词。它可以读取以相同文件名与歌曲文件保存在相同目录的 .lrc/.txt 歌词文件。</description>
-		<description lang="zh_TW">CU LRC Lyrics 是為 Kodi 而設的歌詞腳本。它支援一般格式的歌詞以及 LRC 格式的歌詞。此腳本能夠搜尋歌曲檔案內嵌歌詞的同步及非同步歌詞，同時也能使用刮削器在線搜尋、本地文件或通过刮削器获取同步/非同步歌词。它可以讀取放在同一個資料夾內，而又與歌曲相同命名的 .lrc/.txt 歌詞檔。</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=147340</forum>
+		<forum>https://forum.kodi.tv/showthread.php?tid=147340</forum>
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.cu.lrclyrics/</source>
@@ -248,7 +148,7 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.0.4"
+	version="3.0.5"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -256,134 +156,47 @@
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
-		<summary lang="ru">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
-		<description lang="en">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
-		<description lang="ru">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
+		<summary lang="en_GB">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
+		<summary lang="ru_RU">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
+		<summary lang="uk_UA">ВсеТВ - Телепрограма, анонси фільмів, серіали, спорт</summary>
+		<description lang="en_GB">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
+		<description lang="ru_RU">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
+		<description lang="uk_UA">ВсеТВ 2.0 - Телепрограма понад 650 каналів України, Росії, Європи, анонси всіх фільмів, серіалів, спорт на ТБ, новини телебачення, найбільший каталог серіалів, можливість налаштувати під себе набір каналів і формат видачі інформації</description>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
 	</extension>
 </addon>
 
-<addon id="script.favourites" name="Favourites script" version="7.1.3.001" provider-name="ronie, `Black">
+<addon id="script.favourites" name="Favourites script" version="7.1.3.002" provider-name="ronie, `Black">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="be_BY">Favourites script</summary>
-		<summary lang="bg_BG">Скрипт "Любими"</summary>
-		<summary lang="ca_ES">Script Preferit</summary>
-		<summary lang="cs_CZ">Script pro Oblíbené</summary>
-		<summary lang="da_DK">Favoritscript</summary>
-		<summary lang="de_DE">Favoriten-Skript</summary>
-		<summary lang="el_GR">Script Αγαπημένων</summary>
 		<summary lang="en_GB">Favourites script</summary>
-		<summary lang="en_NZ">Favourites script</summary>
-		<summary lang="en_US">Favorites script</summary>
-		<summary lang="es_ES">Script de Favoritos</summary>
-		<summary lang="es_AR">Favoritos</summary>
-		<summary lang="fi_FI">Suosikit skripti</summary>
-		<summary lang="fr_FR">Script Favoris</summary>
-		<summary lang="fr_CA">Le script des favoris</summary>
-		<summary lang="gl_ES">Script de Favoritos</summary>
-		<summary lang="he_IL">סקריפט מועדפים</summary>
-		<summary lang="hr_HR">Omiljene skripte</summary>
-		<summary lang="hu_HU">Kedvencek script</summary>
-		<summary lang="id_ID">Script favorit</summary>
-		<summary lang="it_IT">Script preferiti</summary>
-		<summary lang="ko_KR">즐겨찾기 스크립트</summary>
-		<summary lang="lt_LT">Mėgstamiausių skriptas</summary>
-		<summary lang="nl_NL">Favourietenscript</summary>
-		<summary lang="nb_NO">Favorittskript</summary>
-		<summary lang="pl_PL">Skrypt ulubionych</summary>
-		<summary lang="pt_PT">Script de Favoritos</summary>
-		<summary lang="pt_BR">Script Favoritos</summary>
-		<summary lang="ro_RO">Script Favorite</summary>
 		<summary lang="ru_RU">Скрипт "Избранное"</summary>
-		<summary lang="sv_SE">Favoritskript</summary>
-		<summary lang="tr_TR">Sık kullanılanlar betiği</summary>
-		<summary lang="zh_CN">收藏夹脚本</summary>
-		<description lang="be_BY">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
-		<description lang="bg_BG">Извлича информация от вашето меню "Любими" и показва допълнителни бутони в главното меню и подменюто.</description>
-		<description lang="ca_ES">Obtenir els temes Preferits dels seus Kodi per omplir el menú Inici / submenú amb botons personalitzats.</description>
-		<description lang="cs_CZ">Přenese položky z Oblíbených do Home menu/submenu pod vlastní tlačítka. </description>
-		<description lang="da_DK">Henter elementer fra din Kodi-favoritter til at fylde Hjemmemenu/undermenu med brugerbestemte knapper.</description>
-		<description lang="de_DE">Stellt die Einträge aus der Kodi-Favoriten-Liste für benutzerdefinierte Verknüpfungen auf dem Startbildschirm zur Verfügung.</description>
-		<description lang="el_GR">Χρησιμοποιεί αντικείμενα από τα αγαπημένα σας του Kodi για να συμπληρώσει τα προσαρμοσμένα πλήκτρα μενού/υπομενού της Αρχικής Οθόνης</description>
+		<summary lang="uk_UA">Скрипт "Обране"</summary>
 		<description lang="en_GB">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
-		<description lang="en_NZ">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
-		<description lang="en_US">Fetches item from your Kodi favorites to populate Home menu/submenu with custom buttons.</description>
-		<description lang="es_ES">Usar ítems de tus favoritos de Kodi para crear menús y submenús personalizados</description>
-		<description lang="es_AR">Obtiene medios de sus favoritos en Kodi para enriquecer su menu inicio y sub carpetas con botones personalizados</description>
-		<description lang="fi_FI">Hakee Kodin suosikeista kohteita ja populoi sillä Koti-valikon / alivalikon muokatuilla napeilla.</description>
-		<description lang="fr_FR">Récupère l'élément depuis les favoris Kodi pour remplir le menu/sous-menu de la page d'accueil avec des boutons personnalisés.</description>
-		<description lang="fr_CA">Récupère l'élément de vos favoris Kodi pour remplir le menu d'accueil/le sous-menu avec des boutons personnalisés.</description>
-		<description lang="gl_ES">Obtén o elemento dos favoritos para estabelecer botóns personalizados no Menú Principal/Submenú</description>
-		<description lang="he_IL">מייבא פריט מהמועדפים שלך לאכלוס תפריט/תת תפריט עם לחצנים מותאמים אישית במסך הבית.</description>
-		<description lang="hr_HR">Dohvaća stavke iz vašeg Kodi 'Omiljeno' izbornika i popunjava Početni izbornik/podizbornik s prilagođenim tipkama.</description>
-		<description lang="hu_HU">Összegyűjti az elemeket az Kodi kedvencek közül és a központi menü almenüjébe helyezi egyedi gombokkal.</description>
-		<description lang="id_ID">Ambil item dari favorit Kodi Anda untuk mengisi menu/submenu Beranda dengan tombol suka-suka.</description>
-		<description lang="it_IT">Preleva elementi dai tuoi preferiti per popolare il menù principale ed i sottomenù con bottoni personalizzato.</description>
-		<description lang="ko_KR">Kodi 즐겨찾기에서 항목을 가져와 사용자 설정 버튼으로 홈 메뉴/서브메뉴에 표시합니다.</description>
-		<description lang="lt_LT">Paima elementus iš Kodi mėgstamiausiųjų, kad užpildytų pagrindinio meniu/submeniu individualiais mygtukais.</description>
-		<description lang="nl_NL">Haalt item van je Kodi favorieten op om in het Home menu/submenu te plaatsen via losse buttons.</description>
-		<description lang="nb_NO">Henter oppføringer fra favorittene dine i Kodi for å befolke hovedmenyen og undermenyen med egendefinerte knapper.</description>
-		<description lang="pl_PL">Pobiera pozycje z twoich ulubionych w celu zapełnienia menu/podmenu niestandardowymi przyciskami.</description>
-		<description lang="pt_PT">Obtém itens dos seus favoritos do Kodi para povoar o Menu Principal/submenu com botões personalizados.</description>
-		<description lang="pt_BR">Compila itens dos seus favoritos do Kodi para ocupar menus e submenus da tela inicial com botões personalizados.</description>
 		<description lang="ru_RU">Извлекает информацию из Вашего меню "Избранное" и отображает дополнительные кнопки в главном меню и подменю.</description>
-		<description lang="sv_SE">Hämtar objekt från dina Kodi-favoriter för att fylla ut hem-menyn med egna knappar.</description>
-		<description lang="zh_CN">将 Kodi 收藏夹项目用于主界面菜单/子菜单的自定义按钮。</description>
-		<disclaimer lang="be_BY">Needs skin support for it to be used properly</disclaimer>
-		<disclaimer lang="bg_BG">Необходима е поддръжка от страна на облика за коректно функциониране</disclaimer>
-		<disclaimer lang="ca_ES">Necessita Suport de la pell perquè sigui utilitzat correctament</disclaimer>
-		<disclaimer lang="cs_CZ">Pro správné použití je potřeba podpora skinu.</disclaimer>
-		<disclaimer lang="da_DK">Behøver skinsupport for at blive brugt ordentligt</disclaimer>
-		<disclaimer lang="de_DE">Benötigt Skin-Support um korrekt genutzt zu werden</disclaimer>
-		<disclaimer lang="el_GR">Απαιτείται υποστήριξη από το κέλυφος για να χρησιμοποιηθεί σωστά</disclaimer>
+		<description lang="uk_UA">Витягує інформацію з Вашого меню "Обране" і відображає додаткові кнопки в головному меню і підміню.</description>
 		<disclaimer lang="en_GB">Needs skin support for it to be used properly</disclaimer>
-		<disclaimer lang="en_NZ">Needs skin support for it to be used properly</disclaimer>
-		<disclaimer lang="en_US">Needs skin support for it to be used properly</disclaimer>
-		<disclaimer lang="es_ES">Necesita ser soportado por el skin para poder funcionar correctamente</disclaimer>
-		<disclaimer lang="es_AR">Necesita soporte de mascara para ser usada correctamente</disclaimer>
-		<disclaimer lang="fi_FI">Toimiakseen kunnolla, skinin tulee tukea tätä</disclaimer>
-		<disclaimer lang="fr_FR">Nécessite le support du thème pour qu'il soit utilisé correctement</disclaimer>
-		<disclaimer lang="fr_CA">Le prise en charge de l'habillage est nécessaire pour qu'il soit utilisé correctement</disclaimer>
-		<disclaimer lang="gl_ES">Precisa da axuda da pel para que sexa utilizado correctamente</disclaimer>
-		<disclaimer lang="he_IL">להפעלה כראוי נדרשת תמיכה במעטפת</disclaimer>
-		<disclaimer lang="hr_HR">Zahtijeva podršku presvlake za ispravno korištenje</disclaimer>
-		<disclaimer lang="hu_HU">Felszín támogatás szükséges a helyes működéshez</disclaimer>
-		<disclaimer lang="id_ID">Memerlukan dukungan kulit untuk dapat digunakan dengan baik</disclaimer>
-		<disclaimer lang="it_IT">E' necessario che lo skin supporti lo script per funzionare correttamente</disclaimer>
-		<disclaimer lang="ko_KR">스킨에서 지원해야 합니다</disclaimer>
-		<disclaimer lang="lt_LT">Reikalingas teminės išvaizdos palaikymas tinkamam naudojimui</disclaimer>
-		<disclaimer lang="nl_NL">Heeft skinondersteuning nodig om correct te werken</disclaimer>
-		<disclaimer lang="nb_NO">Krever skallstøtte for å fungere riktig</disclaimer>
-		<disclaimer lang="pl_PL">Wymagane wsparcie skórki w celu poprawnego działania</disclaimer>
-		<disclaimer lang="pt_PT">Necessita de um tema compatível para funcionar correctamente.</disclaimer>
-		<disclaimer lang="pt_BR">Necessita de suporte da skin para ser usado adequadamente</disclaimer>
-		<disclaimer lang="ro_RO">Necesită suport din partea costumului pentru a fi folosit cum trebuie</disclaimer>
 		<disclaimer lang="ru_RU">Необходима поддержка скинов для корректного отображения</disclaimer>
-		<disclaimer lang="sl_SI">Potrebuje podporo preobleke, da bo uporabljeno pravilno.</disclaimer>
-		<disclaimer lang="sv_SE">Behöver skalsupport för att kunna användas riktigt</disclaimer>
-		<disclaimer lang="tr_TR">Düzgün kullanılabilmesi için dış görünüm desteğine ihtiyacınız var</disclaimer>
-		<disclaimer lang="zh_CN">正常使用需要皮肤支持</disclaimer>
+		<disclaimer lang="uk_UA">Необхідна підтримка обкладинки для коректного відображення</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=114671</forum>
 		<website></website>
-		<email></email>
-		<source>https://gitlab.com/ronie/script.favourites</source>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.favourites.git</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.12.015" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="8.0.12.016" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
