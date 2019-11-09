@@ -248,30 +248,35 @@
 </addon>
 
 <addon id="script.module.cherrypy"
-       name="CherryPy Kodi module"
-       version="11.0.1.002"
-       provider-name="marcelveldt, CherryPy Team, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
-        <import addon="script.module.six" version="1.9.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">CherryPy webserver packaged as Kodi module</summary>
-        <summary lang="ru_RU">Веб-сервер CherryPy, упакованный как модуль Kodi</summary>
-        <description lang="en_GB">CherryPy is a pythonic, object-oriented web framework
-            CherryPy allows developers to build web applications in much the same way they would build any other object-oriented Python program. This results in smaller source code developed in less time.
-            CherryPy is now more than ten years old and it is has proven to be very fast and stable. It is being used in production by many sites, from the simplest to the most demanding.
-        </description>
-        <description lang="ru_RU">CherryPy - это питоновая, объектно-ориентированная веб-структура
-             CherryPy позволяет разработчикам создавать веб-приложения почти так же, как и для любой другой объектно-ориентированной программы Python. Это приводит к меньшему исходному коду, разработанному за меньшее время.
-             Теперь CherryPy более десяти лет, и это оказалось очень быстрым и стабильным. Он используется в производстве на многих сайтах, от самых простых до самых требовательных.
-        </description>
-        <license>BSD</license>
-        <platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
+	name="CherryPy Kodi module"
+	version="11.0.1.003"
+	rovider-name="marcelveldt, CherryPy Team, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.six" version="1.9.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">CherryPy webserver packaged as Kodi module</summary>
+		<summary lang="ru_RU">Веб-сервер CherryPy, упакованный как модуль Kodi</summary>
+		<summary lang="uk_UA">Веб-сервер CherryPy, упакований як модуль Kodi</summary>
+		<description lang="en_GB">CherryPy is a pythonic, object-oriented web framework
+		CherryPy allows developers to build web applications in much the same way they would build any other object-oriented Python program. This results in smaller source code developed in less time.
+		CherryPy is now more than ten years old and it is has proven to be very fast and stable. It is being used in production by many sites, from the simplest to the most demanding.
+		</description>
+		<description lang="ru_RU">CherryPy - это питоновая, объектно-ориентированная веб-структура
+		CherryPy позволяет разработчикам создавать веб-приложения почти так же, как и для любой другой объектно-ориентированной программы Python. Это приводит к меньшему исходному коду, разработанному за меньшее время.
+		Теперь CherryPy более десяти лет, и это оказалось очень быстрым и стабильным. Он используется в производстве на многих сайтах, от самых простых до самых требовательных.
+		</description>
+		<description lang="uk_UA">CherryPy - це пітоновая, об'єктно-орієнтована веб-структура
+		CherryPy дозволяє розробникам створювати веб-додатки майже так само, як і для будь-якої іншої об'єктно-орієнтованої програми Python. Це призводить до меншого вихідного коду, розробленого за менший час.
+		Тепер CherryPy більше десяти років, і це виявилося дуже швидким і стабільним. Він використовується у виробництві на багатьох сайтах, від найпростіших до самих вимогливих.
+		</description>
+		<license>BSD</license>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.cherrypy.git</source>
-    </extension>
+	</extension>
 </addon>
 
 <addon id="script.module.metadatautils"
@@ -301,27 +306,28 @@
 </addon>
 
 <addon id="script.module.musicbrainz"
-       name="Musicbrainz NGS webservice python bindings"
-       version="0.6.0.002"
-       provider-name="marcelveldt, YLLOW_DRAGON">
-  <requires>
-  <import addon="xbmc.python" version="2.24.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Python bindings for Musicbrainz' NGS webservice</summary>
-    <summary lang="ru_RU">Python модуль для вебсервиса Musicbrainzngs</summary>
-    <description lang="en_GB">Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
-    <description lang="ru_RU">Kodi Python модуль для вебсервиса Musicbrainzngs, разработанного alastair.</description>
-    <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-    <platform>all</platform>
-    <email>nkvoronov@gmail.com</email>
-    <source>https://github.com/nkvoronov/script.module.simplecache.git</source>
-  </extension>
+	name="Musicbrainz NGS webservice python bindings"
+	version="0.6.0"
+	provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+	</requires>
+	<extension point="xbmc.python.module"
+		library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Python bindings for Musicbrainz' NGS webservice</summary>
+		<summary lang="ru_RU">Сборка Python для веб-сервиса Musicbrainz 'NGS</summary>
+		<summary lang="uk_UA">Збірка Python для веб-сервісу Musicbrainz 'NGS</summary>
+		<description lang="en_GB">Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
+		<description lang="ru_RU">Библиотека модулей Kodi для сборки Python веб-службы Musicbrainz 'NGS, разработанная alastair.</description>
+		<description lang="uk_UA">Бібліотека модулів Kodi для збірки Python веб-служби Musicbrainz 'NGS, розроблена alastair.</description>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<source>https://github.com/marcelveldt/script.module.musicbrainz</source>
+		<platform>all</platform>
+	</extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.17.009" provider-name="marcelveldt, YLLOW_DRAGON">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.17.010" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -329,8 +335,10 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</summary>
 		<summary lang="ru_RU">Предоставляет простой файл на основе кэш-памяти для KODI дополнений</summary>
+		<summary lang="uk_UA">Надає простий файл на основі кеш-пам'яті для KODI доповнень</summary>
 		<description lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</description>
 		<description lang="ru_RU">Предоставляет простой файл на основе кэш-памяти для KODI дополнений</description>
+		<description lang="uk_UA">Надає простий файл на основі кеш-пам'яті для KODI доповнень</description>
 		<license>Apache 2.0</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -342,27 +350,29 @@
 </addon>
 
 <addon id="script.module.thetvdb"
-       name="The TVDB API v2"
-       version="1.0.27.010"
-       provider-name="marcelveldt, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.24.0"/>
-        <import addon="script.module.requests" version="2.3.0"/>
-        <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.simplecache" version="1.0.0"/>
-        <import addon="script.module.arrow" version="0.6.0"/>
-    </requires>
-    <extension point="xbmc.python.module" library="lib" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">TheTVDB API v2 python module for Kodi</summary>
-        <summary lang="ru_RU">TheTVDB API v2 модуль python для Kodi</summary>
-        <description lang="en_GB">TheTVDB API v2 python module for Kodi</description>
-        <description lang="ru_RU">TheTVDB API v2 модуль python для Kodi</description>
-        <license>Apache 2.0</license>
-        <platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.module.thetvdb.git</source>
-    </extension>
+	name="The TVDB API v2"
+	version="1.0.27.011"
+	provider-name="marcelveldt, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="script.module.requests" version="2.3.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.simplecache" version="1.0.0"/>
+		<import addon="script.module.arrow" version="0.6.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">TheTVDB API v2 python module for Kodi</summary>
+		<summary lang="ru_RU">TheTVDB API v2 модуль python для Kodi</summary>
+		<summary lang="uk_UA">TheTVDB API v2 модуль python для Kodi</summary>
+		<description lang="en_GB">TheTVDB API v2 python module for Kodi</description>
+		<description lang="ru_RU">TheTVDB API v2 модуль python для Kodi</description>
+		<description lang="uk_UA">TheTVDB API v2 модуль python для Kodi</description>
+		<license>Apache 2.0</license>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.module.thetvdb.git</source>
+	</extension>
 </addon>
 
 <addon
