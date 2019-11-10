@@ -200,7 +200,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.12.018" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="8.0.12.019" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -253,7 +253,7 @@
 
 <addon id="script.module.cherrypy"
 	name="CherryPy Kodi module"
-	version="11.0.1.003"
+	version="11.0.1.004"
 	rovider-name="marcelveldt, CherryPy Team, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -264,18 +264,9 @@
 		<summary lang="en_GB">CherryPy webserver packaged as Kodi module</summary>
 		<summary lang="ru_RU">Веб-сервер CherryPy, упакованный как модуль Kodi</summary>
 		<summary lang="uk_UA">Веб-сервер CherryPy, упакований як модуль Kodi</summary>
-		<description lang="en_GB">CherryPy is a pythonic, object-oriented web framework
-		CherryPy allows developers to build web applications in much the same way they would build any other object-oriented Python program. This results in smaller source code developed in less time.
-		CherryPy is now more than ten years old and it is has proven to be very fast and stable. It is being used in production by many sites, from the simplest to the most demanding.
-		</description>
-		<description lang="ru_RU">CherryPy - это питоновая, объектно-ориентированная веб-структура
-		CherryPy позволяет разработчикам создавать веб-приложения почти так же, как и для любой другой объектно-ориентированной программы Python. Это приводит к меньшему исходному коду, разработанному за меньшее время.
-		Теперь CherryPy более десяти лет, и это оказалось очень быстрым и стабильным. Он используется в производстве на многих сайтах, от самых простых до самых требовательных.
-		</description>
-		<description lang="uk_UA">CherryPy - це пітоновая, об'єктно-орієнтована веб-структура
-		CherryPy дозволяє розробникам створювати веб-додатки майже так само, як і для будь-якої іншої об'єктно-орієнтованої програми Python. Це призводить до меншого вихідного коду, розробленого за менший час.
-		Тепер CherryPy більше десяти років, і це виявилося дуже швидким і стабільним. Він використовується у виробництві на багатьох сайтах, від найпростіших до самих вимогливих.
-		</description>
+		<description lang="en_GB">CherryPy is a pythonic, object-oriented web framework.[CR]CherryPy allows developers to build web applications in much the same way they would build any other object-oriented Python program. This results in smaller source code developed in less time.[CR]CherryPy is now more than ten years old and it is has proven to be very fast and stable. It is being used in production by many sites, from the simplest to the most demanding.</description>
+		<description lang="ru_RU">CherryPy - это питоновая, объектно-ориентированная веб-структура.[CR]CherryPy позволяет разработчикам создавать веб-приложения почти так же, как и для любой другой объектно-ориентированной программы Python. Это приводит к меньшему исходному коду, разработанному за меньшее время.[CR]Теперь CherryPy более десяти лет, и это оказалось очень быстрым и стабильным. Он используется в производстве на многих сайтах, от самых простых до самых требовательных.</description>
+		<description lang="uk_UA">CherryPy - це пітоновая, об'єктно-орієнтована веб-структура.[CR]CherryPy дозволяє розробникам створювати веб-додатки майже так само, як і для будь-якої іншої об'єктно-орієнтованої програми Python. Це призводить до меншого вихідного коду, розробленого за менший час.[CR]Тепер CherryPy більше десяти років, і це виявилося дуже швидким і стабільним. Він використовується у виробництві на багатьох сайтах, від найпростіших до самих вимогливих.</description>
 		<license>BSD</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -821,7 +812,7 @@
     </extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.5.010" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.5.011" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 	</requires>
