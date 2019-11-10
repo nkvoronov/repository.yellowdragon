@@ -196,7 +196,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.12.016" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="8.0.12.017" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -281,7 +281,7 @@
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.19.019"
+		version="1.0.19.020"
 		provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -294,10 +294,12 @@
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Metadata and artwork from common sources TMDB, IMDB and fanart.tv </summary>
-		<summary lang="ru_RU">Метаданные и иллюстраций из общих источников TMDb, IMDB и fanart.tv </summary>
+		<summary lang="en_GB">Metadata and artwork from common sources TMDB, IMDB and fanart.tv</summary>
+		<summary lang="ru_RU">Метаданные и иллюстраций из общих источников TMDb, IMDB и fanart.tv</summary>
+		<summary lang="uk_UA">Метадані і ілюстрацій із загальних джерел TMDb, IMDB та fanart.tv</summary>
 		<description lang="en_GB">The artwork and metadata module provides rich metadata, including artwork for various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.</description>
 		<description lang="ru_RU">Модуль artwork and metadata получает метаданные и иллюстраций для различные метатипов с сайтов TMDb, MusicBrainz и fanart.tv.</description>
+		<description lang="uk_UA">Модуль artwork and metadata отримує метадані та ілюстрацій для різні метатіпов з сайтів TMDb, MusicBrainz та fanart.tv.</description>
 		<license>Apache 2.0</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -376,98 +378,100 @@
 </addon>
 
 <addon
-    id="script.pvr.favourites"
-    name="PVR favourites"
-    version="2.1.1"
-    provider-name="YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.20.0"/>
-        <import addon="script.module.simplejson" version="3.3.0"/>
-        <import addon="script.module.unidecode" version="0.4.14"/>
-    </requires>
-    <extension point="xbmc.python.library" library="default.py"/>
-    <extension point="xbmc.addon.metadata">
-        <description lang="en">It gets information about PVR channels and displays additional buttons and widgets on the main menu and submenus.</description>
-        <disclaimer lang="en">Skins support needed for correct display.</disclaimer>
-        <description lang="ru">Получает информацию об PVR каналах и отображает дополнительные кнопки и виджеты в главном меню и подменю.</description>
-        <disclaimer lang="ru">Необходима поддержка скинов для корректного отображения.</disclaimer>
-        <platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.pvr.favourites.git</source>
-    </extension>
+	id="script.pvr.favourites"
+	name="PVR favourites"
+	version="2.1.2"
+	provider-name="YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.unidecode" version="0.4.14"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<description lang="en_GB">It gets information about PVR channels and displays additional buttons and widgets on the main menu and submenus.</description>
+		<description lang="ru_RU">Получает информацию об PVR каналах и отображает дополнительные кнопки и виджеты в главном меню и подменю.</description>
+		<description lang="uk_UA">Отримує інформацію про PVR каналах і відображає додаткові кнопки і віджети в головному меню і підміню.</description>
+		<disclaimer lang="en_GB">Skins support needed for correct display.</disclaimer>
+		<disclaimer lang="ru_RU">Необходима поддержка скинов для корректного отображения.</disclaimer>
+		<disclaimer lang="uk_UA">Необхідна підтримка скінів для коректного відображення.</disclaimer>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.pvr.favourites.git</source>
+	</extension>
 </addon>
 
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2.002" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-    </requires>
-    <extension point="xbmc.python.library" library="randomandlastitems.py" />
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Random And Last Items script</summary>
-        <summary lang="fr">Random And Last Items script</summary>
-        <summary lang="ru">Скрипт - случайные и последние элементы </summary>
-        <description lang="en">Script to get Random or Last added movies, episodes, albums or music videos from the database.Can optionnaly handle playlist to filter results.</description>
-        <description lang="fr">Script qui retourne, soit de manière aléatoire, soit les derniers ajouts, les films, épisodes, albums ou clips de la base de données.Il peut optionnellement gerer les playlistes pour filtrer les resultats.</description>
-        <description lang="ru">Скрипт получает случайное или последние добавленные фильмы, эпизоды, альбомы или музыкальные клипы из медиатеки. Может обрабатывать плейлист для фильтрации результатов.</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website></website>
-        <forum>http://forum.xbmc.org/showthread.php?tid=122448</forum>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.randomandlastitems.git</source>
-    </extension>
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2.003" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.json" version="6.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.python.library" library="randomandlastitems.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Random And Last Items script</summary>
+		<summary lang="ru_RU">Скрипт - случайные и последние элементы</summary>
+		<summary lang="uk_UA">Скрипт - випадкові та останні елементи</summary>
+		<description lang="en_GB">Script to get Random or Last added movies, episodes, albums or music videos from the database.Can optionnaly handle playlist to filter results.</description>
+		<description lang="ru_RU">Скрипт получает случайное или последние добавленные фильмы, эпизоды, альбомы или музыкальные клипы из медиатеки. Может обрабатывать плейлист для фильтрации результатов.</description>
+		<description lang="uk_UA">Скрипт отримує випадкове або останні додані фільми, епізоди, альбоми або музичні кліпи з медіатеки. Може обробляти плейлист для фільтрації результатів.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<website></website>
+		<forum>http://forum.xbmc.org/showthread.php?tid=122448</forum>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.randomandlastitems.git</source>
+	</extension>
 </addon>
 
 <addon id="script.rss.editor"
-       name="RSS Editor"
-       version="3.0.3.004"
-       provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-  </requires>
-  <extension point="xbmc.python.script"
-             library="default.py" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">A Script for editing Kodi's built in RSS Ticker</summary>
-    <summary lang="hu">RSS forrás szerkesztő</summary>
-    <summary lang="de">Skript zum Bearbeiten des Kodi internen RSS Tickers</summary>
-    <summary lang="ru">Скрипт для редактирования бегущей строки RSS KODI</summary>
-    <description lang="en">A Script for editing Kodi's built in RSS Ticker</description>
-    <description lang="hu">A szkript képes szerkeszteni az Kodi beépített RSS forrás készletét</description>
-    <description lang="de">Skript zum Bearbeiten des Kodi internen RSS Tickers</description>
-    <description lang="ru">Скрипт для редактирования бегущей строки RSS KODI</description>
-    <language></language>
-    <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-    <forum></forum>
-    <website></website>
-    <email>nkvoronov@gmail.com</email>
-    <source>https://github.com/nkvoronov/script.rss.editor.git</source>
-  </extension>
+	name="RSS Editor"
+	version="3.0.4.005"
+	provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script"
+		library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">A Script for editing Kodi's built in RSS Ticker</summary>
+		<summary lang="ru_RU">Скрипт для редактирования бегущей строки RSS KODI</summary>
+		<summary lang="uk_UA">Скрипт для редагування бігучого рядка RSS KODI</summary>
+		<description lang="en_GB">A Script for editing Kodi's built in RSS Ticker</description>
+		<description lang="ru_RU">Скрипт для редактирования бегущей строки RSS KODI</description>
+		<description lang="uk_UA">Скрипт для редагування бігучого рядка RSS KODI</description>
+		<platform>all</platform>
+		<language></language>
+		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<forum></forum>
+		<website></website>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.rss.editor.git</source>
+	</extension>
 </addon>
 
 <addon id="script.simpleplaylists"
-    name="SimplePlaylists"
-    version="1.1.1.003"
-    provider-name="AddonScriptorDE, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>video audio image</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
-        <summary lang="ru">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</summary>
-        <description lang="en">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
-        <description lang="ru">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</description>
-        <language></language>
-        <platform>all</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.simpleplaylists.git</source>
-    </extension>
+	name="SimplePlaylists"
+	version="1.1.1.004"
+	provider-name="AddonScriptorDE, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>video audio image</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
+		<summary lang="ru_RU">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</summary>
+		<summary lang="uk_UA">Додавайте локальне медіа (відео/аудіо/зображення) та контент доповнень до плейлисти під час перегляду медіатеки. Для використання цього плагіна ви повинні виконати наступну команду: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Додаткова інформація: forum.xbmc.org</summary>
+		<description lang="en_GB">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
+		<description lang="ru_RU">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</description>
+		<description lang="uk_UA">Додавайте локальне медіа (відео/аудіо/зображення) та контент доповнень до плейлисти під час перегляду медіатеки. Для використання цього плагіна ви повинні виконати наступну команду: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Додаткова інформація: forum.xbmc.org</description>
+		<language></language>
+		<platform>all</platform>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.simpleplaylists.git</source>
+	</extension>
 </addon>
 
 	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.33.019" provider-name="marcelveldt, YLLOW_DRAGON">
