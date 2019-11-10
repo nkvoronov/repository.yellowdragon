@@ -70,10 +70,6 @@
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
 	branch = vleia
-[submodule "script.vdr.front"]
-	path = script.vdr.front
-	url = https://github.com/nkvoronov/script.vdr.front.git
-	branch = vleia
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git

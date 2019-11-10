@@ -735,28 +735,6 @@
 	</extension>
 </addon>
 
-<addon
-    id="script.vdr.front"
-    name="Run VDR Fronend"
-    version="1.1.2"
-    provider-name="YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension point="xbmc.python.script"  library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en">Start VDR frontend</summary>
-        <description lang="en">Start VDR frontend</description>
-        <summary lang="ru">Старт VDR frontend</summary>
-        <description lang="ru">Старт VDR frontend</description>
-        <platform>linux</platform>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.vdr.front.git</source>
-    </extension>
-</addon>
-
 <addon id="script.xbmc.audio.mixer"
     name="Kodi Audio Mixer"
     version="4.0.2.005"
