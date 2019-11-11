@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="18.4" provider-name="YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.repository" name="Yellow Dragon Repository Dev">
+		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.dev/leia/repo/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.dev/leia/repo/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.dev/leia/repo/</datadir>
+		<hashes>false</hashes>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">YLLOW_DRAGON DEV addons repository for KODI Leia</summary>
+		<summary lang="ru_RU">Репозиторий дополнений YLLOW_DRAGON DEV для KODI Leia</summary>
+		<summary lang="uk_UA">Репозиторій доповнень YLLOW_DRAGON DEV для KODI Leia</summary>
+		<description  lang="en_GB">Download and install YLLOW_DRAGON DEV addons repository.</description>
+		<description  lang="ru_RU">Загружайте и устанавливайте дополнений из репозитория YLLOW_DRAGON DEV.</description>
+		<description  lang="uk_UA">Завантажуйте та встановлюйте доповненя з репозиторію YLLOW_DRAGON DEV.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
+		<news></news>
+	</extension>
+</addon>

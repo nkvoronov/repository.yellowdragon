@@ -134,3 +134,7 @@
 	path = script.tvtunes.ex
 	url = https://github.com/nkvoronov/script.tvtunes.ex.git
 	branch = vleia
+[submodule "script.extendedinfo"]
+	path = script.extendedinfo
+	url = https://github.com/nkvoronov/script.extendedinfo.git
+	branch = vleia
