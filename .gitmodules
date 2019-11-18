@@ -138,3 +138,11 @@
 	path = script.extendedinfo
 	url = https://github.com/nkvoronov/script.extendedinfo.git
 	branch = vleia
+[submodule "script.module.kodi65"]
+	path = script.module.kodi65
+	url = https://github.com/nkvoronov/script.module.kodi65.git
+	branch = vleia
+[submodule "script.module.youtube.dl"]
+	path = script.module.youtube.dl
+	url = https://github.com/nkvoronov/script.module.youtube.dl.git
+	branch = vleia
