@@ -148,7 +148,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.6.2.017" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.7.1.018" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.chardet" version="2.2.1"/>
@@ -200,7 +200,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.003" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.005" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="resource.images.studios.white" version="0.0.5"/>
@@ -341,7 +341,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.1.001" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
+<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.1.002" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.youtube.dl" version="14.519.1"/>
@@ -868,9 +868,9 @@
     </extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.5.011" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.6.012" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
 	<extension point="xbmc.service" library="main.py"/>
 	<extension point="xbmc.addon.metadata">
@@ -1068,7 +1068,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.26.168" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended" version="2.0.26.169" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1118,7 +1118,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.26.251" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="2.0.26.252" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
