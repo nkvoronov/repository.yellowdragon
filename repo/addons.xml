@@ -1092,7 +1092,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.26.176" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended" version="2.0.26.177" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1110,13 +1110,13 @@
 	</extension>
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
-			<item library="scripts/context_menu_watchitlater.py">
+			<item library="resources\context_menu\watchitlater.py">
 				<label>$LOCALIZE[40323]</label>
-				<visible>!String.IsEmpty(Window(Home).Property(CurrentSkin)) + Skin.HasSetting(enable_watchitlater) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,song)]</visible>
+				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended) + Skin.HasSetting(enable_watchitlater) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,song)]</visible>
 			</item>
-			<item library="scripts/context_menu_extendedinfo.py">
+			<item library="resources\context_menu\extendedinfo.py">
 				<label>$LOCALIZE[31034]</label>
-				<visible>!String.IsEmpty(Window(Home).Property(CurrentSkin)) + System.HasAddon(script.extendedinfo) + Skin.HasSetting(enable_extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
+				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended) + System.HasAddon(script.extendedinfo) + Skin.HasSetting(enable_extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
 			</item>
 		</menu>
 	</extension>
@@ -1154,7 +1154,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.26.260" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="2.0.26.261" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1180,17 +1180,17 @@
 	</extension>
 	<extension point="kodi.context.item">
 		<menu id="kodi.core.main">
-			<item library="scripts/context_menu_jumptoletter.py">
+			<item library="resources\context_menu\jumptoletter.py">
 				<label>$LOCALIZE[40326]</label>
-				<visible>!String.IsEmpty(Window(Home).Property(CurrentSkin)) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
+				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended-s) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
 			</item>
-			<item library="scripts/context_menu_watchitlater.py">
+			<item library="resources\context_menu\watchitlater.py">
 				<label>$LOCALIZE[40323]</label>
-				<visible>!String.IsEmpty(Window(Home).Property(CurrentSkin)) + Skin.HasSetting(enable_watchitlater) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,song)]</visible>
+				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended-s) + Skin.HasSetting(enable_watchitlater) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,song)]</visible>
 			</item>
-			<item library="scripts/context_menu_extendedinfo.py">
+			<item library="resources\context_menu\extendedinfo.py">
 				<label>$LOCALIZE[31034]</label>
-				<visible>!String.IsEmpty(Window(Home).Property(CurrentSkin)) + System.HasAddon(script.extendedinfo) + Skin.HasSetting(enable_extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
+				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended-s) + System.HasAddon(script.extendedinfo) + Skin.HasSetting(enable_extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
 			</item>
 		</menu>
 	</extension>
