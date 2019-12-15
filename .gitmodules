@@ -146,3 +146,7 @@
 	path = script.module.youtube.dl
 	url = https://github.com/nkvoronov/script.module.youtube.dl.git
 	branch = vleia
+[submodule "script.module.arrow"]
+	path = script.module.arrow
+	url = https://github.com/nkvoronov/script.module.arrow.git
+	branch = v0.15.5
