@@ -113,11 +113,11 @@
 [submodule "resource.images.busyspinners.estuary"]
 	path = resource.images.busyspinners.estuary
 	url = https://github.com/nkvoronov/resource.images.busyspinners.estuary.git
-	branch = vleia
+	branch = vmatrix
 [submodule "resource.images.skinicons.estuary"]
 	path = resource.images.skinicons.estuary
 	url = https://github.com/nkvoronov/resource.images.skinicons.estuary.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.module.cherrypy"]
 	path = script.module.cherrypy
 	url = https://github.com/nkvoronov/script.module.cherrypy.git
