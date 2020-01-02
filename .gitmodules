@@ -5,7 +5,7 @@
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.1.25
+	branch = vmatrix
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
@@ -97,7 +97,7 @@
 [submodule "script.module.metadatautils"]
 	path = script.module.metadatautils
 	url = https://github.com/nkvoronov/script.module.metadatautils.git
-	branch = v1.0.19
+	branch = vmatrix
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
