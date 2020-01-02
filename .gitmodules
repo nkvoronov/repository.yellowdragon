@@ -17,7 +17,7 @@
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = v1.0.17
+	branch = vmatrix
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
@@ -25,11 +25,11 @@
 [submodule "script.module.musicbrainz"]
 	path = script.module.musicbrainz
 	url = https://github.com/nkvoronov/script.module.musicbrainz.git
-	branch = v0.6.0
+	branch = vmatrix
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
-	branch = v1.0.13
+	branch = vmatrix
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
@@ -73,7 +73,7 @@
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
-	branch = vleia
+	branch = vmatrix
 [submodule "skin.confluence-extended"]
 	path = skin.confluence-extended
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
@@ -85,11 +85,11 @@
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
-	branch = v1.0.33
+	branch = vmatrix
 [submodule "script.skin.helper.skinbackup"]
 	path = script.skin.helper.skinbackup
 	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
-	branch = v1.0.19
+	branch = vmatrix
 [submodule "script.skin.helper.widgets"]
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
@@ -121,7 +121,7 @@
 [submodule "script.module.cherrypy"]
 	path = script.module.cherrypy
 	url = https://github.com/nkvoronov/script.module.cherrypy.git
-	branch = v11.0.1
+	branch = vmatrix
 [submodule "script.artwork.downloader.ex"]
 	path = script.artwork.downloader.ex
 	url = https://github.com/nkvoronov/script.artwork.downloader.ex.git
@@ -149,4 +149,4 @@
 [submodule "script.module.arrow"]
 	path = script.module.arrow
 	url = https://github.com/nkvoronov/script.module.arrow.git
-	branch = v0.15.5
+	branch = vmatrix
