@@ -77,11 +77,11 @@
 [submodule "skin.confluence-extended"]
 	path = skin.confluence-extended
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = vleia
+	branch = vmatrix
 [submodule "skin.confluence-extended-s"]
 	path = skin.confluence-extended-s
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = vleia-s
+	branch = vmatrix-s
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
@@ -101,11 +101,11 @@
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = vleia
+	branch = vmatrix
 [submodule "skin.estuary2-extended-s"]
 	path = skin.estuary2-extended-s
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = vleia-s
+	branch = vmatrix-s
 [submodule "script.cu.lrclyrics"]
 	path = script.cu.lrclyrics
 	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
