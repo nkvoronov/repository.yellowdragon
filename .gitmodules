@@ -21,7 +21,7 @@
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
-	branch = v1.0.27
+	branch = vmatrix
 [submodule "script.module.musicbrainz"]
 	path = script.module.musicbrainz
 	url = https://github.com/nkvoronov/script.module.musicbrainz.git
@@ -93,7 +93,7 @@
 [submodule "script.skin.helper.widgets"]
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
-	branch = v1.0.38
+	branch = vmatrix
 [submodule "script.module.metadatautils"]
 	path = script.module.metadatautils
 	url = https://github.com/nkvoronov/script.module.metadatautils.git
