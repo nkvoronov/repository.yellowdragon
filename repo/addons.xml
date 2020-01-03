@@ -180,7 +180,7 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.0.8"
+	version="3.0.9"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -954,7 +954,7 @@
 <addon
 	id="service.3denabler.samsungtv"
 	name="3D Enabler Samsung TV"
-	version="0.1.2.004"
+	version="0.1.2.005"
 	provider-name="Pavel Kuzub, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
