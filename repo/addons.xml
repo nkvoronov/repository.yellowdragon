@@ -980,7 +980,7 @@
 	</extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33.004" provider-name="Martijn, phil65, YLLOW_DRAGON">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.34.005" provider-name="Martijn, phil65, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.json" version="6.0.0"/>
         <import addon="xbmc.python" version="2.14.0"/>

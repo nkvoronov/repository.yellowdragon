@@ -33,7 +33,7 @@
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.rss.editor"]
 	path = script.rss.editor
 	url = https://github.com/nkvoronov/script.rss.editor.git
@@ -65,7 +65,7 @@
 [submodule "script.randomandlastitems"]
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git
-	branch = vleia
+	branch = vmatrix
 [submodule "service.3denabler.samsungtv"]
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
