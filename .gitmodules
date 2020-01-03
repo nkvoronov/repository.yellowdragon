@@ -49,11 +49,11 @@
 [submodule "script.transmission"]
 	path = script.transmission
 	url = https://github.com/nkvoronov/Transmission-XBMC.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.xbmc.audio.mixer"]
 	path = script.xbmc.audio.mixer
 	url = https://github.com/nkvoronov/script.xbmc.audio.mixer.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.xbmc.lcdproc"]
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
