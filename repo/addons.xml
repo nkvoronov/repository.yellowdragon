@@ -415,10 +415,10 @@
 
 <addon id="script.module.musicbrainz"
 	name="Musicbrainz NGS webservice python bindings"
-	version="0.6.1"
+	version="0.6.2"
 	provider-name="marcelveldt">
 	<requires>
-		<import addon="xbmc.python" version="3.3.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.module"
 		library="lib" />
@@ -530,9 +530,9 @@
 	</extension>
 </addon>
 
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.3.005" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.3.006" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="3.3.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
 	</requires>
