@@ -9,11 +9,11 @@
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.epg.vsetv"]
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
@@ -37,11 +37,11 @@
 [submodule "script.rss.editor"]
 	path = script.rss.editor
 	url = https://github.com/nkvoronov/script.rss.editor.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.globalsearch"]
 	path = script.globalsearch
 	url = https://github.com/nkvoronov/script.globalsearch.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.simpleplaylists"]
 	path = script.simpleplaylists
 	url = https://github.com/nkvoronov/script.simpleplaylists.git
@@ -109,7 +109,7 @@
 [submodule "script.cu.lrclyrics"]
 	path = script.cu.lrclyrics
 	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
-	branch = vleia
+	branch = vmatrix
 [submodule "resource.images.busyspinners.estuary"]
 	path = resource.images.busyspinners.estuary
 	url = https://github.com/nkvoronov/resource.images.busyspinners.estuary.git

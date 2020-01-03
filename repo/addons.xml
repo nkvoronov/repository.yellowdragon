@@ -148,15 +148,15 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.7.3.020" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.0.5.021" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.chardet" version="2.2.1"/>
 		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
-		<import addon="script.module.requests" version="2.18.4"/>
+		<import addon="script.module.requests" version="2.18.4.1"/>
 	</requires>
 	<extension point="xbmc.python.lyrics" library="default.py"/>
-	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.service" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">CU LRC Lyrics</summary>
 		<summary lang="ru_RU">Тексты песен</summary>
@@ -180,10 +180,10 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.0.6"
+	version="3.0.8"
 	provider-name="YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.service" library="service.py" start="login"/>
@@ -267,9 +267,9 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.12.022" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="9.0.1.023" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
@@ -344,10 +344,10 @@
 
 <addon id="script.module.cherrypy"
 	name="CherryPy Kodi module"
-	version="11.0.2.005"
+	version="11.0.2.006"
 	rovider-name="marcelveldt, CherryPy Team, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.six" version="1.9.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
@@ -386,10 +386,10 @@
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.28.023"
+		version="1.0.28.024"
 		provider-name="marcelveldt, finkleandeinhorn, cartmandos, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.3.0"/>
 		<import addon="script.module.beautifulsoup" version="3.0.8" />
 		<import addon="script.module.beautifulsoup4" version="4.0.0" />
@@ -415,10 +415,10 @@
 
 <addon id="script.module.musicbrainz"
 	name="Musicbrainz NGS webservice python bindings"
-	version="0.6.0"
+	version="0.6.1"
 	provider-name="marcelveldt">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.python" version="3.3.0"/>
 	</requires>
 	<extension point="xbmc.python.module"
 		library="lib" />
@@ -435,9 +435,9 @@
 	</extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.18.011" provider-name="marcelveldt, YLLOW_DRAGON">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.18.012" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
@@ -459,10 +459,10 @@
 
 <addon id="script.module.thetvdb"
 	name="The TVDB API v2"
-	version="1.0.28.013"
+	version="1.0.28.014"
 	provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.3.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 		<import addon="script.module.simplecache" version="1.0.0"/>
@@ -509,10 +509,10 @@
 <addon
 	id="script.pvr.favourites"
 	name="PVR favourites"
-	version="2.1.2"
+	version="2.1.3"
 	provider-name="YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 		<import addon="script.module.unidecode" version="0.4.14"/>
 	</requires>
@@ -530,9 +530,9 @@
 	</extension>
 </addon>
 
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.3.004" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.3.005" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="3.3.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
 	</requires>
@@ -555,10 +555,10 @@
 
 <addon id="script.rss.editor"
 	name="RSS Editor"
-	version="3.0.4.005"
+	version="3.0.5.006"
 	provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script"
 		library="default.py" />
@@ -603,9 +603,9 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.34.023" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.34.024" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
 		<import addon="script.module.simplecache" version="1.0.0"/>
@@ -630,9 +630,9 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.13.012" provider-name="marcelveldt,sualfred, YLLOW_DRAGON">
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.13.013" provider-name="marcelveldt,sualfred, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
 		<import addon="script.module.kodi-six" />
 	</requires>
@@ -656,9 +656,9 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.26.042" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.26.043" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 		<import addon="script.module.simplecache" version="1.0.0"/>
@@ -715,9 +715,9 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.019" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.020" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py" />
@@ -739,9 +739,9 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.029" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.030" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.metadatautils" version="1.0.0" />
 		<import addon="script.module.simplecache" version="1.0.0"/>
@@ -768,9 +768,9 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.20.028" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.20.029" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 		<import addon="script.module.unidecode" version="0.4.14"/>
 	</requires>
@@ -980,10 +980,10 @@
 	</extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.34.005" provider-name="Martijn, phil65, YLLOW_DRAGON">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.34.006" provider-name="Martijn, phil65, YLLOW_DRAGON">
     <requires>
         <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.simplejson" version="2.0.10"/>
     </requires>
     <extension point="xbmc.service" library="default.py" start="login"/>
