@@ -530,7 +530,7 @@
 	</extension>
 </addon>
 
-<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.2.003" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
+<addon id="script.randomandlastitems" name="Random and Last items script" version="2.2.3.004" provider-name="MikeBZH44, Martijn, Black, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
