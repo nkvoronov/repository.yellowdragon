@@ -61,7 +61,7 @@
 [submodule "script.favourites"]
 	path = script.favourites
 	url = https://github.com/nkvoronov/script.favourites.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.randomandlastitems"]
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git
@@ -145,7 +145,7 @@
 [submodule "script.module.youtube.dl"]
 	path = script.module.youtube.dl
 	url = https://github.com/nkvoronov/script.module.youtube.dl.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.module.arrow"]
 	path = script.module.arrow
 	url = https://github.com/nkvoronov/script.module.arrow.git
