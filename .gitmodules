@@ -45,7 +45,7 @@
 [submodule "script.simpleplaylists"]
 	path = script.simpleplaylists
 	url = https://github.com/nkvoronov/script.simpleplaylists.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.transmission"]
 	path = script.transmission
 	url = https://github.com/nkvoronov/Transmission-XBMC.git
@@ -57,7 +57,7 @@
 [submodule "script.xbmc.lcdproc"]
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.favourites"]
 	path = script.favourites
 	url = https://github.com/nkvoronov/script.favourites.git
@@ -69,7 +69,7 @@
 [submodule "service.3denabler.samsungtv"]
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.image.resource.select"]
 	path = script.image.resource.select
 	url = https://github.com/nkvoronov/script.image.resource.select.git
@@ -129,7 +129,7 @@
 [submodule "script.xbmcbackup"]
 	path = script.xbmcbackup
 	url = https://github.com/nkvoronov/script.xbmcbackup.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.tvtunes.ex"]
 	path = script.tvtunes.ex
 	url = https://github.com/nkvoronov/script.tvtunes.ex.git
@@ -137,7 +137,7 @@
 [submodule "script.extendedinfo"]
 	path = script.extendedinfo
 	url = https://github.com/nkvoronov/script.extendedinfo.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.module.kodi65"]
 	path = script.module.kodi65
 	url = https://github.com/nkvoronov/script.module.kodi65.git

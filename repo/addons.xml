@@ -200,9 +200,9 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.007" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.008" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.5"/>
 		<import addon="script.module.kodi65" version="1.0.0"/>
 		<import addon="script.module.routing" version="0.1.0"/>
@@ -582,10 +582,10 @@
 
 <addon id="script.simpleplaylists"
 	name="SimplePlaylists"
-	version="1.1.1.004"
+	version="1.1.2.005"
 	provider-name="AddonScriptorDE, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video audio image</provides>
@@ -894,14 +894,14 @@
     </extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.6.012" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.0.015" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.26.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.service" library="main.py"/>
 	<extension point="xbmc.addon.metadata">
 		<language></language>
-		<summary>Kodi/XBMC LCDproc</summary>
+		<summary lang="en_GB">Kodi/XBMC LCDproc</summary>
 		<description lang="en_GB">Displays configurable information e.g. about playing media or Kodi status on any LC/VF-display driven by LCDproc, and acts as direct drop-in replacement to the LCD/VFD-feature previously available in Kodi/XBMC's core. Supports additional display elements (icons, bars) on SoundGraph iMON LCD and Targa/Futaba mdm166a VFD hardware. Requires a properly configured and running LCDd either locally or somewhere on the network.</description>
 		<description lang="ru_RU">Отображает настраиваемую информацию, например, о воспроизводимом медиа или статус Kodi на любой LC/VF-дисплей который управляется LCDProc и действует как прямая замена к LCD/VFD--функции, ранее доступные в ядре Kodi/XBMC. Поддерживает дополнительные элементы отображения (иконки, бары) на SoundGraph iMON LCD и Targa/Futaba mdm166a VFD аппаратного обеспечения. Требуется правильно сконфигурированый и запущенный LCDd либо локально, либо где-то в сети.</description>
 		<description lang="uk_UA">Відображає настроювану інформацію, наприклад, можливостей відтворення медіа або статус Kodi на будь-який LC/VF-дисплей який управляється LCDProc і діє як пряма заміна до LCD/VFD - функції, раніше доступні в ядрі Kodi/XBMC. Підтримує додаткові елементи відображення (іконки, бари) на SoundGraph iMON LCD та Targa/Futaba mdm166a VFD апаратного забезпечення. Потрібно правильно сконфігурірований і запущений LCDd або локально, або десь в мережі.</description>
@@ -915,30 +915,27 @@
 		<source>https://github.com/nkvoronov/script.xbmc.lcdproc.git</source>
 		<email>nkvoronov@gmail.com</email>
 		<assets>
-		<icon>resources/icon.png</icon>
+			<icon>resources/icon.png</icon>
 		</assets>
-		<news>3.0.4
-		- Fix possible exception due to improper LCD.xml handling
+		<news>3.90.0
+		- XBMC LCDproc for Kodi Matrix (Python 3)
+		- Allow LCDproc protocol version 0.4
 		</news>
 	</extension>
 </addon>
 
 <addon id="script.xbmcbackup"
-	name="Backup" version="1.1.3.005" provider-name="robweber, YLLOW_DRAGON">
+	name="Backup" version="1.6.1.010" provider-name="robweber, YLLOW_DRAGON">
 	<requires>
-	<!-- jarvis -->
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.httplib2" version="0.8.0" />
-		<import addon="script.module.oauth2client" version="4.1.2" />
-		<import addon="script.module.uritemplate" version="0.6" />
-		<import addon="script.module.yaml" version="3.11"/>
-		<import addon="script.module.googleapi" version="1.6.4" />
-		<import addon="script.module.requests" version="2.9.1" />
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.dateutil" version="2.8.0" />
+		<import addon="script.module.future" version="0.16.0.4"/>
+		<import addon="script.module.dropbox" version="9.4.0"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
 	</extension>
-	<extension point="xbmc.service" library="scheduler.py" start="startup" />
+	<extension point="xbmc.service" library="service.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Backup and restore your Kodi database and configuration files in the event of a crash or file corruption.</summary>
 		<summary lang="ru_RU">Сохраняйте и восстанавливайте базу данных и конфигурационные файлы XBMC, чтоб не допустить потерю данных в случае аварии или повреждений файлов.</summary>
@@ -957,10 +954,10 @@
 <addon
 	id="service.3denabler.samsungtv"
 	name="3D Enabler Samsung TV"
-	version="0.1.1.003"
+	version="0.1.2.004"
 	provider-name="Pavel Kuzub, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.simplejson" version="2.0.10"/>
 	</requires>
 	<extension point="xbmc.service" library="service.py" start="login"/>
