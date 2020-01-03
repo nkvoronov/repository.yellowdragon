@@ -386,7 +386,7 @@
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.28.022"
+		version="1.0.28.023"
 		provider-name="marcelveldt, finkleandeinhorn, cartmandos, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
