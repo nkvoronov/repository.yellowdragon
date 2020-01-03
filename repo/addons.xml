@@ -386,12 +386,13 @@
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.27.021"
+		version="1.0.28.022"
 		provider-name="marcelveldt, finkleandeinhorn, cartmandos, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.requests" version="2.3.0"/>
 		<import addon="script.module.beautifulsoup" version="3.0.8" />
+		<import addon="script.module.beautifulsoup4" version="4.0.0" />
 		<import addon="script.module.thetvdb" version="0.0.1" />
 		<import addon="script.module.musicbrainz" version="0.0.1" />
 		<import addon="script.module.simplecache" version="1.0.0"/>
@@ -434,7 +435,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.17.010" provider-name="marcelveldt, YLLOW_DRAGON">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.18.011" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -714,7 +715,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.19.016" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.017" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -738,7 +739,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.028" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.029" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
