@@ -293,9 +293,9 @@
 	</extension>
 </addon>
 
-<addon id="script.image.resource.select" name="Image Resource Select Addon" version="2.0.4.030" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.image.resource.select" name="Image Resource Select Addon" version="3.0.1.031" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
