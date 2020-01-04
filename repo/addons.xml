@@ -502,6 +502,9 @@
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
 		<source>https://github.com/nkvoronov/script.module.youtube.dl.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
