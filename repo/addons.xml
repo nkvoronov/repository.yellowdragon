@@ -609,7 +609,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.34.024" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.34.025" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -633,6 +633,10 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.backgrounds.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
@@ -774,7 +778,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.20.029" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.20.030" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -793,10 +797,10 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skinshortcuts.git</source>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
@@ -983,31 +987,34 @@
 	</extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.34.006" provider-name="Martijn, phil65, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-    </requires>
-    <extension point="xbmc.service" library="default.py" start="login"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Skin widgets</summary>
-        <summary lang="ru_RU">Виджеты обложки</summary>
-        <summary lang="uk_UA">Віджети обкладинки</summary>
-        <description lang="en_GB">Skin widgets</description>
-        <description lang="ru_RU">Виджеты обложки</description>
-        <description lang="uk_UA">Віджети обкладинки</description>
-        <disclaimer lang="en_GB">For information visit the wiki page or XBMC forum.</disclaimer>
-        <disclaimer lang="ru_RU">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
-        <disclaimer lang="uk_UA">Для отримання додаткової інформації відвідайте вікі-сторінку або XBMC форум.</disclaimer>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website></website>
-        <forum>http://forum.xbmc.org/showthread.php?tid=142389</forum>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/service.skin.widgets.git</source>
-        <email></email>
-    </extension>
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.34.007" provider-name="Martijn, phil65, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.json" version="6.0.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Skin widgets</summary>
+		<summary lang="ru_RU">Виджеты обложки</summary>
+		<summary lang="uk_UA">Віджети обкладинки</summary>
+		<description lang="en_GB">Skin widgets</description>
+		<description lang="ru_RU">Виджеты обложки</description>
+		<description lang="uk_UA">Віджети обкладинки</description>
+		<disclaimer lang="en_GB">For information visit the wiki page or XBMC forum.</disclaimer>
+		<disclaimer lang="ru_RU">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
+		<disclaimer lang="uk_UA">Для отримання додаткової інформації відвідайте вікі-сторінку або XBMC форум.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<website></website>
+		<forum>http://forum.xbmc.org/showthread.php?tid=142389</forum>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/service.skin.widgets.git</source>
+		<email></email>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="skin.confluence-extended" version="4.6.9.188" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
