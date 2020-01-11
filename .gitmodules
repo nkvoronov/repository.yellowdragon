@@ -125,7 +125,7 @@
 [submodule "script.artwork.downloader.ex"]
 	path = script.artwork.downloader.ex
 	url = https://github.com/nkvoronov/script.artwork.downloader.ex.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.xbmcbackup"]
 	path = script.xbmcbackup
 	url = https://github.com/nkvoronov/script.xbmcbackup.git
@@ -133,7 +133,7 @@
 [submodule "script.tvtunes.ex"]
 	path = script.tvtunes.ex
 	url = https://github.com/nkvoronov/script.tvtunes.ex.git
-	branch = vleia
+	branch = vmatrix
 [submodule "script.extendedinfo"]
 	path = script.extendedinfo
 	url = https://github.com/nkvoronov/script.extendedinfo.git

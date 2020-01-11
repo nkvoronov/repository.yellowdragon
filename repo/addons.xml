@@ -117,10 +117,10 @@
 <addon
 	id="script.artwork.downloader.ex"
 	name="Artwork Downloader Ex"
-	version="18.1.1"
+	version="18.1.4"
 	provider-name="Martijn, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -145,6 +145,10 @@
 		<source>https://github.com/nkvoronov/script.artwork.downloader.ex.git</source>
 		<forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
 		<email>nkvoronov.gmail.com</email>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
@@ -850,9 +854,9 @@
 	</extension>
 </addon>
 
-<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.8.007" provider-name="robwebset, YLLOW_DRAGON">
+<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.9.008" provider-name="robwebset, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
 		<import addon="script.module.beautifulsoup" version="3.2.1"/>
 		<import addon="script.module.requests" version="2.3.0"/>
@@ -886,8 +890,8 @@
 		<source>https://github.com/nkvoronov/script.tvtunes.ex.git</source>
 		<news></news>
 		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
 			<screenshot>resources/screenshot-01.jpg</screenshot>
 			<screenshot>resources/screenshot-02.jpg</screenshot>
 			<screenshot>resources/screenshot-03.jpg</screenshot>
