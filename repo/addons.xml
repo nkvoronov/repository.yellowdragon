@@ -184,7 +184,7 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.0.6"
+	version="3.0.7"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -201,6 +201,9 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
@@ -323,32 +326,31 @@
 </addon>
 
 <addon id="script.module.arrow"
-       name="arrow"
-       version="0.15.5"
-       provider-name="crsmithdev, Razzeee">
-  <requires>
-    <import addon="xbmc.python" version="2.25.0"/>
-    <import addon="script.module.dateutil" version="2.8.1"/>
-    <import addon="script.module.backports.functools_lru_cache" version="1.5.0"/>
-  </requires>
-  <extension point="xbmc.python.module"
-             library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Arrow: better dates and times for Python</summary>
-    <description lang="en">Packed for Kodi from https://github.com/crsmithdev/arrow</description>
-    <platform>all</platform>
-    <license>Apache2</license>
-    <source>https://github.com/Razzeee/script.module.arrow</source>
-    <email>beenje AT gmail.com</email>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
+		name="arrow"
+		version="0.15.5.001"
+		provider-name="crsmithdev, Razzeee">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.dateutil" version="2.8.1"/>
+		<import addon="script.module.backports.functools_lru_cache" version="1.5.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Arrow: better dates and times for Python</summary>
+		<description lang="en">Packed for Kodi from https://github.com/crsmithdev/arrow</description>
+		<platform>all</platform>
+		<license>Apache2</license>
+		<source>https://github.com/Razzeee/script.module.arrow</source>
+		<email>beenje AT gmail.com</email>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="script.module.cherrypy"
 	name="CherryPy Kodi module"
-	version="11.0.1.004"
+	version="11.0.1.005"
 	rovider-name="marcelveldt, CherryPy Team, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -366,10 +368,13 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.cherrypy.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.1.003" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
+<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.1.004" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.youtube.dl" version="14.519.1"/>
@@ -385,12 +390,15 @@
 		<license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
 		<source>https://github.com/nkvoronov/script.module.kodi65.git</source>
 		<news>Adjust to latest core changes, bugfixes, API extensions</news>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.19.020"
+		version="1.0.19.021"
 		provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -413,12 +421,15 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.metadatautils.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
 <addon id="script.module.musicbrainz"
 	name="Musicbrainz NGS webservice python bindings"
-	version="0.6.0"
+	version="0.6.0.001"
 	provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -435,10 +446,13 @@
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<source>https://github.com/marcelveldt/script.module.musicbrainz</source>
 		<platform>all</platform>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.17.010" provider-name="marcelveldt, YLLOW_DRAGON">
+<addon id="script.module.simplecache" name="Simple Cache Module" version="1.0.17.011" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -462,7 +476,7 @@
 
 <addon id="script.module.thetvdb"
 	name="The TVDB API v2"
-	version="1.0.27.011"
+	version="1.0.27.012"
 	provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
@@ -483,6 +497,9 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.thetvdb.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
@@ -515,7 +532,7 @@
 <addon
 	id="script.pvr.favourites"
 	name="PVR favourites"
-	version="2.1.2"
+	version="2.1.3"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
@@ -533,6 +550,9 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.pvr.favourites.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
@@ -561,7 +581,7 @@
 
 <addon id="script.rss.editor"
 	name="RSS Editor"
-	version="3.0.4.005"
+	version="3.0.4.006"
 	provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
@@ -582,12 +602,15 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.rss.editor.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
 <addon id="script.simpleplaylists"
 	name="SimplePlaylists"
-	version="1.1.1.004"
+	version="1.1.1.005"
 	provider-name="AddonScriptorDE, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -606,10 +629,13 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.simpleplaylists.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.33.020" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.33.021" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -633,10 +659,14 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.backgrounds.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.13.012" provider-name="marcelveldt,sualfred, YLLOW_DRAGON">
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.13.013" provider-name="marcelveldt,sualfred, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
@@ -662,7 +692,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.25.037" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.25.038" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -718,10 +748,14 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.service.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.19.016" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.19.017" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.13.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -742,10 +776,14 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.skinbackup.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.38.027" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.38.028" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -771,10 +809,14 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.widgets.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.19.027" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.19.028" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.20.0"/>
 		<import addon="script.module.simplejson" version="3.3.0"/>
@@ -793,16 +835,16 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skinshortcuts.git</source>
-	<assets>
-		<icon>icon.png</icon>
-		<fanart>fanart.jpg</fanart>
-	</assets>
+		<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
 <addon id="script.transmission"
 	name="Transmission"
-	version="0.7.6.005"
+	version="0.7.6.006"
 	provider-name="Correl Roush, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -825,6 +867,9 @@
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/Transmission-XBMC.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
@@ -876,27 +921,30 @@
 </addon>
 
 <addon id="script.xbmc.audio.mixer"
-    name="Kodi Audio Mixer"
-    version="4.0.2.005"
-    provider-name="Team Kodi, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.python" version="2.25.0"/>
-    </requires>
-    <extension point="xbmc.python.script" library="default.py" />
-    <extension point="xbmc.addon.metadata">
-        <platform>osx linux</platform>
-        <summary lang="en_GB">Kodi Audio Mixer</summary>
-        <summary lang="ru_RU">Kodi Аудио Микшер</summary>
+	name="Kodi Audio Mixer"
+	version="4.0.2.005"
+	provider-name="Team Kodi, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<platform>osx linux</platform>
+		<summary lang="en_GB">Kodi Audio Mixer</summary>
+		<summary lang="ru_RU">Kodi Аудио Микшер</summary>
 		<summary lang="uk_UA">Kodi Аудіо Мікшер</summary>
-        <description lang="en_GB">Kodi Audio Mixer</description>
-        <description lang="ru_RU">Kodi Аудио Микшер</description>
+		<description lang="en_GB">Kodi Audio Mixer</description>
+		<description lang="ru_RU">Kodi Аудио Микшер</description>
 		<description lang="uk_UA">Kodi Аудіо Мікшер</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum></forum>
-        <website></website>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/script.xbmc.audio.mixer.git</source>
-    </extension>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum></forum>
+		<website></website>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/script.xbmc.audio.mixer.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.0.6.012" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
@@ -929,9 +977,8 @@
 </addon>
 
 <addon id="script.xbmcbackup"
-	name="Backup" version="1.1.3.005" provider-name="robweber, YLLOW_DRAGON">
+	name="Backup" version="1.1.3.006" provider-name="robweber, YLLOW_DRAGON">
 	<requires>
-	<!-- jarvis -->
 		<import addon="xbmc.python" version="2.24.0"/>
 		<import addon="script.module.httplib2" version="0.8.0" />
 		<import addon="script.module.oauth2client" version="4.1.2" />
@@ -956,13 +1003,16 @@
 		<license>The MIT License</license>
 		<forum>http://forum.xbmc.org/showthread.php?tid=129499</forum>
 		<source>https://github.com/robweber/xbmcbackup</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
 <addon
 	id="service.3denabler.samsungtv"
 	name="3D Enabler Samsung TV"
-	version="0.1.1.003"
+	version="0.1.1.004"
 	provider-name="Pavel Kuzub, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
@@ -983,34 +1033,40 @@
 		<forum>http://forum.xbmc.org/showthread.php?tid=185212</forum>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/service.3denabler.samsungtv.git</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 	</extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33.004" provider-name="Martijn, phil65, YLLOW_DRAGON">
-    <requires>
-        <import addon="xbmc.json" version="6.0.0"/>
-        <import addon="xbmc.python" version="2.14.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-    </requires>
-    <extension point="xbmc.service" library="default.py" start="login"/>
-    <extension point="xbmc.addon.metadata">
-        <summary lang="en_GB">Skin widgets</summary>
-        <summary lang="ru_RU">Виджеты обложки</summary>
-        <summary lang="uk_UA">Віджети обкладинки</summary>
-        <description lang="en_GB">Skin widgets</description>
-        <description lang="ru_RU">Виджеты обложки</description>
-        <description lang="uk_UA">Віджети обкладинки</description>
-        <disclaimer lang="en_GB">For information visit the wiki page or XBMC forum.</disclaimer>
-        <disclaimer lang="ru_RU">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
-        <disclaimer lang="uk_UA">Для отримання додаткової інформації відвідайте вікі-сторінку або XBMC форум.</disclaimer>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <website></website>
-        <forum>http://forum.xbmc.org/showthread.php?tid=142389</forum>
-        <email>nkvoronov@gmail.com</email>
-        <source>https://github.com/nkvoronov/service.skin.widgets.git</source>
-        <email></email>
-    </extension>
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.33.006" provider-name="Martijn, phil65, YLLOW_DRAGON">
+	<requires>
+		<import addon="xbmc.json" version="6.0.0"/>
+		<import addon="xbmc.python" version="2.14.0"/>
+		<import addon="script.module.simplejson" version="2.0.10"/>
+	</requires>
+	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Skin widgets</summary>
+		<summary lang="ru_RU">Виджеты обложки</summary>
+		<summary lang="uk_UA">Віджети обкладинки</summary>
+		<description lang="en_GB">Skin widgets</description>
+		<description lang="ru_RU">Виджеты обложки</description>
+		<description lang="uk_UA">Віджети обкладинки</description>
+		<disclaimer lang="en_GB">For information visit the wiki page or XBMC forum.</disclaimer>
+		<disclaimer lang="ru_RU">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
+		<disclaimer lang="uk_UA">Для отримання додаткової інформації відвідайте вікі-сторінку або XBMC форум.</disclaimer>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<website></website>
+		<forum>http://forum.xbmc.org/showthread.php?tid=142389</forum>
+		<email>nkvoronov@gmail.com</email>
+		<source>https://github.com/nkvoronov/service.skin.widgets.git</source>
+		<email></email>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
+	</extension>
 </addon>
 
 <addon id="skin.confluence-extended" version="4.6.9.188" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">

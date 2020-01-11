@@ -1,11 +1,11 @@
 [submodule "script.skinshortcuts"]
 	path = script.skinshortcuts
 	url = https://github.com/nkvoronov/script.skinshortcuts.git
-	branch = V1.0.19
+	branch = vleia
 [submodule "script.skin.helper.service"]
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = v1.1.25
+	branch = vleia
 [submodule "script.pvr.favourites"]
 	path = script.pvr.favourites
 	url = https://github.com/nkvoronov/script.pvr.favourites.git
@@ -17,19 +17,19 @@
 [submodule "script.module.simplecache"]
 	path = script.module.simplecache
 	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = v1.0.17
+	branch = vleia
 [submodule "script.module.thetvdb"]
 	path = script.module.thetvdb
 	url = https://github.com/nkvoronov/script.module.thetvdb.git
-	branch = v1.0.27
+	branch = vleia
 [submodule "script.module.musicbrainz"]
 	path = script.module.musicbrainz
 	url = https://github.com/nkvoronov/script.module.musicbrainz.git
-	branch = v0.6.0
+	branch = vleia
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
 	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
-	branch = v1.0.13
+	branch = vleia
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
 	url = https://github.com/nkvoronov/service.skin.widgets.git
@@ -85,19 +85,19 @@
 [submodule "script.skin.helper.backgrounds"]
 	path = script.skin.helper.backgrounds
 	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
-	branch = v1.0.33
+	branch = vleia
 [submodule "script.skin.helper.skinbackup"]
 	path = script.skin.helper.skinbackup
 	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
-	branch = v1.0.19
+	branch = vleia
 [submodule "script.skin.helper.widgets"]
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
-	branch = v1.0.38
+	branch = vleia
 [submodule "script.module.metadatautils"]
 	path = script.module.metadatautils
 	url = https://github.com/nkvoronov/script.module.metadatautils.git
-	branch = v1.0.19
+	branch = vleia
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
@@ -121,7 +121,7 @@
 [submodule "script.module.cherrypy"]
 	path = script.module.cherrypy
 	url = https://github.com/nkvoronov/script.module.cherrypy.git
-	branch = v11.0.1
+	branch = vleia
 [submodule "script.artwork.downloader.ex"]
 	path = script.artwork.downloader.ex
 	url = https://github.com/nkvoronov/script.artwork.downloader.ex.git
@@ -149,4 +149,4 @@
 [submodule "script.module.arrow"]
 	path = script.module.arrow
 	url = https://github.com/nkvoronov/script.module.arrow.git
-	branch = v0.15.5
+	branch = vleia
