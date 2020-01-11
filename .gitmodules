@@ -150,3 +150,7 @@
 	path = script.module.arrow
 	url = https://github.com/nkvoronov/script.module.arrow.git
 	branch = vmatrix
+[submodule "script.module.autocompletion"]
+	path = script.module.autocompletion
+	url = https://github.com/nkvoronov/script.module.autocompletion.git
+	branch = vmatrix
