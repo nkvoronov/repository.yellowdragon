@@ -207,7 +207,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.010" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.011" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.5"/>
@@ -395,7 +395,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.3.006" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
+<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.3.007" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.youtube.dl" version="14.519.1"/>
@@ -525,7 +525,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.101.11" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.101.12" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
