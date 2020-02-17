@@ -207,7 +207,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.0121" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.013" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.5"/>
@@ -395,7 +395,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.3.007" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
+<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.3.008" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.youtube.dl" version="14.519.1"/>
@@ -525,7 +525,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.101.12" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.216.12" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
@@ -1172,7 +1172,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.26.180" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended" version="2.0.26.181" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1187,18 +1187,6 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
-	</extension>
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<item library="resources\context_menu\watchitlater.py">
-				<label>$LOCALIZE[40323]</label>
-				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended) + Skin.HasSetting(enable_watchitlater) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,song)]</visible>
-			</item>
-			<item library="resources\context_menu\extendedinfo.py">
-				<label>$LOCALIZE[31034]</label>
-				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended) + System.HasAddon(script.extendedinfo) + Skin.HasSetting(enable_extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
-			</item>
-		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
@@ -1234,7 +1222,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.26.264" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="2.0.26.265" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1257,22 +1245,6 @@
 		<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
 		<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
-	</extension>
-	<extension point="kodi.context.item">
-		<menu id="kodi.core.main">
-			<item library="resources\context_menu\jumptoletter.py">
-				<label>$LOCALIZE[40326]</label>
-				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended-s) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,set) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,artist) | String.IsEqual(ListItem.dbtype,album) | String.IsEqual(ListItem.dbtype,musicvideo) | Container.Content(addons)] + !Window.IsVisible(Home)</visible>
-			</item>
-			<item library="resources\context_menu\watchitlater.py">
-				<label>$LOCALIZE[40323]</label>
-				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended-s) + Skin.HasSetting(enable_watchitlater) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,song)]</visible>
-			</item>
-			<item library="resources\context_menu\extendedinfo.py">
-				<label>$LOCALIZE[31034]</label>
-				<visible>String.IsEqual(Window(Home).Property(CurrentSkin),skin.estuary2-extended-s) + System.HasAddon(script.extendedinfo) + Skin.HasSetting(enable_extendedinfo) + !System.HasAddon(context.extendedinfo.dialog) + [String.IsEqual(ListItem.dbtype,movie) | String.IsEqual(ListItem.dbtype,tvshow) | String.IsEqual(ListItem.dbtype,season) | String.IsEqual(ListItem.dbtype,episode) | String.IsEqual(ListItem.dbtype,actor) | String.IsEqual(ListItem.dbtype,director)]</visible>
-			</item>
-		</menu>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Estuary v2 Extended Shortcuts skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
