@@ -150,7 +150,7 @@ class Generator:
 
         print('Create repository addon')
 
-        with open (self.tools_path + os.path.sep + 'template.xml', "r") as template:
+        with open (self.tools_path + os.path.sep + 'template.xml', encoding='utf-8') as template:
             template_xml=template.read()
 
         repo_xml = template_xml.format(
