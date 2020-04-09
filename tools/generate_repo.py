@@ -249,7 +249,7 @@ class Generator:
             if not os.path.isfile( _path ): continue
             try:
                 # split lines for stripping
-                xml_lines = open( _path, 'r' ).read().splitlines()
+                xml_lines = open( _path, encoding='utf8' ).read().splitlines()
                 # new addon
                 addon_xml = ""
                 # loop thru cleaning each line
