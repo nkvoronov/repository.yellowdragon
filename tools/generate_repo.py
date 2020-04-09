@@ -286,7 +286,7 @@ class Generator:
     def _save_file( self, data, file ):
         try:
             # write data to the file
-            open( file, 'w' ).write( data )
+            open( file, 'w', encoding='utf-8' ).write( data )
         except Exception as e:
             # oops
             print('An error occurred saving %s file!\n%s' % ( file, e, ))

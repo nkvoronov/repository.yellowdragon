@@ -12,11 +12,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">YLLOW_DRAGON addons repository for KODI Leia</summary>
-		<summary lang="ru_RU">Репозиторий дополнений YLLOW_DRAGON для KODI Leia</summary>
-		<summary lang="uk_UA">Репозиторій доповнень YLLOW_DRAGON для KODI Leia</summary>
+		<summary lang="ru_RU">Р В Р ВµР С—Р С•Р В·Р С‘РЎвЂљР С•РЎР‚Р С‘Р в„– Р Т‘Р С•Р С—Р С•Р В»Р Р…Р ВµР Р…Р С‘Р в„– YLLOW_DRAGON Р Т‘Р В»РЎРЏ KODI Leia</summary>
+		<summary lang="uk_UA">Р В Р ВµР С—Р С•Р В·Р С‘РЎвЂљР С•РЎР‚РЎвЂ“Р в„– Р Т‘Р С•Р С—Р С•Р Р†Р Р…Р ВµР Р…РЎРЉ YLLOW_DRAGON Р Т‘Р В»РЎРЏ KODI Leia</summary>
 		<description  lang="en_GB">Download and install YLLOW_DRAGON addons repository.</description>
-		<description  lang="ru_RU">Загружайте и устанавливайте дополнения из репозитория YLLOW_DRAGON.</description>
-		<description  lang="uk_UA">Завантажуйте та встановлюйте доповненя з репозиторію YLLOW_DRAGON.</description>
+		<description  lang="ru_RU">Р вЂ”Р В°Р С–РЎР‚РЎС“Р В¶Р В°Р в„–РЎвЂљР Вµ Р С‘ РЎС“РЎРѓРЎвЂљР В°Р Р…Р В°Р Р†Р В»Р С‘Р Р†Р В°Р в„–РЎвЂљР Вµ Р Т‘Р С•Р С—Р С•Р В»Р Р…Р ВµР Р…Р С‘РЎРЏ Р С‘Р В· РЎР‚Р ВµР С—Р С•Р В·Р С‘РЎвЂљР С•РЎР‚Р С‘РЎРЏ YLLOW_DRAGON.</description>
+		<description  lang="uk_UA">Р вЂ”Р В°Р Р†Р В°Р Р…РЎвЂљР В°Р В¶РЎС“Р в„–РЎвЂљР Вµ РЎвЂљР В° Р Р†РЎРѓРЎвЂљР В°Р Р…Р С•Р Р†Р В»РЎР‹Р в„–РЎвЂљР Вµ Р Т‘Р С•Р С—Р С•Р Р†Р Р…Р ВµР Р…РЎРЏ Р В· РЎР‚Р ВµР С—Р С•Р В·Р С‘РЎвЂљР С•РЎР‚РЎвЂ“РЎР‹ YLLOW_DRAGON.</description>
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -38,11 +38,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">YLLOW_DRAGON DEV addons repository for KODI Leia</summary>
-		<summary lang="ru_RU">Репозиторий дополнений YLLOW_DRAGON DEV для KODI Leia</summary>
-		<summary lang="uk_UA">Репозиторій доповнень YLLOW_DRAGON DEV для KODI Leia</summary>
+		<summary lang="ru_RU">Р РµРїРѕР·РёС‚РѕСЂРёР№ РґРѕРїРѕР»РЅРµРЅРёР№ YLLOW_DRAGON DEV РґР»СЏ KODI Leia</summary>
+		<summary lang="uk_UA">Р РµРїРѕР·РёС‚РѕСЂС–Р№ РґРѕРїРѕРІРЅРµРЅСЊ YLLOW_DRAGON DEV РґР»СЏ KODI Leia</summary>
 		<description  lang="en_GB">Download and install YLLOW_DRAGON DEV addons repository.</description>
-		<description  lang="ru_RU">Загружайте и устанавливайте дополнения из репозитория YLLOW_DRAGON DEV.</description>
-		<description  lang="uk_UA">Завантажуйте та встановлюйте доповненя з репозиторію YLLOW_DRAGON DEV.</description>
+		<description  lang="ru_RU">Р—Р°РіСЂСѓР¶Р°Р№С‚Рµ Рё СѓСЃС‚Р°РЅР°РІР»РёРІР°Р№С‚Рµ РґРѕРїРѕР»РЅРµРЅРёСЏ РёР· СЂРµРїРѕР·РёС‚РѕСЂРёСЏ YLLOW_DRAGON DEV.</description>
+		<description  lang="uk_UA">Р—Р°РІР°РЅС‚Р°Р¶СѓР№С‚Рµ С‚Р° РІСЃС‚Р°РЅРѕРІР»СЋР№С‚Рµ РґРѕРїРѕРІРЅРµРЅСЏ Р· СЂРµРїРѕР·РёС‚РѕСЂС–СЋ YLLOW_DRAGON DEV.</description>
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -64,11 +64,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">YLLOW_DRAGON EXT addons repository for KODI Leia</summary>
-		<summary lang="ru_RU">Репозиторий дополнений YLLOW_DRAGON EXT для KODI Leia</summary>
-		<summary lang="uk_UA">Репозиторій доповнень YLLOW_DRAGON EXT для KODI Leia</summary>
+		<summary lang="ru_RU">Р РµРїРѕР·РёС‚РѕСЂРёР№ РґРѕРїРѕР»РЅРµРЅРёР№ YLLOW_DRAGON EXT РґР»СЏ KODI Leia</summary>
+		<summary lang="uk_UA">Р РµРїРѕР·РёС‚РѕСЂС–Р№ РґРѕРїРѕРІРЅРµРЅСЊ YLLOW_DRAGON EXT РґР»СЏ KODI Leia</summary>
 		<description  lang="en_GB">Download and install YLLOW_DRAGON EXT addons repository.</description>
-		<description  lang="ru_RU">Загружайте и устанавливайте дополнения из репозитория YLLOW_DRAGON EXT.</description>
-		<description  lang="uk_UA">Завантажуйте та встановлюйте доповненя з репозиторію YLLOW_DRAGON EXT.</description>
+		<description  lang="ru_RU">Р—Р°РіСЂСѓР¶Р°Р№С‚Рµ Рё СѓСЃС‚Р°РЅР°РІР»РёРІР°Р№С‚Рµ РґРѕРїРѕР»РЅРµРЅРёСЏ РёР· СЂРµРїРѕР·РёС‚РѕСЂРёСЏ YLLOW_DRAGON EXT.</description>
+		<description  lang="uk_UA">Р—Р°РІР°РЅС‚Р°Р¶СѓР№С‚Рµ С‚Р° РІСЃС‚Р°РЅРѕРІР»СЋР№С‚Рµ РґРѕРїРѕРІРЅРµРЅСЏ Р· СЂРµРїРѕР·РёС‚РѕСЂС–СЋ YLLOW_DRAGON EXT.</description>
 		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
@@ -85,11 +85,11 @@
 	</requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Animated Busy Spinners Pack - Estuary</summary>
-		<summary lang="ru_RU">Анимированный пакет индикатора занятости - Estuary</summary>
-		<summary lang="uk_UA">Анімований пакет індикатора зайнятості - Estuary</summary>
+		<summary lang="ru_RU">РђРЅРёРјРёСЂРѕРІР°РЅРЅС‹Р№ РїР°РєРµС‚ РёРЅРґРёРєР°С‚РѕСЂР° Р·Р°РЅСЏС‚РѕСЃС‚Рё - Estuary</summary>
+		<summary lang="uk_UA">РђРЅС–РјРѕРІР°РЅРёР№ РїР°РєРµС‚ С–РЅРґРёРєР°С‚РѕСЂР° Р·Р°Р№РЅСЏС‚РѕСЃС‚С– - Estuary</summary>
 		<description lang="en_GB">Animated Busy Spinners Pack - Estuary</description>
-		<description lang="ru_RU">Анимированный пакет индикатора занятости - Estuary</description>
-		<description lang="uk_UA">Анімований пакет індикатора зайнятості - Estuary</description>
+		<description lang="ru_RU">РђРЅРёРјРёСЂРѕРІР°РЅРЅС‹Р№ РїР°РєРµС‚ РёРЅРґРёРєР°С‚РѕСЂР° Р·Р°РЅСЏС‚РѕСЃС‚Рё - Estuary</description>
+		<description lang="uk_UA">РђРЅС–РјРѕРІР°РЅРёР№ РїР°РєРµС‚ С–РЅРґРёРєР°С‚РѕСЂР° Р·Р°Р№РЅСЏС‚РѕСЃС‚С– - Estuary</description>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/resource.images.busyspinners.estuary</source>
@@ -103,11 +103,11 @@
 	</requires>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Skin Icons Pack - Estuary</summary>
-		<summary lang="ru_RU">Набор иконок для скина - Estuary</summary>
-		<summary lang="uk_UA">Набір іконок для обкладинки - Estuary</summary>
+		<summary lang="ru_RU">РќР°Р±РѕСЂ РёРєРѕРЅРѕРє РґР»СЏ СЃРєРёРЅР° - Estuary</summary>
+		<summary lang="uk_UA">РќР°Р±С–СЂ С–РєРѕРЅРѕРє РґР»СЏ РѕР±РєР»Р°РґРёРЅРєРё - Estuary</summary>
 		<description lang="en_GB">Skin Icons Pack - Estuary</description>
-		<description lang="ru_RU">Набор иконок для скина - Estuary</description>
-		<description lang="uk_UA">Набір іконок для обкладинки - Estuary</description>
+		<description lang="ru_RU">РќР°Р±РѕСЂ РёРєРѕРЅРѕРє РґР»СЏ СЃРєРёРЅР° - Estuary</description>
+		<description lang="uk_UA">РќР°Р±С–СЂ С–РєРѕРЅРѕРє РґР»СЏ РѕР±РєР»Р°РґРёРЅРєРё - Estuary</description>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/resource.images.skinicons.estuary</source>
@@ -131,14 +131,14 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
-		<summary lang="ru_RU">Загрузите иллюстации для ТВ-шоу, фильмов и музыки в вашей библиотеке</summary>
-		<summary lang="uk_UA">Завантажте іллюстаціі для ТБ-шоу, фільмів і музики у вашій бібліотеці</summary>
+		<summary lang="ru_RU">Р—Р°РіСЂСѓР·РёС‚Рµ РёР»Р»СЋСЃС‚Р°С†РёРё РґР»СЏ РўР’-С€РѕСѓ, С„РёР»СЊРјРѕРІ Рё РјСѓР·С‹РєРё РІ РІР°С€РµР№ Р±РёР±Р»РёРѕС‚РµРєРµ</summary>
+		<summary lang="uk_UA">Р—Р°РІР°РЅС‚Р°Р¶С‚Рµ С–Р»Р»СЋСЃС‚Р°С†С–С– РґР»СЏ РўР‘-С€РѕСѓ, С„С–Р»СЊРјС–РІ С– РјСѓР·РёРєРё Сѓ РІР°С€С–Р№ Р±С–Р±Р»С–РѕС‚РµС†С–</summary>
 		<description lang="en_GB">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
-		<description lang="ru_RU">Загружает все доступные изображения для телешоу, фильмов и музыкальных видео в вашей библиотеке. Проверьте параметры поддерживаемых иллюстраций[CR]Источники иллюстраций:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Примечание:[CR]Проверьте свой скин, чтобы увидеть, какие иллюстрации поддерживаются![CR]У каждого телешоу/фильма должна быть своя папка![CR]Интеграция скинов:[CR]См. файл readme</description>
-		<description lang="uk_UA">Завантажує всі доступні зображення для телешоу, фільмів і музичних відео в вашій бібліотеці. Перевірте параметри підтримуваних ілюстрацій[CR]Джерела ілюстрацій:[CR] www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Примітка:[CR]Перевірте свій скін, щоб побачити, які ілюстрації підтримуються![CR]У кожного телешоу/фільму повинна бути своя папка![CR]Інтеграція скінів:[CR]Див. файл readme</description>
+		<description lang="ru_RU">Р—Р°РіСЂСѓР¶Р°РµС‚ РІСЃРµ РґРѕСЃС‚СѓРїРЅС‹Рµ РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РґР»СЏ С‚РµР»РµС€РѕСѓ, С„РёР»СЊРјРѕРІ Рё РјСѓР·С‹РєР°Р»СЊРЅС‹С… РІРёРґРµРѕ РІ РІР°С€РµР№ Р±РёР±Р»РёРѕС‚РµРєРµ. РџСЂРѕРІРµСЂСЊС‚Рµ РїР°СЂР°РјРµС‚СЂС‹ РїРѕРґРґРµСЂР¶РёРІР°РµРјС‹С… РёР»Р»СЋСЃС‚СЂР°С†РёР№[CR]РСЃС‚РѕС‡РЅРёРєРё РёР»Р»СЋСЃС‚СЂР°С†РёР№:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]РџСЂРёРјРµС‡Р°РЅРёРµ:[CR]РџСЂРѕРІРµСЂСЊС‚Рµ СЃРІРѕР№ СЃРєРёРЅ, С‡С‚РѕР±С‹ СѓРІРёРґРµС‚СЊ, РєР°РєРёРµ РёР»Р»СЋСЃС‚СЂР°С†РёРё РїРѕРґРґРµСЂР¶РёРІР°СЋС‚СЃСЏ![CR]РЈ РєР°Р¶РґРѕРіРѕ С‚РµР»РµС€РѕСѓ/С„РёР»СЊРјР° РґРѕР»Р¶РЅР° Р±С‹С‚СЊ СЃРІРѕСЏ РїР°РїРєР°![CR]РРЅС‚РµРіСЂР°С†РёСЏ СЃРєРёРЅРѕРІ:[CR]РЎРј. С„Р°Р№Р» readme</description>
+		<description lang="uk_UA">Р—Р°РІР°РЅС‚Р°Р¶СѓС” РІСЃС– РґРѕСЃС‚СѓРїРЅС– Р·РѕР±СЂР°Р¶РµРЅРЅСЏ РґР»СЏ С‚РµР»РµС€РѕСѓ, С„С–Р»СЊРјС–РІ С– РјСѓР·РёС‡РЅРёС… РІС–РґРµРѕ РІ РІР°С€С–Р№ Р±С–Р±Р»С–РѕС‚РµС†С–. РџРµСЂРµРІС–СЂС‚Рµ РїР°СЂР°РјРµС‚СЂРё РїС–РґС‚СЂРёРјСѓРІР°РЅРёС… С–Р»СЋСЃС‚СЂР°С†С–Р№[CR]Р”Р¶РµСЂРµР»Р° С–Р»СЋСЃС‚СЂР°С†С–Р№:[CR] www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]РџСЂРёРјС–С‚РєР°:[CR]РџРµСЂРµРІС–СЂС‚Рµ СЃРІС–Р№ СЃРєС–РЅ, С‰РѕР± РїРѕР±Р°С‡РёС‚Рё, СЏРєС– С–Р»СЋСЃС‚СЂР°С†С–С— РїС–РґС‚СЂРёРјСѓСЋС‚СЊСЃСЏ![CR]РЈ РєРѕР¶РЅРѕРіРѕ С‚РµР»РµС€РѕСѓ/С„С–Р»СЊРјСѓ РїРѕРІРёРЅРЅР° Р±СѓС‚Рё СЃРІРѕСЏ РїР°РїРєР°![CR]Р†РЅС‚РµРіСЂР°С†С–СЏ СЃРєС–РЅС–РІ:[CR]Р”РёРІ. С„Р°Р№Р» readme</description>
 		<disclaimer lang="en_GB">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
-		<disclaimer lang="ru_RU">Ошибки, запросы и общие вопросы можно найти в ветке Artwork Downloader на форуме XBMC.</disclaimer>
-		<disclaimer lang="uk_UA">Помилки, запити та загальні питання можна знайти в гілці Artwork Downloader на форумі XBMC.</disclaimer>
+		<disclaimer lang="ru_RU">РћС€РёР±РєРё, Р·Р°РїСЂРѕСЃС‹ Рё РѕР±С‰РёРµ РІРѕРїСЂРѕСЃС‹ РјРѕР¶РЅРѕ РЅР°Р№С‚Рё РІ РІРµС‚РєРµ Artwork Downloader РЅР° С„РѕСЂСѓРјРµ XBMC.</disclaimer>
+		<disclaimer lang="uk_UA">РџРѕРјРёР»РєРё, Р·Р°РїРёС‚Рё С‚Р° Р·Р°РіР°Р»СЊРЅС– РїРёС‚Р°РЅРЅСЏ РјРѕР¶РЅР° Р·РЅР°Р№С‚Рё РІ РіС–Р»С†С– Artwork Downloader РЅР° С„РѕСЂСѓРјС– XBMC.</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<website></website>
@@ -163,11 +163,11 @@
 	<extension point="xbmc.service" library="default.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">CU LRC Lyrics</summary>
-		<summary lang="ru_RU">Тексты песен</summary>
-		<summary lang="uk_UA">Тексти пісень</summary>
+		<summary lang="ru_RU">РўРµРєСЃС‚С‹ РїРµСЃРµРЅ</summary>
+		<summary lang="uk_UA">РўРµРєСЃС‚Рё РїС–СЃРµРЅСЊ</summary>
 		<description lang="en_GB">CU LRC Lyrics is a lyrics script for Kodi. It supports regular as well as LRC Lyrics. The script can search synchronized/unsynchronized lyrics embedded, from file or by scrapers. It can read .lrc/.txt lyrics file saved at the same path by same file name with .mp3(or other type of music).</description>
-		<description lang="ru_RU">CU LRC Lyrics - это текст песни для Kodi. Он поддерживает как обычные, так и LRC тексты песен. Скрипт может искать встроенные синхронизированные/несинхронизированные тексты песен из файла или с помощью скребков. Он может читать файл текста песен .lrc/.txt, сохраненный по тому же пути под тем же именем что и файл .mp3 (или другой тип музыки).</description>
-		<description lang="uk_UA">CU LRC Lyrics - це текст пісні для Kodi. Він підтримує як звичайні, так і LRC тексти пісень. Скрипт може шукати вбудовані синхронізовані/несинхронізовані тексти пісень з файлу або за допомогою скребків. Він може читати файл тексту пісень .lrc/.txt, збережений тим самим шляхом під тим же ім'ям що і файл .mp3 (або інший тип музики).</description>
+		<description lang="ru_RU">CU LRC Lyrics - СЌС‚Рѕ С‚РµРєСЃС‚ РїРµСЃРЅРё РґР»СЏ Kodi. РћРЅ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ РєР°Рє РѕР±С‹С‡РЅС‹Рµ, С‚Р°Рє Рё LRC С‚РµРєСЃС‚С‹ РїРµСЃРµРЅ. РЎРєСЂРёРїС‚ РјРѕР¶РµС‚ РёСЃРєР°С‚СЊ РІСЃС‚СЂРѕРµРЅРЅС‹Рµ СЃРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°РЅРЅС‹Рµ/РЅРµСЃРёРЅС…СЂРѕРЅРёР·РёСЂРѕРІР°РЅРЅС‹Рµ С‚РµРєСЃС‚С‹ РїРµСЃРµРЅ РёР· С„Р°Р№Р»Р° РёР»Рё СЃ РїРѕРјРѕС‰СЊСЋ СЃРєСЂРµР±РєРѕРІ. РћРЅ РјРѕР¶РµС‚ С‡РёС‚Р°С‚СЊ С„Р°Р№Р» С‚РµРєСЃС‚Р° РїРµСЃРµРЅ .lrc/.txt, СЃРѕС…СЂР°РЅРµРЅРЅС‹Р№ РїРѕ С‚РѕРјСѓ Р¶Рµ РїСѓС‚Рё РїРѕРґ С‚РµРј Р¶Рµ РёРјРµРЅРµРј С‡С‚Рѕ Рё С„Р°Р№Р» .mp3 (РёР»Рё РґСЂСѓРіРѕР№ С‚РёРї РјСѓР·С‹РєРё).</description>
+		<description lang="uk_UA">CU LRC Lyrics - С†Рµ С‚РµРєСЃС‚ РїС–СЃРЅС– РґР»СЏ Kodi. Р’С–РЅ РїС–РґС‚СЂРёРјСѓС” СЏРє Р·РІРёС‡Р°Р№РЅС–, С‚Р°Рє С– LRC С‚РµРєСЃС‚Рё РїС–СЃРµРЅСЊ. РЎРєСЂРёРїС‚ РјРѕР¶Рµ С€СѓРєР°С‚Рё РІР±СѓРґРѕРІР°РЅС– СЃРёРЅС…СЂРѕРЅС–Р·РѕРІР°РЅС–/РЅРµСЃРёРЅС…СЂРѕРЅС–Р·РѕРІР°РЅС– С‚РµРєСЃС‚Рё РїС–СЃРµРЅСЊ Р· С„Р°Р№Р»Сѓ Р°Р±Рѕ Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ СЃРєСЂРµР±РєС–РІ. Р’С–РЅ РјРѕР¶Рµ С‡РёС‚Р°С‚Рё С„Р°Р№Р» С‚РµРєСЃС‚Сѓ РїС–СЃРµРЅСЊ .lrc/.txt, Р·Р±РµСЂРµР¶РµРЅРёР№ С‚РёРј СЃР°РјРёРј С€Р»СЏС…РѕРј РїС–Рґ С‚РёРј Р¶Рµ С–Рј'СЏРј С‰Рѕ С– С„Р°Р№Р» .mp3 (Р°Р±Рѕ С–РЅС€РёР№ С‚РёРї РјСѓР·РёРєРё).</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
@@ -192,12 +192,12 @@
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.service" library="service.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
-		<summary lang="ru_RU">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
-		<summary lang="uk_UA">ВсеТВ - Телепрограма, анонси фільмів, серіали, спорт</summary>
-		<description lang="en_GB">VsёTV - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
-		<description lang="ru_RU">ВсёТВ - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
-		<description lang="uk_UA">ВсеТВ - Телепрограма понад 650 каналів України, Росії, Європи, анонси всіх фільмів, серіалів, спорт на ТБ, новини телебачення, найбільший каталог серіалів, можливість налаштувати під себе набір каналів і формат видачі інформації</description>
+		<summary lang="en_GB">VsС‘TV - TV Program, movie trailers, TV shows, sports</summary>
+		<summary lang="ru_RU">Р’СЃС‘РўР’ - РўРµР»РµРїСЂРѕРіСЂР°РјРјР°, Р°РЅРѕРЅСЃС‹ С„РёР»СЊРјРѕРІ, СЃРµСЂРёР°Р»С‹, СЃРїРѕСЂС‚</summary>
+		<summary lang="uk_UA">Р’СЃРµРўР’ - РўРµР»РµРїСЂРѕРіСЂР°РјР°, Р°РЅРѕРЅСЃРё С„С–Р»СЊРјС–РІ, СЃРµСЂС–Р°Р»Рё, СЃРїРѕСЂС‚</summary>
+		<description lang="en_GB">VsС‘TV - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
+		<description lang="ru_RU">Р’СЃС‘РўР’ - РўРµР»РµРїСЂРѕРіСЂР°РјРјР° Р±РѕР»РµРµ 650 РєР°РЅР°Р»РѕРІ РЈРєСЂР°РёРЅС‹, Р РѕСЃСЃРёРё, Р•РІСЂРѕРїС‹, Р°РЅРѕРЅСЃС‹ РІСЃРµС… С„РёР»СЊРјРѕРІ, СЃРµСЂРёР°Р»РѕРІ, СЃРїРѕСЂС‚ РЅР° РўР’, РЅРѕРІРѕСЃС‚Рё С‚РµР»РµРІРёРґРµРЅРёСЏ, РєСЂСѓРїРЅРµР№С€РёР№ РєР°С‚Р°Р»РѕРі СЃРµСЂРёР°Р»РѕРІ, РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ РЅР°СЃС‚СЂРѕРёС‚СЊ РїРѕРґ СЃРµР±СЏ РЅР°Р±РѕСЂ РєР°РЅР°Р»РѕРІ Рё С„РѕСЂРјР°С‚ РІС‹РґР°С‡Рё РёРЅС„РѕСЂРјР°С†РёРё</description>
+		<description lang="uk_UA">Р’СЃРµРўР’ - РўРµР»РµРїСЂРѕРіСЂР°РјР° РїРѕРЅР°Рґ 650 РєР°РЅР°Р»С–РІ РЈРєСЂР°С—РЅРё, Р РѕСЃС–С—, Р„РІСЂРѕРїРё, Р°РЅРѕРЅСЃРё РІСЃС–С… С„С–Р»СЊРјС–РІ, СЃРµСЂС–Р°Р»С–РІ, СЃРїРѕСЂС‚ РЅР° РўР‘, РЅРѕРІРёРЅРё С‚РµР»РµР±Р°С‡РµРЅРЅСЏ, РЅР°Р№Р±С–Р»СЊС€РёР№ РєР°С‚Р°Р»РѕРі СЃРµСЂС–Р°Р»С–РІ, РјРѕР¶Р»РёРІС–СЃС‚СЊ РЅР°Р»Р°С€С‚СѓРІР°С‚Рё РїС–Рґ СЃРµР±Рµ РЅР°Р±С–СЂ РєР°РЅР°Р»С–РІ С– С„РѕСЂРјР°С‚ РІРёРґР°С‡С– С–РЅС„РѕСЂРјР°С†С–С—</description>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
@@ -226,8 +226,8 @@
 		<summary lang="ru_RU">ExtendedInfo Script</summary>
 		<summary lang="uk_UA">ExtendedInfo Script</summary>
 		<description lang="en_GB">This script offers various possibilities to display online content inside skins as well as a complete MovieDB browser including info dialogs for various media types. Used services are themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com and a lot more. Needs skin implementation for lot of functions.</description>
-		<description lang="ru_RU">Этот скрипт предлагает различные возможности для отображения онлайн-контента внутри обложки, а также полный браузер MovieDB, включая информационные диалоги для различных типов медиа. Используемыми сервисами являются themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com и многое другое. Требует реализации обложки для многих функций.</description>
-		<description lang="uk_UA">Цей сценарій пропонує різні можливості для відображення онлайн-вмісту всередині обкладинки, а також повний браузер MovieDB, включаючи діалоги інформації для різних типів медіа. Використані сервіси - themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com та багато іншого. Потрібна реалізація обкладинки для безлічі функцій.</description>
+		<description lang="ru_RU">Р­С‚РѕС‚ СЃРєСЂРёРїС‚ РїСЂРµРґР»Р°РіР°РµС‚ СЂР°Р·Р»РёС‡РЅС‹Рµ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РґР»СЏ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РѕРЅР»Р°Р№РЅ-РєРѕРЅС‚РµРЅС‚Р° РІРЅСѓС‚СЂРё РѕР±Р»РѕР¶РєРё, Р° С‚Р°РєР¶Рµ РїРѕР»РЅС‹Р№ Р±СЂР°СѓР·РµСЂ MovieDB, РІРєР»СЋС‡Р°СЏ РёРЅС„РѕСЂРјР°С†РёРѕРЅРЅС‹Рµ РґРёР°Р»РѕРіРё РґР»СЏ СЂР°Р·Р»РёС‡РЅС‹С… С‚РёРїРѕРІ РјРµРґРёР°. РСЃРїРѕР»СЊР·СѓРµРјС‹РјРё СЃРµСЂРІРёСЃР°РјРё СЏРІР»СЏСЋС‚СЃСЏ themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ. РўСЂРµР±СѓРµС‚ СЂРµР°Р»РёР·Р°С†РёРё РѕР±Р»РѕР¶РєРё РґР»СЏ РјРЅРѕРіРёС… С„СѓРЅРєС†РёР№.</description>
+		<description lang="uk_UA">Р¦РµР№ СЃС†РµРЅР°СЂС–Р№ РїСЂРѕРїРѕРЅСѓС” СЂС–Р·РЅС– РјРѕР¶Р»РёРІРѕСЃС‚С– РґР»СЏ РІС–РґРѕР±СЂР°Р¶РµРЅРЅСЏ РѕРЅР»Р°Р№РЅ-РІРјС–СЃС‚Сѓ РІСЃРµСЂРµРґРёРЅС– РѕР±РєР»Р°РґРёРЅРєРё, Р° С‚Р°РєРѕР¶ РїРѕРІРЅРёР№ Р±СЂР°СѓР·РµСЂ MovieDB, РІРєР»СЋС‡Р°СЋС‡Рё РґС–Р°Р»РѕРіРё С–РЅС„РѕСЂРјР°С†С–С— РґР»СЏ СЂС–Р·РЅРёС… С‚РёРїС–РІ РјРµРґС–Р°. Р’РёРєРѕСЂРёСЃС‚Р°РЅС– СЃРµСЂРІС–СЃРё - themoviedb.org, theaudiodb.org, Trakt.TV, omdbapi.com С‚Р° Р±Р°РіР°С‚Рѕ С–РЅС€РѕРіРѕ. РџРѕС‚СЂС–Р±РЅР° СЂРµР°Р»С–Р·Р°С†С–СЏ РѕР±РєР»Р°РґРёРЅРєРё РґР»СЏ Р±РµР·Р»С–С‡С– С„СѓРЅРєС†С–Р№.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2, June 1991</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=160558</forum>
@@ -253,14 +253,14 @@
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Favourites script</summary>
-		<summary lang="ru_RU">Скрипт "Избранное"</summary>
-		<summary lang="uk_UA">Скрипт "Обране"</summary>
+		<summary lang="ru_RU">РЎРєСЂРёРїС‚ "РР·Р±СЂР°РЅРЅРѕРµ"</summary>
+		<summary lang="uk_UA">РЎРєСЂРёРїС‚ "РћР±СЂР°РЅРµ"</summary>
 		<description lang="en_GB">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
-		<description lang="ru_RU">Извлекает информацию из Вашего меню "Избранное" и отображает дополнительные кнопки в главном меню и подменю.</description>
-		<description lang="uk_UA">Витягує інформацію з Вашого меню "Обране" і відображає додаткові кнопки в головному меню і підміню.</description>
+		<description lang="ru_RU">РР·РІР»РµРєР°РµС‚ РёРЅС„РѕСЂРјР°С†РёСЋ РёР· Р’Р°С€РµРіРѕ РјРµРЅСЋ "РР·Р±СЂР°РЅРЅРѕРµ" Рё РѕС‚РѕР±СЂР°Р¶Р°РµС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РєРЅРѕРїРєРё РІ РіР»Р°РІРЅРѕРј РјРµРЅСЋ Рё РїРѕРґРјРµРЅСЋ.</description>
+		<description lang="uk_UA">Р’РёС‚СЏРіСѓС” С–РЅС„РѕСЂРјР°С†С–СЋ Р· Р’Р°С€РѕРіРѕ РјРµРЅСЋ "РћР±СЂР°РЅРµ" С– РІС–РґРѕР±СЂР°Р¶Р°С” РґРѕРґР°С‚РєРѕРІС– РєРЅРѕРїРєРё РІ РіРѕР»РѕРІРЅРѕРјСѓ РјРµРЅСЋ С– РїС–РґРјС–РЅСЋ.</description>
 		<disclaimer lang="en_GB">Needs skin support for it to be used properly</disclaimer>
-		<disclaimer lang="ru_RU">Необходима поддержка скинов для корректного отображения</disclaimer>
-		<disclaimer lang="uk_UA">Необхідна підтримка обкладинки для коректного відображення</disclaimer>
+		<disclaimer lang="ru_RU">РќРµРѕР±С…РѕРґРёРјР° РїРѕРґРґРµСЂР¶РєР° СЃРєРёРЅРѕРІ РґР»СЏ РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ</disclaimer>
+		<disclaimer lang="uk_UA">РќРµРѕР±С…С–РґРЅР° РїС–РґС‚СЂРёРјРєР° РѕР±РєР»Р°РґРёРЅРєРё РґР»СЏ РєРѕСЂРµРєС‚РЅРѕРіРѕ РІС–РґРѕР±СЂР°Р¶РµРЅРЅСЏ</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
@@ -281,11 +281,11 @@
 	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Search your library.</summary>
-		<summary lang="ru_RU">Найдите в вашей библиотеке.</summary>
-		<summary lang="uk_UA">Пошук у вашій бібліотеці.</summary>
+		<summary lang="ru_RU">РќР°Р№РґРёС‚Рµ РІ РІР°С€РµР№ Р±РёР±Р»РёРѕС‚РµРєРµ.</summary>
+		<summary lang="uk_UA">РџРѕС€СѓРє Сѓ РІР°С€С–Р№ Р±С–Р±Р»С–РѕС‚РµС†С–.</summary>
 		<description lang="en_GB">This addon can find any item in your video and music library.</description>
-		<description lang="ru_RU">Это дополнение поможет найти любую запись в вашей медиатеке.</description>
-		<description lang="uk_UA">Це доповнення допоможе знайти будь-який запис у вашій бібліотеці.</description>
+		<description lang="ru_RU">Р­С‚Рѕ РґРѕРїРѕР»РЅРµРЅРёРµ РїРѕРјРѕР¶РµС‚ РЅР°Р№С‚Рё Р»СЋР±СѓСЋ Р·Р°РїРёСЃСЊ РІ РІР°С€РµР№ РјРµРґРёР°С‚РµРєРµ.</description>
+		<description lang="uk_UA">Р¦Рµ РґРѕРїРѕРІРЅРµРЅРЅСЏ РґРѕРїРѕРјРѕР¶Рµ Р·РЅР°Р№С‚Рё Р±СѓРґСЊ-СЏРєРёР№ Р·Р°РїРёСЃ Сѓ РІР°С€С–Р№ Р±С–Р±Р»С–РѕС‚РµС†С–.</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
@@ -307,11 +307,11 @@
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Image resource selection addon</summary>
-		<summary lang="ru_RU">Дополнение выбора ресурса изображения</summary>
-		<summary lang="uk_UA">Доповнення вибору ресурсу зображення</summary>
+		<summary lang="ru_RU">Р”РѕРїРѕР»РЅРµРЅРёРµ РІС‹Р±РѕСЂР° СЂРµСЃСѓСЂСЃР° РёР·РѕР±СЂР°Р¶РµРЅРёСЏ</summary>
+		<summary lang="uk_UA">Р”РѕРїРѕРІРЅРµРЅРЅСЏ РІРёР±РѕСЂСѓ СЂРµСЃСѓСЂСЃСѓ Р·РѕР±СЂР°Р¶РµРЅРЅСЏ</summary>
 		<description lang="en_GB">Script for skinners to let users select an image resource addon.</description>
-		<description lang="ru_RU">Скрипт для обложки, позволяющий пользователям выбирать дополнение ресурса изображения.</description>
-		<description lang="uk_UA">Скрипт для обкладинки, що дозволяє користувачам вибирати доповнення ресурсу зображення.</description>
+		<description lang="ru_RU">РЎРєСЂРёРїС‚ РґР»СЏ РѕР±Р»РѕР¶РєРё, РїРѕР·РІРѕР»СЏСЋС‰РёР№ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРј РІС‹Р±РёСЂР°С‚СЊ РґРѕРїРѕР»РЅРµРЅРёРµ СЂРµСЃСѓСЂСЃР° РёР·РѕР±СЂР°Р¶РµРЅРёСЏ.</description>
+		<description lang="uk_UA">РЎРєСЂРёРїС‚ РґР»СЏ РѕР±РєР»Р°РґРёРЅРєРё, С‰Рѕ РґРѕР·РІРѕР»СЏС” РєРѕСЂРёСЃС‚СѓРІР°С‡Р°Рј РІРёР±РёСЂР°С‚Рё РґРѕРїРѕРІРЅРµРЅРЅСЏ СЂРµСЃСѓСЂСЃСѓ Р·РѕР±СЂР°Р¶РµРЅРЅСЏ.</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
@@ -359,11 +359,11 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">CherryPy webserver packaged as Kodi module</summary>
-		<summary lang="ru_RU">Веб-сервер CherryPy, упакованный как модуль Kodi</summary>
-		<summary lang="uk_UA">Веб-сервер CherryPy, упакований як модуль Kodi</summary>
+		<summary lang="ru_RU">Р’РµР±-СЃРµСЂРІРµСЂ CherryPy, СѓРїР°РєРѕРІР°РЅРЅС‹Р№ РєР°Рє РјРѕРґСѓР»СЊ Kodi</summary>
+		<summary lang="uk_UA">Р’РµР±-СЃРµСЂРІРµСЂ CherryPy, СѓРїР°РєРѕРІР°РЅРёР№ СЏРє РјРѕРґСѓР»СЊ Kodi</summary>
 		<description lang="en_GB">CherryPy is a pythonic, object-oriented web framework.[CR]CherryPy allows developers to build web applications in much the same way they would build any other object-oriented Python program. This results in smaller source code developed in less time.[CR]CherryPy is now more than ten years old and it is has proven to be very fast and stable. It is being used in production by many sites, from the simplest to the most demanding.</description>
-		<description lang="ru_RU">CherryPy - это питоновая, объектно-ориентированная веб-структура.[CR]CherryPy позволяет разработчикам создавать веб-приложения почти так же, как и для любой другой объектно-ориентированной программы Python. Это приводит к меньшему исходному коду, разработанному за меньшее время.[CR]Теперь CherryPy более десяти лет, и это оказалось очень быстрым и стабильным. Он используется в производстве на многих сайтах, от самых простых до самых требовательных.</description>
-		<description lang="uk_UA">CherryPy - це пітоновая, об'єктно-орієнтована веб-структура.[CR]CherryPy дозволяє розробникам створювати веб-додатки майже так само, як і для будь-якої іншої об'єктно-орієнтованої програми Python. Це призводить до меншого вихідного коду, розробленого за менший час.[CR]Тепер CherryPy більше десяти років, і це виявилося дуже швидким і стабільним. Він використовується у виробництві на багатьох сайтах, від найпростіших до самих вимогливих.</description>
+		<description lang="ru_RU">CherryPy - СЌС‚Рѕ РїРёС‚РѕРЅРѕРІР°СЏ, РѕР±СЉРµРєС‚РЅРѕ-РѕСЂРёРµРЅС‚РёСЂРѕРІР°РЅРЅР°СЏ РІРµР±-СЃС‚СЂСѓРєС‚СѓСЂР°.[CR]CherryPy РїРѕР·РІРѕР»СЏРµС‚ СЂР°Р·СЂР°Р±РѕС‚С‡РёРєР°Рј СЃРѕР·РґР°РІР°С‚СЊ РІРµР±-РїСЂРёР»РѕР¶РµРЅРёСЏ РїРѕС‡С‚Рё С‚Р°Рє Р¶Рµ, РєР°Рє Рё РґР»СЏ Р»СЋР±РѕР№ РґСЂСѓРіРѕР№ РѕР±СЉРµРєС‚РЅРѕ-РѕСЂРёРµРЅС‚РёСЂРѕРІР°РЅРЅРѕР№ РїСЂРѕРіСЂР°РјРјС‹ Python. Р­С‚Рѕ РїСЂРёРІРѕРґРёС‚ Рє РјРµРЅСЊС€РµРјСѓ РёСЃС…РѕРґРЅРѕРјСѓ РєРѕРґСѓ, СЂР°Р·СЂР°Р±РѕС‚Р°РЅРЅРѕРјСѓ Р·Р° РјРµРЅСЊС€РµРµ РІСЂРµРјСЏ.[CR]РўРµРїРµСЂСЊ CherryPy Р±РѕР»РµРµ РґРµСЃСЏС‚Рё Р»РµС‚, Рё СЌС‚Рѕ РѕРєР°Р·Р°Р»РѕСЃСЊ РѕС‡РµРЅСЊ Р±С‹СЃС‚СЂС‹Рј Рё СЃС‚Р°Р±РёР»СЊРЅС‹Рј. РћРЅ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ РїСЂРѕРёР·РІРѕРґСЃС‚РІРµ РЅР° РјРЅРѕРіРёС… СЃР°Р№С‚Р°С…, РѕС‚ СЃР°РјС‹С… РїСЂРѕСЃС‚С‹С… РґРѕ СЃР°РјС‹С… С‚СЂРµР±РѕРІР°С‚РµР»СЊРЅС‹С….</description>
+		<description lang="uk_UA">CherryPy - С†Рµ РїС–С‚РѕРЅРѕРІР°СЏ, РѕР±'С”РєС‚РЅРѕ-РѕСЂС–С”РЅС‚РѕРІР°РЅР° РІРµР±-СЃС‚СЂСѓРєС‚СѓСЂР°.[CR]CherryPy РґРѕР·РІРѕР»СЏС” СЂРѕР·СЂРѕР±РЅРёРєР°Рј СЃС‚РІРѕСЂСЋРІР°С‚Рё РІРµР±-РґРѕРґР°С‚РєРё РјР°Р№Р¶Рµ С‚Р°Рє СЃР°РјРѕ, СЏРє С– РґР»СЏ Р±СѓРґСЊ-СЏРєРѕС— С–РЅС€РѕС— РѕР±'С”РєС‚РЅРѕ-РѕСЂС–С”РЅС‚РѕРІР°РЅРѕС— РїСЂРѕРіСЂР°РјРё Python. Р¦Рµ РїСЂРёР·РІРѕРґРёС‚СЊ РґРѕ РјРµРЅС€РѕРіРѕ РІРёС…С–РґРЅРѕРіРѕ РєРѕРґСѓ, СЂРѕР·СЂРѕР±Р»РµРЅРѕРіРѕ Р·Р° РјРµРЅС€РёР№ С‡Р°СЃ.[CR]РўРµРїРµСЂ CherryPy Р±С–Р»СЊС€Рµ РґРµСЃСЏС‚Рё СЂРѕРєС–РІ, С– С†Рµ РІРёСЏРІРёР»РѕСЃСЏ РґСѓР¶Рµ С€РІРёРґРєРёРј С– СЃС‚Р°Р±С–Р»СЊРЅРёРј. Р’С–РЅ РІРёРєРѕСЂРёСЃС‚РѕРІСѓС”С‚СЊСЃСЏ Сѓ РІРёСЂРѕР±РЅРёС†С‚РІС– РЅР° Р±Р°РіР°С‚СЊРѕС… СЃР°Р№С‚Р°С…, РІС–Рґ РЅР°Р№РїСЂРѕСЃС‚С–С€РёС… РґРѕ СЃР°РјРёС… РІРёРјРѕРіР»РёРІРёС….</description>
 		<license>BSD</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -412,11 +412,11 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Metadata and artwork from common sources TMDB, IMDB and fanart.tv</summary>
-		<summary lang="ru_RU">Метаданные и иллюстраций из общих источников TMDb, IMDB и fanart.tv</summary>
-		<summary lang="uk_UA">Метадані і ілюстрацій із загальних джерел TMDb, IMDB та fanart.tv</summary>
+		<summary lang="ru_RU">РњРµС‚Р°РґР°РЅРЅС‹Рµ Рё РёР»Р»СЋСЃС‚СЂР°С†РёР№ РёР· РѕР±С‰РёС… РёСЃС‚РѕС‡РЅРёРєРѕРІ TMDb, IMDB Рё fanart.tv</summary>
+		<summary lang="uk_UA">РњРµС‚Р°РґР°РЅС– С– С–Р»СЋСЃС‚СЂР°С†С–Р№ С–Р· Р·Р°РіР°Р»СЊРЅРёС… РґР¶РµСЂРµР» TMDb, IMDB С‚Р° fanart.tv</summary>
 		<description lang="en_GB">The artwork and metadata module provides rich metadata, including artwork for various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.</description>
-		<description lang="ru_RU">Модуль artwork and metadata получает метаданные и иллюстраций для различные метатипов с сайтов TMDb, MusicBrainz и fanart.tv.</description>
-		<description lang="uk_UA">Модуль artwork and metadata отримує метадані та ілюстрацій для різні метатіпов з сайтів TMDb, MusicBrainz та fanart.tv.</description>
+		<description lang="ru_RU">РњРѕРґСѓР»СЊ artwork and metadata РїРѕР»СѓС‡Р°РµС‚ РјРµС‚Р°РґР°РЅРЅС‹Рµ Рё РёР»Р»СЋСЃС‚СЂР°С†РёР№ РґР»СЏ СЂР°Р·Р»РёС‡РЅС‹Рµ РјРµС‚Р°С‚РёРїРѕРІ СЃ СЃР°Р№С‚РѕРІ TMDb, MusicBrainz Рё fanart.tv.</description>
+		<description lang="uk_UA">РњРѕРґСѓР»СЊ artwork and metadata РѕС‚СЂРёРјСѓС” РјРµС‚Р°РґР°РЅС– С‚Р° С–Р»СЋСЃС‚СЂР°С†С–Р№ РґР»СЏ СЂС–Р·РЅС– РјРµС‚Р°С‚С–РїРѕРІ Р· СЃР°Р№С‚С–РІ TMDb, MusicBrainz С‚Р° fanart.tv.</description>
 		<license>Apache 2.0</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -438,11 +438,11 @@
 		library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Python bindings for Musicbrainz' NGS webservice</summary>
-		<summary lang="ru_RU">Сборка Python для веб-сервиса Musicbrainz 'NGS</summary>
-		<summary lang="uk_UA">Збірка Python для веб-сервісу Musicbrainz 'NGS</summary>
+		<summary lang="ru_RU">РЎР±РѕСЂРєР° Python РґР»СЏ РІРµР±-СЃРµСЂРІРёСЃР° Musicbrainz 'NGS</summary>
+		<summary lang="uk_UA">Р—Р±С–СЂРєР° Python РґР»СЏ РІРµР±-СЃРµСЂРІС–СЃСѓ Musicbrainz 'NGS</summary>
 		<description lang="en_GB">Kodi module library for the Python bindings for Musicbrainz' NGS webservice developed by alastair.</description>
-		<description lang="ru_RU">Библиотека модулей Kodi для сборки Python веб-службы Musicbrainz 'NGS, разработанная alastair.</description>
-		<description lang="uk_UA">Бібліотека модулів Kodi для збірки Python веб-служби Musicbrainz 'NGS, розроблена alastair.</description>
+		<description lang="ru_RU">Р‘РёР±Р»РёРѕС‚РµРєР° РјРѕРґСѓР»РµР№ Kodi РґР»СЏ СЃР±РѕСЂРєРё Python РІРµР±-СЃР»СѓР¶Р±С‹ Musicbrainz 'NGS, СЂР°Р·СЂР°Р±РѕС‚Р°РЅРЅР°СЏ alastair.</description>
+		<description lang="uk_UA">Р‘С–Р±Р»С–РѕС‚РµРєР° РјРѕРґСѓР»С–РІ Kodi РґР»СЏ Р·Р±С–СЂРєРё Python РІРµР±-СЃР»СѓР¶Р±Рё Musicbrainz 'NGS, СЂРѕР·СЂРѕР±Р»РµРЅР° alastair.</description>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
 		<source>https://github.com/marcelveldt/script.module.musicbrainz</source>
 		<platform>all</platform>
@@ -459,11 +459,11 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</summary>
-		<summary lang="ru_RU">Предоставляет простой файл на основе кэш-памяти для KODI дополнений</summary>
-		<summary lang="uk_UA">Надає простий файл на основі кеш-пам'яті для KODI доповнень</summary>
+		<summary lang="ru_RU">РџСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРѕСЃС‚РѕР№ С„Р°Р№Р» РЅР° РѕСЃРЅРѕРІРµ РєСЌС€-РїР°РјСЏС‚Рё РґР»СЏ KODI РґРѕРїРѕР»РЅРµРЅРёР№</summary>
+		<summary lang="uk_UA">РќР°РґР°С” РїСЂРѕСЃС‚РёР№ С„Р°Р№Р» РЅР° РѕСЃРЅРѕРІС– РєРµС€-РїР°Рј'СЏС‚С– РґР»СЏ KODI РґРѕРїРѕРІРЅРµРЅСЊ</summary>
 		<description lang="en_GB">Provides a simple file- and memory based cache for Kodi addons</description>
-		<description lang="ru_RU">Предоставляет простой файл на основе кэш-памяти для KODI дополнений</description>
-		<description lang="uk_UA">Надає простий файл на основі кеш-пам'яті для KODI доповнень</description>
+		<description lang="ru_RU">РџСЂРµРґРѕСЃС‚Р°РІР»СЏРµС‚ РїСЂРѕСЃС‚РѕР№ С„Р°Р№Р» РЅР° РѕСЃРЅРѕРІРµ РєСЌС€-РїР°РјСЏС‚Рё РґР»СЏ KODI РґРѕРїРѕР»РЅРµРЅРёР№</description>
+		<description lang="uk_UA">РќР°РґР°С” РїСЂРѕСЃС‚РёР№ С„Р°Р№Р» РЅР° РѕСЃРЅРѕРІС– РєРµС€-РїР°Рј'СЏС‚С– РґР»СЏ KODI РґРѕРїРѕРІРЅРµРЅСЊ</description>
 		<license>Apache 2.0</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -488,11 +488,11 @@
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">TheTVDB API v2 python module for Kodi</summary>
-		<summary lang="ru_RU">TheTVDB API v2 модуль python для Kodi</summary>
-		<summary lang="uk_UA">TheTVDB API v2 модуль python для Kodi</summary>
+		<summary lang="ru_RU">TheTVDB API v2 РјРѕРґСѓР»СЊ python РґР»СЏ Kodi</summary>
+		<summary lang="uk_UA">TheTVDB API v2 РјРѕРґСѓР»СЊ python РґР»СЏ Kodi</summary>
 		<description lang="en_GB">TheTVDB API v2 python module for Kodi</description>
-		<description lang="ru_RU">TheTVDB API v2 модуль python для Kodi</description>
-		<description lang="uk_UA">TheTVDB API v2 модуль python для Kodi</description>
+		<description lang="ru_RU">TheTVDB API v2 РјРѕРґСѓР»СЊ python РґР»СЏ Kodi</description>
+		<description lang="uk_UA">TheTVDB API v2 РјРѕРґСѓР»СЊ python РґР»СЏ Kodi</description>
 		<license>Apache 2.0</license>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -515,11 +515,11 @@
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
 		<summary lang="en_GB">Module providing access to youtube-dl video stream extraction</summary>
-		<summary lang="ru_RU">Модуль дает доступ к видеопотоку youtube-dl</summary>
-		<summary lang="uk_UA">Модуль дає доступ до відеопотоку youtube-dl</summary>
+		<summary lang="ru_RU">РњРѕРґСѓР»СЊ РґР°РµС‚ РґРѕСЃС‚СѓРї Рє РІРёРґРµРѕРїРѕС‚РѕРєСѓ youtube-dl</summary>
+		<summary lang="uk_UA">РњРѕРґСѓР»СЊ РґР°С” РґРѕСЃС‚СѓРї РґРѕ РІС–РґРµРѕРїРѕС‚РѕРєСѓ youtube-dl</summary>
 		<description lang="en_GB">Module providing access to youtube-dl video stream extraction for hundreds of sites. Version is based on youtube-dl date version: YY.MDD.V where V is the addon specific sub-version. Also provides downloading with the option for background downloading with a queue and queue manager.</description>
-		<description lang="ru_RU">Модуль дает доступ к извлечению видеопотока youtube-dl для сотен сайтов. Версия основана на версии даты youtube-dl: YY.MDD.V, где V - специфическая дополнительная версия дополнения. Также обеспечивает загрузку с возможностью фоновой загрузки с помощью диспетчера очереди.</description>
-		<description lang="uk_UA">Модуль дає доступ до вилучення відео потоку youtube-dl для сотень сайтів. Версія заснована на версії дати youtube-dl: YY.MDD.V, де V - специфічна додаткова версія доповнення. Також забезпечує завантаження з можливістю фонової завантаження за допомогою диспетчера черги.</description>
+		<description lang="ru_RU">РњРѕРґСѓР»СЊ РґР°РµС‚ РґРѕСЃС‚СѓРї Рє РёР·РІР»РµС‡РµРЅРёСЋ РІРёРґРµРѕРїРѕС‚РѕРєР° youtube-dl РґР»СЏ СЃРѕС‚РµРЅ СЃР°Р№С‚РѕРІ. Р’РµСЂСЃРёСЏ РѕСЃРЅРѕРІР°РЅР° РЅР° РІРµСЂСЃРёРё РґР°С‚С‹ youtube-dl: YY.MDD.V, РіРґРµ V - СЃРїРµС†РёС„РёС‡РµСЃРєР°СЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РІРµСЂСЃРёСЏ РґРѕРїРѕР»РЅРµРЅРёСЏ. РўР°РєР¶Рµ РѕР±РµСЃРїРµС‡РёРІР°РµС‚ Р·Р°РіСЂСѓР·РєСѓ СЃ РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊСЋ С„РѕРЅРѕРІРѕР№ Р·Р°РіСЂСѓР·РєРё СЃ РїРѕРјРѕС‰СЊСЋ РґРёСЃРїРµС‚С‡РµСЂР° РѕС‡РµСЂРµРґРё.</description>
+		<description lang="uk_UA">РњРѕРґСѓР»СЊ РґР°С” РґРѕСЃС‚СѓРї РґРѕ РІРёР»СѓС‡РµРЅРЅСЏ РІС–РґРµРѕ РїРѕС‚РѕРєСѓ youtube-dl РґР»СЏ СЃРѕС‚РµРЅСЊ СЃР°Р№С‚С–РІ. Р’РµСЂСЃС–СЏ Р·Р°СЃРЅРѕРІР°РЅР° РЅР° РІРµСЂСЃС–С— РґР°С‚Рё youtube-dl: YY.MDD.V, РґРµ V - СЃРїРµС†РёС„С–С‡РЅР° РґРѕРґР°С‚РєРѕРІР° РІРµСЂСЃС–СЏ РґРѕРїРѕРІРЅРµРЅРЅСЏ. РўР°РєРѕР¶ Р·Р°Р±РµР·РїРµС‡СѓС” Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р· РјРѕР¶Р»РёРІС–СЃС‚СЋ С„РѕРЅРѕРІРѕС— Р·Р°РІР°РЅС‚Р°Р¶РµРЅРЅСЏ Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ РґРёСЃРїРµС‚С‡РµСЂР° С‡РµСЂРіРё.</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<forum>https://forum.kodi.tv/showthread.php?tid=200877</forum>
 		<source>https://github.com/nkvoronov/script.module.youtube.dl.git</source>
@@ -542,11 +542,11 @@
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<description lang="en_GB">It gets information about PVR channels and displays additional buttons and widgets on the main menu and submenus.</description>
-		<description lang="ru_RU">Получает информацию об PVR каналах и отображает дополнительные кнопки и виджеты в главном меню и подменю.</description>
-		<description lang="uk_UA">Отримує інформацію про PVR каналах і відображає додаткові кнопки і віджети в головному меню і підміню.</description>
+		<description lang="ru_RU">РџРѕР»СѓС‡Р°РµС‚ РёРЅС„РѕСЂРјР°С†РёСЋ РѕР± PVR РєР°РЅР°Р»Р°С… Рё РѕС‚РѕР±СЂР°Р¶Р°РµС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РєРЅРѕРїРєРё Рё РІРёРґР¶РµС‚С‹ РІ РіР»Р°РІРЅРѕРј РјРµРЅСЋ Рё РїРѕРґРјРµРЅСЋ.</description>
+		<description lang="uk_UA">РћС‚СЂРёРјСѓС” С–РЅС„РѕСЂРјР°С†С–СЋ РїСЂРѕ PVR РєР°РЅР°Р»Р°С… С– РІС–РґРѕР±СЂР°Р¶Р°С” РґРѕРґР°С‚РєРѕРІС– РєРЅРѕРїРєРё С– РІС–РґР¶РµС‚Рё РІ РіРѕР»РѕРІРЅРѕРјСѓ РјРµРЅСЋ С– РїС–РґРјС–РЅСЋ.</description>
 		<disclaimer lang="en_GB">Skins support needed for correct display.</disclaimer>
-		<disclaimer lang="ru_RU">Необходима поддержка скинов для корректного отображения.</disclaimer>
-		<disclaimer lang="uk_UA">Необхідна підтримка скінів для коректного відображення.</disclaimer>
+		<disclaimer lang="ru_RU">РќРµРѕР±С…РѕРґРёРјР° РїРѕРґРґРµСЂР¶РєР° СЃРєРёРЅРѕРІ РґР»СЏ РєРѕСЂСЂРµРєС‚РЅРѕРіРѕ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ.</disclaimer>
+		<disclaimer lang="uk_UA">РќРµРѕР±С…С–РґРЅР° РїС–РґС‚СЂРёРјРєР° СЃРєС–РЅС–РІ РґР»СЏ РєРѕСЂРµРєС‚РЅРѕРіРѕ РІС–РґРѕР±СЂР°Р¶РµРЅРЅСЏ.</disclaimer>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.pvr.favourites.git</source>
@@ -565,11 +565,11 @@
 	<extension point="xbmc.python.library" library="randomandlastitems.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Random And Last Items script</summary>
-		<summary lang="ru_RU">Скрипт - случайные и последние элементы</summary>
-		<summary lang="uk_UA">Скрипт - випадкові та останні елементи</summary>
+		<summary lang="ru_RU">РЎРєСЂРёРїС‚ - СЃР»СѓС‡Р°Р№РЅС‹Рµ Рё РїРѕСЃР»РµРґРЅРёРµ СЌР»РµРјРµРЅС‚С‹</summary>
+		<summary lang="uk_UA">РЎРєСЂРёРїС‚ - РІРёРїР°РґРєРѕРІС– С‚Р° РѕСЃС‚Р°РЅРЅС– РµР»РµРјРµРЅС‚Рё</summary>
 		<description lang="en_GB">Script to get Random or Last added movies, episodes, albums or music videos from the database.Can optionnaly handle playlist to filter results.</description>
-		<description lang="ru_RU">Скрипт получает случайное или последние добавленные фильмы, эпизоды, альбомы или музыкальные клипы из медиатеки. Может обрабатывать плейлист для фильтрации результатов.</description>
-		<description lang="uk_UA">Скрипт отримує випадкове або останні додані фільми, епізоди, альбоми або музичні кліпи з медіатеки. Може обробляти плейлист для фільтрації результатів.</description>
+		<description lang="ru_RU">РЎРєСЂРёРїС‚ РїРѕР»СѓС‡Р°РµС‚ СЃР»СѓС‡Р°Р№РЅРѕРµ РёР»Рё РїРѕСЃР»РµРґРЅРёРµ РґРѕР±Р°РІР»РµРЅРЅС‹Рµ С„РёР»СЊРјС‹, СЌРїРёР·РѕРґС‹, Р°Р»СЊР±РѕРјС‹ РёР»Рё РјСѓР·С‹РєР°Р»СЊРЅС‹Рµ РєР»РёРїС‹ РёР· РјРµРґРёР°С‚РµРєРё. РњРѕР¶РµС‚ РѕР±СЂР°Р±Р°С‚С‹РІР°С‚СЊ РїР»РµР№Р»РёСЃС‚ РґР»СЏ С„РёР»СЊС‚СЂР°С†РёРё СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ.</description>
+		<description lang="uk_UA">РЎРєСЂРёРїС‚ РѕС‚СЂРёРјСѓС” РІРёРїР°РґРєРѕРІРµ Р°Р±Рѕ РѕСЃС‚Р°РЅРЅС– РґРѕРґР°РЅС– С„С–Р»СЊРјРё, РµРїС–Р·РѕРґРё, Р°Р»СЊР±РѕРјРё Р°Р±Рѕ РјСѓР·РёС‡РЅС– РєР»С–РїРё Р· РјРµРґС–Р°С‚РµРєРё. РњРѕР¶Рµ РѕР±СЂРѕР±Р»СЏС‚Рё РїР»РµР№Р»РёСЃС‚ РґР»СЏ С„С–Р»СЊС‚СЂР°С†С–С— СЂРµР·СѓР»СЊС‚Р°С‚С–РІ.</description>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<website></website>
@@ -590,11 +590,11 @@
 		library="default.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">A Script for editing Kodi's built in RSS Ticker</summary>
-		<summary lang="ru_RU">Скрипт для редактирования бегущей строки RSS KODI</summary>
-		<summary lang="uk_UA">Скрипт для редагування бігучого рядка RSS KODI</summary>
+		<summary lang="ru_RU">РЎРєСЂРёРїС‚ РґР»СЏ СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ Р±РµРіСѓС‰РµР№ СЃС‚СЂРѕРєРё RSS KODI</summary>
+		<summary lang="uk_UA">РЎРєСЂРёРїС‚ РґР»СЏ СЂРµРґР°РіСѓРІР°РЅРЅСЏ Р±С–РіСѓС‡РѕРіРѕ СЂСЏРґРєР° RSS KODI</summary>
 		<description lang="en_GB">A Script for editing Kodi's built in RSS Ticker</description>
-		<description lang="ru_RU">Скрипт для редактирования бегущей строки RSS KODI</description>
-		<description lang="uk_UA">Скрипт для редагування бігучого рядка RSS KODI</description>
+		<description lang="ru_RU">РЎРєСЂРёРїС‚ РґР»СЏ СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ Р±РµРіСѓС‰РµР№ СЃС‚СЂРѕРєРё RSS KODI</description>
+		<description lang="uk_UA">РЎРєСЂРёРїС‚ РґР»СЏ СЂРµРґР°РіСѓРІР°РЅРЅСЏ Р±С–РіСѓС‡РѕРіРѕ СЂСЏРґРєР° RSS KODI</description>
 		<platform>all</platform>
 		<language></language>
 		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
@@ -620,11 +620,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</summary>
-		<summary lang="ru_RU">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</summary>
-		<summary lang="uk_UA">Додавайте локальне медіа (відео/аудіо/зображення) та контент доповнень до плейлисти під час перегляду медіатеки. Для використання цього плагіна ви повинні виконати наступну команду: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Додаткова інформація: forum.xbmc.org</summary>
+		<summary lang="ru_RU">Р”РѕР±Р°РІР»СЏР№С‚Рµ Р»РѕРєР°Р»СЊРЅРѕРµ РјРµРґРёР° (РІРёРґРµРѕ/Р°СѓРґРёРѕ/РёР·РѕР±СЂР°Р¶РµРЅРёСЏ) Рё РєРѕРЅС‚РµРЅС‚ РґРѕРїРѕР»РЅРµРЅРёР№ РІ РїР»РµР№Р»РёСЃС‚С‹ РІРѕ РІСЂРµРјСЏ РїСЂРѕСЃРјРѕС‚СЂР° РјРµРґРёР°С‚РµРєРё. Р”Р»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЌС‚РѕРіРѕ РїР»Р°РіРёРЅР° РІС‹ РґРѕР»Р¶РЅС‹ РІС‹РїРѕР»РЅРёС‚СЊ СЃР»РµРґСѓСЋС‰СѓСЋ РєРѕРјР°РЅРґСѓ: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ: forum.xbmc.org</summary>
+		<summary lang="uk_UA">Р”РѕРґР°РІР°Р№С‚Рµ Р»РѕРєР°Р»СЊРЅРµ РјРµРґС–Р° (РІС–РґРµРѕ/Р°СѓРґС–Рѕ/Р·РѕР±СЂР°Р¶РµРЅРЅСЏ) С‚Р° РєРѕРЅС‚РµРЅС‚ РґРѕРїРѕРІРЅРµРЅСЊ РґРѕ РїР»РµР№Р»РёСЃС‚Рё РїС–Рґ С‡Р°СЃ РїРµСЂРµРіР»СЏРґСѓ РјРµРґС–Р°С‚РµРєРё. Р”Р»СЏ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ С†СЊРѕРіРѕ РїР»Р°РіС–РЅР° РІРё РїРѕРІРёРЅРЅС– РІРёРєРѕРЅР°С‚Рё РЅР°СЃС‚СѓРїРЅСѓ РєРѕРјР°РЅРґСѓ: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Р”РѕРґР°С‚РєРѕРІР° С–РЅС„РѕСЂРјР°С†С–СЏ: forum.xbmc.org</summary>
 		<description lang="en_GB">Add local media (video/audio/images) and add-on content to playlists while browsing/watching your media. To use this addon you have to map the following command to a key: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". More Info: forum.xbmc.org</description>
-		<description lang="ru_RU">Добавляйте локальное медиа (видео/аудио/изображения) и контент дополнений в плейлисты во время просмотра медиатеки. Для использования этого плагина вы должны выполнить следующую команду: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Дополнительная информация: forum.xbmc.org</description>
-		<description lang="uk_UA">Додавайте локальне медіа (відео/аудіо/зображення) та контент доповнень до плейлисти під час перегляду медіатеки. Для використання цього плагіна ви повинні виконати наступну команду: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Додаткова інформація: forum.xbmc.org</description>
+		<description lang="ru_RU">Р”РѕР±Р°РІР»СЏР№С‚Рµ Р»РѕРєР°Р»СЊРЅРѕРµ РјРµРґРёР° (РІРёРґРµРѕ/Р°СѓРґРёРѕ/РёР·РѕР±СЂР°Р¶РµРЅРёСЏ) Рё РєРѕРЅС‚РµРЅС‚ РґРѕРїРѕР»РЅРµРЅРёР№ РІ РїР»РµР№Р»РёСЃС‚С‹ РІРѕ РІСЂРµРјСЏ РїСЂРѕСЃРјРѕС‚СЂР° РјРµРґРёР°С‚РµРєРё. Р”Р»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ СЌС‚РѕРіРѕ РїР»Р°РіРёРЅР° РІС‹ РґРѕР»Р¶РЅС‹ РІС‹РїРѕР»РЅРёС‚СЊ СЃР»РµРґСѓСЋС‰СѓСЋ РєРѕРјР°РЅРґСѓ: "RunPlugin(plugin://script.simpleplaylists/?mode=addCurrentUrl)". Р”РѕРїРѕР»РЅРёС‚РµР»СЊРЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ: forum.xbmc.org</description>
+		<description lang="uk_UA">Р”РѕРґР°РІР°Р№С‚Рµ Р»РѕРєР°Р»СЊРЅРµ РјРµРґС–Р° (РІС–РґРµРѕ/Р°СѓРґС–Рѕ/Р·РѕР±СЂР°Р¶РµРЅРЅСЏ) С‚Р° РєРѕРЅС‚РµРЅС‚ РґРѕРїРѕРІРЅРµРЅСЊ РґРѕ РїР»РµР№Р»РёСЃС‚Рё РїС–Рґ С‡Р°СЃ РїРµСЂРµРіР»СЏРґСѓ РјРµРґС–Р°С‚РµРєРё. Р”Р»СЏ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ С†СЊРѕРіРѕ РїР»Р°РіС–РЅР° РІРё РїРѕРІРёРЅРЅС– РІРёРєРѕРЅР°С‚Рё РЅР°СЃС‚СѓРїРЅСѓ РєРѕРјР°РЅРґСѓ: "RunPlugin (plugin: //script.simpleplaylists/? Mode = addCurrentUrl)". Р”РѕРґР°С‚РєРѕРІР° С–РЅС„РѕСЂРјР°С†С–СЏ: forum.xbmc.org</description>
 		<language></language>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
@@ -647,11 +647,11 @@
 	<extension point="xbmc.service" library="service.py" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins providing rotating backgrounds</summary>
-		<summary lang="ru_RU">Сервис помощник для KODI обложек (Фоны)</summary>
-		<summary lang="uk_UA">Сервіс помічник для KODI обкладинок (Фони)</summary>
+		<summary lang="ru_RU">РЎРµСЂРІРёСЃ РїРѕРјРѕС‰РЅРёРє РґР»СЏ KODI РѕР±Р»РѕР¶РµРє (Р¤РѕРЅС‹)</summary>
+		<summary lang="uk_UA">РЎРµСЂРІС–СЃ РїРѕРјС–С‡РЅРёРє РґР»СЏ KODI РѕР±РєР»Р°РґРёРЅРѕРє (Р¤РѕРЅРё)</summary>
 		<description lang="en_GB">Helper service for Kodi skins providing rotating backgrounds</description>
-		<description lang="ru_RU">Сервис помощник для KODI обложек (Фоны)</description>
-		<description lang="uk_UA">Сервіс помічник для KODI обкладинок (Фони)</description>
+		<description lang="ru_RU">РЎРµСЂРІРёСЃ РїРѕРјРѕС‰РЅРёРє РґР»СЏ KODI РѕР±Р»РѕР¶РµРє (Р¤РѕРЅС‹)</description>
+		<description lang="uk_UA">РЎРµСЂРІС–СЃ РїРѕРјС–С‡РЅРёРє РґР»СЏ KODI РѕР±РєР»Р°РґРёРЅРѕРє (Р¤РѕРЅРё)</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
@@ -675,11 +675,11 @@
 	<extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
-		<summary lang="ru_RU">Выбор цвета для обложки KODI. Часть Skin Helper</summary>
-		<summary lang="uk_UA">Вибір кольору для обкладинки KODI. Частина Skin Helper</summary>
+		<summary lang="ru_RU">Р’С‹Р±РѕСЂ С†РІРµС‚Р° РґР»СЏ РѕР±Р»РѕР¶РєРё KODI. Р§Р°СЃС‚СЊ Skin Helper</summary>
+		<summary lang="uk_UA">Р’РёР±С–СЂ РєРѕР»СЊРѕСЂСѓ РґР»СЏ РѕР±РєР»Р°РґРёРЅРєРё KODI. Р§Р°СЃС‚РёРЅР° Skin Helper</summary>
 		<description lang="en_GB">Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
-		<description lang="ru_RU">Выбор цвета для обложки KODI. Часть Skin Helper</description>
-		<description lang="uk_UA">Вибір кольору для обкладинки KODI. Частина Skin Helper</description>
+		<description lang="ru_RU">Р’С‹Р±РѕСЂ С†РІРµС‚Р° РґР»СЏ РѕР±Р»РѕР¶РєРё KODI. Р§Р°СЃС‚СЊ Skin Helper</description>
+		<description lang="uk_UA">Р’РёР±С–СЂ РєРѕР»СЊРѕСЂСѓ РґР»СЏ РѕР±РєР»Р°РґРёРЅРєРё KODI. Р§Р°СЃС‚РёРЅР° Skin Helper</description>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
 		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
@@ -736,11 +736,11 @@
 
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins</summary>
-		<summary lang="ru_RU">Сервис помощник для KODI обложек</summary>
-		<summary lang="uk_UA">Сервіс помічник для KODI обкладинок</summary>
+		<summary lang="ru_RU">РЎРµСЂРІРёСЃ РїРѕРјРѕС‰РЅРёРє РґР»СЏ KODI РѕР±Р»РѕР¶РµРє</summary>
+		<summary lang="uk_UA">РЎРµСЂРІС–СЃ РїРѕРјС–С‡РЅРёРє РґР»СЏ KODI РѕР±РєР»Р°РґРёРЅРѕРє</summary>
 		<description lang="en_GB">Helper service for Kodi skins</description>
-		<description lang="ru_RU">Сервис помощник для KODI обложек</description>
-		<description lang="uk_UA">Сервіс помічник для KODI обкладинок</description>
+		<description lang="ru_RU">РЎРµСЂРІРёСЃ РїРѕРјРѕС‰РЅРёРє РґР»СЏ KODI РѕР±Р»РѕР¶РµРє</description>
+		<description lang="uk_UA">РЎРµСЂРІС–СЃ РїРѕРјС–С‡РЅРёРє РґР»СЏ KODI РѕР±РєР»Р°РґРёРЅРѕРє</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
@@ -764,11 +764,11 @@
 	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Helper service for Kodi skins (Backup)</summary>
-		<summary lang="ru_RU">Сервис помощник для KODI обложек (Резерное копирование)</summary>
-		<summary lang="uk_UA">Сервіс помічник для KODI обкладинок (Резервне копіювання)</summary>
+		<summary lang="ru_RU">РЎРµСЂРІРёСЃ РїРѕРјРѕС‰РЅРёРє РґР»СЏ KODI РѕР±Р»РѕР¶РµРє (Р РµР·РµСЂРЅРѕРµ РєРѕРїРёСЂРѕРІР°РЅРёРµ)</summary>
+		<summary lang="uk_UA">РЎРµСЂРІС–СЃ РїРѕРјС–С‡РЅРёРє РґР»СЏ KODI РѕР±РєР»Р°РґРёРЅРѕРє (Р РµР·РµСЂРІРЅРµ РєРѕРїС–СЋРІР°РЅРЅСЏ)</summary>
 		<description lang="en_GB">Helper service for Kodi skins (Backup)</description>
-		<description lang="ru_RU">Сервис помощник для KODI обложек (Резерное копирование)</description>
-		<description lang="uk_UA">Сервіс помічник для KODI обкладинок (Резервне копіювання)</description>
+		<description lang="ru_RU">РЎРµСЂРІРёСЃ РїРѕРјРѕС‰РЅРёРє РґР»СЏ KODI РѕР±Р»РѕР¶РµРє (Р РµР·РµСЂРЅРѕРµ РєРѕРїРёСЂРѕРІР°РЅРёРµ)</description>
+		<description lang="uk_UA">РЎРµСЂРІС–СЃ РїРѕРјС–С‡РЅРёРє РґР»СЏ KODI РѕР±РєР»Р°РґРёРЅРѕРє (Р РµР·РµСЂРІРЅРµ РєРѕРїС–СЋРІР°РЅРЅСЏ)</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
@@ -796,11 +796,11 @@
 	<extension library="service.py" point="xbmc.service" start="login" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Ready to use widgets for all kind of media types</summary>
-		<summary lang="ru_RU">Готовые к использованию виджеты для всех типов медиа-типов</summary>
-		<summary lang="uk_UA">Готові до використання віджети для всіх типів медіа-типів</summary>
+		<summary lang="ru_RU">Р“РѕС‚РѕРІС‹Рµ Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РІРёРґР¶РµС‚С‹ РґР»СЏ РІСЃРµС… С‚РёРїРѕРІ РјРµРґРёР°-С‚РёРїРѕРІ</summary>
+		<summary lang="uk_UA">Р“РѕС‚РѕРІС– РґРѕ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ РІС–РґР¶РµС‚Рё РґР»СЏ РІСЃС–С… С‚РёРїС–РІ РјРµРґС–Р°-С‚РёРїС–РІ</summary>
 		<description lang="en_GB">Ready to use widgets for all kind of media types</description>
-		<description lang="ru_RU">Готовые к использованию виджеты для всех типов медиа-типов</description>
-		<description lang="uk_UA">Готові до використання віджети для всіх типів медіа-типів</description>
+		<description lang="ru_RU">Р“РѕС‚РѕРІС‹Рµ Рє РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЋ РІРёРґР¶РµС‚С‹ РґР»СЏ РІСЃРµС… С‚РёРїРѕРІ РјРµРґРёР°-С‚РёРїРѕРІ</description>
+		<description lang="uk_UA">Р“РѕС‚РѕРІС– РґРѕ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ РІС–РґР¶РµС‚Рё РґР»СЏ РІСЃС–С… С‚РёРїС–РІ РјРµРґС–Р°-С‚РёРїС–РІ</description>
 		<description></description>
 		<language></language>
 		<platform>all</platform>
@@ -826,8 +826,8 @@
 	<extension point="xbmc.addon.metadata">
 		<news>Template improvements and bug fixes</news>
 		<description lang="en_GB">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
-		<description lang="ru_RU">Дополнение для обложек, предоставляющее простой способ управления списками пользовательских ярлыков (требуется поддержка обложкой)</description>
-		<description lang="uk_UA">Доповнення для обкладинок, надає простий спосіб управління списками ярликів користовуча (потрібна підтримка обкладинкою)</description>
+		<description lang="ru_RU">Р”РѕРїРѕР»РЅРµРЅРёРµ РґР»СЏ РѕР±Р»РѕР¶РµРє, РїСЂРµРґРѕСЃС‚Р°РІР»СЏСЋС‰РµРµ РїСЂРѕСЃС‚РѕР№ СЃРїРѕСЃРѕР± СѓРїСЂР°РІР»РµРЅРёСЏ СЃРїРёСЃРєР°РјРё РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёС… СЏСЂР»С‹РєРѕРІ (С‚СЂРµР±СѓРµС‚СЃСЏ РїРѕРґРґРµСЂР¶РєР° РѕР±Р»РѕР¶РєРѕР№)</description>
+		<description lang="uk_UA">Р”РѕРїРѕРІРЅРµРЅРЅСЏ РґР»СЏ РѕР±РєР»Р°РґРёРЅРѕРє, РЅР°РґР°С” РїСЂРѕСЃС‚РёР№ СЃРїРѕСЃС–Р± СѓРїСЂР°РІР»С–РЅРЅСЏ СЃРїРёСЃРєР°РјРё СЏСЂР»РёРєС–РІ РєРѕСЂРёСЃС‚РѕРІСѓС‡Р° (РїРѕС‚СЂС–Р±РЅР° РїС–РґС‚СЂРёРјРєР° РѕР±РєР»Р°РґРёРЅРєРѕСЋ)</description>
 		<language></language>
 		<platform>all</platform>
 		<license>GNU General Public License, v2</license>
@@ -856,11 +856,11 @@
 	<extension point="xbmc.service" library="resources/lib/player.py" start="startup"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">A client for the popular Transmission BitTorrent application</summary>
-		<summary lang="ru_RU">Клиент для популярного приложения BitTorrent</summary>
-		<summary lang="uk_UA">Клієнт для популярного додатка BitTorrent</summary>
+		<summary lang="ru_RU">РљР»РёРµРЅС‚ РґР»СЏ РїРѕРїСѓР»СЏСЂРЅРѕРіРѕ РїСЂРёР»РѕР¶РµРЅРёСЏ BitTorrent</summary>
+		<summary lang="uk_UA">РљР»С–С”РЅС‚ РґР»СЏ РїРѕРїСѓР»СЏСЂРЅРѕРіРѕ РґРѕРґР°С‚РєР° BitTorrent</summary>
 		<description lang="en_GB">Currently, Transmission-XBMC supports viewing, adding, removing, starting and stopping torrents. More advanced features may be added in future releases.</description>
-		<description lang="ru_RU">В настоящее время, Transmission-XBMC поддерживает просмотр, добавление, удаление, запуск и остановка торрентов. Более продвинутые функции могут быть добавлены в будущих версиях.</description>
-		<description lang="uk_UA">В даний час, Transmission-XBMC підтримує перегляд, додавання, видалення, запуск і зупинка торрентів. Більш просунуті функції можуть бути додані в майбутніх версіях.</description>
+		<description lang="ru_RU">Р’ РЅР°СЃС‚РѕСЏС‰РµРµ РІСЂРµРјСЏ, Transmission-XBMC РїРѕРґРґРµСЂР¶РёРІР°РµС‚ РїСЂРѕСЃРјРѕС‚СЂ, РґРѕР±Р°РІР»РµРЅРёРµ, СѓРґР°Р»РµРЅРёРµ, Р·Р°РїСѓСЃРє Рё РѕСЃС‚Р°РЅРѕРІРєР° С‚РѕСЂСЂРµРЅС‚РѕРІ. Р‘РѕР»РµРµ РїСЂРѕРґРІРёРЅСѓС‚С‹Рµ С„СѓРЅРєС†РёРё РјРѕРіСѓС‚ Р±С‹С‚СЊ РґРѕР±Р°РІР»РµРЅС‹ РІ Р±СѓРґСѓС‰РёС… РІРµСЂСЃРёСЏС….</description>
+		<description lang="uk_UA">Р’ РґР°РЅРёР№ С‡Р°СЃ, Transmission-XBMC РїС–РґС‚СЂРёРјСѓС” РїРµСЂРµРіР»СЏРґ, РґРѕРґР°РІР°РЅРЅСЏ, РІРёРґР°Р»РµРЅРЅСЏ, Р·Р°РїСѓСЃРє С– Р·СѓРїРёРЅРєР° С‚РѕСЂСЂРµРЅС‚С–РІ. Р‘С–Р»СЊС€ РїСЂРѕСЃСѓРЅСѓС‚С– С„СѓРЅРєС†С–С— РјРѕР¶СѓС‚СЊ Р±СѓС‚Рё РґРѕРґР°РЅС– РІ РјР°Р№Р±СѓС‚РЅС–С… РІРµСЂСЃС–СЏС….</description>
 		<platform>all</platform>
 		<license>MIT</license>
 		<forum></forum>
@@ -894,14 +894,14 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Retrieve and play your soundtrack or video themes whilst browsing your library</summary>
-		<summary lang="ru_RU">Получить и воспроизвести музыкальную темы, просматривая вашу библиотеку</summary>
-		<summary lang="uk_UA">Отримати та відтворити музичну теми, переглядаючи вашу бібліотеку</summary>
+		<summary lang="ru_RU">РџРѕР»СѓС‡РёС‚СЊ Рё РІРѕСЃРїСЂРѕРёР·РІРµСЃС‚Рё РјСѓР·С‹РєР°Р»СЊРЅСѓСЋ С‚РµРјС‹, РїСЂРѕСЃРјР°С‚СЂРёРІР°СЏ РІР°С€Сѓ Р±РёР±Р»РёРѕС‚РµРєСѓ</summary>
+		<summary lang="uk_UA">РћС‚СЂРёРјР°С‚Рё С‚Р° РІС–РґС‚РІРѕСЂРёС‚Рё РјСѓР·РёС‡РЅСѓ С‚РµРјРё, РїРµСЂРµРіР»СЏРґР°СЋС‡Рё РІР°С€Сѓ Р±С–Р±Р»С–РѕС‚РµРєСѓ</summary>
 		<description lang="en_GB">TvTunes is equipped with powerful features that enable the fetching, organising and playing of themes whilst browsing your Kodi library.</description>
-		<description lang="ru_RU">TvTunes оснащен мощными функциями, которые позволяют извлекать, организовывать и воспроизводить темы во время просмотра вашей библиотеки Kodi.</description>
-		<description lang="uk_UA">TvTunes оснащений потужними функціями, які дозволяють витягати, організовувати і відтворювати теми під час перегляду вашої бібліотеки Kodi.</description>
+		<description lang="ru_RU">TvTunes РѕСЃРЅР°С‰РµРЅ РјРѕС‰РЅС‹РјРё С„СѓРЅРєС†РёСЏРјРё, РєРѕС‚РѕСЂС‹Рµ РїРѕР·РІРѕР»СЏСЋС‚ РёР·РІР»РµРєР°С‚СЊ, РѕСЂРіР°РЅРёР·РѕРІС‹РІР°С‚СЊ Рё РІРѕСЃРїСЂРѕРёР·РІРѕРґРёС‚СЊ С‚РµРјС‹ РІРѕ РІСЂРµРјСЏ РїСЂРѕСЃРјРѕС‚СЂР° РІР°С€РµР№ Р±РёР±Р»РёРѕС‚РµРєРё Kodi.</description>
+		<description lang="uk_UA">TvTunes РѕСЃРЅР°С‰РµРЅРёР№ РїРѕС‚СѓР¶РЅРёРјРё С„СѓРЅРєС†С–СЏРјРё, СЏРєС– РґРѕР·РІРѕР»СЏСЋС‚СЊ РІРёС‚СЏРіР°С‚Рё, РѕСЂРіР°РЅС–Р·РѕРІСѓРІР°С‚Рё С– РІС–РґС‚РІРѕСЂСЋРІР°С‚Рё С‚РµРјРё РїС–Рґ С‡Р°СЃ РїРµСЂРµРіР»СЏРґСѓ РІР°С€РѕС— Р±С–Р±Р»С–РѕС‚РµРєРё Kodi.</description>
 		<disclaimer lang="en_GB">The collection of themes is maintain as a source to consult historical archives of music themes for movies and series. Thus its only purpose is educational and referential, and it is not maintained for the purpose of reselling and re-distributing music or for profitable purpose. Its access is intended strictly in the same way people access plots, trailers, scripts or other material in connection to a film. Any donation is with the purpose of supporting TvTunes' development and towards the costs of maintaining the library. Any holder of rights to these themes who would like to have their material removed from the archives just needs to request so by contacting TvTunes's Theme Library via the Kodi forum.</disclaimer>
-		<disclaimer lang="ru_RU">Коллекция тем поддерживается в качестве источника для ознакомления с историческими архивами музыкальных тем для фильмов и сериалов. Таким образом, его единственная цель - образовательная и справочная, и она не поддерживается с целью перепродажи и перераспределения музыки или с выгодой. Его доступ предназначен точно так же, как люди получают доступ к сюжетам, трейлерам, сценариям или другим материалам в связи с фильмом. Любое пожертвование делается с целью поддержки развития TvTunes и расходов на содержание библиотеки. Любой обладатель прав на эти темы, кто хотел бы удалить свои материалы из архивов, должен просто запросить это, связавшись с библиотекой тем TvTunes через форум Kodi.</disclaimer>
-		<disclaimer lang="uk_UA">Колекція тем підтримується як джерело для ознайомлення з історичними архівами музичних тем для фільмів і серіалів. Таким чином, його єдина мета - освітня та довідкова, і вона не підтримується з метою перепродажу і перерозподілу музики або з вигодою. Його доступ призначений точно так же, як люди отримують доступ до сюжетів, трейлерам, сценаріями або інших матеріалів в зв'язку з фільмом. Будь-яке пожертвування робиться з метою підтримки розвитку TvTunes і витрат на утримання бібліотеки. Кожний власник прав на ці теми, хто хотів би видалити свої матеріали з архівів, повинен просто запросити це, зв'язавшись з бібліотекою тим TvTunes через форум Kodi.</disclaimer>
+		<disclaimer lang="ru_RU">РљРѕР»Р»РµРєС†РёСЏ С‚РµРј РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ РІ РєР°С‡РµСЃС‚РІРµ РёСЃС‚РѕС‡РЅРёРєР° РґР»СЏ РѕР·РЅР°РєРѕРјР»РµРЅРёСЏ СЃ РёСЃС‚РѕСЂРёС‡РµСЃРєРёРјРё Р°СЂС…РёРІР°РјРё РјСѓР·С‹РєР°Р»СЊРЅС‹С… С‚РµРј РґР»СЏ С„РёР»СЊРјРѕРІ Рё СЃРµСЂРёР°Р»РѕРІ. РўР°РєРёРј РѕР±СЂР°Р·РѕРј, РµРіРѕ РµРґРёРЅСЃС‚РІРµРЅРЅР°СЏ С†РµР»СЊ - РѕР±СЂР°Р·РѕРІР°С‚РµР»СЊРЅР°СЏ Рё СЃРїСЂР°РІРѕС‡РЅР°СЏ, Рё РѕРЅР° РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ СЃ С†РµР»СЊСЋ РїРµСЂРµРїСЂРѕРґР°Р¶Рё Рё РїРµСЂРµСЂР°СЃРїСЂРµРґРµР»РµРЅРёСЏ РјСѓР·С‹РєРё РёР»Рё СЃ РІС‹РіРѕРґРѕР№. Р•РіРѕ РґРѕСЃС‚СѓРї РїСЂРµРґРЅР°Р·РЅР°С‡РµРЅ С‚РѕС‡РЅРѕ С‚Р°Рє Р¶Рµ, РєР°Рє Р»СЋРґРё РїРѕР»СѓС‡Р°СЋС‚ РґРѕСЃС‚СѓРї Рє СЃСЋР¶РµС‚Р°Рј, С‚СЂРµР№Р»РµСЂР°Рј, СЃС†РµРЅР°СЂРёСЏРј РёР»Рё РґСЂСѓРіРёРј РјР°С‚РµСЂРёР°Р»Р°Рј РІ СЃРІСЏР·Рё СЃ С„РёР»СЊРјРѕРј. Р›СЋР±РѕРµ РїРѕР¶РµСЂС‚РІРѕРІР°РЅРёРµ РґРµР»Р°РµС‚СЃСЏ СЃ С†РµР»СЊСЋ РїРѕРґРґРµСЂР¶РєРё СЂР°Р·РІРёС‚РёСЏ TvTunes Рё СЂР°СЃС…РѕРґРѕРІ РЅР° СЃРѕРґРµСЂР¶Р°РЅРёРµ Р±РёР±Р»РёРѕС‚РµРєРё. Р›СЋР±РѕР№ РѕР±Р»Р°РґР°С‚РµР»СЊ РїСЂР°РІ РЅР° СЌС‚Рё С‚РµРјС‹, РєС‚Рѕ С…РѕС‚РµР» Р±С‹ СѓРґР°Р»РёС‚СЊ СЃРІРѕРё РјР°С‚РµСЂРёР°Р»С‹ РёР· Р°СЂС…РёРІРѕРІ, РґРѕР»Р¶РµРЅ РїСЂРѕСЃС‚Рѕ Р·Р°РїСЂРѕСЃРёС‚СЊ СЌС‚Рѕ, СЃРІСЏР·Р°РІС€РёСЃСЊ СЃ Р±РёР±Р»РёРѕС‚РµРєРѕР№ С‚РµРј TvTunes С‡РµСЂРµР· С„РѕСЂСѓРј Kodi.</disclaimer>
+		<disclaimer lang="uk_UA">РљРѕР»РµРєС†С–СЏ С‚РµРј РїС–РґС‚СЂРёРјСѓС”С‚СЊСЃСЏ СЏРє РґР¶РµСЂРµР»Рѕ РґР»СЏ РѕР·РЅР°Р№РѕРјР»РµРЅРЅСЏ Р· С–СЃС‚РѕСЂРёС‡РЅРёРјРё Р°СЂС…С–РІР°РјРё РјСѓР·РёС‡РЅРёС… С‚РµРј РґР»СЏ С„С–Р»СЊРјС–РІ С– СЃРµСЂС–Р°Р»С–РІ. РўР°РєРёРј С‡РёРЅРѕРј, Р№РѕРіРѕ С”РґРёРЅР° РјРµС‚Р° - РѕСЃРІС–С‚РЅСЏ С‚Р° РґРѕРІС–РґРєРѕРІР°, С– РІРѕРЅР° РЅРµ РїС–РґС‚СЂРёРјСѓС”С‚СЊСЃСЏ Р· РјРµС‚РѕСЋ РїРµСЂРµРїСЂРѕРґР°Р¶Сѓ С– РїРµСЂРµСЂРѕР·РїРѕРґС–Р»Сѓ РјСѓР·РёРєРё Р°Р±Рѕ Р· РІРёРіРѕРґРѕСЋ. Р™РѕРіРѕ РґРѕСЃС‚СѓРї РїСЂРёР·РЅР°С‡РµРЅРёР№ С‚РѕС‡РЅРѕ С‚Р°Рє Р¶Рµ, СЏРє Р»СЋРґРё РѕС‚СЂРёРјСѓСЋС‚СЊ РґРѕСЃС‚СѓРї РґРѕ СЃСЋР¶РµС‚С–РІ, С‚СЂРµР№Р»РµСЂР°Рј, СЃС†РµРЅР°СЂС–СЏРјРё Р°Р±Рѕ С–РЅС€РёС… РјР°С‚РµСЂС–Р°Р»С–РІ РІ Р·РІ'СЏР·РєСѓ Р· С„С–Р»СЊРјРѕРј. Р‘СѓРґСЊ-СЏРєРµ РїРѕР¶РµСЂС‚РІСѓРІР°РЅРЅСЏ СЂРѕР±РёС‚СЊСЃСЏ Р· РјРµС‚РѕСЋ РїС–РґС‚СЂРёРјРєРё СЂРѕР·РІРёС‚РєСѓ TvTunes С– РІРёС‚СЂР°С‚ РЅР° СѓС‚СЂРёРјР°РЅРЅСЏ Р±С–Р±Р»С–РѕС‚РµРєРё. РљРѕР¶РЅРёР№ РІР»Р°СЃРЅРёРє РїСЂР°РІ РЅР° С†С– С‚РµРјРё, С…С‚Рѕ С…РѕС‚С–РІ Р±Рё РІРёРґР°Р»РёС‚Рё СЃРІРѕС— РјР°С‚РµСЂС–Р°Р»Рё Р· Р°СЂС…С–РІС–РІ, РїРѕРІРёРЅРµРЅ РїСЂРѕСЃС‚Рѕ Р·Р°РїСЂРѕСЃРёС‚Рё С†Рµ, Р·РІ'СЏР·Р°РІС€РёСЃСЊ Р· Р±С–Р±Р»С–РѕС‚РµРєРѕСЋ С‚РёРј TvTunes С‡РµСЂРµР· С„РѕСЂСѓРј Kodi.</disclaimer>
 		<language></language>
 		<platform>all</platform>
 		<license>See LICENSE.txt</license>
@@ -931,11 +931,11 @@
 	<extension point="xbmc.addon.metadata">
 		<platform>osx linux</platform>
 		<summary lang="en_GB">Kodi Audio Mixer</summary>
-		<summary lang="ru_RU">Kodi Аудио Микшер</summary>
-		<summary lang="uk_UA">Kodi Аудіо Мікшер</summary>
+		<summary lang="ru_RU">Kodi РђСѓРґРёРѕ РњРёРєС€РµСЂ</summary>
+		<summary lang="uk_UA">Kodi РђСѓРґС–Рѕ РњС–РєС€РµСЂ</summary>
 		<description lang="en_GB">Kodi Audio Mixer</description>
-		<description lang="ru_RU">Kodi Аудио Микшер</description>
-		<description lang="uk_UA">Kodi Аудіо Мікшер</description>
+		<description lang="ru_RU">Kodi РђСѓРґРёРѕ РњРёРєС€РµСЂ</description>
+		<description lang="uk_UA">Kodi РђСѓРґС–Рѕ РњС–РєС€РµСЂ</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<forum></forum>
 		<website></website>
@@ -956,11 +956,11 @@
 		<language></language>
 		<summary>Kodi/XBMC LCDproc</summary>
 		<description lang="en_GB">Displays configurable information e.g. about playing media or Kodi status on any LC/VF-display driven by LCDproc, and acts as direct drop-in replacement to the LCD/VFD-feature previously available in Kodi/XBMC's core. Supports additional display elements (icons, bars) on SoundGraph iMON LCD and Targa/Futaba mdm166a VFD hardware. Requires a properly configured and running LCDd either locally or somewhere on the network.</description>
-		<description lang="ru_RU">Отображает настраиваемую информацию, например, о воспроизводимом медиа или статус Kodi на любой LC/VF-дисплей который управляется LCDProc и действует как прямая замена к LCD/VFD--функции, ранее доступные в ядре Kodi/XBMC. Поддерживает дополнительные элементы отображения (иконки, бары) на SoundGraph iMON LCD и Targa/Futaba mdm166a VFD аппаратного обеспечения. Требуется правильно сконфигурированый и запущенный LCDd либо локально, либо где-то в сети.</description>
-		<description lang="uk_UA">Відображає настроювану інформацію, наприклад, можливостей відтворення медіа або статус Kodi на будь-який LC/VF-дисплей який управляється LCDProc і діє як пряма заміна до LCD/VFD - функції, раніше доступні в ядрі Kodi/XBMC. Підтримує додаткові елементи відображення (іконки, бари) на SoundGraph iMON LCD та Targa/Futaba mdm166a VFD апаратного забезпечення. Потрібно правильно сконфігурірований і запущений LCDd або локально, або десь в мережі.</description>
+		<description lang="ru_RU">РћС‚РѕР±СЂР°Р¶Р°РµС‚ РЅР°СЃС‚СЂР°РёРІР°РµРјСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ, РЅР°РїСЂРёРјРµСЂ, Рѕ РІРѕСЃРїСЂРѕРёР·РІРѕРґРёРјРѕРј РјРµРґРёР° РёР»Рё СЃС‚Р°С‚СѓСЃ Kodi РЅР° Р»СЋР±РѕР№ LC/VF-РґРёСЃРїР»РµР№ РєРѕС‚РѕСЂС‹Р№ СѓРїСЂР°РІР»СЏРµС‚СЃСЏ LCDProc Рё РґРµР№СЃС‚РІСѓРµС‚ РєР°Рє РїСЂСЏРјР°СЏ Р·Р°РјРµРЅР° Рє LCD/VFD--С„СѓРЅРєС†РёРё, СЂР°РЅРµРµ РґРѕСЃС‚СѓРїРЅС‹Рµ РІ СЏРґСЂРµ Kodi/XBMC. РџРѕРґРґРµСЂР¶РёРІР°РµС‚ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СЌР»РµРјРµРЅС‚С‹ РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ (РёРєРѕРЅРєРё, Р±Р°СЂС‹) РЅР° SoundGraph iMON LCD Рё Targa/Futaba mdm166a VFD Р°РїРїР°СЂР°С‚РЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ. РўСЂРµР±СѓРµС‚СЃСЏ РїСЂР°РІРёР»СЊРЅРѕ СЃРєРѕРЅС„РёРіСѓСЂРёСЂРѕРІР°РЅС‹Р№ Рё Р·Р°РїСѓС‰РµРЅРЅС‹Р№ LCDd Р»РёР±Рѕ Р»РѕРєР°Р»СЊРЅРѕ, Р»РёР±Рѕ РіРґРµ-С‚Рѕ РІ СЃРµС‚Рё.</description>
+		<description lang="uk_UA">Р’С–РґРѕР±СЂР°Р¶Р°С” РЅР°СЃС‚СЂРѕСЋРІР°РЅСѓ С–РЅС„РѕСЂРјР°С†С–СЋ, РЅР°РїСЂРёРєР»Р°Рґ, РјРѕР¶Р»РёРІРѕСЃС‚РµР№ РІС–РґС‚РІРѕСЂРµРЅРЅСЏ РјРµРґС–Р° Р°Р±Рѕ СЃС‚Р°С‚СѓСЃ Kodi РЅР° Р±СѓРґСЊ-СЏРєРёР№ LC/VF-РґРёСЃРїР»РµР№ СЏРєРёР№ СѓРїСЂР°РІР»СЏС”С‚СЊСЃСЏ LCDProc С– РґС–С” СЏРє РїСЂСЏРјР° Р·Р°РјС–РЅР° РґРѕ LCD/VFD - С„СѓРЅРєС†С–С—, СЂР°РЅС–С€Рµ РґРѕСЃС‚СѓРїРЅС– РІ СЏРґСЂС– Kodi/XBMC. РџС–РґС‚СЂРёРјСѓС” РґРѕРґР°С‚РєРѕРІС– РµР»РµРјРµРЅС‚Рё РІС–РґРѕР±СЂР°Р¶РµРЅРЅСЏ (С–РєРѕРЅРєРё, Р±Р°СЂРё) РЅР° SoundGraph iMON LCD С‚Р° Targa/Futaba mdm166a VFD Р°РїР°СЂР°С‚РЅРѕРіРѕ Р·Р°Р±РµР·РїРµС‡РµРЅРЅСЏ. РџРѕС‚СЂС–Р±РЅРѕ РїСЂР°РІРёР»СЊРЅРѕ СЃРєРѕРЅС„С–РіСѓСЂС–СЂРѕРІР°РЅРёР№ С– Р·Р°РїСѓС‰РµРЅРёР№ LCDd Р°Р±Рѕ Р»РѕРєР°Р»СЊРЅРѕ, Р°Р±Рѕ РґРµСЃСЊ РІ РјРµСЂРµР¶С–.</description>
 		<disclaimer lang="en_GB">Works with LCDproc only. Other LCD services like LCD4Linux or iMON Manager on Win32 are not supported. No liability taken for damaged hardware and/or software caused by this addon.</disclaimer>
-		<disclaimer lang="ru_RU">Работает только с LCDProc. Другие LCD сервисы, такие как LCD4Linux или IMON менеджер для Win32 не поддерживаются. Никакая ответственность не принимается за поврежденного оборудования и/или программного обеспечения, вызванного этим аддоном.</disclaimer>
-		<disclaimer lang="uk_UA">Працює тільки з LCDProc. Інші LCD сервіси, такі як LCD4Linux або IMON менеджер для Win32 не підтримуються. Ніяка відповідальність не приймається за пошкодженого обладнання та/або програмного забезпечення, викликаного цим аддоном.</disclaimer>
+		<disclaimer lang="ru_RU">Р Р°Р±РѕС‚Р°РµС‚ С‚РѕР»СЊРєРѕ СЃ LCDProc. Р”СЂСѓРіРёРµ LCD СЃРµСЂРІРёСЃС‹, С‚Р°РєРёРµ РєР°Рє LCD4Linux РёР»Рё IMON РјРµРЅРµРґР¶РµСЂ РґР»СЏ Win32 РЅРµ РїРѕРґРґРµСЂР¶РёРІР°СЋС‚СЃСЏ. РќРёРєР°РєР°СЏ РѕС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ РЅРµ РїСЂРёРЅРёРјР°РµС‚СЃСЏ Р·Р° РїРѕРІСЂРµР¶РґРµРЅРЅРѕРіРѕ РѕР±РѕСЂСѓРґРѕРІР°РЅРёСЏ Рё/РёР»Рё РїСЂРѕРіСЂР°РјРјРЅРѕРіРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЏ, РІС‹Р·РІР°РЅРЅРѕРіРѕ СЌС‚РёРј Р°РґРґРѕРЅРѕРј.</disclaimer>
+		<disclaimer lang="uk_UA">РџСЂР°С†СЋС” С‚С–Р»СЊРєРё Р· LCDProc. Р†РЅС€С– LCD СЃРµСЂРІС–СЃРё, С‚Р°РєС– СЏРє LCD4Linux Р°Р±Рѕ IMON РјРµРЅРµРґР¶РµСЂ РґР»СЏ Win32 РЅРµ РїС–РґС‚СЂРёРјСѓСЋС‚СЊСЃСЏ. РќС–СЏРєР° РІС–РґРїРѕРІС–РґР°Р»СЊРЅС–СЃС‚СЊ РЅРµ РїСЂРёР№РјР°С”С‚СЊСЃСЏ Р·Р° РїРѕС€РєРѕРґР¶РµРЅРѕРіРѕ РѕР±Р»Р°РґРЅР°РЅРЅСЏ С‚Р°/Р°Р±Рѕ РїСЂРѕРіСЂР°РјРЅРѕРіРѕ Р·Р°Р±РµР·РїРµС‡РµРЅРЅСЏ, РІРёРєР»РёРєР°РЅРѕРіРѕ С†РёРј Р°РґРґРѕРЅРѕРј.</disclaimer>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<platform>all</platform>
 		<website>https://github.com/lcdproc/lcdproc</website>
@@ -993,11 +993,11 @@
 	<extension point="xbmc.service" library="scheduler.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Backup and restore your Kodi database and configuration files in the event of a crash or file corruption.</summary>
-		<summary lang="ru_RU">Сохраняйте и восстанавливайте базу данных и конфигурационные файлы XBMC, чтоб не допустить потерю данных в случае аварии или повреждений файлов.</summary>
-		<summary lang="uk_UA">Зберігайте і відновлюйте базу даних і конфігураційні файли XBMC, щоб не допустити втрату даних у разі аварії або пошкоджень файлів.</summary>
+		<summary lang="ru_RU">РЎРѕС…СЂР°РЅСЏР№С‚Рµ Рё РІРѕСЃСЃС‚Р°РЅР°РІР»РёРІР°Р№С‚Рµ Р±Р°Р·Сѓ РґР°РЅРЅС‹С… Рё РєРѕРЅС„РёРіСѓСЂР°С†РёРѕРЅРЅС‹Рµ С„Р°Р№Р»С‹ XBMC, С‡С‚РѕР± РЅРµ РґРѕРїСѓСЃС‚РёС‚СЊ РїРѕС‚РµСЂСЋ РґР°РЅРЅС‹С… РІ СЃР»СѓС‡Р°Рµ Р°РІР°СЂРёРё РёР»Рё РїРѕРІСЂРµР¶РґРµРЅРёР№ С„Р°Р№Р»РѕРІ.</summary>
+		<summary lang="uk_UA">Р—Р±РµСЂС–РіР°Р№С‚Рµ С– РІС–РґРЅРѕРІР»СЋР№С‚Рµ Р±Р°Р·Сѓ РґР°РЅРёС… С– РєРѕРЅС„С–РіСѓСЂР°С†С–Р№РЅС– С„Р°Р№Р»Рё XBMC, С‰РѕР± РЅРµ РґРѕРїСѓСЃС‚РёС‚Рё РІС‚СЂР°С‚Сѓ РґР°РЅРёС… Сѓ СЂР°Р·С– Р°РІР°СЂС–С— Р°Р±Рѕ РїРѕС€РєРѕРґР¶РµРЅСЊ С„Р°Р№Р»С–РІ.</summary>
 		<description lang="en_GB">Ever hosed your Kodi configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by XBMC or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
-		<description lang="ru_RU">Хотите получить резервную копию настроек XBMC? Теперь можете это сделать одним щелчком мыши. Вы можете выгрузить вашу базу данных, плейлисты, эскизы, дополнения и другую нужную Вам информацию и сохранить её с помощью XBMC или выгрузить в облачное хранилище Dropbox. Резервную копию можно сделать по требованию или запускать по расписанию.</description>
-		<description lang="uk_UA">Хочете отримати резервну копію налаштувань XBMC? Тепер можете це зробити одним кліком миші. Ви можете вивантажити вашу базу даних, плейлисти, ескізи, доповнення та іншу потрібну Вам інформацію і зберегти її за допомогою XBMC або вивантажити в хмарне сховище Dropbox. Резервну копію можна зробити на вимогу або запускати за розкладом.</description>
+		<description lang="ru_RU">РҐРѕС‚РёС‚Рµ РїРѕР»СѓС‡РёС‚СЊ СЂРµР·РµСЂРІРЅСѓСЋ РєРѕРїРёСЋ РЅР°СЃС‚СЂРѕРµРє XBMC? РўРµРїРµСЂСЊ РјРѕР¶РµС‚Рµ СЌС‚Рѕ СЃРґРµР»Р°С‚СЊ РѕРґРЅРёРј С‰РµР»С‡РєРѕРј РјС‹С€Рё. Р’С‹ РјРѕР¶РµС‚Рµ РІС‹РіСЂСѓР·РёС‚СЊ РІР°С€Сѓ Р±Р°Р·Сѓ РґР°РЅРЅС‹С…, РїР»РµР№Р»РёСЃС‚С‹, СЌСЃРєРёР·С‹, РґРѕРїРѕР»РЅРµРЅРёСЏ Рё РґСЂСѓРіСѓСЋ РЅСѓР¶РЅСѓСЋ Р’Р°Рј РёРЅС„РѕСЂРјР°С†РёСЋ Рё СЃРѕС…СЂР°РЅРёС‚СЊ РµС‘ СЃ РїРѕРјРѕС‰СЊСЋ XBMC РёР»Рё РІС‹РіСЂСѓР·РёС‚СЊ РІ РѕР±Р»Р°С‡РЅРѕРµ С…СЂР°РЅРёР»РёС‰Рµ Dropbox. Р РµР·РµСЂРІРЅСѓСЋ РєРѕРїРёСЋ РјРѕР¶РЅРѕ СЃРґРµР»Р°С‚СЊ РїРѕ С‚СЂРµР±РѕРІР°РЅРёСЋ РёР»Рё Р·Р°РїСѓСЃРєР°С‚СЊ РїРѕ СЂР°СЃРїРёСЃР°РЅРёСЋ.</description>
+		<description lang="uk_UA">РҐРѕС‡РµС‚Рµ РѕС‚СЂРёРјР°С‚Рё СЂРµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ РЅР°Р»Р°С€С‚СѓРІР°РЅСЊ XBMC? РўРµРїРµСЂ РјРѕР¶РµС‚Рµ С†Рµ Р·СЂРѕР±РёС‚Рё РѕРґРЅРёРј РєР»С–РєРѕРј РјРёС€С–. Р’Рё РјРѕР¶РµС‚Рµ РІРёРІР°РЅС‚Р°Р¶РёС‚Рё РІР°С€Сѓ Р±Р°Р·Сѓ РґР°РЅРёС…, РїР»РµР№Р»РёСЃС‚Рё, РµСЃРєС–Р·Рё, РґРѕРїРѕРІРЅРµРЅРЅСЏ С‚Р° С–РЅС€Сѓ РїРѕС‚СЂС–Р±РЅСѓ Р’Р°Рј С–РЅС„РѕСЂРјР°С†С–СЋ С– Р·Р±РµСЂРµРіС‚Рё С—С— Р·Р° РґРѕРїРѕРјРѕРіРѕСЋ XBMC Р°Р±Рѕ РІРёРІР°РЅС‚Р°Р¶РёС‚Рё РІ С…РјР°СЂРЅРµ СЃС…РѕРІРёС‰Рµ Dropbox. Р РµР·РµСЂРІРЅСѓ РєРѕРїС–СЋ РјРѕР¶РЅР° Р·СЂРѕР±РёС‚Рё РЅР° РІРёРјРѕРіСѓ Р°Р±Рѕ Р·Р°РїСѓСЃРєР°С‚Рё Р·Р° СЂРѕР·РєР»Р°РґРѕРј.</description>
 		<language></language>
 		<platform>all</platform>
 		<license>The MIT License</license>
@@ -1024,11 +1024,11 @@
 		<platform>all</platform>
 		<language/>
 		<summary lang="en_GB">Switch Samsung TV into 3D mode when playing 3D movie</summary>
-		<summary lang="ru_RU">Переключение Samsung TV в режим 3D при проигрывании 3D фильма</summary>
-		<summary lang="uk_UA">Переключення Samsung TV в режим 3D при програванні 3D фільму</summary>
+		<summary lang="ru_RU">РџРµСЂРµРєР»СЋС‡РµРЅРёРµ Samsung TV РІ СЂРµР¶РёРј 3D РїСЂРё РїСЂРѕРёРіСЂС‹РІР°РЅРёРё 3D С„РёР»СЊРјР°</summary>
+		<summary lang="uk_UA">РџРµСЂРµРєР»СЋС‡РµРЅРЅСЏ Samsung TV РІ СЂРµР¶РёРј 3D РїСЂРё РїСЂРѕРіСЂР°РІР°РЅРЅС– 3D С„С–Р»СЊРјСѓ</summary>
 		<description lang="en_GB">Once you start your 3D movie - your Samsung 3DTV that is connected to your LAN should switch to respective 3D mode automatically</description>
-		<description lang="ru_RU">Как только вы начнете просмотр вашего 3D кино - ваш Samsung 3DTV, который подключен к вашей локальной сети, должен автоматически переключиться в соответсвующий 3D режим</description>
-		<description lang="uk_UA">Як тільки ви почнете перегляд вашого 3D кіно - ваш Samsung 3DTV, який підключений до вашої локальної мережі, повинен автоматично переключитися в відповідний 3D режим</description>
+		<description lang="ru_RU">РљР°Рє С‚РѕР»СЊРєРѕ РІС‹ РЅР°С‡РЅРµС‚Рµ РїСЂРѕСЃРјРѕС‚СЂ РІР°С€РµРіРѕ 3D РєРёРЅРѕ - РІР°С€ Samsung 3DTV, РєРѕС‚РѕСЂС‹Р№ РїРѕРґРєР»СЋС‡РµРЅ Рє РІР°С€РµР№ Р»РѕРєР°Р»СЊРЅРѕР№ СЃРµС‚Рё, РґРѕР»Р¶РµРЅ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїРµСЂРµРєР»СЋС‡РёС‚СЊСЃСЏ РІ СЃРѕРѕС‚РІРµС‚СЃРІСѓСЋС‰РёР№ 3D СЂРµР¶РёРј</description>
+		<description lang="uk_UA">РЇРє С‚С–Р»СЊРєРё РІРё РїРѕС‡РЅРµС‚Рµ РїРµСЂРµРіР»СЏРґ РІР°С€РѕРіРѕ 3D РєС–РЅРѕ - РІР°С€ Samsung 3DTV, СЏРєРёР№ РїС–РґРєР»СЋС‡РµРЅРёР№ РґРѕ РІР°С€РѕС— Р»РѕРєР°Р»СЊРЅРѕС— РјРµСЂРµР¶С–, РїРѕРІРёРЅРµРЅ Р°РІС‚РѕРјР°С‚РёС‡РЅРѕ РїРµСЂРµРєР»СЋС‡РёС‚РёСЃСЏ РІ РІС–РґРїРѕРІС–РґРЅРёР№ 3D СЂРµР¶РёРј</description>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
 		<forum>http://forum.xbmc.org/showthread.php?tid=185212</forum>
 		<email>nkvoronov@gmail.com</email>
@@ -1048,14 +1048,14 @@
 	<extension point="xbmc.service" library="default.py" start="login"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Skin widgets</summary>
-		<summary lang="ru_RU">Виджеты обложки</summary>
-		<summary lang="uk_UA">Віджети обкладинки</summary>
+		<summary lang="ru_RU">Р’РёРґР¶РµС‚С‹ РѕР±Р»РѕР¶РєРё</summary>
+		<summary lang="uk_UA">Р’С–РґР¶РµС‚Рё РѕР±РєР»Р°РґРёРЅРєРё</summary>
 		<description lang="en_GB">Skin widgets</description>
-		<description lang="ru_RU">Виджеты обложки</description>
-		<description lang="uk_UA">Віджети обкладинки</description>
+		<description lang="ru_RU">Р’РёРґР¶РµС‚С‹ РѕР±Р»РѕР¶РєРё</description>
+		<description lang="uk_UA">Р’С–РґР¶РµС‚Рё РѕР±РєР»Р°РґРёРЅРєРё</description>
 		<disclaimer lang="en_GB">For information visit the wiki page or XBMC forum.</disclaimer>
-		<disclaimer lang="ru_RU">Для получения дополнительной информации посетите вики-страницу или XBMC форум.</disclaimer>
-		<disclaimer lang="uk_UA">Для отримання додаткової інформації відвідайте вікі-сторінку або XBMC форум.</disclaimer>
+		<disclaimer lang="ru_RU">Р”Р»СЏ РїРѕР»СѓС‡РµРЅРёСЏ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅРѕР№ РёРЅС„РѕСЂРјР°С†РёРё РїРѕСЃРµС‚РёС‚Рµ РІРёРєРё-СЃС‚СЂР°РЅРёС†Сѓ РёР»Рё XBMC С„РѕСЂСѓРј.</disclaimer>
+		<disclaimer lang="uk_UA">Р”Р»СЏ РѕС‚СЂРёРјР°РЅРЅСЏ РґРѕРґР°С‚РєРѕРІРѕС— С–РЅС„РѕСЂРјР°С†С–С— РІС–РґРІС–РґР°Р№С‚Рµ РІС–РєС–-СЃС‚РѕСЂС–РЅРєСѓ Р°Р±Рѕ XBMC С„РѕСЂСѓРј.</disclaimer>
 		<platform>all</platform>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<website></website>
@@ -1083,11 +1083,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Confluence Extended skin by Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<summary lang="ru_RU">Обложка Confluence Extended. Авторы: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<summary lang="uk_UA">Обкладинка Confluence Extended. Автори: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
+		<summary lang="ru_RU">РћР±Р»РѕР¶РєР° Confluence Extended. РђРІС‚РѕСЂС‹: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
+		<summary lang="uk_UA">РћР±РєР»Р°РґРёРЅРєР° Confluence Extended. РђРІС‚РѕСЂРё: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
 		<description lang="en_GB">Confluence Extended is the modernized skin for KODI. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
-		<description lang="ru_RU">Confluence Extended — это модернизированная обложка KODI. Она представляет собой сочетание концепций, взятых из многих популярных обложек, в попытке интегрировать их удачные идеи в обложке, которая была простой для использования и понимания новыми пользователями KODI.</description>
-		<description lang="uk_UA">Confluence Extended — це модернізована обкладинка Kodi. Концепції багатьох популярних обкладинок поєднано у спробі використати та інтегрувати їхні вдалі ідеї в обкладинці, що стала б зрозумілою та простою в застосуванні для нових користувачів Kodi.</description>
+		<description lang="ru_RU">Confluence Extended вЂ” СЌС‚Рѕ РјРѕРґРµСЂРЅРёР·РёСЂРѕРІР°РЅРЅР°СЏ РѕР±Р»РѕР¶РєР° KODI. РћРЅР° РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ СЃРѕС‡РµС‚Р°РЅРёРµ РєРѕРЅС†РµРїС†РёР№, РІР·СЏС‚С‹С… РёР· РјРЅРѕРіРёС… РїРѕРїСѓР»СЏСЂРЅС‹С… РѕР±Р»РѕР¶РµРє, РІ РїРѕРїС‹С‚РєРµ РёРЅС‚РµРіСЂРёСЂРѕРІР°С‚СЊ РёС… СѓРґР°С‡РЅС‹Рµ РёРґРµРё РІ РѕР±Р»РѕР¶РєРµ, РєРѕС‚РѕСЂР°СЏ Р±С‹Р»Р° РїСЂРѕСЃС‚РѕР№ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РїРѕРЅРёРјР°РЅРёСЏ РЅРѕРІС‹РјРё РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРјРё KODI.</description>
+		<description lang="uk_UA">Confluence Extended вЂ” С†Рµ РјРѕРґРµСЂРЅС–Р·РѕРІР°РЅР° РѕР±РєР»Р°РґРёРЅРєР° Kodi. РљРѕРЅС†РµРїС†С–С— Р±Р°РіР°С‚СЊРѕС… РїРѕРїСѓР»СЏСЂРЅРёС… РѕР±РєР»Р°РґРёРЅРѕРє РїРѕС”РґРЅР°РЅРѕ Сѓ СЃРїСЂРѕР±С– РІРёРєРѕСЂРёСЃС‚Р°С‚Рё С‚Р° С–РЅС‚РµРіСЂСѓРІР°С‚Рё С—С…РЅС– РІРґР°Р»С– С–РґРµС— РІ РѕР±РєР»Р°РґРёРЅС†С–, С‰Рѕ СЃС‚Р°Р»Р° Р± Р·СЂРѕР·СѓРјС–Р»РѕСЋ С‚Р° РїСЂРѕСЃС‚РѕСЋ РІ Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅС– РґР»СЏ РЅРѕРІРёС… РєРѕСЂРёСЃС‚СѓРІР°С‡С–РІ Kodi.</description>
 		<platform>all</platform>
 		<license>GNU General Public License version 2</license>
 		<forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
@@ -1127,11 +1127,11 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Confluence Extended Shortcuts skin by Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<summary lang="ru_RU">Обложка Confluence Extended Shortcuts. Авторы: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
-		<summary lang="uk_UA">Обкладинка Confluence Extended Shortcuts. Автори: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
+		<summary lang="ru_RU">РћР±Р»РѕР¶РєР° Confluence Extended Shortcuts. РђРІС‚РѕСЂС‹: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
+		<summary lang="uk_UA">РћР±РєР»Р°РґРёРЅРєР° Confluence Extended Shortcuts. РђРІС‚РѕСЂРё: Jezz_X, Team XBMC, YLLOW_DRAGON, plood.</summary>
 		<description lang="en_GB">Confluence Extended Shortcuts is the modernized skin for KODI. It is a combination of concepts from many popular skins, and attempts to embrace and integrate their good ideas into a skin that should be easy for first time Kodi users to understand and use.</description>
-		<description lang="ru_RU">Confluence Extended Shortcuts — это модернизированная обложка KODI. Она представляет собой сочетание концепций, взятых из многих популярных обложек, в попытке интегрировать их удачные идеи в обложке, которая была простой для использования и понимания новыми пользователями KODI.</description>
-		<description lang="uk_UA">Confluence Extended Shortcuts — це модернізована обкладинка Kodi. Концепції багатьох популярних обкладинок поєднано у спробі використати та інтегрувати їхні вдалі ідеї в обкладинці, що стала б зрозумілою та простою в застосуванні для нових користувачів Kodi.</description>
+		<description lang="ru_RU">Confluence Extended Shortcuts вЂ” СЌС‚Рѕ РјРѕРґРµСЂРЅРёР·РёСЂРѕРІР°РЅРЅР°СЏ РѕР±Р»РѕР¶РєР° KODI. РћРЅР° РїСЂРµРґСЃС‚Р°РІР»СЏРµС‚ СЃРѕР±РѕР№ СЃРѕС‡РµС‚Р°РЅРёРµ РєРѕРЅС†РµРїС†РёР№, РІР·СЏС‚С‹С… РёР· РјРЅРѕРіРёС… РїРѕРїСѓР»СЏСЂРЅС‹С… РѕР±Р»РѕР¶РµРє, РІ РїРѕРїС‹С‚РєРµ РёРЅС‚РµРіСЂРёСЂРѕРІР°С‚СЊ РёС… СѓРґР°С‡РЅС‹Рµ РёРґРµРё РІ РѕР±Р»РѕР¶РєРµ, РєРѕС‚РѕСЂР°СЏ Р±С‹Р»Р° РїСЂРѕСЃС‚РѕР№ РґР»СЏ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ Рё РїРѕРЅРёРјР°РЅРёСЏ РЅРѕРІС‹РјРё РїРѕР»СЊР·РѕРІР°С‚РµР»СЏРјРё KODI.</description>
+		<description lang="uk_UA">Confluence Extended Shortcuts вЂ” С†Рµ РјРѕРґРµСЂРЅС–Р·РѕРІР°РЅР° РѕР±РєР»Р°РґРёРЅРєР° Kodi. РљРѕРЅС†РµРїС†С–С— Р±Р°РіР°С‚СЊРѕС… РїРѕРїСѓР»СЏСЂРЅРёС… РѕР±РєР»Р°РґРёРЅРѕРє РїРѕС”РґРЅР°РЅРѕ Сѓ СЃРїСЂРѕР±С– РІРёРєРѕСЂРёСЃС‚Р°С‚Рё С‚Р° С–РЅС‚РµРіСЂСѓРІР°С‚Рё С—С…РЅС– РІРґР°Р»С– С–РґРµС— РІ РѕР±РєР»Р°РґРёРЅС†С–, С‰Рѕ СЃС‚Р°Р»Р° Р± Р·СЂРѕР·СѓРјС–Р»РѕСЋ С‚Р° РїСЂРѕСЃС‚РѕСЋ РІ Р·Р°СЃС‚РѕСЃСѓРІР°РЅРЅС– РґР»СЏ РЅРѕРІРёС… РєРѕСЂРёСЃС‚СѓРІР°С‡С–РІ Kodi.</description>
 		<platform>all</platform>
 		<license>GNU General Public License version 2</license>
 		<forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
@@ -1173,14 +1173,14 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="ru_RU">Обложка Estuary v2 Extended. Авторы: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="uk_UA">Обкладинка Estuary v2 Extended від phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="ru_RU">РћР±Р»РѕР¶РєР° Estuary v2 Extended. РђРІС‚РѕСЂС‹: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="uk_UA">РћР±РєР»Р°РґРёРЅРєР° Estuary v2 Extended РІС–Рґ phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
 		<description lang="en_GB">Estuary v2 Extended - is the modernized skin for KODI.</description>
-		<description lang="ru_RU">Estuary v2 Extended - это модернизированная обложка KODI.</description>
-		<description lang="uk_UA">Estuary v2 Extended — це модернізована обкладинка KODI.</description>
+		<description lang="ru_RU">Estuary v2 Extended - СЌС‚Рѕ РјРѕРґРµСЂРЅРёР·РёСЂРѕРІР°РЅРЅР°СЏ РѕР±Р»РѕР¶РєР° KODI.</description>
+		<description lang="uk_UA">Estuary v2 Extended вЂ” С†Рµ РјРѕРґРµСЂРЅС–Р·РѕРІР°РЅР° РѕР±РєР»Р°РґРёРЅРєР° KODI.</description>
 		<disclaimer lang="en_GB">Estuary v2 Extended - is the modernized skin for KODI</disclaimer>
-		<disclaimer lang="ru_RU">Estuary v2 Extended - это модернизированная обложка KODI</disclaimer>
-		<disclaimer lang="uk_UA">Estuary v2 Extended — це модернізована обкладинка KODI.</disclaimer>
+		<disclaimer lang="ru_RU">Estuary v2 Extended - СЌС‚Рѕ РјРѕРґРµСЂРЅРёР·РёСЂРѕРІР°РЅРЅР°СЏ РѕР±Р»РѕР¶РєР° KODI</disclaimer>
+		<disclaimer lang="uk_UA">Estuary v2 Extended вЂ” С†Рµ РјРѕРґРµСЂРЅС–Р·РѕРІР°РЅР° РѕР±РєР»Р°РґРёРЅРєР° KODI.</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/</forum>
@@ -1231,14 +1231,14 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Estuary v2 Extended Shortcuts skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="ru_RU">Обложка Estuary v2 Extended Shortcuts. Авторы: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="uk_UA">Обкладинка Estuary v2 Extended Shortcuts від phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="ru_RU">РћР±Р»РѕР¶РєР° Estuary v2 Extended Shortcuts. РђРІС‚РѕСЂС‹: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="uk_UA">РћР±РєР»Р°РґРёРЅРєР° Estuary v2 Extended Shortcuts РІС–Рґ phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
 		<description lang="en_GB">Estuary v2 Extended Shortcuts - is the modernized skin for KODI.</description>
-		<description lang="ru_RU">Estuary v2 Extended Shortcuts - это модернизированная обложка KODI.</description>
-		<description lang="uk_UA">Estuary v2 Extended Shortcuts — це модернізована обкладинка KODI.</description>
+		<description lang="ru_RU">Estuary v2 Extended Shortcuts - СЌС‚Рѕ РјРѕРґРµСЂРЅРёР·РёСЂРѕРІР°РЅРЅР°СЏ РѕР±Р»РѕР¶РєР° KODI.</description>
+		<description lang="uk_UA">Estuary v2 Extended Shortcuts вЂ” С†Рµ РјРѕРґРµСЂРЅС–Р·РѕРІР°РЅР° РѕР±РєР»Р°РґРёРЅРєР° KODI.</description>
 		<disclaimer lang="en_GB">Estuary v2 Extended Shortcuts - is the modernized skin for KODI.</disclaimer>
-		<disclaimer lang="ru_RU">Estuary v2 Extended Shortcuts - это модернизированная обложка KODI.</disclaimer>
-		<disclaimer lang="uk_UA">Estuary v2 Extended Shortcuts — це модернізована обкладинка KODI.</disclaimer>
+		<disclaimer lang="ru_RU">Estuary v2 Extended Shortcuts - СЌС‚Рѕ РјРѕРґРµСЂРЅРёР·РёСЂРѕРІР°РЅРЅР°СЏ РѕР±Р»РѕР¶РєР° KODI.</disclaimer>
+		<disclaimer lang="uk_UA">Estuary v2 Extended Shortcuts вЂ” С†Рµ РјРѕРґРµСЂРЅС–Р·РѕРІР°РЅР° РѕР±РєР»Р°РґРёРЅРєР° KODI.</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/</forum>
