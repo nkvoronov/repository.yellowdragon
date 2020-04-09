@@ -4,17 +4,17 @@
 """ Modified by BartOtten: create a repository addon, skip folders without addon.xml, user config file """
 
 """ This file is "as is", without any warranty whatsoever. Use as own risk """
-""" Python 3 """
+""" Python 2 """
 
 import os
 import re
-import hashlib
+import md5
 import zipfile
 import shutil
 from xml.dom import minidom
 import glob
 import datetime
-import configparser
+from ConfigParser import SafeConfigParser
 
 class Generator:
 
@@ -29,14 +29,14 @@ class Generator:
         """
         Load the configuration
         """
-        self.config = configparser.ConfigParser()
+        self.config = SafeConfigParser()
         self.config.read('config.ini')
 
-        self.gitcomment = 'Update to version ' + self.config.get('addon', 'version')
+        self.gitcomment = "Update to version " + self.config.get('addon', 'version')
         self.isrevision = self.config.get('options', 'is_revision')
-        self.resources_path = 'src'
+        self.resources_path = "src"
         self.tools_path=os.path.abspath(os.path.join(os.path.dirname(os.path.realpath(__file__))))
-        self.rev_path = self.tools_path + os.path.sep + 'revision.txt'
+        self.rev_path = self.tools_path + os.path.sep + "revision.txt"
         self.output_path=self.config.get('locations', 'output_path')
 
         # travel path one up
@@ -46,37 +46,37 @@ class Generator:
         self._pre_run()
         self._generate_repo_files()
         self._generate_addons_file()
-        self._generate_md5_file(self.output_path + 'addons.xml')
+        self._generate_md5_file(self.output_path + "addons.xml")
         self._generate_zip_files()
         # notify user
-        print('Finished updating addons xml, md5 files and zipping addons')
+        print "Finished updating addons xml, md5 files and zipping addons"
         self._post_run()
 
     def _update_submodules ( self ):
 
         # update submodules
-        if os.path.isfile('.gitmodules'):
-            fsubmodules = open('.gitmodules', "r").read()
+        if os.path.isfile(".gitmodules"):
+            fsubmodules = open(".gitmodules", "r").read()
             lsubmodules = re.compile('\[submodule "(.+?)"\]').findall(fsubmodules)
             for submodule in lsubmodules:
-                print('Update module - ' + str(submodule))
+                print "Update module - " + str(submodule)
                 os.system('git submodule update --init --recursive --force --remote -- "' + submodule + '"')
 
     def _push_to_git ( self ):
 
-        print('GIT commit')
+        print "GIT commit"
         # git commit
         os.system('git add --all')
         os.system('git commit -m "' + self.gitcomment + '"')
 
-        print('GIT Push')
+        print "GIT Push"
         # push data to git
         os.system('git push')
 
     def _pre_run ( self ):
 
         # update git
-        print('GIT Pull')
+        print "GIT Pull"
         os.system('git pull')
 
         # current revision + 1
@@ -88,22 +88,22 @@ class Generator:
         if self.revision > 99:
             self.revision_str = str(self.revision)
         elif self.revision <= 99 and self.revision > 9:
-            self.revision_str = '0' + str(self.revision)
+            self.revision_str = "0" + str(self.revision)
         else:
-            self.revision_str = '00' + str(self.revision)
+            self.revision_str = "00" + str(self.revision)
 
-        if self.isrevision == 'true':
-            self.gitcomment = self.gitcomment + '.' + self.revision_str
+        if self.isrevision == "true":
+            self.gitcomment = self.gitcomment + "." + self.revision_str
         else:
-            self.gitcomment = self.gitcomment + ' (' + self.revision_str + ')'
+            self.gitcomment = self.gitcomment + " (" + self.revision_str + ")"
 
-        print('########## ' + self.gitcomment + ' ##########')
+        print "########## " + self.gitcomment + " ##########"
 
         # update submodules
         self._update_submodules()
 
         # clear repos dir
-        os.system('rm -rf ' + self.output_path)
+        os.system("rm -rf " + self.output_path)
 
         # create output  path if it does not exists
         if not os.path.exists(self.output_path):
@@ -112,7 +112,7 @@ class Generator:
     def _post_run ( self ):
 
         addonid=self.config.get('addon', 'id')
-        os.system('rm -rf ' + addonid)
+        os.system("rm -rf " + addonid)
 
         # save current revision + 1
         if os.path.isfile( self.rev_path ):
@@ -146,11 +146,11 @@ class Generator:
         zip=self.config.get('options', 'zip')
         hashes=self.config.get('options', 'hashes')
 
-        if os.path.isfile(addonid + os.path.sep + 'addon.xml'):return
+        if os.path.isfile(addonid + os.path.sep + "addon.xml"):return
 
-        print('Create repository addon')
+        print "Create repository addon"
 
-        with open (self.tools_path + os.path.sep + 'template.xml', "r") as template:
+        with open (self.tools_path + os.path.sep + "template.xml", "r") as template:
             template_xml=template.read()
 
         repo_xml = template_xml.format(
@@ -181,44 +181,44 @@ class Generator:
         if not os.path.exists(addonid):
             os.makedirs(addonid)
 
-        self._save_file( repo_xml, file=addonid + os.path.sep + 'addon.xml' )
+        self._save_file( repo_xml, file=addonid + os.path.sep + "addon.xml" )
 
     def _generate_zip_files ( self ):
-        addons = os.listdir( '.' )
+        addons = os.listdir( "." )
         # loop thru and add each addons addon.xml file
         for addon in addons:
             # create path
-            _path = os.path.join( addon, 'addon.xml' )
+            _path = os.path.join( addon, "addon.xml" )
 
             #skip path if it has no addon.xml
             if not os.path.isfile( _path ): continue
             try:
                 # skip any file or .git folder
-                if ( not os.path.isdir( addon ) or addon == '.git' or addon == self.output_path or addon == self.tools_path): continue
+                if ( not os.path.isdir( addon ) or addon == ".git" or addon == self.output_path or addon == self.tools_path): continue
                 # create path
-                _path = os.path.join( addon, 'addon.xml' )
+                _path = os.path.join( addon, "addon.xml" )
                 # split lines for stripping
                 document = minidom.parse(_path)
-                addon_elements = document.getElementsByTagName('addon')
+                addon_elements = document.getElementsByTagName("addon")
                 for parent in addon_elements:
-                    version = parent.getAttribute('version')
-                    addonid = parent.getAttribute('id')
+                    version = parent.getAttribute("version")
+                    addonid = parent.getAttribute("id")
 
                 self._generate_zip_file(addon, version, addonid)
 
                 self._copy_resources(addonid, document)
 
-            except Exception as e:
-                print(e)
+            except Exception, e:
+                print e
 
     def _generate_zip_file ( self, path, version, addonid):
-        print('Generate zip file for ' + addonid + ' ' + version)
-        filename = path + "-" + version + '.zip'
+        print "Generate zip file for " + addonid + " " + version
+        filename = path + "-" + version + ".zip"
         try:
             zip = zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED)
             for root, dirs, files in os.walk(path + os.path.sep):
                 for file in files:
-                    if file == '.git' or file == '.gitignore' or file == 'README.md': continue
+                    if file == ".git" or file == ".gitignore" or file == "README.md": continue
                     zip.write(os.path.join(root, file))
 
             zip.close()
@@ -230,11 +230,11 @@ class Generator:
 
             zip_md5=self.config.get('options', 'zip_md5')
 
-            if zip_md5 == 'true':
+            if zip_md5 == "true":
                 self._generate_md5_file(self.output_path + addonid + os.path.sep + filename)
 
-        except Exception as e:
-            print(e)
+        except Exception, e:
+            print e
 
     def _generate_addons_file( self ):
         # addon list
@@ -244,56 +244,51 @@ class Generator:
         # loop thru and add each addons addon.xml file
         for addon in addons:
             # create path
-            _path = os.path.join( addon, 'addon.xml' )
+            _path = os.path.join( addon, "addon.xml" )
             #skip path if it has no addon.xml
             if not os.path.isfile( _path ): continue
             try:
                 # split lines for stripping
-                xml_lines = open( _path, 'r' ).read().splitlines()
+                xml_lines = open( _path, "r" ).read().splitlines()
                 # new addon
                 addon_xml = ""
                 # loop thru cleaning each line
                 for line in xml_lines:
                     # skip encoding format line
-                    if ( line.find( '<?xml' ) >= 0 ): continue
+                    if ( line.find( "<?xml" ) >= 0 ): continue
                     # add line
-                    addon_xml += line.rstrip() + '\n'
+                    addon_xml += unicode( line.rstrip() + "\n", "utf-8" )
                 # we succeeded so add to our final addons.xml text
-                addons_xml += addon_xml.rstrip() + '\n\n'
-            except Exception as e:
+                addons_xml += addon_xml.rstrip() + "\n\n"
+            except Exception, e:
                 # missing or poorly formatted addon.xml
-                print("Excluding %s for %s" % ( _path, e, ))
+                print "Excluding %s for %s" % ( _path, e, )
         # clean and add closing tag
         addons_xml = addons_xml.strip() + u"\n</addons>\n"
         # save file
-        self._save_file( addons_xml, file=self.output_path + 'addons.xml' )
+        self._save_file( addons_xml.encode( "utf-8" ), file=self.output_path + "addons.xml" )
 
     def _generate_md5_file( self, pfile ):
         try:
             # create a new md5 hash
-            md5_hash = hashlib.md5()
-            with open(pfile,"rb") as f:
-                # Read and update hash in chunks of 4K
-                for byte_block in iter(lambda: f.read(4096),b""):
-                    md5_hash.update(byte_block)
-            m = md5_hash.hexdigest()
+            m = md5.new( open(pfile).read() ).hexdigest()
             # save file
-            self._save_file( m, file=pfile + '.md5' )
-        except Exception as e:
+            self._save_file( m, file=pfile + ".md5" )
+        except Exception, e:
             # oops
-            print('An error occurred creating addons.xml.md5 file!\n%s' % ( e, ))
+            print "An error occurred creating addons.xml.md5 file!\n%s" % ( e, )
 
     def _save_file( self, data, file ):
         try:
             # write data to the file
-            open( file, 'w' ).write( data )
-        except Exception as e:
+            open( file, "w" ).write( data )
+        except Exception, e:
             # oops
-            print('An error occurred saving %s file!\n%s' % ( file, e, ))
+            print "An error occurred saving %s file!\n%s" % ( file, e, )
 
     def _copy_resources( self, addonid, document):
 
-        assets_elements = document.getElementsByTagName('assets')
+        assets_elements = document.getElementsByTagName("assets")
 
         if len(assets_elements)>0:
 
@@ -310,15 +305,15 @@ class Generator:
 
         else:
 
-            icon = os.path.join( addonid, 'icon.png' )
-            fanart = os.path.join( addonid, 'fanart.jpg' )
+            icon = os.path.join( addonid, "icon.png" )
+            fanart = os.path.join( addonid, "fanart.jpg" )
             res_path = os.path.join( self.output_path, addonid )
 
             if os.path.isfile( icon ):
-                shutil.copyfile(icon, os.path.join(res_path, 'icon.png'))
+                shutil.copyfile(icon, os.path.join(res_path, "icon.png"))
             if os.path.isfile( fanart ):
-                shutil.copyfile(fanart, os.path.join(res_path,'fanart.jpg'))
+                shutil.copyfile(fanart, os.path.join(res_path,"fanart.jpg"))
 
-if ( __name__ == '__main__' ):
+if ( __name__ == "__main__" ):
     # start
     Generator()
