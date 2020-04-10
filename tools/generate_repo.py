@@ -150,7 +150,7 @@ class Generator:
 
         print('Create repository addon')
 
-        with open (self.tools_path + os.path.sep + 'template.xml', encoding='utf-8') as template:
+        with open (self.tools_path + os.path.sep + 'template.xml', 'r') as template:
             template_xml=template.read()
 
         repo_xml = template_xml.format(
@@ -181,7 +181,12 @@ class Generator:
         if not os.path.exists(addonid):
             os.makedirs(addonid)
 
-        self._save_file( repo_xml, file=addonid + os.path.sep + 'addon.xml' )
+        try:
+            # write repo_xml to the file
+            open( addonid + os.path.sep + 'addon.xml', 'w').write( repo_xml )
+        except Exception as e:
+            # oops
+            print('An error occurred saving %s file!\n%s' % ( file, e, ))
 
     def _generate_zip_files ( self ):
         addons = os.listdir( '.' )
