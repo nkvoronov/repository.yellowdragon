@@ -844,7 +844,7 @@
 
 <addon id="script.transmission"
 	name="Transmission"
-	version="0.7.6.006"
+	version="0.7.7.007"
 	provider-name="Correl Roush, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0"/>
