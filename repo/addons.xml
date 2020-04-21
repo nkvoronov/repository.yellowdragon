@@ -184,7 +184,7 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.0.10"
+	version="3.1.1"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -195,9 +195,9 @@
 		<summary lang="en_GB">VsёTV - TV Program, movie trailers, TV shows, sports</summary>
 		<summary lang="ru_RU">ВсёТВ - Телепрограмма, анонсы фильмов, сериалы, спорт</summary>
 		<summary lang="uk_UA">ВсеТВ - Телепрограма, анонси фільмів, серіали, спорт</summary>
-		<description lang="en_GB">VsёTV 2.0 - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
-		<description lang="ru_RU">ВсёТВ 2.0 - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
-		<description lang="uk_UA">ВсеТВ 2.0 - Телепрограма понад 650 каналів України, Росії, Європи, анонси всіх фільмів, серіалів, спорт на ТБ, новини телебачення, найбільший каталог серіалів, можливість налаштувати під себе набір каналів і формат видачі інформації</description>
+		<description lang="en_GB">VsёTV - more than 650 channels of TV Program in Ukraine, Russia, Europe, the announcements of all the movies, TV shows, sports on TV, news TV, the largest catalog of serials, the ability to customize a set of channels and the format of information delivery</description>
+		<description lang="ru_RU">ВсёТВ - Телепрограмма более 650 каналов Украины, России, Европы, анонсы всех фильмов, сериалов, спорт на ТВ, новости телевидения, крупнейший каталог сериалов, возможность настроить под себя набор каналов и формат выдачи информации</description>
+		<description lang="uk_UA">ВсеТВ - Телепрограма понад 650 каналів України, Росії, Європи, анонси всіх фільмів, серіалів, спорт на ТБ, новини телебачення, найбільший каталог серіалів, можливість налаштувати під себе набір каналів і формат видачі інформації</description>
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.epg.vsetv.git</source>
