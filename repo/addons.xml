@@ -96,6 +96,18 @@
 	</extension>
 </addon>
 
+<addon id="resource.images.moviegenreicons.xzener-reflection" name="Movie Genre Icons - Xzener's Reflected Icons" version="0.0.3.002" provider-name="Xzener, Gade, YLLOW_DRAGON">
+	<extension point="kodi.resource.images" compile="true" type="moviegenreicons" />
+	<requires>
+		<import addon="kodi.resource" version="1.0.0"/>
+	</requires>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Xcener's Reflected Movie Genre Icons</summary>
+		<description lang="en">Transparent Movie Genre Icons with reflection made by Xzener.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="resource.images.skinicons.estuary" name="Skin Icons - Estuary" version="1.0.0.002" provider-name="YLLOW_DRAGON">
 	<extension point="kodi.resource.images" compile="false" type="skinicons" />
 	<requires>
@@ -503,7 +515,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.324.10" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.508.10" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
