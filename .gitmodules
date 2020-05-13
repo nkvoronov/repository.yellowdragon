@@ -150,7 +150,3 @@
 	path = script.module.arrow
 	url = https://github.com/nkvoronov/script.module.arrow.git
 	branch = vleia
-[submodule "resource.images.moviegenreicons.xzener-reflection"]
-	path = resource.images.moviegenreicons.xzener-reflection
-	url = https://github.com/nkvoronov/resource.images.moviegenreicons.xzener-reflection.git
-	branch = vleia
