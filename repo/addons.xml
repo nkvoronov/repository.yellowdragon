@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="18.6" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="18.7" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="18.5" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="18.7" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -52,7 +52,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.yellowdragon.ext" name="Yellow Dragon Repository Ext" version="18.5" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.ext" name="Yellow Dragon Repository Ext" version="18.7" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -503,7 +503,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.508.10" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.508.11" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.14.0" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
@@ -1155,7 +1155,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.27.185" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended" version="2.0.27.186" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1205,7 +1205,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.27.270" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="2.0.27.271" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
