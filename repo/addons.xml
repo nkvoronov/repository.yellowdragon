@@ -274,7 +274,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="8.0.12.022" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="8.0.13.023" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.26.0"/>
 	</requires>
@@ -297,6 +297,7 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
+		<news>- fix issue with unneeded seeking</news>
 	</extension>
 </addon>
 
