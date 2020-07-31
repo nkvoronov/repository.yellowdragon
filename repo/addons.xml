@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="18.7" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="18.8" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -26,7 +26,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="18.7" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="18.8" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -52,7 +52,7 @@
 	</extension>
 </addon>
 
-<addon id="repository.yellowdragon.ext" name="Yellow Dragon Repository Ext" version="18.7" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.ext" name="Yellow Dragon Repository Ext" version="18.8" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -1156,7 +1156,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.27.188" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended" version="2.0.27.189" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1206,7 +1206,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="2.0.27.273" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="2.0.27.274" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.14.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
