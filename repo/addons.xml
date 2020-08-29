@@ -1033,7 +1033,7 @@
 <addon
 	id="service.3denabler.samsungtv"
 	name="3D Enabler Samsung TV"
-	version="0.1.2.007"
+	version="0.1.3.008"
 	provider-name="Pavel Kuzub, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
