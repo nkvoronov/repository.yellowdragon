@@ -870,7 +870,7 @@
 
 <addon id="script.transmission"
 	name="Transmission Control Panel"
-	version="1.0.0.008"
+	version="1.0.0.009"
 	provider-name="Vasyl Gello,Correl Roush, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
