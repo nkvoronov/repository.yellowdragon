@@ -423,12 +423,11 @@
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.28.025"
+		version="1.0.28.026"
 		provider-name="marcelveldt, finkleandeinhorn, cartmandos, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.3.0"/>
-		<import addon="script.module.beautifulsoup" version="3.0.8" />
 		<import addon="script.module.beautifulsoup4" version="4.0.0" />
 		<import addon="script.module.thetvdb" version="0.0.1" />
 		<import addon="script.module.musicbrainz" version="0.0.1" />
