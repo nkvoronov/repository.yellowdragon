@@ -184,7 +184,7 @@
 <addon
 	id="script.epg.vsetv"
 	name="Vse TV"
-	version="3.1.1"
+	version="3.1.2"
 	provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -529,7 +529,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.616.13" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.728.13" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
@@ -1090,9 +1090,9 @@
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended" version="4.6.9.191" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended" version="4.7.5.192" name="Confluence Extended" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 		<import addon="script.favourites" version="6.0.3"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
@@ -1132,9 +1132,9 @@
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-s" version="4.6.9.189" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-s" version="4.7.5.190" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 		<import addon="script.skinshortcuts" version="1.0.10"/>
 		<import addon="script.skin.helper.service" version="1.0.10"/>
@@ -1176,9 +1176,9 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended" version="2.0.27.189" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended" version="3.0.2.191" name="Estuary v2 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
-		<import addon="xbmc.gui" version="5.14.0"/>
+		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
 		<import addon="script.image.resource.select" version="1.1.0"/>
 	</requires>
