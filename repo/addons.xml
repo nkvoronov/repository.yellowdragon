@@ -869,30 +869,31 @@
 </addon>
 
 <addon id="script.transmission"
-	name="Transmission"
-	version="0.7.7.007"
-	provider-name="Correl Roush, YLLOW_DRAGON">
+	name="Transmission Control Panel"
+	version="1.0.0.008"
+	provider-name="Vasyl Gello,Correl Roush, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.module.beautifulsoup" version="3.0.8" />
-		<import addon="script.module.six" version="1.5.2" />
+	<import addon="script.module.kodi-six" version="0.1.3"/>
+	<import addon="script.module.six" version="1.14.0" />
 	</requires>
 	<extension point="xbmc.python.script" library="default.py" />
-	<extension point="xbmc.service" library="resources/lib/player.py" start="startup"/>
+	<extension point="xbmc.service"  library="player.py" />
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">A client for the popular Transmission BitTorrent application</summary>
-		<summary lang="ru_RU">Клиент для популярного приложения BitTorrent</summary>
-		<summary lang="uk_UA">Клієнт для популярного додатка BitTorrent</summary>
-		<description lang="en_GB">Currently, Transmission-XBMC supports viewing, adding, removing, starting and stopping torrents. More advanced features may be added in future releases.</description>
-		<description lang="ru_RU">В настоящее время, Transmission-XBMC поддерживает просмотр, добавление, удаление, запуск и остановка торрентов. Более продвинутые функции могут быть добавлены в будущих версиях.</description>
-		<description lang="uk_UA">В даний час, Transmission-XBMC підтримує перегляд, додавання, видалення, запуск і зупинка торрентів. Більш просунуті функції можуть бути додані в майбутніх версіях.</description>
+		<summary lang="ru_RU">Панель управления для популярного торрент-клиента Transmission</summary>
+		<summary lang="uk_UA">Панель керування для популярного торент-кліента Transmission</summary>
+		<description lang="en_GB">Transmission Control Panel supports viewing, adding, removing, starting and stopping torrents.</description>
+		<description lang="ru_RU">Transmission Control Panel позволяет просматривать список торрентов, добавлять, удалять, запускать и останавливать торренты.</description>
+		<description lang="uk_UA">Transmission Control Panel дозволяє переглядати список торентів, додавати, видаляти, стартувати та зупиняти торенти.</description>
 		<platform>all</platform>
 		<license>MIT</license>
-		<forum></forum>
-		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/Transmission-XBMC.git</source>
+		<news>Version 1.0.0
+		* Complete rework of original script.transmission by Correl J.Roush
+		* Coded in Python 3
+		* Targets Kodi 19.0 &quot;Matrix&quot; and newer</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
