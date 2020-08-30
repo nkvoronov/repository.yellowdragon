@@ -1226,7 +1226,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="3.0.2.277" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="3.0.2.278" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
