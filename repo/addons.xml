@@ -152,7 +152,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.2.2.024" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.2.2.025" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
