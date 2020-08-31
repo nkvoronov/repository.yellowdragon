@@ -661,13 +661,13 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.34.028" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.34.029" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
 		<import addon="script.module.simplecache" version="2.0.0"/>
-		<import addon="script.module.metadatautils" version="1.28.0"/>
+		<import addon="script.module.metadatautils" version="1.0.28"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py" />
 	<extension point="xbmc.service" library="service.py" start="login" />
@@ -718,13 +718,13 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.26.048" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.26.049" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
 		<import addon="script.module.simplejson" version="3.17.0"/>
 		<import addon="script.module.simplecache" version="2.0.0"/>
-		<import addon="script.module.metadatautils" version="1.28.0"/>
+		<import addon="script.module.metadatautils" version="1.0.28"/>
 		<import addon="script.module.cherrypy" version="11.0.2"/>
 	</requires>
 
@@ -809,11 +809,11 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.032" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.033" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="script.module.metadatautils" version="1.28.0" />
+		<import addon="script.module.metadatautils" version="1.0.28" />
 		<import addon="script.module.simplecache" version="2.0.0"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
