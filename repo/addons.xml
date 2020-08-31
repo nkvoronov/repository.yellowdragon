@@ -725,7 +725,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.26.050" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.26.051" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -788,7 +788,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.023" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.024" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
