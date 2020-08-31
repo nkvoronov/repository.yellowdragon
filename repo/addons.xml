@@ -152,12 +152,13 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.0.7.022" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.2.2.023" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.chardet" version="2.2.1"/>
-		<import addon="script.module.beautifulsoup4" version="4.3.2"/>
-		<import addon="script.module.requests" version="2.18.4.1"/>
+		<import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
+		<import addon="script.module.chardet" version="3.0.4+matrix.1"/>
+		<import addon="script.module.mutagen" version="1.44.0+matrix.1"/>
+		<import addon="script.module.requests" version="2.22.0+matrix.1"/>
 	</requires>
 	<extension point="xbmc.python.lyrics" library="default.py"/>
 	<extension point="xbmc.service" library="default.py"/>
@@ -178,6 +179,11 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<news>- remove broken ttplayer scraper
+- fix genius scraper
+- fix manual sync
+- fix potential crash in minilyrics
+- fix reading embedded lyrics from remote files</news>
 	</extension>
 </addon>
 
@@ -274,7 +280,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="9.0.4.025" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="9.0.4.026" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
