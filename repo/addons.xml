@@ -849,15 +849,14 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.20.035" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.1.2.036" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="3.17.0"/>
-		<import addon="script.module.unidecode" version="1.1.1"/>
+		<import addon="script.module.unidecode" version="0.4.14"/>
+		<import addon="script.module.simpleeval" version="0.9.10"/>
 	</requires>
 	<extension point="xbmc.python.library" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
-		<news>Template improvements and bug fixes</news>
 		<description lang="en_GB">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
 		<description lang="ru_RU">Дополнение для обложек, предоставляющее простой способ управления списками пользовательских ярлыков (требуется поддержка обложкой)</description>
 		<description lang="uk_UA">Доповнення для обкладинок, надає простий спосіб управління списками ярликів користовуча (потрібна підтримка обкладинкою)</description>
@@ -872,6 +871,7 @@
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
 		</assets>
+		<news>Kodi v19 Matrix + Python 3 compatibility</news>
 	</extension>
 </addon>
 
@@ -1140,11 +1140,11 @@
 	</extension>
 </addon>
 
-<addon id="skin.confluence-extended-s" version="4.7.5.191" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence-extended-s" version="4.7.5.192" name="Confluence Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.image.resource.select" version="3.0.2"/>
-		<import addon="script.skinshortcuts" version="1.0.20"/>
+		<import addon="script.skinshortcuts" version="1.1.2"/>
 		<import addon="script.skin.helper.service" version="1.1.26"/>
 		<import addon="script.skin.helper.skinbackup" version="1.0.20"/>
 		<import addon="script.skin.helper.widgets" version="1.0.39"/>
@@ -1234,12 +1234,12 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="3.0.2.279" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="3.0.2.280" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
 		<import addon="script.image.resource.select" version="3.0.2"/>
-		<import addon="script.skinshortcuts" version="1.0.20"/>
+		<import addon="script.skinshortcuts" version="1.1.2"/>
 		<import addon="script.skin.helper.service" version="1.1.26"/>
 		<import addon="script.skin.helper.skinbackup" version="1.0.20"/>
 		<import addon="script.skin.helper.widgets" version="1.0.39"/>
