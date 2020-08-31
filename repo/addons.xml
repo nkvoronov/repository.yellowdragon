@@ -152,7 +152,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.2.2.023" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.2.2.024" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
@@ -280,7 +280,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="9.0.4.026" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="9.0.4.027" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -358,10 +358,9 @@
 	</extension>
 </addon>
 
-<addon id="script.module.autocompletion" name="AutoCompletion library" version="1.1.2.001" provider-name="Philipp Temminghoff (phil65), YDRAGON">
+<addon id="script.module.autocompletion" name="AutoCompletion library" version="2.0.2.002" provider-name="Philipp Temminghoff (phil65), YDRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
-		<import addon="script.module.simplejson" version="3.3.0"/>
 		<import addon="script.module.requests" version="2.9.1"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
@@ -369,7 +368,7 @@
 		<summary lang="en">Module providing some AutoCompletion functions</summary>
 		<description lang="en">Module providing some AutoCompletion functions</description>
 		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
+		<license>GPL-2.0-or-later</license>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.autocompletion.git</source>
 		<assets>
@@ -613,7 +612,7 @@
 
 <addon id="script.rss.editor"
 	name="RSS Editor"
-	version="3.0.5.007"
+	version="4.0.1.008"
 	provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -637,6 +636,8 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
+		<news>- fix broken ok and yesno dialogs
+- skin improvements</news>
 	</extension>
 </addon>
 
