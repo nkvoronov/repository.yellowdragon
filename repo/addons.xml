@@ -280,7 +280,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="9.0.4.030" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="9.0.4.031" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -294,8 +294,8 @@
 		<description lang="uk_UA">Це доповнення допоможе знайти будь-який запис у вашій бібліотеці.</description>
 		<language></language>
 		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=109301</forum>
+		<license>GPL-2.0-only</license>
+		<forum>https://forum.kodi.tv/showthread.php?tid=109301</forum>
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.globalsearch.git</source>
