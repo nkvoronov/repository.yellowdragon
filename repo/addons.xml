@@ -213,12 +213,15 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.1.015" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.2.016" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="resource.images.studios.white" version="0.0.5"/>
-		<import addon="script.module.kodi65" version="1.0.0"/>
-		<import addon="script.module.routing" version="0.1.0"/>
+		<import addon="resource.images.studios.white" version="0.0.25"/>
+		<import addon="script.module.routing" version="0.2.3"/>
+		<import addon="script.module.youtube.dl" version="14.519.1"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+		<import addon="script.module.autocompletion" version="1.0.0"/>
+		<import addon="script.module.requests" version="2.9.1"/>
 	</requires>
 	<extension point="xbmc.python.script" library="default.py">
 		<provides>executable</provides>
@@ -1234,7 +1237,7 @@
 	</extension>
 </addon>
 
-<addon id="skin.estuary2-extended-s" version="3.0.2.282" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary2-extended-s" version="3.0.2.283" name="Estuary v2 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.pvr.favourites" version="2.0.0"/>
