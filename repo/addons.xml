@@ -152,7 +152,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.8.3.023" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="5.8.3.024" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
 		<import addon="script.module.chardet" version="2.2.1"/>
@@ -160,7 +160,7 @@
 		<import addon="script.module.requests" version="2.18.4"/>
 	</requires>
 	<extension point="xbmc.python.lyrics" library="default.py"/>
-	<extension point="xbmc.service" library="default.py" start="login"/>
+	<extension point="xbmc.service" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">CU LRC Lyrics</summary>
 		<summary lang="ru_RU">Тексты песен</summary>
@@ -170,7 +170,7 @@
 		<description lang="uk_UA">CU LRC Lyrics - це текст пісні для Kodi. Він підтримує як звичайні, так і LRC тексти пісень. Скрипт може шукати вбудовані синхронізовані/несинхронізовані тексти пісень з файлу або за допомогою скребків. Він може читати файл тексту пісень .lrc/.txt, збережений тим самим шляхом під тим же ім'ям що і файл .mp3 (або інший тип музики).</description>
 		<language></language>
 		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<license>GPL-2.0-only</license>
 		<forum>https://forum.kodi.tv/showthread.php?tid=147340</forum>
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
@@ -178,8 +178,9 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>- fix genius scraper
-- remove broken scrapers</news>
+		<news>- add syair scraper
+- fix dark lyrics scraper
+- remove broken lyricwiki scraper</news>
 	</extension>
 </addon>
 
