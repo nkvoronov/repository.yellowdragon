@@ -152,7 +152,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.2.4.026" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.3.1.027" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
@@ -171,7 +171,7 @@
 		<description lang="uk_UA">CU LRC Lyrics - це текст пісні для Kodi. Він підтримує як звичайні, так і LRC тексти пісень. Скрипт може шукати вбудовані синхронізовані/несинхронізовані тексти пісень з файлу або за допомогою скребків. Він може читати файл тексту пісень .lrc/.txt, збережений тим самим шляхом під тим же ім'ям що і файл .mp3 (або інший тип музики).</description>
 		<language></language>
 		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+		<license>GPL-2.0-only</license>
 		<forum>https://forum.kodi.tv/showthread.php?tid=147340</forum>
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
@@ -179,11 +179,9 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>- remove broken ttplayer scraper
-- fix genius scraper
-- fix manual sync
-- fix potential crash in minilyrics
-- fix reading embedded lyrics from remote files</news>
+		<news>- fix darklyrics scraper
+- improved support for embedde lyrics
+- add support for MusicPlayer.Lyrics infolabel</news>
 	</extension>
 </addon>
 
@@ -537,7 +535,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.920.14" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="20.1205.14" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.addon.signals" version="0.0.1"/>
@@ -984,7 +982,7 @@
 	</extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.0.015" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.1.016" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -1006,12 +1004,14 @@
 		<email>nkvoronov@gmail.com</email>
 		<assets>
 			<icon>resources/icon.png</icon>
-		</assets>
-		<news>3.90.0
-		- XBMC LCDproc for Kodi Matrix (Python 3)
-		- Allow LCDproc protocol version 0.4
+	    <assets>
+	      <icon>resources/icon.png</icon>
+	    </assets>
+	    <news>3.90.1
+- replace LOGNOTICE with LOGINFO, remove LOGSEVERE
+- use translatePath from xbmcvfs instead of xbmc
 		</news>
-	</extension>
+  </extension>
 </addon>
 
 <addon id="script.xbmcbackup"
