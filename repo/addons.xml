@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="19.0b1" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon" name="Yellow Dragon Repository" version="19.0" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -152,7 +152,7 @@
 	</extension>
 </addon>
 
-<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.3.1.027" provider-name="Taxigps, ronie, YLLOW_DRAGON">
+<addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.3.1.028" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.beautifulsoup4" version="4.8.2+matrix.1"/>
@@ -179,9 +179,10 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>- fix darklyrics scraper
-- improved support for embedde lyrics
-- add support for MusicPlayer.Lyrics infolabel</news>
+		<news> - fix darklyrics scraper
+			- improved support for embedde lyrics
+			- add support for MusicPlayer.Lyrics infolabel
+		</news>
 	</extension>
 </addon>
 
@@ -614,7 +615,7 @@
 
 <addon id="script.rss.editor"
 	name="RSS Editor"
-	version="4.0.2.009"
+	version="4.0.2.010"
 	provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -638,8 +639,9 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>- fix broken ok and yesno dialogs
-- skin improvements</news>
+		<news> - fix broken ok and yesno dialogs
+			 - skin improvements
+		</news>
 	</extension>
 </addon>
 
@@ -983,7 +985,7 @@
 	</extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.1.016" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.1.017" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -1005,14 +1007,12 @@
 		<email>nkvoronov@gmail.com</email>
 		<assets>
 			<icon>resources/icon.png</icon>
-	    <assets>
-	      <icon>resources/icon.png</icon>
-	    </assets>
-	    <news>3.90.1
-- replace LOGNOTICE with LOGINFO, remove LOGSEVERE
-- use translatePath from xbmcvfs instead of xbmc
+		</assets>
+		<news>3.90.1
+			- replace LOGNOTICE with LOGINFO, remove LOGSEVERE
+			- use translatePath from xbmcvfs instead of xbmc
 		</news>
-  </extension>
+	</extension>
 </addon>
 
 <addon id="script.xbmcbackup"
@@ -1072,7 +1072,7 @@
 	</extension>
 </addon>
 
-<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.35.012" provider-name="Martijn, phil65, YLLOW_DRAGON">
+<addon id="service.skin.widgets" name="Skin Widgets" version="0.0.35.013" provider-name="Martijn, phil65, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.json" version="6.0.0"/>
