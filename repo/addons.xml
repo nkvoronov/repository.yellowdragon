@@ -114,44 +114,6 @@
 	</extension>
 </addon>
 
-<addon
-	id="script.artwork.downloader.ex"
-	name="Artwork Downloader Ex"
-	version="18.1.4"
-	provider-name="Martijn, YLLOW_DRAGON">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="xbmc.json" version="6.0.0"/>
-		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.common.plugin.cache" version="1.3.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
-		<summary lang="ru_RU">Загрузите иллюстации для ТВ-шоу, фильмов и музыки в вашей библиотеке</summary>
-		<summary lang="uk_UA">Завантажте іллюстаціі для ТБ-шоу, фільмів і музики у вашій бібліотеці</summary>
-		<description lang="en_GB">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
-		<description lang="ru_RU">Загружает все доступные изображения для телешоу, фильмов и музыкальных видео в вашей библиотеке. Проверьте параметры поддерживаемых иллюстраций[CR]Источники иллюстраций:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Примечание:[CR]Проверьте свой скин, чтобы увидеть, какие иллюстрации поддерживаются![CR]У каждого телешоу/фильма должна быть своя папка![CR]Интеграция скинов:[CR]См. файл readme</description>
-		<description lang="uk_UA">Завантажує всі доступні зображення для телешоу, фільмів і музичних відео в вашій бібліотеці. Перевірте параметри підтримуваних ілюстрацій[CR]Джерела ілюстрацій:[CR] www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Примітка:[CR]Перевірте свій скін, щоб побачити, які ілюстрації підтримуються![CR]У кожного телешоу/фільму повинна бути своя папка![CR]Інтеграція скінів:[CR]Див. файл readme</description>
-		<disclaimer lang="en_GB">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
-		<disclaimer lang="ru_RU">Ошибки, запросы и общие вопросы можно найти в ветке Artwork Downloader на форуме XBMC.</disclaimer>
-		<disclaimer lang="uk_UA">Помилки, запити та загальні питання можна знайти в гілці Artwork Downloader на форумі XBMC.</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<website></website>
-		<source>https://github.com/nkvoronov/script.artwork.downloader.ex.git</source>
-		<forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
-		<email>nkvoronov.gmail.com</email>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.cu.lrclyrics" name="CU LRC Lyrics" version="6.3.9.029" provider-name="Taxigps, ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -338,29 +300,6 @@
 	</extension>
 </addon>
 
-<addon id="script.module.arrow"
-		name="arrow"
-		version="0.15.5.014"
-		provider-name="crsmithdev, Razzeee">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.dateutil" version="2.8.1"/>
-	</requires>
-	<extension point="xbmc.python.module"
-		library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Arrow: better dates and times for Python</summary>
-		<description lang="en">Packed for Kodi from https://github.com/crsmithdev/arrow</description>
-		<platform>all</platform>
-		<license>Apache2</license>
-		<source>https://github.com/Razzeee/script.module.arrow</source>
-		<email>beenje AT gmail.com</email>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.module.autocompletion" name="AutoCompletion library" version="2.0.2.003" provider-name="Philipp Temminghoff (phil65), YDRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
@@ -401,28 +340,6 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.cherrypy.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
-<addon id="script.module.kodi65" name="Kodi65 Library" version="1.2.3.013" provider-name="Philipp Temminghoff (phil65), YLLOW_DRAGON">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.youtube.dl" version="14.519.1"/>
-		<import addon="script.module.pil" version="1.1.7"/>
-		<import addon="script.module.autocompletion" version="1.0.0"/>
-		<import addon="script.module.requests" version="2.9.1"/>
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Helper module</summary>
-		<description lang="en">Helper module for all kind of stuff</description>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2.1, February 1999</license>
-		<source>https://github.com/nkvoronov/script.module.kodi65.git</source>
-		<news>Adjust to latest core changes, bugfixes, API extensions</news>
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
@@ -988,61 +905,14 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="script.tvtunes.ex" name="TvTunes Ex" version="100.5.9.008" provider-name="robwebset, YLLOW_DRAGON">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.simplejson" version="3.3.0"/>
-		<import addon="script.module.beautifulsoup" version="3.2.1"/>
-		<import addon="script.module.requests" version="2.3.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py"/>
-	<extension point="xbmc.python.pluginsource" library="plugin.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" start="login"/>
-	<extension point="xbmc.python.module" library="resources/lib" />
-	<extension point="kodi.context.item" library="contextmenu.py">
-		<item>
-			<label>32995</label>
-			<visible>!String.IsEmpty(Window(home).Property(TvTunes_ShowContextMenu)) + [Container.Content(movies) | Container.Content(episodes) | Container.Content(tvshows) | Container.Content(seasons)]</visible>
-		</item>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Retrieve and play your soundtrack or video themes whilst browsing your library</summary>
-		<summary lang="ru_RU">Получить и воспроизвести музыкальную темы, просматривая вашу библиотеку</summary>
-		<summary lang="uk_UA">Отримати та відтворити музичну теми, переглядаючи вашу бібліотеку</summary>
-		<description lang="en_GB">TvTunes is equipped with powerful features that enable the fetching, organising and playing of themes whilst browsing your Kodi library.</description>
-		<description lang="ru_RU">TvTunes оснащен мощными функциями, которые позволяют извлекать, организовывать и воспроизводить темы во время просмотра вашей библиотеки Kodi.</description>
-		<description lang="uk_UA">TvTunes оснащений потужними функціями, які дозволяють витягати, організовувати і відтворювати теми під час перегляду вашої бібліотеки Kodi.</description>
-		<disclaimer lang="en_GB">The collection of themes is maintain as a source to consult historical archives of music themes for movies and series. Thus its only purpose is educational and referential, and it is not maintained for the purpose of reselling and re-distributing music or for profitable purpose. Its access is intended strictly in the same way people access plots, trailers, scripts or other material in connection to a film. Any donation is with the purpose of supporting TvTunes' development and towards the costs of maintaining the library. Any holder of rights to these themes who would like to have their material removed from the archives just needs to request so by contacting TvTunes's Theme Library via the Kodi forum.</disclaimer>
-		<disclaimer lang="ru_RU">Коллекция тем поддерживается в качестве источника для ознакомления с историческими архивами музыкальных тем для фильмов и сериалов. Таким образом, его единственная цель - образовательная и справочная, и она не поддерживается с целью перепродажи и перераспределения музыки или с выгодой. Его доступ предназначен точно так же, как люди получают доступ к сюжетам, трейлерам, сценариям или другим материалам в связи с фильмом. Любое пожертвование делается с целью поддержки развития TvTunes и расходов на содержание библиотеки. Любой обладатель прав на эти темы, кто хотел бы удалить свои материалы из архивов, должен просто запросить это, связавшись с библиотекой тем TvTunes через форум Kodi.</disclaimer>
-		<disclaimer lang="uk_UA">Колекція тем підтримується як джерело для ознайомлення з історичними архівами музичних тем для фільмів і серіалів. Таким чином, його єдина мета - освітня та довідкова, і вона не підтримується з метою перепродажу і перерозподілу музики або з вигодою. Його доступ призначений точно так же, як люди отримують доступ до сюжетів, трейлерам, сценаріями або інших матеріалів в зв'язку з фільмом. Будь-яке пожертвування робиться з метою підтримки розвитку TvTunes і витрат на утримання бібліотеки. Кожний власник прав на ці теми, хто хотів би видалити свої матеріали з архівів, повинен просто запросити це, зв'язавшись з бібліотекою тим TvTunes через форум Kodi.</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>See LICENSE.txt</license>
-		<forum></forum>
-		<source>https://github.com/nkvoronov/script.tvtunes.ex.git</source>
-		<news></news>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-			<banner>resources/banner.jpg</banner>
-			<logo>resources/logo.png</logo>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.xbmc.audio.mixer"
 	name="Kodi Audio Mixer"
-	version="4.0.2.008"
+	version="5.1.0.009"
 	provider-name="Team Kodi, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
-	<extension point="xbmc.python.script" library="default.py" />
+	<extension point="xbmc.python.script" library="default.py"/>
 	<extension point="xbmc.addon.metadata">
 		<platform>osx linux</platform>
 		<summary lang="en_GB">Kodi Audio Mixer</summary>
@@ -1051,18 +921,18 @@ Version 1.0.0
 		<description lang="en_GB">Kodi Audio Mixer</description>
 		<description lang="ru_RU">Kodi Аудио Микшер</description>
 		<description lang="uk_UA">Kodi Аудіо Мікшер</description>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<license>GPL-2.0-only</license>
 		<forum></forum>
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.xbmc.audio.mixer.git</source>
 		<assets>
-			<icon>resources/icon.png</icon>
+			<icon>icon.png</icon>
 		</assets>
 	</extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.1.018" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.1.020" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
