@@ -962,33 +962,6 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="script.xbmcbackup"
-	name="Backup" version="1.6.1.011" provider-name="robweber, YLLOW_DRAGON">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.dateutil" version="2.8.0" />
-		<import addon="script.module.future" version="0.16.0.4"/>
-		<import addon="script.module.dropbox" version="9.4.0"/>
-	</requires>
-	<extension point="xbmc.python.script" library="default.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Backup and restore your Kodi database and configuration files in the event of a crash or file corruption.</summary>
-		<summary lang="ru_RU">Сохраняйте и восстанавливайте базу данных и конфигурационные файлы XBMC, чтоб не допустить потерю данных в случае аварии или повреждений файлов.</summary>
-		<summary lang="uk_UA">Зберігайте і відновлюйте базу даних і конфігураційні файли XBMC, щоб не допустити втрату даних у разі аварії або пошкоджень файлів.</summary>
-		<description lang="en_GB">Ever hosed your Kodi configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by XBMC or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
-		<description lang="ru_RU">Хотите получить резервную копию настроек XBMC? Теперь можете это сделать одним щелчком мыши. Вы можете выгрузить вашу базу данных, плейлисты, эскизы, дополнения и другую нужную Вам информацию и сохранить её с помощью XBMC или выгрузить в облачное хранилище Dropbox. Резервную копию можно сделать по требованию или запускать по расписанию.</description>
-		<description lang="uk_UA">Хочете отримати резервну копію налаштувань XBMC? Тепер можете це зробити одним кліком миші. Ви можете вивантажити вашу базу даних, плейлисти, ескізи, доповнення та іншу потрібну Вам інформацію і зберегти її за допомогою XBMC або вивантажити в хмарне сховище Dropbox. Резервну копію можна зробити на вимогу або запускати за розкладом.</description>
-		<language></language>
-		<platform>all</platform>
-		<license>The MIT License</license>
-		<forum>http://forum.xbmc.org/showthread.php?tid=129499</forum>
-		<source>https://github.com/robweber/xbmcbackup</source>
-	</extension>
-</addon>
-
 <addon
 	id="service.3denabler.samsungtv"
 	name="3D Enabler Samsung TV"

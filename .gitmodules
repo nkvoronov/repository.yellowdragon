@@ -122,10 +122,6 @@
 	path = script.module.cherrypy
 	url = https://github.com/nkvoronov/script.module.cherrypy.git
 	branch = vmatrix
-[submodule "script.xbmcbackup"]
-	path = script.xbmcbackup
-	url = https://github.com/nkvoronov/script.xbmcbackup.git
-	branch = vmatrix
 [submodule "script.extendedinfo"]
 	path = script.extendedinfo
 	url = https://github.com/nkvoronov/script.extendedinfo.git
