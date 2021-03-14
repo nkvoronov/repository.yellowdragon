@@ -322,11 +322,11 @@
 
 <addon id="script.module.cherrypy"
 	name="CherryPy Kodi module"
-	version="11.0.2.008"
-	rovider-name="marcelveldt, CherryPy Team, YLLOW_DRAGON">
+	version="12.0.2.009"
+	rovider-name="CherryPy Team, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.six" version="1.14.0"/>
+		<import addon="script.module.six" version="1.14"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
 	<extension point="xbmc.addon.metadata">
@@ -340,23 +340,20 @@
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.cherrypy.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
 	</extension>
 </addon>
 
 <addon id="script.module.metadatautils"
 		name="Metadata and Artwork module"
-		version="1.0.36.031"
+		version="1.0.38.032"
 		provider-name="marcelveldt, finkleandeinhorn, cartmandos, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests" version="2.3.0"/>
-		<import addon="script.module.beautifulsoup4" version="4.6.3" />
-		<import addon="script.module.thetvdb" version="1.0.28" />
-		<import addon="script.module.musicbrainz" version="0.6.2" />
-		<import addon="script.module.simplecache" version="2.0.0"/>
+		<import addon="script.module.requests" version="2.9.1"/>
+		<import addon="script.module.beautifulsoup4" version="4.9.3" />
+		<import addon="script.module.thetvdb" version="1.0.29" />
+		<import addon="script.module.musicbrainz" version="0.7.0" />
+		<import addon="script.module.simplecache" version="2.0.2"/>
 		<import addon="script.module.arrow" version="0.15.5"/>
 	</requires>
 	<extension point="xbmc.python.module" library="lib" />
@@ -367,46 +364,53 @@
 		<description lang="en_GB">The artwork and metadata module provides rich metadata, including artwork for various metatypes by scraping this information from sites like TMDB, musicbrainz and fanart.tv.</description>
 		<description lang="ru_RU">Модуль artwork and metadata получает метаданные и иллюстраций для различные метатипов с сайтов TMDb, MusicBrainz и fanart.tv.</description>
 		<description lang="uk_UA">Модуль artwork and metadata отримує метадані та ілюстрацій для різні метатіпов з сайтів TMDb, MusicBrainz та fanart.tv.</description>
-        <news>
-v1.0.36
-- Fix for theaudiodb scraper,Add some new Art thumb and label
+		<news>
+			v1.0.38
+			- fix for error 'sys' is not defined for extrafanart
+			- fix for google
+			- fix for colecting imdb.250 (movie and tv)
+			- add new rotentomatoes info from omdb
+			v1.0.37
+			- Smal fix for theaudiodb scraper
+			v1.0.36
+			- Fix for theaudiodb scraper,Add some new Art thumb and label
 
-v1.0.35 (wuff)
-- Remove BeautifulSoup3 dependency and use BeautifulSoup4 on Kodi 18 and 19 instead
+			v1.0.35 (wuff)
+			- Remove BeautifulSoup3 dependency and use BeautifulSoup4 on Kodi 18 and 19 instead
 
-v1.0.34 (wuff)
-- Set BeautifulSoup3 and MusicBrainz dependency as optional to allow install on Matrix
+			v1.0.34 (wuff)
+			- Set BeautifulSoup3 and MusicBrainz dependency as optional to allow install on Matrix
 
-v1.0.33 (wuff)
-- replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
+			v1.0.33 (wuff)
+			- replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
 
-v1.0.32 (wuff)
-- Remove python requirement for Kodi 18/19 compat
-- Change imdb Top250 parsing from lxml to html.parser
-- replace xbmc.translatePath with xmbcvfs.translatePath
-v1.0.31 (berkhornet)
-- Further fixes for PVR artwork
-v1.0.30 (berkhornet)
-- Kodi 19/Python 3
-- Fixes for PVR artwork
-- Fix display of artwork when manually selecting from TVDB
-- Fixes for animated art and google
-v1.0.29 (wuff)
-- Remove python requirement for Kodi 18/19 compat
-v1.0.28 (wuff)
-- Kodi 19/Python 3 fixes
-v1.0.27 (finkleandeinhorn)
-- update omdb api key
-v1.0.26 (finkleandeinhorn, cartmandos)
-- enable caching of omdb/tmdb data
-- remove duplicate "Title" parameter
-v1.0.25 (marcelveldt)
-- Last version 30 Mar 2018
-        </news>
-        <license>Apache 2.0</license>
+			v1.0.32 (wuff)
+			- Remove python requirement for Kodi 18/19 compat
+			- Change imdb Top250 parsing from lxml to html.parser
+			- replace xbmc.translatePath with xmbcvfs.translatePath
+			v1.0.31 (berkhornet)
+			- Further fixes for PVR artwork
+			v1.0.30 (berkhornet)
+			- Kodi 19/Python 3
+			- Fixes for PVR artwork
+			- Fix display of artwork when manually selecting from TVDB
+			- Fixes for animated art and google
+			v1.0.29 (wuff)
+			- Remove python requirement for Kodi 18/19 compat
+			v1.0.28 (wuff)
+			- Kodi 19/Python 3 fixes
+			v1.0.27 (finkleandeinhorn)
+			- update omdb api key
+			v1.0.26 (finkleandeinhorn, cartmandos)
+			- enable caching of omdb/tmdb data
+			- remove duplicate "Title" parameter
+			v1.0.25 (marcelveldt)
+			- Last version 30 Mar 2018
+		</news>
+		<license>Apache 2.0</license>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.metadatautils.git</source>
-        <platform>all</platform>
+		<platform>all</platform>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
@@ -416,12 +420,12 @@ v1.0.25 (marcelveldt)
 			<screenshot>resources/screenshot-04.jpg</screenshot>
 			<screenshot>resources/screenshot-05.jpg</screenshot>
 		</assets>
-    </extension>
+	</extension>
 </addon>
 
 <addon id="script.module.musicbrainz"
 	name="Musicbrainz NGS webservice python bindings"
-	version="0.6.2.002"
+	version="0.7.0.003"
 	provider-name="marcelveldt">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -439,9 +443,6 @@ v1.0.25 (marcelveldt)
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.musicbrainz.git</source>
 		<platform>all</platform>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
 	</extension>
 </addon>
 
@@ -469,7 +470,7 @@ v1.0.25 (marcelveldt)
 
 <addon id="script.module.thetvdb"
 	name="The TVDB API v2"
-	version="1.0.28.017"
+	version="1.0.29.018"
 	provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
@@ -490,9 +491,6 @@ v1.0.25 (marcelveldt)
 		<platform>all</platform>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.module.thetvdb.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
 	</extension>
 </addon>
 
@@ -664,7 +662,7 @@ v1.0.25 (marcelveldt)
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.1.015" provider-name="sualfred,marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="2.0.1.016" provider-name="sualfred,marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.pil" version="1.1.7"/>
@@ -689,27 +687,27 @@ v1.0.25 (marcelveldt)
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.31.054" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.33.055" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="script.module.simplejson" version="3.17.0"/>
-		<import addon="script.module.simplecache" version="2.0.0"/>
-		<import addon="script.module.metadatautils" version="1.0.30"/>
-		<import addon="script.module.cherrypy" version="11.0.2"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.simplecache" version="1.0.0"/>
+		<import addon="script.module.metadatautils" version="1.0.31"/>
+		<import addon="script.module.cherrypy" version="11.0.1"/>
 	</requires>
 
     <extension point="kodi.context.item">
         <menu id="kodi.core.main">
             <item library="resources\lib\context_animatedart.py">
               <label>32024</label>
-              <visible>!IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
+              <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
             </item>
             <item library="resources\lib\context_pvr.py">
                 <label>32023</label>
                 <description>PVR artwork Configuration</description>
                 <visible>
-                    !IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
+                    !String.IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
                     [Window.IsActive(MyPVRChannels.xml) |
                     Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) |
                     Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
@@ -719,7 +717,7 @@ v1.0.25 (marcelveldt)
                 <label>32023</label>
                 <description>Music artwork Configuration</description>
                 <visible>
-                    !IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
+                    !String.IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
                     [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
                 </visible>
             </item>
@@ -737,31 +735,36 @@ v1.0.25 (marcelveldt)
 		<description lang="en_GB">Helper service for Kodi skins</description>
 		<description lang="ru_RU">Сервис помощник для KODI обложек</description>
 		<description lang="uk_UA">Сервіс помічник для KODI обкладинок</description>
-        <news>
-v1.1.31
-- fix urllib.parse vs urlparse in utils for Kodi 18
-- add commits from Angelinas1
+		<news>
+			v1.1.32
+			- fix for search dialog
+			- add TMDB for TVShow
+			- fix for webservice (now use just TMDB Art-Poster and fanart)
 
-v1.1.30
-- fix module import of context menu items
+			v1.1.31
+			- fix urllib.parse vs urlparse in utils for Kodi 18
+			- add commits from Angelinas1
 
-v1.1.29
-- compatibility change for CherryPy 17.4.2 and bump version requirement
+			v1.1.30
+			- fix module import of context menu items
 
-v1.1.28
-- replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
+			v1.1.29
+			- compatibility change for CherryPy 17.4.2 and bump version requirement
 
-v1.1.27
-- Replace xbmc.translatePath with xbmcvfs.translatePath for Kodi 19 compat
+			v1.1.28
+			- replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
 
-v1.1.26
-- Remove python dependency for Kodi18/19 compatibility
-- minor fix
+			v1.1.27
+			- Replace xbmc.translatePath with xbmcvfs.translatePath for Kodi 19 compat
 
-v1.1.25
-- Kodi 19/Python 3 compatibility
-- minor fixes
-        </news>
+			v1.1.26
+			- Remove python dependency for Kodi18/19 compatibility
+			- minor fix
+
+			v1.1.25
+			- Kodi 19/Python 3 compatibility
+			- minor fixes
+		</news>
 		<language></language>
 		<platform>all</platform>
 		<license>GPL v2.0</license>
@@ -769,14 +772,10 @@ v1.1.25
 		<email>nkvoronov@gmail.com</email>
 		<website></website>
 		<source>https://github.com/nkvoronov/script.skin.helper.service.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.026" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.helper.skinbackup" name="Skin Helper Service Skin Backup" version="1.0.20.027" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -797,19 +796,15 @@ v1.1.25
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.skinbackup.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
 	</extension>
 </addon>
 
-	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.39.034" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.42.035" provider-name="marcelveldt, patrick-klein, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
-		<import addon="script.module.metadatautils" version="1.0.28" />
-		<import addon="script.module.simplecache" version="2.0.0"/>
+		<import addon="script.module.metadatautils" version="1.0.31" />
+		<import addon="script.module.simplecache" version="2.0.2"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="plugin.py">
 		<provides>video audio</provides>
@@ -830,10 +825,26 @@ v1.1.25
 		<website></website>
 		<email>nkvoronov@gmail.com</email>
 		<source>https://github.com/nkvoronov/script.skin.helper.widgets.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-		</assets>
+		<news>
+			Version 1.0.42 (2020-09-13 wuff)
+			* replace xbmc.LOGNOTICE with xbmc.LOGINFO as LOGNOTICE was removed
+
+			Version 1.0.41 (2020-09-07 wuff)
+			* Fix icons
+
+			Version 1.0.40 (2020-05-16 wuff)
+			* Remove python requirement for Kodi 18/19 compat
+
+			Version 1.0.39 (2019-12-24 wuff)
+			* Python 3/Kodi 19 compatibility fixes
+
+			Version 1.0.38 (2019-02-25 patrick-klein)
+			* similar score weights tweaks
+			* other fixes and updates
+
+			Version 1.0.37
+			* last update from marcelveldt
+		</news>
 	</extension>
 </addon>
 
