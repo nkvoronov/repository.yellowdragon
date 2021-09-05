@@ -2,17 +2,9 @@
 	path = script.skinshortcuts
 	url = https://github.com/nkvoronov/script.skinshortcuts.git
 	branch = vmatrix
-[submodule "script.skin.helper.service"]
-	path = script.skin.helper.service
-	url = https://github.com/nkvoronov/script.skin.helper.service.git
-	branch = vmatrix
 [submodule "script.epg.vsetv"]
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
-	branch = vmatrix
-[submodule "script.skin.helper.colorpicker"]
-	path = script.skin.helper.colorpicker
-	url = https://github.com/nkvoronov/script.skin.helper.colorpicker.git
 	branch = vmatrix
 [submodule "service.skin.widgets"]
 	path = service.skin.widgets
@@ -54,18 +46,6 @@
 	path = skin.confluence-extended-s
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
 	branch = vmatrix-s
-[submodule "script.skin.helper.backgrounds"]
-	path = script.skin.helper.backgrounds
-	url = https://github.com/nkvoronov/script.skin.helper.backgrounds.git
-	branch = vmatrix
-[submodule "script.skin.helper.skinbackup"]
-	path = script.skin.helper.skinbackup
-	url = https://github.com/nkvoronov/script.skin.helper.skinbackup.git
-	branch = vmatrix
-[submodule "script.skin.helper.widgets"]
-	path = script.skin.helper.widgets
-	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
-	branch = vmatrix
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
 	url = https://github.com/nkvoronov/skin.estuary2-extended.git
