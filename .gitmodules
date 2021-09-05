@@ -66,10 +66,6 @@
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
 	branch = vmatrix
-[submodule "script.image.resource.select"]
-	path = script.image.resource.select
-	url = https://github.com/nkvoronov/script.image.resource.select.git
-	branch = vmatrix
 [submodule "skin.confluence-extended"]
 	path = skin.confluence-extended
 	url = https://github.com/nkvoronov/skin.confluence-extended.git
@@ -113,10 +109,6 @@
 [submodule "resource.images.skinicons.estuary"]
 	path = resource.images.skinicons.estuary
 	url = https://github.com/nkvoronov/resource.images.skinicons.estuary.git
-	branch = vmatrix
-[submodule "script.module.cherrypy"]
-	path = script.module.cherrypy
-	url = https://github.com/nkvoronov/script.module.cherrypy.git
 	branch = vmatrix
 [submodule "script.extendedinfo"]
 	path = script.extendedinfo
