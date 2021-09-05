@@ -6,10 +6,6 @@
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
 	branch = vmatrix
-[submodule "service.skin.widgets"]
-	path = service.skin.widgets
-	url = https://github.com/nkvoronov/service.skin.widgets.git
-	branch = vmatrix
 [submodule "script.rss.editor"]
 	path = script.rss.editor
 	url = https://github.com/nkvoronov/script.rss.editor.git
@@ -34,26 +30,6 @@
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
 	branch = vmatrix
-[submodule "service.3denabler.samsungtv"]
-	path = service.3denabler.samsungtv
-	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
-	branch = vmatrix
-[submodule "skin.confluence-extended"]
-	path = skin.confluence-extended
-	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = vmatrix
-[submodule "skin.confluence-extended-s"]
-	path = skin.confluence-extended-s
-	url = https://github.com/nkvoronov/skin.confluence-extended.git
-	branch = vmatrix-s
-[submodule "skin.estuary2-extended"]
-	path = skin.estuary2-extended
-	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = vmatrix
-[submodule "skin.estuary2-extended-s"]
-	path = skin.estuary2-extended-s
-	url = https://github.com/nkvoronov/skin.estuary2-extended.git
-	branch = vmatrix-s
 [submodule "script.cu.lrclyrics"]
 	path = script.cu.lrclyrics
 	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
