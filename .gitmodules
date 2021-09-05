@@ -6,25 +6,9 @@
 	path = script.skin.helper.service
 	url = https://github.com/nkvoronov/script.skin.helper.service.git
 	branch = vmatrix
-[submodule "script.pvr.favourites"]
-	path = script.pvr.favourites
-	url = https://github.com/nkvoronov/script.pvr.favourites.git
-	branch = vmatrix
 [submodule "script.epg.vsetv"]
 	path = script.epg.vsetv
 	url = https://github.com/nkvoronov/script.epg.vsetv.git
-	branch = vmatrix
-[submodule "script.module.simplecache"]
-	path = script.module.simplecache
-	url = https://github.com/nkvoronov/script.module.simplecache.git
-	branch = vmatrix
-[submodule "script.module.thetvdb"]
-	path = script.module.thetvdb
-	url = https://github.com/nkvoronov/script.module.thetvdb.git
-	branch = vmatrix
-[submodule "script.module.musicbrainz"]
-	path = script.module.musicbrainz
-	url = https://github.com/nkvoronov/script.module.musicbrainz.git
 	branch = vmatrix
 [submodule "script.skin.helper.colorpicker"]
 	path = script.skin.helper.colorpicker
@@ -58,10 +42,6 @@
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
 	branch = vmatrix
-[submodule "script.randomandlastitems"]
-	path = script.randomandlastitems
-	url = https://github.com/nkvoronov/script.randomandlastitems.git
-	branch = vmatrix
 [submodule "service.3denabler.samsungtv"]
 	path = service.3denabler.samsungtv
 	url = https://github.com/nkvoronov/service.3denabler.samsungtv.git
@@ -85,10 +65,6 @@
 [submodule "script.skin.helper.widgets"]
 	path = script.skin.helper.widgets
 	url = https://github.com/nkvoronov/script.skin.helper.widgets.git
-	branch = vmatrix
-[submodule "script.module.metadatautils"]
-	path = script.module.metadatautils
-	url = https://github.com/nkvoronov/script.module.metadatautils.git
 	branch = vmatrix
 [submodule "skin.estuary2-extended"]
 	path = skin.estuary2-extended
