@@ -58,10 +58,6 @@
 	path = script.xbmc.lcdproc
 	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
 	branch = vmatrix
-[submodule "script.favourites"]
-	path = script.favourites
-	url = https://github.com/nkvoronov/script.favourites.git
-	branch = vmatrix
 [submodule "script.randomandlastitems"]
 	path = script.randomandlastitems
 	url = https://github.com/nkvoronov/script.randomandlastitems.git

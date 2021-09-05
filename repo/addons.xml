@@ -216,34 +216,6 @@
 	</extension>
 </addon>
 
-<addon id="script.favourites" name="Favourites script" version="8.0.1.004" provider-name="ronie, `Black">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.library" library="default.py"/>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Favourites script</summary>
-		<summary lang="ru_RU">Скрипт "Избранное"</summary>
-		<summary lang="uk_UA">Скрипт "Обране"</summary>
-		<description lang="en_GB">Fetches item from your Kodi favourites to populate Home menu/submenu with custom buttons.</description>
-		<description lang="ru_RU">Извлекает информацию из Вашего меню "Избранное" и отображает дополнительные кнопки в главном меню и подменю.</description>
-		<description lang="uk_UA">Витягує інформацію з Вашого меню "Обране" і відображає додаткові кнопки в головному меню і підміню.</description>
-		<disclaimer lang="en_GB">Needs skin support for it to be used properly</disclaimer>
-		<disclaimer lang="ru_RU">Необходима поддержка скинов для корректного отображения</disclaimer>
-		<disclaimer lang="uk_UA">Необхідна підтримка обкладинки для коректного відображення</disclaimer>
-		<language></language>
-		<platform>all</platform>
-		<license>GNU GENERAL PUBLIC LICENSE Version 2</license>
-		<forum>http://forum.kodi.tv/showthread.php?tid=114671</forum>
-		<website></website>
-		<email>nkvoronov@gmail.com</email>
-		<source>https://github.com/nkvoronov/script.favourites.git</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="script.globalsearch" name="Global Search" version="9.0.5.033" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
