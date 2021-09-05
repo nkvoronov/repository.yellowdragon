@@ -54,3 +54,11 @@
 	path = script.module.autocompletion
 	url = https://github.com/nkvoronov/script.module.autocompletion.git
 	branch = vmatrix
+[submodule "script.skin.utils"]
+	path = script.skin.utils
+	url = https://github.com/nkvoronov/script.skin.utils.git
+	branch = vmatrix
+[submodule "skin.estuary3-extended"]
+	path = skin.estuary3-extended
+	url = https://github.com/nkvoronov/skin.estuary3-extended.git
+	branch = vmatrix
