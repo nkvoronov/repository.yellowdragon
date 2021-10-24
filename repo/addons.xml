@@ -247,7 +247,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.autocompletion" name="AutoCompletion library" version="2.0.2.003" provider-name="Philipp Temminghoff (phil65), YDRAGON">
+<addon id="script.module.autocompletion" name="AutoCompletion library" version="2.0.3.004" provider-name="Philipp Temminghoff (phil65), YDRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.requests" version="2.9.1"/>
@@ -296,14 +296,14 @@
 
 <addon id="script.rss.editor"
 	name="RSS Editor"
-	version="4.0.2.011"
+	version="4.0.2.012"
 	provider-name="rwparris2, Team Kodi, YLLOW_DRAGON">
 	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
-	<extension point="xbmc.python.script"
-		library="default.py" />
+	<extension point="xbmc.python.script" library="default.py" />
 	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
 		<summary lang="en_GB">A Script for editing Kodi's built in RSS Ticker</summary>
 		<summary lang="ru_RU">Скрипт для редактирования бегущей строки RSS KODI</summary>
 		<summary lang="uk_UA">Скрипт для редагування бігучого рядка RSS KODI</summary>
@@ -320,10 +320,8 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>
-			 - fix broken ok and yesno dialogs
-			 - skin improvements
-		</news>
+		<news>- fix broken ok and yesno dialogs
+		- skin improvements</news>
 	</extension>
 </addon>
 
@@ -478,7 +476,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.1.020" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.2.021" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -501,9 +499,8 @@ Version 1.0.0
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>3.90.1
-			- replace LOGNOTICE with LOGINFO, remove LOGSEVERE
-			- use translatePath from xbmcvfs instead of xbmc
+		<news>3.90.2
+		- fix compatibility with Python 3.9+
 		</news>
 	</extension>
 </addon>
