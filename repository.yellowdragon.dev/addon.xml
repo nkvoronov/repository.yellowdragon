@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="19.2" provider-name="YLLOW_DRAGON">
+<addon id="repository.yellowdragon.dev" name="Yellow Dragon Repository Dev" version="19.3" provider-name="YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
