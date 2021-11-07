@@ -505,7 +505,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.016" name="Estuary v3 Extended" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.020" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
@@ -524,15 +524,15 @@ Version 1.0.0
 		<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Estuary v3 Extended skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="ru_RU">Обложка Estuary v3 Extended. Авторы: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<summary lang="uk_UA">Обкладинка Estuary v3 Extended від phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
-		<description lang="en_GB">Estuary v3 Extended - is the modernized skin for KODI.</description>
-		<description lang="ru_RU">Estuary v3 Extended - это модернизированная обложка KODI.</description>
-		<description lang="uk_UA">Estuary v3 Extended — це модернізована обкладинка KODI.</description>
-		<disclaimer lang="en_GB">Estuary v3 Extended - is the modernized skin for KODI.</disclaimer>
-		<disclaimer lang="ru_RU">Estuary v3 Extended - это модернизированная обложка KODI.</disclaimer>
-		<disclaimer lang="uk_UA">Estuary v3 Extended — це модернізована обкладинка KODI.</disclaimer>
+		<summary lang="en_GB">Estuary v3 Extended Shortcuts skin by phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="ru_RU">Обложка Estuary v3 Extended Shortcuts. Авторы: phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<summary lang="uk_UA">Обкладинка Estuary v3 Extended Shortcuts від phil65, Piers, YLLOW_DRAGON, Guilouz.</summary>
+		<description lang="en_GB">Estuary v3 Extended Shortcuts - is the modernized skin for KODI.</description>
+		<description lang="ru_RU">Estuary v3 Extended Shortcuts - это модернизированная обложка KODI.</description>
+		<description lang="uk_UA">Estuary v3 Extended Shortcuts — це модернізована обкладинка KODI.</description>
+		<disclaimer lang="en_GB">Estuary v3 Extended Shortcuts - is the modernized skin for KODI.</disclaimer>
+		<disclaimer lang="ru_RU">Estuary v3 Extended Shortcuts - это модернизированная обложка KODI.</disclaimer>
+		<disclaimer lang="uk_UA">Estuary v3 Extended Shortcuts — це модернізована обкладинка KODI.</disclaimer>
 		<platform>all</platform>
 		<license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
 		<forum>http://forum.kodi.tv/</forum>
