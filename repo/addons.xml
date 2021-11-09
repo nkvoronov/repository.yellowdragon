@@ -352,7 +352,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.2.7" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.2.8" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
@@ -505,7 +505,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.021" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.022" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
