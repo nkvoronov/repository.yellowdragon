@@ -62,3 +62,7 @@
 	path = skin.estuary3-extended
 	url = https://github.com/nkvoronov/skin.estuary3-extended.git
 	branch = vmatrix
+[submodule "skin.confluence3-extended"]
+	path = skin.confluence3-extended
+	url = https://github.com/nkvoronov/skin.confluence3-extended.git
+	branch = vmatrix
