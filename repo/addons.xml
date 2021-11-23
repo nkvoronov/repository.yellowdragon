@@ -175,7 +175,7 @@
 	</extension>
 </addon>
 
-<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.2.018" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
+<addon id="script.extendedinfo" name="ExtendedInfo Script" version="5.6.2.021" provider-name="phil65 (Philipp Temminghoff), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="resource.images.studios.white" version="0.0.25"/>
