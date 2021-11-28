@@ -352,7 +352,7 @@
 	</extension>
 </addon>
 
-	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.2.8" provider-name="marcelveldt, YLLOW_DRAGON">
+	<addon id="script.skin.utils" name="Skin Helper Utils" version="1.2.9" provider-name="marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.addon" version="12.0.0"/>
