@@ -525,7 +525,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="skin.confluence3-extended" version="4.7.13.013" name="Confluence v3 Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+<addon id="skin.confluence3-extended" version="4.7.13.014" name="Confluence v3 Extended Shortcuts" provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
@@ -564,7 +564,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.025" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.026" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
