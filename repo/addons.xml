@@ -381,7 +381,7 @@
 	</extension>
 </addon>
 
-<addon id="script.skinshortcuts" name="Skin Shortcuts" version="2.0.0.047" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="2.0.1.048" provider-name="BigNoid, marcelveldt, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.unidecode" version="1.1.1+matrix.2"/>
@@ -390,27 +390,10 @@
 	<extension point="xbmc.python.library" library="resources/lib/entry_point.py"/>
 	<extension point="xbmc.addon.metadata">
 		<news>
-- restructured (no change to API)
-- added copyright and spdx license headers
-- housekeeping
-	- cleaned up whitespace
-	- unused variables
-	- unused imports
-	- renamed shadowed builtins
-	- applied PEP8
-	- linted with pylint, isort
-	- updated/removed po file comments and metadata
-- moved shared/common constants to their own module
-- refactored json rpc requests and moved to a common module
-- refactored logging and moved to a common module
-- refactored hash generation and moved to a common module
-- refactored file handling and moved to a common module
-- removed any unnecessary string encoding/decoding
-- removed duplicate code
-- assorted minor fixes
-- updated settings.xml to Kodi's new settings format
-- added to Weblate for translations
-- added ::ENABLE:: to enable an add-on, used like ::INSTALL::
+[fix] some widgets not working |contrib: bumpaneer|
+[fix] new widget properties not being properly saved and applied |contrib: bumpaneer|
+[fix] fix configuration of widgets/actions on some skins |contrib: eXoterr|
+[lang] update translations from Weblate
 		</news>
 		<platform>all</platform>
 		<license>GPL-2.0-only</license>
