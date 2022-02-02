@@ -217,7 +217,7 @@
 	</extension>
 </addon>
 
-<addon id="script.globalsearch" name="Global Search" version="9.0.5.036" provider-name="ronie, YLLOW_DRAGON">
+<addon id="script.globalsearch" name="Global Search" version="9.0.7.037" provider-name="ronie, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
