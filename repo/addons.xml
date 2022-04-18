@@ -266,7 +266,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.1217.21" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.1217.22" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.addon.signals" version="0.0.5+matrix.1"/>
@@ -546,7 +546,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.029" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.030" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
