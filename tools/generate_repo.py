@@ -226,7 +226,7 @@ class Generator:
             zip = zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED)
             for root, dirs, files in os.walk(path + os.path.sep):
                 for file in files:
-                    if file == '.git' or addon == '.github' or file == '.gitignore' or file == 'README.md': continue
+                    if file == '.git' or file == '.github' or file == '.gitignore' or file == 'README.md': continue
                     zip.write(os.path.join(root, file))
 
             zip.close()
