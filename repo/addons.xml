@@ -266,7 +266,7 @@
 	</extension>
 </addon>
 
-<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.1217.22" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
+<addon id="script.module.youtube.dl" name="youtube-dl Control" version="21.1217.24" provider-name="Rick Phillips (ruuk), YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.addon.signals" version="0.0.5+matrix.1"/>
@@ -478,7 +478,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="3.90.2.021" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
+<addon id="script.xbmc.lcdproc" name="XBMC LCDproc" version="4.0.0.022" provider-name="Team Kodi: Memphiz, Daniel 'herrnst' Scheller, YLLOW_DRAGON">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 	</requires>
@@ -501,9 +501,9 @@ Version 1.0.0
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<news>3.90.2
-		- fix compatibility with Python 3.9+
-		</news>
+    	<news>4.0.0
+- fix Python exception when using the HD44780 character encodings/translation maps
+</news>
 	</extension>
 </addon>
 

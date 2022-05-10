@@ -201,8 +201,8 @@ class Generator:
             #skip path if it has no addon.xml
             if not os.path.isfile( _path ): continue
             try:
-                # skip any file or .git folder
-                if ( not os.path.isdir( addon ) or addon == '.git' or addon == self.output_path or addon == self.tools_path): continue
+                # skip any file or .git .github folder
+                if ( not os.path.isdir( addon ) or addon == '.git' or addon == '.github' or addon == self.output_path or addon == self.tools_path): continue
                 # create path
                 _path = os.path.join( addon, 'addon.xml' )
                 # split lines for stripping
@@ -226,7 +226,7 @@ class Generator:
             zip = zipfile.ZipFile(filename, 'w', zipfile.ZIP_DEFLATED)
             for root, dirs, files in os.walk(path + os.path.sep):
                 for file in files:
-                    if file == '.git' or file == '.gitignore' or file == 'README.md': continue
+                    if file == '.git' or addon == '.github' or file == '.gitignore' or file == 'README.md': continue
                     zip.write(os.path.join(root, file))
 
             zip.close()
