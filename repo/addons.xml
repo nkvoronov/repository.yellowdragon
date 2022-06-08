@@ -546,7 +546,7 @@ Version 1.0.0
 	</extension>
 </addon>
 
-<addon id="skin.estuary3-extended" version="3.0.5.030" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
+<addon id="skin.estuary3-extended" version="3.0.5.031" name="Estuary v3 Extended Shortcuts" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, Guilouz">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.skin.utils" version="1.2.0"/>
