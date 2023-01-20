@@ -1,0 +1,68 @@
+[submodule "script.skinshortcuts"]
+	path = script.skinshortcuts
+	url = https://github.com/nkvoronov/script.skinshortcuts.git
+	branch = vnexus
+[submodule "script.epg.vsetv"]
+	path = script.epg.vsetv
+	url = https://github.com/nkvoronov/script.epg.vsetv.git
+	branch = vnexus
+[submodule "script.rss.editor"]
+	path = script.rss.editor
+	url = https://github.com/nkvoronov/script.rss.editor.git
+	branch = vnexus
+[submodule "script.globalsearch"]
+	path = script.globalsearch
+	url = https://github.com/nkvoronov/script.globalsearch.git
+	branch = vnexus
+[submodule "script.simpleplaylists"]
+	path = script.simpleplaylists
+	url = https://github.com/nkvoronov/script.simpleplaylists.git
+	branch = vnexus
+[submodule "script.transmission"]
+	path = script.transmission
+	url = https://github.com/nkvoronov/Transmission-XBMC.git
+	branch = vnexus
+[submodule "script.xbmc.audio.mixer"]
+	path = script.xbmc.audio.mixer
+	url = https://github.com/nkvoronov/script.xbmc.audio.mixer.git
+	branch = vnexus
+[submodule "script.xbmc.lcdproc"]
+	path = script.xbmc.lcdproc
+	url = https://github.com/nkvoronov/script.xbmc.lcdproc.git
+	branch = vnexus
+[submodule "script.cu.lrclyrics"]
+	path = script.cu.lrclyrics
+	url = https://github.com/nkvoronov/script.cu.lrclyrics.git
+	branch = vnexus
+[submodule "resource.images.busyspinners.estuary"]
+	path = resource.images.busyspinners.estuary
+	url = https://github.com/nkvoronov/resource.images.busyspinners.estuary.git
+	branch = vnexus
+[submodule "resource.images.skinicons.estuary"]
+	path = resource.images.skinicons.estuary
+	url = https://github.com/nkvoronov/resource.images.skinicons.estuary.git
+	branch = vnexus
+[submodule "script.extendedinfo"]
+	path = script.extendedinfo
+	url = https://github.com/nkvoronov/script.extendedinfo.git
+	branch = vnexus
+[submodule "script.module.youtube.dl"]
+	path = script.module.youtube.dl
+	url = https://github.com/nkvoronov/script.module.youtube.dl.git
+	branch = vnexus
+[submodule "script.module.autocompletion"]
+	path = script.module.autocompletion
+	url = https://github.com/nkvoronov/script.module.autocompletion.git
+	branch = vnexus
+[submodule "script.skin.utils"]
+	path = script.skin.utils
+	url = https://github.com/nkvoronov/script.skin.utils.git
+	branch = vnexus
+[submodule "skin.estuary3-extended"]
+	path = skin.estuary3-extended
+	url = https://github.com/nkvoronov/skin.estuary3-extended.git
+	branch = vnexus
+[submodule "skin.confluence3-extended"]
+	path = skin.confluence3-extended
+	url = https://github.com/nkvoronov/skin.confluence3-extended.git
+	branch = vnexus
