@@ -4,10 +4,12 @@
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
 	<extension point="xbmc.addon.repository" name="Yellow Dragon Repository Ext">
-		<info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/nexus/repo/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/nexus/repo/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/nexus/repo/</datadir>
-		<hashes>false</hashes>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/nexus/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/nexus/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/nkvoronov/repository.yellowdragon.ext/nexus/repo/</datadir>
+            <hashes>false</hashes>
+        </dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">YLLOW_DRAGON EXT addons repository for KODI Nexus</summary>
